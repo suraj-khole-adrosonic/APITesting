@@ -1,0 +1,27 @@
+SQL_TradingCertificateTypeId,SQL_TradingCertificateGroupId,SQL_GroupCode,SQL_TradingCertificateGroupName,SQL_TypeCode,SQL_Name
+1,1,TRADECERT,Trading Certificates,BBC,BBC
+2,1,TRADECERT,Trading Certificates,CLC,CLC
+3,1,TRADECERT,Trading Certificates,PLRIn,PLR Incl War
+4,1,TRADECERT,Trading Certificates,PLREx,PLR Excl War
+5,1,TRADECERT,Trading Certificates,NWRC,NWRC
+6,1,TRADECERT,Trading Certificates,ITOPF,ITOPF
+7,1,TRADECERT,Trading Certificates,ITOPFMTA,ITOPFMTA
+8,2,COFR,COFR,COFRGAIC,COFR - Great American Insurance Company
+9,2,COFR,COFR,COFRS,COFR - Shoreline
+10,2,COFR,COFR,COFRSIGCO,COFR - SIGCO
+11,2,COFR,COFR,COFRSA,COFR - SeaAssurance
+12,3,COE,Confirmation of Entry,COEAPRENGLISH,COE-As per Rules English
+13,3,COE,Confirmation of Entry,COEAPRSPANISH,COE-As per Rules Spanish
+14,3,COE,Confirmation of Entry,COE500M,COE- USD 500 Million English
+15,3,COE,Confirmation of Entry,COE500MSPANISH,COE- USD 500 Million Spanish
+16,3,COE,Confirmation of Entry,COEGRCENGLISH,COE Greek - English
+17,3,COE,Confirmation of Entry,COEGRC,COE Greek - Greek
+18,3,COE,Confirmation of Entry,COEITAENGLISH,COE Italian - English
+19,3,COE,Confirmation of Entry,COEITAITALIAN,COE Italian - Italian
+20,3,COE,Confirmation of Entry,COEBALAERICENGLISH,COE BalaericIslands - English
+21,3,COE,Confirmation of Entry,COEBALAERICSPANISH,COE BalaericIslands - Spanish
+22,3,COE,Confirmation of Entry,COEYACHTESPENGLISH,COE Spanish Yacht - English
+23,3,COE,Confirmation of Entry,COEYACHTESPSPANISH,COE Spanish Yacht - Spanish
+24,4,LETUND,Letter of Undertaking,LETUND,Letter of Undertaking
+25,1,TRADECERT,Trading Certificates,MLCA252,MLCA252
+26,1,TRADECERT,Trading Certificates,MLCA421,MLCA421

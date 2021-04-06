@@ -1,0 +1,24 @@
+Status: FAILED
+Time Taken: 4700
+Size: 0
+Timestamp: Tue Feb 16 20:16:15 IST 2021
+TestStep: Reference?ByTradingCertificateTypes?ByTCGroupName
+Error:groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+
+----------------- Messages ------------------------------
+groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+error at line: 90

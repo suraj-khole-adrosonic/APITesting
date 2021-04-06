@@ -1,0 +1,28 @@
+SQL_DocumentTypeId,API_DocumentTypeId,SQL_DocumentTypeName,API_DocumentTypeName,Status
+1,1,TradingCertificate,TradingCertificate,Test case passed
+19,19,Cover Endorsement,Cover Endorsement,Test case passed
+20,20,Endorsement,Endorsement,Test case passed
+21,21,Guarantee Authorisation Checklist,Guarantee Authorisation Checklist,Test case passed
+22,22,Guarantee Authorisation Letter,Guarantee Authorisation Letter,Test case passed
+23,23,Credit,Credit,Test case passed
+26,26,Long Certificate,Long Certificate,Test case passed
+28,28,Member Endorsement,Member Endorsement,Test case passed
+30,30,Claim File Opening Statement,Claim File Opening Statement,Test case passed
+31,31,Party Endorsement,Party Endorsement,Test case passed
+34,34,Policy Payment Summary,Policy Payment Summary,Test case passed
+35,35,Quote Pack,Quote Pack,Test case passed
+36,36,Short Certificate,Short Certificate,Test case passed
+37,37,Short Form Certificate,Short Form Certificate,Test case passed
+38,38,Policy Terms and Conditions,Policy Terms and Conditions,Test case passed
+39,39,Vessel Endorsement,Vessel Endorsement,Test case passed
+40,40,Commission Summary,Commission Summary,Test case passed
+41,41,Long Form Certificate,Long Form Certificate,Test case passed
+42,42,Long Form Certificate Group,Long Form Certificate Group,Test case passed
+43,43,Commission Credit Note,Commission Credit Note,Test case passed
+44,44,Invoice,Invoice,Test case passed
+45,45,Indication,Indication,Test case passed
+46,46,Quotation,Quotation,Test case passed
+47,47,Commission Invoice,Commission Invoice,Test case passed
+48,48,Additional Cover Certificate Single,Additional Cover Certificate Single,Test case passed
+49,49,Additional Cover Certificate Group,Additional Cover Certificate Group,Test case passed
+53,53,Additional Cover Certificate,Additional Cover Certificate,Test case passed

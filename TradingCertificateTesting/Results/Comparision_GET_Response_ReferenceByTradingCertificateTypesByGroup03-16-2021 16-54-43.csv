@@ -1,0 +1,27 @@
+SQL_TradingCertificateTypeId,API_TradingCertificateTypeId,SQL_TradingCertificateGroupId,API_TradingCertificateGroupId,SQL_GroupCode,API_GroupCode,SQL_TradingCertificateGroupName,API_TradingCertificateGroupName,SQL_TypeCode,API_TypeCode,SQL_Name,API_Name,Test Case Status
+1,1,1,1,TRADECERT,Trading Certificates,Trading Certificates,BBC,BBC,BBC,BBC,Test Case Passed
+2,2,1,1,TRADECERT,Trading Certificates,Trading Certificates,CLC,CLC,CLC,CLC,Test Case Passed
+3,3,1,1,TRADECERT,Trading Certificates,Trading Certificates,PLRIn,PLRIn,PLR Incl War,PLR Incl War,Test Case Passed
+4,4,1,1,TRADECERT,Trading Certificates,Trading Certificates,PLREx,PLREx,PLR Excl War,PLR Excl War,Test Case Passed
+5,5,1,1,TRADECERT,Trading Certificates,Trading Certificates,NWRC,NWRC,NWRC,NWRC,Test Case Passed
+6,6,1,1,TRADECERT,Trading Certificates,Trading Certificates,ITOPF,ITOPF,ITOPF,ITOPF,Test Case Passed
+7,7,1,1,TRADECERT,Trading Certificates,Trading Certificates,ITOPFMTA,ITOPFMTA,ITOPFMTA,ITOPFMTA,Test Case Passed
+8,8,2,2,COFR,COFR,COFR,COFRGAIC,COFRGAIC,COFR - Great American Insurance Company,COFR - Great American Insurance Company,Test Case Passed
+9,9,2,2,COFR,COFR,COFR,COFRS,COFRS,COFR - Shoreline,COFR - Shoreline,Test Case Passed
+10,10,2,2,COFR,COFR,COFR,COFRSIGCO,COFRSIGCO,COFR - SIGCO,COFR - SIGCO,Test Case Passed
+11,11,2,2,COFR,COFR,COFR,COFRSA,COFRSA,COFR - SeaAssurance,COFR - SeaAssurance,Test Case Passed
+12,12,3,3,COE,Confirmation of Entry,Confirmation of Entry,COEAPRENGLISH,COEAPRENGLISH,COE-As per Rules English,COE-As per Rules English,Test Case Passed
+13,13,3,3,COE,Confirmation of Entry,Confirmation of Entry,COEAPRSPANISH,COEAPRSPANISH,COE-As per Rules Spanish,COE-As per Rules Spanish,Test Case Passed
+14,14,3,3,COE,Confirmation of Entry,Confirmation of Entry,COE500M,COE500M,COE- USD 500 Million English,COE- USD 500 Million English,Test Case Passed
+15,15,3,3,COE,Confirmation of Entry,Confirmation of Entry,COE500MSPANISH,COE500MSPANISH,COE- USD 500 Million Spanish,COE- USD 500 Million Spanish,Test Case Passed
+16,16,3,3,COE,Confirmation of Entry,Confirmation of Entry,COEGRCENGLISH,COEGRCENGLISH,COE Greek - English,COE Greek - English,Test Case Passed
+17,17,3,3,COE,Confirmation of Entry,Confirmation of Entry,COEGRC,COEGRC,COE Greek - Greek,COE Greek - Greek,Test Case Passed
+18,18,3,3,COE,Confirmation of Entry,Confirmation of Entry,COEITAENGLISH,COEITAENGLISH,COE Italian - English,COE Italian - English,Test Case Passed
+19,19,3,3,COE,Confirmation of Entry,Confirmation of Entry,COEITAITALIAN,COEITAITALIAN,COE Italian - Italian,COE Italian - Italian,Test Case Passed
+20,20,3,3,COE,Confirmation of Entry,Confirmation of Entry,COEBALAERICENGLISH,COEBALAERICENGLISH,COE BalaericIslands - English,COE BalaericIslands - English,Test Case Passed
+21,21,3,3,COE,Confirmation of Entry,Confirmation of Entry,COEBALAERICSPANISH,COEBALAERICSPANISH,COE BalaericIslands - Spanish,COE BalaericIslands - Spanish,Test Case Passed
+22,22,3,3,COE,Confirmation of Entry,Confirmation of Entry,COEYACHTESPENGLISH,COEYACHTESPENGLISH,COE Spanish Yacht - English,COE Spanish Yacht - English,Test Case Passed
+23,23,3,3,COE,Confirmation of Entry,Confirmation of Entry,COEYACHTESPSPANISH,COEYACHTESPSPANISH,COE Spanish Yacht - Spanish,COE Spanish Yacht - Spanish,Test Case Passed
+24,24,4,4,LETUND,Letter of Undertaking,Letter of Undertaking,LETUND,LETUND,Letter of Undertaking,Letter of Undertaking,Test Case Passed
+25,25,1,1,TRADECERT,Trading Certificates,Trading Certificates,MLCA252,MLCA252,MLCA252,MLCA252,Test Case Passed
+26,26,1,1,TRADECERT,Trading Certificates,Trading Certificates,MLCA421,MLCA421,MLCA421,MLCA421,Test Case Passed

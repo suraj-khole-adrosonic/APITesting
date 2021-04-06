@@ -1,0 +1,956 @@
+SQL_SignatoryStateId,SQL_Id,SQL_AddressName,SQL_AddressLine1,SQL_AddressLine2,SQL_AddressLine3,SQL_StateOrCounty,SQL_City,SQL_Country,SQL_PostCode,SQL_PrimaryAddress,SQL_isThePrimaryAddress
+739,832,SIERRA LEONE MARITIME ADMINISTRATION,MARITIME HOUSE #6,GOVERNMENT WHARF FERRY TERMINAL,,,FREETOWN,SIERRA LEONE,,false,False
+738,830,Ministry of Transport of Saudi Arabia,Manager of the Maritime Transport,Old Airport Street ,,,Riyadh,SAUDI ARABIA,,false,False
+735,814,International Ship Registry of Gabon ,Commissioner of Maritime Affairs,Intershipping Services LLC ,Al Sawan 1  Office 601  6th Floor  Taqeef Showroom Building ,,Ajman,UNITED ARAB EMIRATES,,false,False
+734,815,International Ship Registry of Gabon ,Commissioner of Maritime Affairs,Intershipping Services LLC ,Al Sawan 1  Office 601  6th Floor  Taqeef Showroom Building ,,Ajman,UNITED ARAB EMIRATES,,false,False
+733,816,International Ship Registry of Gabon ,Commissioner of Maritime Affairs,Intershipping Services LLC ,Al Sawan 1  Office 601  6th Floor  Taqeef Showroom Building ,,Ajman,UNITED ARAB EMIRATES,,false,False
+732,807,Ministry of Transport of Saudi Arabia ,Manager of the Maritime Transport,Old Airport Street ,,,Riyadh,SAUDI ARABIA,,false,False
+730,805,Transport Canada ,Attn: Marine Insurance Unit Marine Safety & Security ,AMSE 10th Floor,330 Sparks Street,Ontario,Ottawa,CANADA,K1A 0N8,false,False
+729,806,International Shipping Register of Madeira - MAR,Av. Zarco  Edifício do Governo Regional ,1.º  9004-527 Funchal,P.O. Box 494 ,,Madeira,PORTUGAL,,false,False
+728,790,Marine Department,1278 Yotha Road,Taladnoi  Samphanthawong,,,Bangkok 10100,THAILAND,,false,False
+726,789,Directorate of Ship Registration and Seamen Affairs,Building 702  Road 1510,,,,Block 115  P.O. Box 75315,BAHRAIN  STATE OF,,false,False
+725,786,Directorate of Ship Registration and Seamen Affairs,Building 702  Road 1510,,,,Block 115  P.O. Box 75315,BAHRAIN  STATE OF,,false,False
+724,785,Registrar of Ships  Merchant Shipping Division,Ministry of Highways  Ports & Shipping,1st Floor  Bristol Building ,43-89  York Street ,,Colombo 01.,SRI LANKA,,false,False
+723,783,Union Des Comores,National Agency of Maritime Affairs,Building of the Ministry of Transport,,,BP 97 Moroni,COMOROS,,false,False
+722,781,International Merchant Marine Registry of Belize, International Merchant Marine Registry of Belize,304 Newtown Barracks ,,,Belize City,BELIZE,,false,False
+721,780,Direction Des Affaires Maritimes Et Portuaires,Cocody Deux Plateaux ,Cite Les Perles "Aghien",,,Abidjan  Cote d' Ivoire,IVORY COAST,,false,False
+720,782,Direçao-Geral de Recursos Naturiais,Segurança e Serviços Marítimos,Avenida Brasília,,,1449-030 Lisboa,PORTUGAL,,false,False
+719,776,Union Des Comores,National Agency of Maritime Affairs,Building of The Ministry of Transport,,,BP 97 Moroni,COMOROS,,false,False
+718,777,Union Des Comores,National Agency of Maritime Affairs,Building of The Ministry of Transport,,,BP 97 Moroni,COMOROS,,false,False
+717,775,Swedish Transport Agency,Civil Aviation and Maritime Department,,,,SE-601 73 NorrkÖping,SWEDEN,,false,False
+716,774,Jordan Maritime Commission ,P.O. Box: 171 Aqaba 77110,,,,Aqaba,JORDAN,,false,False
+713,773,Registrar of Ships ,Merchant Shipping Division,Ministry of Highways  Ports & Shipping,1st Floor  Bristol Building  43-89 York Street,,Colombo 01,SRI LANKA,,false,False
+712,772,Registrar of Ships ,Merchant Shipping Division ,Ministry of Highways  Ports & Shipping,1st Floor  Bristol Building  43-89  York Street,,Colombo 01,SRI LANKA,,false,False
+711,764,Ministry of Maritime Affairs  ,Transport and Infrastructure Safety of Navigation  ,Maritime Environment and Inland Waters Protection Directorate,10 000 Zagreb  ,,Prisavlje 14,CROATIA  REPUBLIC OF,,false,False
+710,760,Shipping Division  Maritime and Port Authority of Singapore ,460 Alexandra Road ,#21-00  PSA Building,,,Singapore,SINGAPORE  REPUBLIC OF,119963,false,False
+709,742,Marine Department of Thailand,1278  Yotha Rd.  Talat Noi  ,Samphanthawong,,,Bangkok,THAILAND,10100,false,False
+708,741,Marine Department of Thailand,1278  Yotha Rd.  Talat Noi  ,Samphanthawong ,,,Bangkok,THAILAND,10100,false,False
+707,739,Federal Public Service Mobility and Transport,Directorate General Shipping,City Atrium ,Vooruitgangstraat 56 / Rue du Progres 56,,B-1210 Brussels,BELGIUM,,false,False
+706,738,Finnish Transport Safety Agency Trafi,Marine Environment and Security,PO Box 320,,,FI-00101 Helsinki,FINLAND,,false,False
+705,737,HM Government of Gibraltar,Gibraltar Maritime Administration,2/8 Watergate House ,,,Casemates Square,GIBRALTAR,GX11 1AA,false,False
+704,729,The Maritime Authority of the Cayman Islands,3rd Floor  Government Administration Building,133 Elgin Avenue  PO Box 2256,,,Grand Cayman,CAYMAN ISLANDS,KY1-1107,false,False
+703,726,Direcao-Geral de Recursos Naturiais,Seguranca e Servicos Marítimos,Avenida Brasília,,,1449-030 Lisboa,PORTUGAL,,false,False
+702,725,Direcao-Geral de Recursos Naturiais,Seguranca e Servicos Maritimos,Avenida Brasilla,,,1499-030 Lisboa,PORTUGAL,,false,False
+701,722,Services du Register International,Francais RIF,21 rue de la republique,13002,,MARSEILLE,FRANCE,,false,False
+699,720,Ministry of Transport of the Peoples Republic of China,No.11 Jianguomen Inner Street,,,,Beijing,CHINA  PEOPLES REPUBLIC OF,100736,false,False
+699,724,Xiamen Maritime Safety Administration of the People's Republic of China,No.19  Haicang Av.,Xiamen,,,Fujian,CHINA  PEOPLES REPUBLIC OF,,false,False
+699,740,Shanghai Maritime Bureau of the People’s Republic of China,Maritime Building ,No. 190  Siping Road,,,Shanghai 200086,CHINA  PEOPLES REPUBLIC OF,,false,False
+699,747,Guangzhou Maritime Safety Administration of the Peoples Republic of China,# 520 Binjiang Road East,Haizhu District,,,Guangzhou,CHINA  PEOPLES REPUBLIC OF,,false,False
+699,748,Guangdong Maritime Safety Administration of the People’s Republic of China,No.47 Yi Le Road,,,,Guangzhou ,CHINA  PEOPLES REPUBLIC OF,,false,False
+699,752,ZHOUSHAN MARITIME SAFETY ADMINISTRATION OF PEOPLE’S REPUBLIC OF CHINA,NO. 368 HUANGCHENG SOUTH ROAD,DINGHAI DISTRICT,,,ZHOUSHAN,CHINA  PEOPLES REPUBLIC OF,,false,False
+699,757,Ningbo,Ningbo Maritime Safety Administration of People's Republic of China,No.351 Renmin Road,Jiangbei District,,Ningbo,CHINA  PEOPLES REPUBLIC OF,,false,False
+699,769,Bureau of Fisheries ,Ministry of Agriculture and Rural Affairs ,P.R.China,No.11 Nongzhan Nanli ,,Beijing ,CHINA  PEOPLES REPUBLIC OF,100125,false,False
+699,822,ZheJiang Maritime Safety Administration of People’s Republic of China,No.1 Yeqingdou Road ,Gongshu District  ,,,Hangzhou ,CHINA  PEOPLES REPUBLIC OF,,false,False
+699,823,Shenzhen Maritime Safety Administration,Haian Centre ,2031 Binhe Road ,,,Shenzhen,CHINA  PEOPLES REPUBLIC OF,,false,False
+699,835,Qingdao Maritime Safety Administration,No.1  Ningbo Road,Shibei District,,,Qingdao  Shandong,CHINA  PEOPLES REPUBLIC OF,266011,false,False
+699,829,Nanjing Maritime Safety Administration of the People’s Republic of China,No.238 Central Road,,,,  Nanjing 210009,CHINA  PEOPLES REPUBLIC OF,,false,False
+698,718,Directorate General of Sea Communications ,Jl. Merdeka Barat No.8,,,,Jakarta Pusat,INDONESIA,10110,false,False
+697,717,Directorate General of Sea Communications ,Jl. Merdeka Barat No.8,,,,Jakarta Pusat,INDONESIA,10110,false,False
+696,716,Zhejiang Bureau of Fishing Port Superintendence P.R.C.,No. 102 Tian Mu Shan Road ,Xihu District ,,, Hangzhou City  Zhejiang Province  P.R.C.,CHINA  PEOPLES REPUBLIC OF,,false,False
+696,759,Ningbo,Ningbo Maritime Safety Administration of People's Republic of China,No.351 Renmin Road,Jiangbei District,,Ningbo,CHINA  PEOPLES REPUBLIC OF,,false,False
+696,754,ZHOUSHAN MARITIME SAFETY ADMINISTRATION OF PEOPLE’S REPUBLIC OF CHINA,NO. 368 HUANGCHENG SOUTH ROAD,DINGHAI DISTRICT,,,ZHOUSHAN,CHINA  PEOPLES REPUBLIC OF,,false,False
+696,837,Qingdao Maritime Safety Administration,No.1  Ningbo Road,Shibei District,,,Qingdao  Shandong,CHINA  PEOPLES REPUBLIC OF,266011,false,False
+695,836,Qingdao Maritime Safety Administration,No.1  Ningbo Road,Shibei District,,,Qingdao  Shandong,CHINA  PEOPLES REPUBLIC OF,266011,false,False
+695,821,ZheJiang Maritime Safety Administration of People’s Republic of China,No.1 Yeqingdou Road ,Gongshu District  ,,,Hangzhou  ,CHINA  PEOPLES REPUBLIC OF,,false,False
+695,753,ZHOUSHAN MARITIME SAFETY ADMINISTRATION OF PEOPLE’S REPUBLIC OF CHINA,NO. 368 HUANGCHENG SOUTH ROAD,DINGHAI DISTRICT,,,ZHOUSHAN,CHINA  PEOPLES REPUBLIC OF,,false,False
+695,758,Ningbo,Ningbo Maritime Safety Administration of People's Republic of China,No.351 Renmin Road,Jiangbei District,,Ningbo,CHINA  PEOPLES REPUBLIC OF,,false,False
+695,715,Zhejiang Bureau of Fishing Port Superintendence P.R.C.,No.102 Tian Mu Shan Road ,Xihu District ,,,Hangzhou City  Zhejiang Province P.R.C,CHINA  PEOPLES REPUBLIC OF,,false,False
+693,713,Viet nam Maritime Administration,No. 8 Pham Hung - Mai Dich,null,null,null,Cau Giay - Ha Noi,Vietnam,null,true,True
+692,712,Isle of Man Ship Registry,St Georges Court,Upper Church Street,null,Isle of Man,Douglas,United Kingdom,IM1 1EX,true,True
+691,711,Gibraltar Maritime Administration (GMA),Watergate House 2/8 Casemates Square,P.O. Box 71,null,null,null,United Kingdom,null,true,True
+690,710,Maritime Authority of the Cayman Islands - Cayman Islands Shipping Registry (CISR),3rd Floor  Kirk House,22 Albert Panton Street,null,Cayman Islands,George Town  Grand Cayman,United Kingdom,Box 2256,true,True
+689,709,null,null,null,null,null,null,United Kingdom,null,true,True
+689,735,Bermuda Government,Bermuda Shipping and Maritime Authority,3rd Floor  Global House ,43 Church Street,,Hamilton ,BERMUDA,HM 12,false,False
+688,708,Civil Liability Certificates (CLC) Team,Maritime & Coastguard Agency,Registry of Shipping and Seamen,Anchor Court  Keen Road,,Cardiff,UNITED KINGDOM,CF24 5JW,true,True
+687,707,Tuvalu Ship Registry,null,null,null,Vaiaku  Funafuti,null,Tuvalu,null,true,True
+686,705,Directorate of Maritime Affairs - International Ship Registry,IRB-Greece 110-112 Notara St,null,Piraeos,null,null,Greece,185-35,true,True
+686,706,Togo Maritime Administration,null,null,null,null,null,null,null,false,False
+685,704,Swiss Maritime Navigation Office (SMNO),Elisabethenstrasse 33,P.O. Box,null,null,Basel,Switzerland,CH-4010,true,True
+684,703,Swedish Transport Agency, SE-601 73 Norrkoping,null,null,null,null,Sweden,null,true,True
+683,702,Ministry of Development  Director General of the Merchant Marine,C/ Ruiz de Alarcón  1,null,null,null,Madrid,Spain,28071,true,True
+682,701,South African Maritime Safety Authority (SAMSA),146 Lunnon Road Cnr Jan Shoba & Lunnon Road,null,null,Pretoria,Hillcrest,South Africa,183,true,True
+681,700,Maritime and Port Authority of Singapore (MPA), MPA Shipping Division  460 Alexandra Road,#21-00  PSA Building,null,Singapore,null,Singapore,119963,true,True
+680,699,null,null,null,null,null,null,Seychelles,null,true,True
+679,698, Ministry of Construction  Transport and Infrastructure - Sector for Water Transport and Safety of Navigation,Nemanjina 22-26,null,null,Serbia,Belgrade,Serbia,11000,true,True
+678,697,null,null,null,null,null,null,Samoa,null,true,True
+677,696,St. Kitts & Nevis International Ship Registry,Stolt-Nielsen House  1-5 Oldchurch Road,Romford  Essex,null,null,null,Saint Kitts and Nevis,RM7 0BQ,true,True
+676,695,St. Vincent & the Grenadines Maritime Administration, Cruise Ship Berth,P.O. Box 2857,null,null,Kingstown,Saint Vincent and the Grenadines,null,true,True
+675,694,Ministry of Transport of the Russian Federation (MINTRAS),ul.Rozhdestvenka  1  p.1,null,null,null,Moscow,RUSSIAN FEDERATION,109012,true,True
+674,693,Ministry of Maritime Economy and Inland Navigation,Department of Maritime Economy,Nowy Swiat 6/12,null,null,Warsaw,Poland,00-400,true,True
+673,690,Philippine Overseas Employment Administration (POEA),Blas F. Ople Building,Ortigas Avenue corner EDSA,null,null,Mandaluyong City,Philippines,null,true,True
+673,691,Department of Labor and Employment (DOLE),5/f DOLE Building,Gen. Luna Wing  Intramuros,null,null,Manila,Philippines,null,false,False
+673,692,Maritime Industry Authority (MARINA),984 Parkview Plaza,Taft Avenue corner Kalaw Street,null,null,Manila,Philippines,null,false,False
+672,689,Panama Maritime Authority,PanCanal Building,Ave. Omar Torrijos Herrera-Albrook,null,Panama City,0843 Balboa Ancón,Panama,533,true,True
+671,688,Palau International Ship Registry,16701 Greenspoint Park Drive  Suite 155,null,null,TX,Houston,USA,77060,true,True
+670,687,Norwegian Maritime Authority (NMA),P.O.Box 2222,null,null,null,Haugesund,Norway,NO-5509,true,True
+669,686,The Nigerian Maritime Administration and Safety Agency (NIMASA),Maritime House,#4  Burma Road  Apapa 5804800 - 4,null,null,Lagos,Nigeria,null,true,True
+668,685,null,null,null,null,null,null,Nicaragua,null,true,True
+667,684,Directorate of Shipping & Maritime Affairs,Seru Mahuma z/n,,,,Netherlands Antilles,CURACAO,,true,True
+666,683,Ministery of Infrastructure and Water Management,Netherlands Shipping Inspectorate,Postbox 16191,,,2500 BD Den Haag,NETHERLANDS,,true,True
+665,681,Ministry of Equipment and Transport, Boulevard Houphouet Boigny,null,null,null,Casablanca,Morocco,null,true,True
+664,680,null,null,null,null,null,null,Montenegro,null,true,True
+663,679,Mongolia Maritime Administration (Operations),Mongolia Ship Registry,133 New Bridge Road,,,#16-02 Chinatown Point 059413,SINGAPORE  REPUBLIC OF,,true,True
+662,678,Ministry of Public Infrastructure,National Development Unit,Land Transport and  Shipping,4th Floor  New Government Centre,,Port-Louis,MAURITIUS,,true,True
+661,677,Marshall Islands Maritime and Corporate Administrators  Inc. c/o International Registries  Inc.,Attn: Regulatory Affairs,11495 Commerce Park Drive,null,VA,Reston,Marshall Islands,20191-1506,true,True
+660,676,Transport Malta  Ports & Yachting Directorate,Malta Transport Centre,null,null,null,Marsa,Malta,MRS 1917,true,True
+659,675,null,null,null,null,null,null,null,null,true,True
+658,674,Marine Department of Malaysia,P.O. Box 12 Jalan Limbungan,null,null,null,Port Klang Selangor,Malaysia,42007,true,True
+657,673,Luxembourg Maritime Administration,19-21  Boulevard Royal,null,null,null,null,Luxembourg,L-2449,true,True
+656,672,Lithuanian Transport Safety Administration,Svitrigailos str. 42,LT-03209 ,,,Vilnius,LITHUANIA  REPUBLIC OF,,true,True
+655,669,LIBERIAN INTERNATIONAL SHIP & CORPORATE REGISTRY,8619 Westwood Center Drive  Suite 300,Suite 300,,Virginia,Vienna,UNITED STATES OF AMERICA,22182,true,True
+655,670,Ministry of Labour,P.O. Box 10-9040,null,null,null,Monrovia 10,Liberia,null,false,False
+655,671,Liberia Maritime Authority (LMA),Tubman Boulevard  Sinkor,null,null,null,Monrovia,Liberia,null,false,False
+654,668,Latvian Maritime Authority,5 Trijadibas Str,null,null,null,Riga,Latvia,LV-1048,true,True
+653,667,Minitry of Oceans and Fisheries,Sejong Government Complex,94  Dasom 2ro,null,Republic of Korea,Sejong-si,Republic of Korea,30110,true,True
+652,666,Ministry of Information  Communication and Transport  Marine Division,Betio P.O. Box 487,,,,Tarawa,KIRIBATI,,true,True
+651,665,Kenya Maritime Authority,null,null,null,Kenya,Mombasa,Kenya,null,true,True
+650,664,Ministry of Land  Infrastructure  Transport and Tourism (MLIT),2-1-3 Kasumigaseki,null,null,Tokyo,Chiyoda-ku,Japan,100-8918,true,True
+649,663,Ministry of Transport - Directorate General for the supervision of port authorities  port facilities and maritime transport and inland waterways,Viale dell Arte  16,null,null,null,Rome,Italy,144,true,True
+648,662,The Marine Survey Office (MSO) of the Irish Maritime Administration (IMA),Department of Transport  Tourism and Sport,Leeson Lane,null,null,Dublin 2,Ireland,null,true,True
+647,661,Director General of Marine Operation & Maritime Safety,null,null,null,null,null,Iran  Islamic Republic of,null,true,True
+646,660,Mercantile Marine Dept  Pratishtha Bhavan,101 Maharshi Karve Road,,,,Mumbai,INDIA,,true,True
+645,659,National Transport Authority  Road  Railway and Shipping Authority  Department for Shipping,Teréz krt. 62,null,null,null,Budapest,Hungary,H-1066,true,True
+644,658,Ministry of Shipping  Maritime Affairs & the Aegean,Akti vaseliadi,Gates E1-E2,null,null,Piraeus,Greece,18510,true,True
+643,656,Berufsgenossenschaft fuer Transport und Verkehrswirtschaft (BG Verkehr),Dienststelle Schiffssicherheit der BG Verkehr,Brandstwiete 1,null,null,Hamburg,Germany,D-20457,true,True
+643,657,Berufsgenossenschaft fuer Transport und Verkehrswirtschaft (BG Verkehr),Dienststelle Schiffssicherheit der BG Verkehr,Brandstwiete 1,null,null,Hamburg,Germany,D-20457,false,False
+642,655,The Ghana Maritime Authority (GMA),No. E354/3  3rd Avenue  East Ridge,Ministries Post Office,null,Accra,null,Ghana,PMB 34,true,True
+641,654,null,null,null,null,null,null,Gabon,null,true,True
+640,652,Direction des affaires maritimes (DAM),Grande Arche,Paroi Sud,null,null,Paris-La-Défense Cedex,France,92055,true,True
+640,653,Direction des Affaires Maritimes,2 bis  rue Félix Russeil,BP. 36,null,null,Noumea Cedex,France,98845,true,True
+639,651,The Ministry of Employment and the Economy,Aleksanterinkatu 4,P.O. Box 32  FI-00023 GOVERNMENT,null,null,Helsinki,Finland,null,true,True
+638,650,The Maritime Safety Authority of Fiji (MSAF), Level 4 Kadavu House,414 Victoria Parade,null,null,Suva,Fiji,null,true,True
+637,649,The Faroese Maritime Authority,null,null,null,null,null,Denmark ,null,true,True
+636,648,Danish Maritime Authority,Fjordvænget 30,,,,DK-4220 Korsør,DENMARK,,true,True
+635,647,Ministry of Communications and Works Department of Merchant Shipping (DMS),P.O. Box 56193,null,null,null, Lemesos,Cyprus,3305,true,True
+634,646, Ministry of Maritime Affairs  Transport and Infrastructure,Prisavlje 14,HR-10000,null,null,Zagreb,Croatia,null,true,True
+633,645,null,null,null,null,null,null,Congo,null,true,True
+632,644,Transport Canada  Safety and Security,330 Sparks Street  11th floor (AMS),Place de Ville  Tower C,null,null,Ottawa,Canada,K1A 0N8,true,True
+631,643,null,null,null,null,null,null,null,null,true,True
+630,642,Bulgarian Maritime Administration (BMA),Diakon Ignatii Str,9. - 1000,null,null,Sofia,Bulgaria,null,true,True
+629,641,Federal Ministry of Labor and Social Policy,Marka Marulica 2,null,null,null,Sarajevo,Bosnia and Herzegovina,71000,true,True
+628,640,Ministry of Labour and Public Administration of Benin,null,null,null,null,null,Benin,null,true,True
+627,639,International Merchant Marine Registry of Belize (IMMARBE),Marina Towers,Suite 204,Newton Barracks,null,Belize City,Belize,null,true,True
+626,638,Federal Public Service Mobility and Transport  Maritime Transport,Directorate General Shipping,City Atrium,Vooruitgangstraat 56 / Rue du Progres 56,, Brussels,BELGIUM,B-1210 ,true,True
+625,637,Ministry of Labour,3rd Floor West ,Warrens Office Complex,null,null,St. Michael,Barbados,null,true,True
+624,636,null,null,null,null,null,null,Bangladesh,null,true,True
+623,635,The Bahamas Maritime Authority,Shirlaw House  87 Shirley Street,PO Box N-4679,null,null,Nassau,Bahamas,null,true,True
+622,634,Australian Maritime Safety Authority (AMSA),AMSA Head Office  Information Centre,82 Northbourne Avenue,null,null,Braddon ACT,Australia,2612,true,True
+621,633,Prefectura Naval Argentina,Av. Eduardo Madero 235,C1106ACC,,,Ciudad Autónoma de Buenos Aires ,ARGENTINA,,true,True
+620,632,Antigua and Barbuda Department of Marine Services and Merchant Shipping (ADOMS),Corner of Popeshead and Dickenson Bay Streets,P.O. Box 1394,null,Antigua  W.I., St. John’s,Antigua and Barbuda,1394,true,True
+618,630,Viet nam Maritime Administration,No. 8 Pham Hung - Mai Dich,null,null,null,Cau Giay - Ha Noi,Vietnam,null,true,True
+617,629,Isle of Man Ship Registry,St Georges Court,Upper Church Street,null,Isle of Man,Douglas,United Kingdom,IM1 1EX,true,True
+616,628,Gibraltar Maritime Administration (GMA),Watergate House 2/8 Casemates Square,P.O. Box 71,null,null,null,United Kingdom,null,true,True
+615,627,Maritime Authority of the Cayman Islands - Cayman Islands Shipping Registry (CISR),3rd Floor  Kirk House,22 Albert Panton Street,null,Cayman Islands,George Town  Grand Cayman,United Kingdom,Box 2256,true,True
+614,626,null,null,null,null,null,null,United Kingdom,null,true,True
+614,734,Bermuda Government,Bermuda Shipping and Maritime Authority,3rd Floor  Global House ,43 Church Street,,Hamilton ,BERMUDA,HM 12,false,False
+613,625,Civil Liability Certificates (CLC) Team,Maritime & Coastguard Agency,Registry of Shipping and Seamen,Anchor Court  Keen Road,,Cardiff,UNITED KINGDOM,CF24 5JW,true,True
+612,624,Tuvalu Ship Registry,null,null,null,Vaiaku  Funafuti,null,Tuvalu,null,true,True
+611,622,Directorate of Maritime Affairs - International Ship Registry,IRB-Greece 110-112 Notara St,null,Piraeos,null,null,Greece,185-35,true,True
+611,623,Togo Maritime Administration,null,null,null,null,null,null,null,false,False
+610,621,Swiss Maritime Navigation Office (SMNO),Elisabethenstrasse 33,P.O. Box,null,null,Basel,Switzerland,CH-4010,true,True
+609,620,Swedish Transport Agency, SE-601 73 Norrkoping,null,null,null,null,Sweden,null,true,True
+608,619,Ministry of Development  Director General of the Merchant Marine,C/ Ruiz de Alarcón  1,null,null,null,Madrid,Spain,28071,true,True
+607,618,South African Maritime Safety Authority (SAMSA),146 Lunnon Road Cnr Jan Shoba & Lunnon Road,null,null,Pretoria,Hillcrest,South Africa,183,true,True
+606,617,Maritime and Port Authority of Singapore (MPA), MPA Shipping Division  460 Alexandra Road,#21-00  PSA Building,null,Singapore,null,Singapore,119963,true,True
+605,616,null,null,null,null,null,null,Seychelles,null,true,True
+604,615, Ministry of Construction  Transport and Infrastructure - Sector for Water Transport and Safety of Navigation,Nemanjina 22-26,null,null,Serbia,Belgrade,Serbia,11000,true,True
+603,614,null,null,null,null,null,null,Samoa,null,true,True
+602,613,St. Kitts & Nevis International Ship Registry,Stolt-Nielsen House  1-5 Oldchurch Road,Romford  Essex,null,null,null,Saint Kitts and Nevis,RM7 0BQ,true,True
+601,612,St. Vincent & the Grenadines Maritime Administration, Cruise Ship Berth,P.O. Box 2857,null,null,Kingstown,Saint Vincent and the Grenadines,null,true,True
+600,611,Ministry of Transport of the Russian Federation (MINTRAS),ul.Rozhdestvenka  1  p.1,null,null,null,Moscow,RUSSIAN FEDERATION,109012,true,True
+599,610,Ministry of Maritime Economy and Inland Navigation,Department of Maritime Economy,Nowy Swiat 6/12,null,null,Warsaw,Poland,00-400,true,True
+598,607,Philippine Overseas Employment Administration (POEA),Blas F. Ople Building,Ortigas Avenue corner EDSA,null,null,Mandaluyong City,Philippines,null,true,True
+598,608,Department of Labor and Employment (DOLE),5/f DOLE Building,Gen. Luna Wing  Intramuros,null,null,Manila,Philippines,null,false,False
+598,609,Maritime Industry Authority (MARINA),984 Parkview Plaza,Taft Avenue corner Kalaw Street,null,null,Manila,Philippines,null,false,False
+597,606,Panama Maritime Authority,PanCanal Building,Ave. Omar Torrijos Herrera-Albrook,null,Panama City,0843 Balboa Ancón,Panama,533,true,True
+596,605,Palau International Ship Registry,16701 Greenspoint Park Drive  Suite 155,null,null,TX,Houston,USA,77060,true,True
+595,604,Norwegian Maritime Authority (NMA),P.O.Box 2222,null,null,null,Haugesund,Norway,NO-5509,true,True
+594,603,The Nigerian Maritime Administration and Safety Agency (NIMASA),Maritime House,#4  Burma Road  Apapa 5804800 - 4,null,null,Lagos,Nigeria,null,true,True
+593,602,null,null,null,null,null,null,Nicaragua,null,true,True
+592,601,Directorate of Shipping & Maritime Affairs,Seru Mahuma z/n,,,,Netherlands Antilles,CURACAO,,true,True
+591,600,Ministery of Infrastructure and Water Management,Netherlands Shipping Inspectorate,Postbox 16191,,,2500 BD Den Haag,NETHERLANDS,,true,True
+590,598,Ministry of Equipment and Transport, Boulevard Houphouet Boigny,null,null,null,Casablanca,Morocco,null,true,True
+589,597,null,null,null,null,null,null,Montenegro,null,true,True
+588,719,Mongolia Maritime Administration (Operations),Mongolia Ship Registry ,133 New Bridge Road,,,16-02 Chinatown Point 059413,SINGAPORE  REPUBLIC OF,,false,False
+587,595,Ministry of Public Infrastructure,National Development Unit,Land Transport and Shipping,4th Floor  New Government Centre,,Port- Louis,MAURITIUS,,true,True
+586,594,Marshall Islands Maritime and Corporate Administrators  Inc. c/o International Registries  Inc.,Attn: Regulatory Affairs,11495 Commerce Park Drive,null,VA,Reston,Marshall Islands,20191-1506,true,True
+585,593,Transport Malta  Ports & Yachting Directorate,Malta Transport Centre,null,null,null,Marsa,Malta,MRS 1917,true,True
+584,592,null,null,null,null,null,null,null,null,true,True
+583,591,Marine Department of Malaysia,P.O. Box 12 Jalan Limbungan,null,null,null,Port Klang Selangor,Malaysia,42007,true,True
+582,590,Luxembourg Maritime Administration,19-21  Boulevard Royal,null,null,null,null,Luxembourg,L-2449,true,True
+581,589,Lithuanian Transport Safety Administration,Svitrigailos str. 42,LT-03209 ,,,Vilnius,LITHUANIA  REPUBLIC OF,,true,True
+580,586,LIBERIAN INTERNATIONAL SHIP & CORPORATE REGISTRY,8619 Westwood Center Drive  Suite 300,,,Virginia,Vienna,UNITED STATES OF AMERICA,22182,true,True
+580,587,Ministry of Labour,P.O. Box 10-9040,null,null,null,Monrovia 10,Liberia,null,false,False
+580,588,Liberia Maritime Authority (LMA),Tubman Boulevard  Sinkor,null,null,null,Monrovia,Liberia,null,false,False
+579,585,Latvian Maritime Authority,5 Trijadibas Str,null,null,null,Riga,Latvia,LV-1048,true,True
+578,584,Minitry of Oceans and Fisheries,Sejong Government Complex,94  Dasom 2ro,null,Republic of Korea,Sejong-si,Republic of Korea,30110,true,True
+577,583,Ministry of Information  Communication and Transport  Marine Division,Betio P.O. Box 487,,,,Tarawa,KIRIBATI,,true,True
+576,582,Kenya Maritime Authority,null,null,null,Kenya,Mombasa,Kenya,null,true,True
+575,581,Ministry of Land  Infrastructure  Transport and Tourism (MLIT),2-1-3 Kasumigaseki,null,null,Tokyo,Chiyoda-ku,Japan,100-8918,true,True
+574,580,Ministry of Transport - Directorate General for the supervision of port authorities  port facilities and maritime transport and inland waterways,Viale dell Arte  16,null,null,null,Rome,Italy,144,true,True
+573,579,The Marine Survey Office (MSO) of the Irish Maritime Administration (IMA),Department of Transport  Tourism and Sport,Leeson Lane,null,null,Dublin 2,Ireland,null,true,True
+572,578,Director General of Marine Operation & Maritime Safety,null,null,null,null,null,Iran  Islamic Republic of,null,true,True
+571,577,Mercantile Marine Dept  Pratishtha Bhavan,101 Maharshi Karve Road,,,,Mumbai,INDIA,,true,True
+570,576,National Transport Authority  Road  Railway and Shipping Authority  Department for Shipping,Teréz krt. 62,null,null,null,Budapest,Hungary,H-1066,true,True
+569,575,Ministry of Shipping  Maritime Affairs & the Aegean,Akti vaseliadi,Gates E1-E2,null,null,Piraeus,Greece,18510,true,True
+568,573,Berufsgenossenschaft fuer Transport und Verkehrswirtschaft (BG Verkehr),Dienststelle Schiffssicherheit der BG Verkehr,Brandstwiete 1,null,null,Hamburg,Germany,D-20457,true,True
+568,574,Berufsgenossenschaft fuer Transport und Verkehrswirtschaft (BG Verkehr),Dienststelle Schiffssicherheit der BG Verkehr,Brandstwiete 1,null,null,Hamburg,Germany,D-20457,false,False
+567,572,The Ghana Maritime Authority (GMA),No. E354/3  3rd Avenue  East Ridge,Ministries Post Office,null,Accra,null,Ghana,PMB 34,true,True
+566,571,null,null,null,null,null,null,Gabon,null,true,True
+565,569,Direction des affaires maritimes (DAM),Grande Arche,Paroi Sud,null,null,Paris-La-Défense Cedex,France,92055,true,True
+565,570,Direction des Affaires Maritimes,2 bis  rue Félix Russeil,BP. 36,null,null,Noumea Cedex,France,98845,true,True
+564,568,The Ministry of Employment and the Economy,Aleksanterinkatu 4,P.O. Box 32  FI-00023 GOVERNMENT,null,null,Helsinki,Finland,null,true,True
+563,567,The Maritime Safety Authority of Fiji (MSAF), Level 4 Kadavu House,414 Victoria Parade,null,null,Suva,Fiji,null,true,True
+562,566,The Faroese Maritime Authority,null,null,null,null,null,Denmark ,null,true,True
+561,565,Danish Maritime Authority,Fjordvænget 30,,,,DK-4220 Korsør,DENMARK,,true,True
+560,564,Ministry of Communications and Works Department of Merchant Shipping (DMS),P.O. Box 56193,null,null,null, Lemesos,Cyprus,3305,true,True
+559,563, Ministry of Maritime Affairs  Transport and Infrastructure,Prisavlje 14,HR-10000,null,null,Zagreb,Croatia,null,true,True
+558,562,null,null,null,null,null,null,Congo,null,true,True
+557,561,Transport Canada  Safety and Security,330 Sparks Street  11th floor (AMS),Place de Ville  Tower C,null,null,Ottawa,Canada,K1A 0N8,true,True
+556,560,null,null,null,null,null,null,null,null,true,True
+555,559,Bulgarian Maritime Administration (BMA),Diakon Ignatii Str,9. - 1000,null,null,Sofia,Bulgaria,null,true,True
+554,558,Federal Ministry of Labor and Social Policy,Marka Marulica 2,null,null,null,Sarajevo,Bosnia and Herzegovina,71000,true,True
+553,557,Ministry of Labour and Public Administration of Benin,null,null,null,null,null,Benin,null,true,True
+552,556,International Merchant Marine Registry of Belize (IMMARBE),Marina Towers,Suite 204,Newton Barracks,null,Belize City,Belize,null,true,True
+551,555,Federal Public Service Mobility and Transport  Maritime Transport,Directorate General Shipping,City Atrium,Vooruitgangstraat 56 / Rue du Progres 56,, Brussels,BELGIUM,B-1210 ,true,True
+550,554,Ministry of Labour,3rd Floor West ,Warrens Office Complex,null,null,St. Michael,Barbados,null,true,True
+549,553,null,null,null,null,null,null,Bangladesh,null,true,True
+548,552,The Bahamas Maritime Authority,Shirlaw House  87 Shirley Street,PO Box N-4679,null,null,Nassau,Bahamas,null,true,True
+547,551,Australian Maritime Safety Authority (AMSA),AMSA Head Office  Information Centre,82 Northbourne Avenue,null,null,Braddon ACT,Australia,2612,true,True
+546,550,Prefectura Naval Argentina,Av. Eduardo Madero 235,C1106ACC,,,Ciudad Autónoma de Buenos Aires ,ARGENTINA,,true,True
+545,549,Antigua and Barbuda Department of Marine Services and Merchant Shipping (ADOMS),Corner of Popeshead and Dickenson Bay Streets,P.O. Box 1394,null,Antigua  W.I., St. John’s,Antigua and Barbuda,1394,true,True
+544,545,Swiss Maritime Navigation Office SMNO,Elisabethenstrasse 33,PO Box,,,CH-4010 Basel,SWITZERLAND,,false,False
+543,544,St. Kitts & Nevis International Ship Registry ,Stolt-Nielsen House ,1-5 Oldchurch Road ,,,Romford,UNITED KINGDOM,RM7 0BQ,false,False
+542,543,Bureau Veritas,67/71 Bd du Chateau,9571 Neuilly-Sur-Seine,,,Cedex,FRANCE,,false,False
+542,799,Lloyd’s Register group services Limited,71 Fenchurch Street,,,,London,UNITED KINGDOM,EC3M 4BS,false,False
+542,812,Bureau Veritas ,Le Triangle de l’Arche,8  cours du Triangle – CS 50101,92937 ,CEDEX,PARIS LA DEFENSE ,FRANCE,,false,False
+541,542,The State Maritime Agency of the Ministry of Transport,Communications and High Technologies,2B Khanlar St,,,Baku City,AZERBAIJAN  REPUBLIC OF,AZ1003,false,False
+540,541,The Commonwealth of Dominica Maritime Registry Inc (DMRI),Office of Maritime Affairs ,32  Washington Street  ,,,Fairhaven  MA ,UNITED STATES OF AMERICA,02719,false,False
+539,540,PO Box 13269,Humerail,,,,Port Elizabeth,SOUTH AFRICA,6001,false,False
+538,539,Inspectie Leefomgeving en Transport,Ministerie van Infrastructuur en Waterstaat,Postbox 16191,,,2500 BD Den Haag,NETHERLANDS,,false,False
+537,538,Department of Economic Development,Isle of Man Ship Registry,St Georges Court,Upper Church Street,,Douglas,ISLE OF MAN,IM1 1EX,false,False
+536,536,Ministry of Transport and Infrastructure General Maritime Directory,Lagja nr.1 RR. Tregtare,,,,Durres,ALBANIA,,false,False
+535,535,Head of the Maritime Division  The Ministry of Works Transport and Infrastructure,PO Box Private Bag,Apia,null,null,null,WESTERN SAMOA,null,true,True
+534,534,Head of the Maritime Division  The Ministry of Works Transport and Infrastructure,PO Box Private Bag,Apia,null,null,null,WESTERN SAMOA,null,true,True
+533,533,Head of the Maritime Division  The Ministry of Works Transport and Infrastructure,PO Box Private Bag,Apia,null,null,null,WESTERN SAMOA,null,true,True
+514,530,Federal State Institution,Kaliningrad Maritime port Administration (FSI  Kaliningrad MPA),7  Petra Velikogo emb.  RF- 236006,,,Kaliningrad,RUSSIAN FEDERATION,,false,False
+514,791,HARBOUR MASTER OF THE PORT OF ASTRAKHAN,KAPITANA KRASNOVA 31,,,,Astrakhan,RUSSIAN FEDERATION,414016,false,False
+514,778,Harbour Master of Marine Port Authority of the Caspian Sea,31 Cap.Krasnov Street,,,, 414016   Astrachan,RUSSIAN FEDERATION,,false,False
+514,779,Harbour Master of Marine Port Authority of the Caspian Sea,31 Cap.Krasnov street,,,,414016   Astrachan,RUSSIAN FEDERATION,,false,False
+514,736,Harbour Master of the Port Kholmsk,14A  Portovaya Street,,,,Kholmsk  Sakhalin Region,RUSSIAN FEDERATION,694620,false,False
+514,745,Harbour Master of Port Temryuk,353500,,,,Krasnodar Region,RUSSIAN FEDERATION,,false,False
+514,761,PORT OF NOVOROSSIYSK,2 Mira Str.,353900,,,Krasnodar Region,RUSSIAN FEDERATION,,false,False
+514,824,HARBOUR MASTER OF PETROPAVLOVSK-KAMCHATSKIY SEA PORT,26/1 RADIOSVYAZI STR.,,,,PETROPAVLOVSK-KAMCHATSKIY ,RUSSIAN FEDERATION,,false,False
+514,514,Federal State Institution “Marine Administration of Port Novorossiysk” FSI “MAP Novorossiysk”),Harbour Master,2 emb.Admiral Serebryakov,,,353900  Novorossiysk,RUSSIAN FEDERATION,,false,False
+514,515,Harbour Masrer Of Port Of Taganrog,Russian Ferderation,null,null,null,null,RUSSIAN FEDERATION,null,false,False
+514,516,Harbour Master of the Port of Astrakhan,Zhelyabova 1,,,,Astrakhan 414000,RUSSIAN FEDERATION,,false,False
+514,517,Harbour Master of the Bolshoy port St. -Petersburg,10 Gapsalskaya street,198035,,,St. Petersburg,RUSSIAN FEDERATION,,false,False
+514,518,JSC Arkhangelsk Sea Commercial Port,52  Troitsky Prospect,163000,,,Arkhangelsk,RUSSIAN FEDERATION,,false,False
+514,519,Marine Administration of Port of Murmansk,Portovy Proezd str. 1,,,,183034 Murmansk,RUSSIAN FEDERATION,,false,False
+514,521,Russian Ministry of Transport Marine Fleet Department,Sadovo-Samotechnaya Street  10,,,,Moscow,RUSSIAN FEDERATION,,false,False
+514,525,The Captain of Seaport Taganrog Federal State institute of “Taganrog Maritime Port Administration”,2  Komsomolsky Spusk Str.,Rostov Region,,,Taganrog  347922,RUSSIAN FEDERATION,,false,False
+514,526,The Harbour Master of the Port of Rostov-On-Don of Rostov-On-Don Office of Azov,Sea Maritime Administration,Russian Federation ,null,null,null,RUSSIAN FEDERATION,null,false,False
+514,527,Vladivostok Harbour Master ,Vladivostok Sea Port Administration ,3  Nizhne - Portovaya Street ,,,Vladivostok  690990 ,RUSSIAN FEDERATION,,false,False
+514,528,Administration of the Seaport of Arkhangelsk,Harbour Master,Mr. Alexandrov Arkady Germanovich,Karla Marksa Str.6,,Arkhangelsk,RUSSIAN FEDERATION,,false,False
+513,513,Federal State Institution,Administration of Sea Port "The Big Port of St. Petersburg",(FSI "ASP "BPSt. - Petersburg"),Harbour Master,Harbour Master,Harbour Master,RUSSIAN FEDERATION,null,true,True
+513,524,Russian Ministry of Transport Marine Fleet Department,Sadovo-Samotechnaya Street  10,Moscow,Russia,Russia,Russia,RUSSIAN FEDERATION,null,false,False
+513,532,Federal State Institution,Kaliningrad Maritime port Administration (FSI  Kaliningrad MPA),7  Petra Velikogo emb.  RF- 236006,Kaliningrad,Kaliningrad,Kaliningrad,KALININGRAD,RUSSIAN FEDERATION,false,False
+512,531,Federal State Institution,Kaliningrad Maritime port Administration (FSI  Kaliningrad MPA),7  Petra Velikogo emb.  RF- 236006,Kaliningrad,Kaliningrad,Kaliningrad,KALININGRAD,RUSSIAN FEDERATION,false,False
+512,523,Russian Ministry of Transport Marine Fleet Department,Sadovo-Samotechnaya Street  10,Moscow,Russia,Russia,Russia,RUSSIAN FEDERATION,null,false,False
+512,512,Federal State Institution,Administration of Sea Port "The Big Port of St. Petersburg",(FSI "ASP "BPSt. - Petersburg"),Harbour Master,Harbour Master,Harbour Master,RUSSIAN FEDERATION,null,true,True
+510,510,Federal State Institution,Administration of Sea Port "The Bolshoy Port of St. Petersburg",(FSI "ASP "BPSt. - Petersburg"),,,Harbour Master,RUSSIAN FEDERATION,,true,True
+510,520,Russian Ministry of Transport Marine Fleet Department,Sadovo-Samotechnaya Street  10,,,,Russia,RUSSIAN FEDERATION,,false,False
+510,529,Federal State Institution,Kaliningrad Maritime port Administration (FSI  Kaliningrad MPA),7  Petra Velikogo emb.  RF- 236006,,,Kaliningrad,RUSSIAN FEDERATION,,false,False
+510,762,PORT OF NOVOROSSIYSK,2 Mira Str,353900,,,Krasnodar Region,RUSSIAN FEDERATION,,false,False
+510,763,Harbour Master of the Port of Astrakhan ,Zhelyabova 1,,,,Astrakhan 414000 ,RUSSIAN FEDERATION,,false,False
+510,771,THE CAPTAIN OF SEAPORT TAGANROG FEDERAL STATE INSTITUTE OF “TAGANROG MARITIME PORT ADMINISTRATION”,2  KOMSOMOLSKY SPUSK STR.,ROSTOV REGION,,,TAGANROG  347922,RUSSIAN FEDERATION,,false,False
+510,746,Harbour Master of Port Temryuk,353500,,,,Krasnodar Region,RUSSIAN FEDERATION,,false,False
+510,792,Maritime Administration of Astrakhan Port,Kapitana Krasnova Street 31,,,,Astrakhan,RUSSIAN FEDERATION,414016,false,False
+510,825,HARBOUR MASTER OF PETROPAVLOVSK-KAMCHATSKIY SEA PORT,26/1 RADIOSVYAZI STR.,,,,PETROPAVLOVSK-KAMCHATSKIY ,RUSSIAN FEDERATION,,false,False
+505,509,Quanzhou Maritime Safety Administration of the Peoples Republic of China,Maritime Building  Quanannan Road,Jinjiang  Quanzhou,null,Fujian Province,null,CHINA  PEOPLES REPUBLIC OF,null,true,True
+505,505,Ministry of Transport of The Peoples Republic of China,No. 11 Jianguomen Inner Street,null,null,null,Beijing ,CHINA  PEOPLES REPUBLIC OF,100736,false,False
+504,504,Ministry of Transport of The Peoples Republic of China,No. 11 Jianguomen Inner Street,null,null,null,Beijing ,CHINA  PEOPLES REPUBLIC OF,100736,false,False
+504,508,Quanzhou Maritime Safety Administration of the Peoples Republic of China,Maritime Building  Quanannan Road,Jinjiang  Quanzhou,null,Fujian Province,null,CHINA  PEOPLES REPUBLIC OF,null,true,True
+502,507,Quanzhou Maritime Safety Administration of the Peoples Republic of China,Maritime Building  Quanannan Road,Jinjiang  Quanzhou,null,Fujian Province,null,CHINA  PEOPLES REPUBLIC OF,null,true,True
+502,502,Ministry of Transport of The Peoples Republic of China,No. 11 Jianguomen Inner Street,null,null,null,Beijing ,CHINA  PEOPLES REPUBLIC OF,100736,false,False
+502,827,Nanjing Maritime Safety Administration of the People’s Republic of China,No.238 Central Road,,,,Nanjing 210009,CHINA  PEOPLES REPUBLIC OF,,false,False
+502,819,ZheJiang Maritime Safety Administration of People’s Republic of China,No.1 Yeqingdou Road ,Gongshu District ,,,Hangzhou ,CHINA  PEOPLES REPUBLIC OF,,false,False
+502,833,Qingdao Maritime Safety Administration,No.1  Ningbo Road,Shibei District,,,Qingdao  Shandong,CHINA  PEOPLES REPUBLIC OF,266011,false,False
+502,749,Guangzhou Maritime Safety Administration of the Peoples Republic of China,# 520 Binjiang Road East,Haizhu District,,,Guangzhou,CHINA  PEOPLES REPUBLIC OF,,false,False
+502,750,ZHOUSHAN MARITIME SAFETY ADMINISTRATION OF PEOPLE’S REPUBLIC OF CHINA ,NO. 368 HUANGCHENG SOUTH ROAD,DINGHAI DISTRICT,,,ZHOUSHAN,CHINA  PEOPLES REPUBLIC OF,,false,False
+502,766,Bureau of Fisheries  ,Ministry of Agriculture and Rural Affairs ,P.R.China ,No.11 Nongzhan Nanli ,,Beijing  ,CHINA  PEOPLES REPUBLIC OF,100125,false,False
+502,755,Ningbo,Ningbo Maritime Safety Administration of People's Republic of China,No.351 Renmin Road,Jiangbei District,,Ningbo,CHINA  PEOPLES REPUBLIC OF,,false,False
+501,756,Ningbo,Ningbo Maritime Safety Administration of People's Republic of China,No.351 Renmin Road,Jiangbei District,,Ningbo,CHINA  PEOPLES REPUBLIC OF,,false,False
+501,751,ZHOUSHAN MARITIME SAFETY ADMINISTRATION OF PEOPLE’S REPUBLIC OF CHINA ,NO. 368 HUANGCHENG SOUTH ROAD,DINGHAI DISTRICT,,,ZHOUSHAN,CHINA  PEOPLES REPUBLIC OF,,false,False
+501,834,Qingdao Maritime Safety Administration,No.1  Ningbo Road,Shibei District,,,Qingdao  Shandong,CHINA  PEOPLES REPUBLIC OF,266011,false,False
+501,820,ZheJiang Maritime Safety Administration of People’s Republic of China,No.1 Yeqingdou Road ,Gongshu District  ,,,Hangzhou ,CHINA  PEOPLES REPUBLIC OF,,false,False
+501,828,Nanjing Maritime Safety Administration of the People’s Republic of China,No.238 Central Road,,,,Nanjing 210009,CHINA  PEOPLES REPUBLIC OF,,false,False
+501,501,Ministry of Transport of The Peoples Republic of China,No. 11 Jianguomen Inner Street,null,null,null,Beijing ,CHINA  PEOPLES REPUBLIC OF,100736,false,False
+501,506,Quanzhou Maritime Safety Administration of the Peoples Republic of China,Maritime Building  Quanannan Road,Jinjiang  Quanzhou,null,Fujian Province,null,CHINA  PEOPLES REPUBLIC OF,null,true,True
+491,500,Vietnam National Maritime Administration (VINAMARINE),Division of Ships & Seafarers Registration and Certification,Vinamarine Building,8 Pham Hung Street,null,Hanoi,VIETNAM,null,false,False
+491,491,The Department of Ship and Crew Registration of VINAMARINE,No. 08  Pham Hung Boulevar ,Mai Dich Ward,null,Cau Giay District,null,VIETNAM,null,false,False
+491,494,Vietnam Port Authority,Ministry of Transport & Communications,null,null,null,null,SOCIALIST REPUBLIC OF VIETNAM,null,true,True
+491,497,VIETNAM MARITIME ADMINISTRATION  THE REGIONAL SHIP,REGISTRAR IN SAI GON ,2nd Floor  89 Pasteur Street ,Ben Nghe Ward,District 1,Ho Chi Minh City ,VIETNAM,null,false,False
+490,493,Vietnam Port Authority,Ministry of Transport & Communications,null,null,null,null,SOCIALIST REPUBLIC OF VIETNAM,null,true,True
+490,496,VIETNAM MARITIME ADMINISTRATION  THE REGIONAL SHIP,REGISTRAR IN SAI GON ,2nd Floor  89 Pasteur Street ,Ben Nghe Ward,District 1,Ho Chi Minh City ,VIETNAM,null,false,False
+490,499,Vietnam National Maritime Administration (VINAMARINE),Division of Ships & Seafarers Registration and Certification,Vinamarine Building,8 Pham Hung Street,null,Hanoi,VIETNAM,null,false,False
+490,490,The Department of Ship and Crew Registration of VINAMARINE,No. 08  Pham Hung Boulevar ,Mai Dich Ward,null,Cau Giay District,null,VIETNAM,null,false,False
+489,489,The Department of Ship and Crew Registration of VINAMARINE,No. 08  Pham Hung Boulevar ,Mai Dich Ward,null,Cau Giay District,null,VIETNAM,null,false,False
+489,800,Vietnam Maritime Administration,Saigon Regional Ship Registar,No. 89 Pasteur Street,Ben Nghe Ward  District 1,,Ho Chi Minh City,VIETNAM,,false,False
+488,801,Vietnam Maritime Administration,Saigon Regional Ship Registar,No. 89 Pasteur Street,Ben Nghe Ward  District 1,,Ho Chi Minh City,VIETNAM,,false,False
+488,488,The Department of Ship and Crew Registration of VINAMARINE,No. 08  Pham Hung Boulevar ,Mai Dich Ward,null,Cau Giay District,null,VIETNAM,null,false,False
+488,498,Vietnam National Maritime Administration (VINAMARINE),Division of Ships & Seafarers Registration and Certification,Vinamarine Building,8 Pham Hung Street,null,Hanoi,VIETNAM,null,false,False
+488,495,VIETNAM MARITIME ADMINISTRATION  THE REGIONAL SHIP,REGISTRAR IN SAI GON ,2nd Floor  89 Pasteur Street ,Ben Nghe Ward,District 1,Ho Chi Minh City ,VIETNAM,null,false,False
+488,492,Vietnam Port Authority,Ministry of Transport & Communications,null,null,null,null,SOCIALIST REPUBLIC OF VIETNAM,null,true,True
+487,487,Instituto Nacional de los Espacios Acuaticos (INEA),Av Orinoco  Entre Calles Perija y Mucuchies,Edif INEA, Las Mercedes,null,Caracas,VENEZUELA,1060,false,False
+486,486,Instituto Nacional de los Espacios Acuaticos (INEA),Av Orinoco  Entre Calles Perija y Mucuchies,Edif INEA, Las Mercedes,null,Caracas,VENEZUELA,1060,false,False
+485,485,Instituto Nacional de los Espacios Acuaticos (INEA),Av Orinoco  Entre Calles Perija y Mucuchies,Edif INEA, Las Mercedes,null,Caracas,VENEZUELA,1060,false,False
+484,484,Vanuatu Maritime Services Limited ,39 Broadway  Suite 2020,null,null,New York,New York,USA,10006,true,True
+483,483,Vanuatu Maritime Services Limited ,39 Broadway  Suite 2020,null,null,New York,New York,USA,10006,true,True
+482,482,Vanuatu Maritime Services Limited ,39 Broadway  Suite 2020,,,,New York,UNITED STATES OF AMERICA,10006,true,True
+481,481,Vanuatu Maritime Services Limited ,39 Broadway  Suite 2020,null,null,New York,New York,USA,10006,true,True
+480,480,Prefectura Nacional Naval ,Direccion Registral y de Marina Mercante,Rambla 25 de agosto de 1825  S/N,Comando General de la Armada 1er. Piso  Montevideo,null,null,URUGUAY,null,true,True
+479,479,Prefectura Nacional Naval ,Direccion Registral y de Marina Mercante,Rambla 25 de agosto de 1825  S/N,Comando General de la Armada 1er. Piso  Montevideo,null,null,URUGUAY,null,true,True
+478,478,Prefectura Nacional Naval ,Direccion Registral y de Marina Mercante,Rambla 25 de agosto de 1825  S/N,Comando General de la Armada 1er. Piso  Montevideo,null,null,URUGUAY,null,true,True
+475,475,Civil Liability Certificates (CLC) Team,Maritime & Coastguard Agency,Registry of Shipping and Seamen,Anchor Court,,Cardiff,UNITED KINGDOM,CF24 5JW,false,False
+474,788,Civil Liability Certificates (CLC) Team,Maritime & Coastguard Agency,Registry of Shipping and Seamen,Anchor Court  Keen Road,,Cardiff,UNITED KINGDOM,CF24 5JW,false,False
+473,787,Civil Liability Certificates (CLC) Team,Maritime & Coastguard Agency,Registry of Shipping and Seamen,Anchor Court  Keen Road,,Cardiff,UNITED KINGDOM,CF24 5JW,false,False
+472,472,Civil Liability Certificates (CLC) Team,Maritime & Coastguard Agency,Registry of Shipping and Seamen,Anchor Court  Keen Road,,Cardiff,UNITED KINGDOM,CF24 5JW,true,True
+471,471,Civil Liability Certificates (CLC) Team,Maritime and Coastguard Agency,Registry of Shipping and Seamen,Anchor Court  Keen Road,,Cardiff,UNITED KINGDOM,CF24 5JW,true,True
+469,469,Director of Marine Services,P.O. Box 3522,null,null,null,Sharjah,U.A.E,null,true,True
+468,468,Director of Marine Services,P.O. Box 3522,null,null,null,Sharjah,U.A.E,null,true,True
+467,467,Director of Marine Services,P.O. Box 3522,,,,Sharjah,UNITED ARAB EMIRATES,,true,True
+466,466,Tuvalu Ship Registry,10 Anson Road #25-16,International Plaza ,null,null,Singapore,SINGAPORE,079903,false,False
+465,465,Tuvalu Ship Registry,10 Anson Road #25-16,International Plaza ,null,null,Singapore,SINGAPORE,079903,false,False
+464,464,Tuvalu Ship Registry,10 Anson Road #25-16,International Plaza ,null,null,Singapore,SINGAPORE,079903,false,False
+463,463,Tuvalu Ship Registry,10 Anson Road #25-16,International Plaza ,null,null,Singapore,SINGAPORE,079903,false,False
+462,462,Tuvalu Ship Registry,10 Anson Road #25-16,International Plaza ,null,null,Singapore,SINGAPORE,079903,false,False
+461,461,Ministry of Transport  Maritime Affairs and Communications,Hakk? Turayliç Caddesi,No:5 Emek/ANKARA,null,null,Ankara,TURKEY,null,true,True
+460,460,Ministry of Transport  Maritime Affairs and Communications,Hakk? Turayliç Caddesi,No:5 Emek/ANKARA,null,null,Ankara,TURKEY,null,true,True
+459,459,Ministry of Transport  Maritime Affairs and Communications,Hakk? Turayliç Caddesi,No:5 Emek/ANKARA,null,null,Ankara,TURKEY,null,true,True
+459,831,T.C. Ulastirma ve Altyapi Bakanligi,Istanbul Liman Baskanligi ,Kemankes Mah. Rihtim Cad. No: 33,,,Beyoglu / Istanbul,TURKEY,,false,False
+459,826,Republic of Turkey Ministry of Transport and Infrastructure,Emek Mahallesi ,Hakk? Turayliç Caddesi ,No: 5 ,,Çankaya / ANKARA,TURKEY,,false,False
+458,458,Ministry of Transport  Maritime Affairs and Communications,Hakk? Turayliç Caddesi,No:5 Emek/ANKARA,null,null,Ankara,TURKEY,null,true,True
+457,457,Republique Tunisienne,Ministere du Transport  OMMP,null,null,null,Lagoulette,TUNISIA,2060,true,True
+456,456,Republique Tunisienne,Ministere du Transport  OMMP,null,null,null,Lagoulette,TUNISIA,2060,true,True
+455,455,Republique Tunisienne,Ministere du Transport  OMMP,null,null,null,Lagoulette,TUNISIA,2060,true,True
+454,454,Ministry of Marine & Ports,P.O. Box 397,null,null,null,Nuku’alofa,TONGA,null,false,False
+453,453,Ministry of Marine & Ports,P.O. Box 397,null,null,null,Nuku’alofa,TONGA,null,false,False
+452,452,Ministry of Marine & Ports,P.O. Box 397,null,null,null,Nuku’alofa,TONGA,null,false,False
+451,451,Ministry of Marine & Ports,P.O. Box 397,null,null,null,Nuku’alofa,TONGA,null,false,False
+450,450,Ministry of Marine & Ports,P.O. Box 397,null,null,null,Nuku’alofa,TONGA,null,false,False
+449,449,Togo Maritime Administration,C/O International Registrations Bureau,Zalka Main Road,Municipality Bldg  5th Floor,null,Beirut,LEBANON,null,false,False
+448,448,Togo Maritime Administration,C/O International Registrations Bureau,Zalka Main Road,Municipality Bldg  5th Floor,null,Beirut,LEBANON,null,false,False
+447,447,Togo Maritime Administration,C/O International Registrations Bureau,Zalka Main Road,Municipality Bldg  5th Floor,null,Beirut,LEBANON,null,false,False
+446,446,Togo Maritime Administration,C/O International Registrations Bureau,Zalka Main Road,Municipality Bldg  5th Floor,null,Beirut,LEBANON,null,false,False
+445,445,Swiss Maritime Navigation Office SMNO,Elisabethenstrasse 33,P.O. Box ,null,null,Basel,SWITZERLAND ,CH-4010,true,True
+444,444,Swiss Maritime Navigation Office SMNO,Elisabethenstrasse 33,P.O. Box ,null,null,Basel,SWITZERLAND ,CH-4010,true,True
+443,443,Swiss Maritime Navigation Office SMNO,Elisabethenstrasse 33,P.O. Box ,null,null,Basel,SWITZERLAND ,CH-4010,true,True
+442,442,Swiss Maritime Navigation Office SMNO,Elisabethenstrasse 33,P.O. Box ,null,null,Basel,SWITZERLAND ,CH-4010,true,True
+441,441,Swedish Transport Agency
+Civil Aviation and Maritime Department,null,null,null,null,NorrkÖping,SWEDEN,SE-601 73,true,True
+440,440,Swedish Transport Agency
+Civil Aviation and Maritime Department,null,null,null,null,NorrkÖping,SWEDEN,SE-601 73,true,True
+439,439,Swedish Transport Agency
+Civil Aviation and Maritime Department,null,null,null,null,NorrkÖping,SWEDEN,SE-601 73,true,True
+438,438,Swedish Transport Agency
+Civil Aviation and Maritime Department,null,null,null,null,NorrkÖping,SWEDEN,SE-601 73,true,True
+434,434,Commissioner For Maritimes Affairs of Saint Vincent and the Grenadines,8  Avenue Frontenex,null,null,null,null,GENEVA,CH – 1207,false,False
+434,437,The Registrar of Ships 
+Maritime Administration 
+Cruise Ship Berth, St Vincent & The Grenadines ,null,null,null,Kingstown,WEST INDIES,null,true,True
+433,436,The Registrar of Ships 
+Maritime Administration 
+Cruise Ship Berth, St Vincent & The Grenadines ,null,null,null,Kingstown,WEST INDIES,null,true,True
+433,433,Commissioner For Maritimes Affairs of Saint Vincent and the Grenadines,8  Avenue Frontenex,null,null,null,null,GENEVA,CH – 1207,false,False
+432,432,Commissioner For Maritimes Affairs of Saint Vincent and the Grenadines,8  Avenue Frontenex,null,null,null,null,GENEVA,CH – 1207,false,False
+432,547,Maritime Administration,The Registrar of Ships,Cruise Ship Berth,,West Indies,Kingstown,ST VINCENT & GRENADINES,,false,False
+431,548,Maritime Administration,The Registrar of Ships,Cruise Ship Berth,,,Kingstown  West Indies,ST VINCENT & GRENADINES,,false,False
+431,431,Commissioner For Maritimes Affairs of Saint Vincent and the Grenadines,8  Avenue Frontenex,null,null,null,null,GENEVA,CH – 1207,false,False
+431,435,The Registrar of Ships 
+Maritime Administration 
+Cruise Ship Berth, St Vincent & The Grenadines ,null,null,null,Kingstown,WEST INDIES,null,true,True
+430,430,St. Kitts & Nevis International ship
+Registry,West Wing  York house,48-50 Western Road,Romford,null,null,UNITED KINGDOM,RM1 3LP,true,True
+429,429,St. Kitts & Nevis International ship
+Registry,West Wing  York house,48-50 Western Road,Romford,null,null,UNITED KINGDOM,RM1 3LP,true,True
+428,428,St. Kitts & Nevis International Ship Registry,Stolt-Nielsen House,1-5 Oldchurch Road,,,Romford,UNITED KINGDOM,RM7 0BQ,true,True
+427,427,St. Kitts & Nevis International Ship Registry,Stolt-Nielsen House,1-5 Oldchurch Road,,,Romford,UNITED KINGDOM,RM7 0BQ,true,True
+426,426,Direccion General de la Marina Mercante,Subdirección General de Seguridad Maritima y Contaminacion.,C/ Ruiz de Alarcon 1 ,null,null,Madrid,SPAIN,28071,true,True
+425,425,Direccion General de la Marina Mercante,Subdirección General de Seguridad Maritima y Contaminacion.,C/ Ruiz de Alarcon 1 ,null,null,Madrid,SPAIN,28071,true,True
+424,424,Direccion General de la Marina Mercante,Subdirección General de Seguridad Maritima y Contaminacion.,C/ Ruiz de Alarcon 1 ,null,null,Madrid,SPAIN,28071,true,True
+423,423,Direccion General de la Marina Mercante,Subdirección General de Seguridad Maritima y Contaminacion.,C/ Ruiz de Alarcon 1 ,null,null,Madrid,SPAIN,28071,true,True
+422,422,PO Box 13269,Humerail,null,null,null,Port Elizabeth,SOUTH AFRICA,6001,true,True
+421,421,PO Box 13269,Humerail,null,null,null,Port Elizabeth,SOUTH AFRICA,6001,true,True
+420,420,PO Box 13269,Humerail,null,null,null,Port Elizabeth,SOUTH AFRICA,6001,true,True
+419,419,Ministry of Infrastructure 
+Slovenian Maritime Administration,Ukmarjev trg 2,null,null,null,Koper,SLOVENIA,SI-6000,true,True
+418,418,Ministry of Infrastructure 
+Slovenian Maritime Administration,Ukmarjev trg 2,null,null,null,Koper,SLOVENIA,SI-6000,true,True
+417,417,Ministry of Infrastructure 
+Slovenian Maritime Administration,Ukmarjev trg 2,null,null,null,Koper,SLOVENIA,SI-6000,true,True
+416,416,Ministry of Infrastructure 
+Slovenian Maritime Administration,Ukmarjev trg 2,null,null,null,Koper,SLOVENIA,SI-6000,true,True
+415,415,Shipping Division  Maritime and Port Authority of Singapore,460 Alexandra Road ,#21-00   PSA Building ,null,null,Singapore ,SINGAPORE,119963,true,True
+414,414,Shipping Division  Maritime and Port Authority of Singapore,460 Alexandra Road ,#21-00   PSA Building ,null,null,Singapore ,SINGAPORE,119963,true,True
+413,413,Shipping Division  Maritime and Port Authority of Singapore,460 Alexandra Road ,#21-00   PSA Building ,null,null,Singapore ,SINGAPORE,119963,true,True
+412,412,Shipping Division  Maritime and Port Authority of Singapore,460 Alexandra Road ,#21-00   PSA Building ,null,null,Singapore ,SINGAPORE,119963,true,True
+411,411,Sierra Leone Maritime Administration ,Maritime House #6,Government Wharf Ferry Terminal,null,null,Freetown,SIERRA LEONE,null,true,True
+410,410,Sierra Leone Maritime Administration ,Maritime House #6,Government Wharf Ferry Terminal,null,null,Freetown,SIERRA LEONE,null,true,True
+409,409,Sierra Leone Maritime Administration ,Maritime House #6,Government Wharf Ferry Terminal,null,null,Freetown,SIERRA LEONE,null,true,True
+408,408,Sierra Leone Maritime Administration ,Maritime House #6,Government Wharf Ferry Terminal,null,null,Freetown,SIERRA LEONE,null,true,True
+402,407,Marine Department,Ministry of Communications & Transport at Dammam ,null,null,null,Dammam,SAUDI ARABIA,31178,false,False
+402,402,Ministry of Transport of Saudia Arabia,Manager of the Marine Department,Old Airport Street,null,null,Riyadh,SAUDI ARABIA,null,true,True
+401,401,Ministry of Transport of Saudia Arabia,Manager of the Marine Department,Old Airport Street,null,null,Riyadh,SAUDI ARABIA,null,true,True
+401,406,Marine Department,Ministry of Communications & Transport at Dammam ,null,null,null,Dammam,SAUDI ARABIA,31178,false,False
+400,400,Ministry of Transport of Saudia Arabia,Manager of the Marine Department,Old Airport Street,null,null,Riyadh,SAUDI ARABIA,null,true,True
+400,403,Marine Department,Ministry of Communications & Transport at Dammam ,null,null,null,Dammam,SAUDI ARABIA,31178,false,False
+399,399,The Ministry of Works Transport and Infrastructure,P.O. Box Private Bag,null,null,null,Apia,SAMOA,null,false,False
+398,398,The Ministry of Works Transport and Infrastructure,P.O. Box Private Bag,null,null,null,Apia,SAMOA,null,false,False
+397,397,The Ministry of Works Transport and Infrastructure,P.O. Box Private Bag,null,null,null,Apia,SAMOA,null,false,False
+396,396,The Ministry of Works Transport and Infrastructure,P.O. Box Private Bag,null,null,null,Apia,SAMOA,null,false,False
+395,395,Romanian Naval Authority ,Port Gate No. 1  RNA Building,null,null,null,Constanta,ROMANIA,900900,true,True
+394,394,Romanian Naval Authority ,Port Gate No. 1  RNA Building,null,null,null,Constanta,ROMANIA,900900,true,True
+393,393,Romanian Naval Authority ,Port Gate No. 1  RNA Building,null,null,null,Constanta,ROMANIA,900900,true,True
+392,392,Romanian Naval Authority ,Port Gate No. 1  RNA Building,null,null,null,Constanta,ROMANIA,900900,true,True
+389,389,Seafarers   Maritime Affairs & Safety Division,107  Yeoseo 1-ro ,Yeosu-si,Jeollanam-do,,Yeosu City,KOREA  REPUBLIC OF,,false,False
+389,733,Seafarers  Maritime Affairs & Safety Division,139-9  Maeam-Dong,Nam-gu,,,Ulsan,KOREA  REPUBLIC OF,,false,False
+389,730,Busan Regional Maritime & Port Administration Seafarers and Maritime Safety Division,351 Chungjang-daero (Jwacheon-dong),Dong-gu,,,Busan ,KOREA  REPUBLIC OF,600-726,false,False
+389,840,Gunsan Regional Office of Oceans and Fisheries,1530-5 Soryong-dong  ,Gunsan-si  ,,,Jeollabuk-do  ,KOREA  REPUBLIC OF,,false,False
+387,391,Seafarers   Maritime Affairs & Safety Division,222  Yeoseo-Dong,null,null,null,Yeosu City,REPUBLIC OF KOREA,null,false,False
+387,387,Busan Regional Maritime & Port Administration,Seafarers and Maritime Safety Division,351 Chungjang-daero (Jwacheon-dong)  Dong-gu,null,null,Busan,REPUBLIC OF KOREA,600-726,true,True
+386,386,Busan Regional Maritime & Port Administration,Seafarers and Maritime Safety Division,351 Chungjang-daero (Jwacheon-dong)  Dong-gu,null,null,Busan,REPUBLIC OF KOREA,600-726,true,True
+386,390,Seafarers   Maritime Affairs & Safety Division,222  Yeoseo-Dong,null,null,null,Yeosu City,REPUBLIC OF KOREA,null,false,False
+385,388,Seafarers   Maritime Affairs & Safety Division,222  Yeoseo-Dong,null,null,null,Yeosu City,REPUBLIC OF KOREA,null,false,False
+385,385,Busan Regional Maritime & Port Administration,Seafarers and Maritime Safety Division,351 Chungjang-daero (Jwacheon-dong)  Dong-gu,null,null,Busan,REPUBLIC OF KOREA,600-726,true,True
+384,384,Director of the Maritime Office in Gdynia,Chrzanowskiego 10
+81-338 Gdynia,null,null,null,null,POLAND,null,true,True
+383,383,Director of the Maritime Office in Gdynia,Chrzanowskiego 10
+81-338 Gdynia,null,null,null,null,POLAND,null,true,True
+382,382,Director of the Maritime Office in Gdynia,Chrzanowskiego 10
+81-338 Gdynia,null,null,null,null,POLAND,null,true,True
+382,817,DIRECTOR OF MARITIME OFFICE,Pl.St.BATOREGO 4,70-207,,,Szczecin,POLAND,,false,False
+381,818,DIRECTOR OF MARITIME OFFICE,Pl.St.BATOREGO 4,70-207,,,Szczecin,POLAND,,false,False
+381,381,Director of the Maritime Office in Gdynia,Chrzanowskiego 10
+81-338 Gdynia,null,null,null,null,POLAND,null,true,True
+380,380,Maritime Industry Authority (MARINA)
+PPL Building,1000 United Nations Avenue,null,null,null,Manila,PHILIPPINES,null,true,True
+379,379,Maritime Industry Authority (MARINA)
+PPL Building,1000 United Nations Avenue,null,null,null,Manila,PHILIPPINES,null,true,True
+378,378,Maritime Industry Authority (MARINA)
+PPL Building,Parkview Plaza 984,Taft Avenue Corner T.M Kalaw,1000 Ermita,,Manila,PHILIPPINES,,true,True
+377,377,Ministerio de Marina
+Direccion General de Capitanias y Guardacostas,null,null,null,null,Lima,PERU,null,true,True
+376,376,Ministerio de Marina
+Direccion General de Capitanias y Guardacostas,null,null,null,null,Lima,PERU,null,true,True
+375,375,Ministerio de Marina
+Direccion General de Capitanias y Guardacostas,null,null,null,null,Lima,PERU,null,true,True
+374,374,First Assistant Secretary  Marine Transport Division,Department of Transport,PO Box 457,null,null,Konedobu Ncd,PAPUA NEW GUINA,null,true,True
+373,373,First Assistant Secretary  Marine Transport Division,Department of Transport,PO Box 457,null,null,Konedobu Ncd,PAPUA NEW GUINA,null,true,True
+372,372,First Assistant Secretary  Marine Transport Division,Department of Transport,PO Box 457,null,null,Konedobu Ncd,PAPUA NEW GUINA,null,true,True
+371,371,Panama Maritime Authority ,P.O. Box 0843-0533,Ancón,null,Balboa,Panama,REPUBLIC OF PANAMA ,null,true,True
+370,370,Panama Maritime Authority ,P.O. Box 0843-0533,Ancón,null,Balboa,Panama,REPUBLIC OF PANAMA ,null,true,True
+369,369,Panama Maritime Authority ,P.O. Box 0843-0533,Ancón,null,Balboa,Panama,REPUBLIC OF PANAMA ,null,true,True
+368,368,Panama Maritime Authority ,P.O. Box 0843-0533,Ancón,null,Balboa,Panama,REPUBLIC OF PANAMA ,null,true,True
+367,367,Panama Maritime Authority ,P.O. Box 0843-0533,Ancón,null,Balboa,Panama,REPUBLIC OF PANAMA ,null,true,True
+366,366,Palau International Ship Registry
+Maritime Safety and Environment Protection,16701 Greenspoint Park Drive
+Suite,155 Houston  ,null,Texas,null,USA,77060,true,True
+365,365,Palau International Ship Registry
+Maritime Safety and Environment Protection,16701 Greenspoint Park Drive
+Suite,155 Houston  ,null,Texas,null,USA,77060,true,True
+364,364,Palau International Ship Registry (PISR),5  Sachtouri Street  18536,6th Floor,,,Piraeus,GREECE, ,true,True
+364,784,Palau International Ship Registry USA Head Office,9595 Six Pines Drive,Suite 8210  Office 277,,,The Woodlands  TX  77380,UNITED STATES OF AMERICA,,false,False
+363,839,PALAU INTERNATIONAL SHIP REGISTRY (PISR),5  SACHTOURI STREET  18536,6TH FLOOR,,,PIRAEUS,PALAU  REPUBLIC OF,,false,False
+363,363,Palau Ship Registry,The Woodlands  TX  77380 ,9595 Six Pines Drive,Suite 8210  Office 277,,Houston,UNITED STATES OF AMERICA,77060,true,True
+362,362,Palau International Ship Registry
+Maritime Safety and Environment Protection,16701 Greenspoint Park Drive
+Suite,155 Houston  ,null,Texas,null,USA,77060,true,True
+361,361,Sjøfartsdirektoratet,Postboks 2222,5509 Haugesund,null,null,Norge,NORWAY,null,true,True
+360,360,Sjøfartsdirektoratet,Postboks 2222,5509 Haugesund,null,null,Norge,NORWAY,null,true,True
+359,359,Sjøfartsdirektoratet,Postboks 2222,5509 Haugesund,null,null,Norge,NORWAY,null,true,True
+358,358,Sjøfartsdirektoratet,Postboks 2222,5509 Haugesund,null,null,Norge,NORWAY,null,true,True
+357,357,The Director General/CEO
+Nigerian Maritime Administration and Safety Agency,Maritime House,4  Burma Road,null,Apapa,Lagos,NIGERIA ,null,true,True
+356,356,The Director General/CEO
+Nigerian Maritime Administration and Safety Agency,Maritime House,4  Burma Road,null,Apapa,Lagos,NIGERIA ,null,true,True
+355,355,The Director General/CEO
+Nigerian Maritime Administration and Safety Agency,Maritime House,4  Burma Road,null,Apapa,Lagos,NIGERIA ,null,true,True
+354,354,The Director General/CEO
+Nigerian Maritime Administration and Safety Agency,Maritime House,4  Burma Road,null,Apapa,Lagos,NIGERIA ,null,true,True
+353,353,The Director General/CEO
+Nigerian Maritime Administration and Safety Agency,Maritime House,4  Burma Road,null,Apapa,Lagos,NIGERIA ,null,true,True
+352,352,Niue Ship Registry ,10 Anson Road  International Plaza,#25-15,null,null,Singapore ,SINGAPORE ,079903,true,True
+351,351,Niue Ship Registry ,10 Anson Road  International Plaza,#25-15,null,null,Singapore ,SINGAPORE ,079903,true,True
+350,350,Niue Ship Registry ,10 Anson Road  International Plaza,#25-15,null,null,Singapore ,SINGAPORE ,079903,true,True
+349,349,Niue Ship Registry ,10 Anson Road  International Plaza,#25-15,null,null,Singapore ,SINGAPORE ,079903,true,True
+348,348,Niue Ship Registry ,10 Anson Road  International Plaza,#25-15,null,null,Singapore ,SINGAPORE ,079903,true,True
+347,347,Maritime New Zealand,null,null,null,null,null,NEW ZEALAND,null,true,True
+346,346,Maritime New Zealand,null,null,null,null,null,NEW ZEALAND,null,true,True
+345,345,Maritime New Zealand,Level 11,1 Grey Street,,,Wellington 6011,NEW ZEALAND,,true,True
+344,344,Maritime New Zealand,null,null,null,null,null,NEW ZEALAND,null,true,True
+341,341,Inspectie Leefomgeving en Transport,Ministerie van Infrastructuur en Waterstaat,Postbox 16191,,,2500 BD Den Haag,NETHERLANDS,,false,False
+340,340,Unit Analysis  Development and Accident Investigation,Netherlands Shipping Inspectorate ,Human Environment and Transportation Inspectorate,Weena 723 
+3013 AM Rotterdam
+Entrance C  1st Floor,null,Rotterdam,NETHERLANDS,null,true,True
+340,343,Inspectie Leefomgeving en Transport,Ministerie van Infrastructuur en Waterstaat,Postbox 16191,,,2500 BD Den Haag,NETHERLANDS,,false,False
+339,342,Inspectie Leefomgeving en Transport,Ministerie van Infrastructuur en Waterstaat,Postbox 16191,,,2500 BD Den Haag,NETHERLANDS,,false,False
+338,731,Inspectie Leefomgeving en Transport,Ministerie van Infrastructuur en Waterstaat,Postbox 16191,,,2500 BD Den Haag  ,NETHERLANDS,,false,False
+337,337,Direction De La Marine
+Marchande,Bd Feliz Houphouet Boigny,null,null,null,Casablanca,MOROCCO,null,false,False
+336,336,Direction De La Marine
+Marchande,Bd Feliz Houphouet Boigny,null,null,null,Casablanca,MOROCCO,null,false,False
+335,335,Direction De La Marine
+Marchande,Bd Feliz Houphouet Boigny,null,null,null,Casablanca,MOROCCO,null,false,False
+334,334,Direction De La Marine
+Marchande,Bd Feliz Houphouet Boigny,null,null,null,Casablanca,MOROCCO,null,false,False
+333,333,Direction De La Marine
+Marchande,Bd Feliz Houphouet Boigny,null,null,null,Casablanca,MOROCCO,null,false,False
+332,332,Mongolia Maritime Administration (Operations) ,Mongolia Ship Registry ,133 New Bridge Road,#16-02 Chinatown Point,null,null,SINGAPORE,059413,false,False
+331,331,Mongolia Maritime Administration (Operations) ,Mongolia Ship Registry ,133 New Bridge Road,#16-02 Chinatown Point,null,null,SINGAPORE,059413,false,False
+330,330,Mongolia Maritime Administration (Operations) ,Mongolia Ship Registry ,133 New Bridge Road,#16-02 Chinatown Point,null,null,SINGAPORE,059413,false,False
+329,329,Mongolia Maritime Administration (Operations) ,Mongolia Ship Registry ,133 New Bridge Road,#16-02 Chinatown Point,null,null,SINGAPORE,059413,false,False
+328,328,Secretaria de Comunicaciones y Transportes,Direccion General de Marine Mercante,Av Nuevo Leon 210,Col. Hipodromo Condesa  C.P. ,null,null,MEXICO,06100,false,False
+327,327,Secretaria de Comunicaciones y Transportes,Direccion General de Marine Mercante,Av Nuevo Leon 210,Col. Hipodromo Condesa  C.P. ,null,null,MEXICO,06100,false,False
+326,326,Secretaria de Comunicaciones y Transportes,Direccion General de Marine Mercante,Av Nuevo Leon 210,Col. Hipodromo Condesa  C.P. ,null,null,MEXICO,06100,false,False
+325,325,Ministry of Public Infrastructure 
+National Development Unit,Land Transport and Shipping,4th Floor,New Government Centre,null,Port-Louis,REPUBLIC OF MAURITIUS,null,false,False
+324,324,Ministry of Public Infrastructure 
+National Development Unit,Land Transport and Shipping,4th Floor,New Government Centre,null,Port-Louis,REPUBLIC OF MAURITIUS,null,false,False
+323,323,Ministry of Public Infrastructure 
+National Development Unit,Land Transport and Shipping,4th Floor,New Government Centre,null,Port-Louis,REPUBLIC OF MAURITIUS,null,false,False
+322,322,Ministry of Ocean Economy  Marine Resources  Fisheries and Shipping ,4th Floor,LIC Centre,President John Kennedy Street,,Port-Louis,MAURITIUS,,false,False
+321,321,Maritime Administrator for the Republic of the Marshall Islands,Attn: Vessel Administration ,International Registries  Inc.,11495 Commerce Park Drive ,Virginia ,Reston,USA,20191-1506,true,True
+320,320,Maritime Administrator for the Republic of the Marshall Islands,Attn: Vessel Administration ,International Registries  Inc.,11495 Commerce Park Drive ,Virginia ,Reston,USA,20191-1506,true,True
+319,319,Maritime Administrator for the Republic of the Marshall Islands,Attn: Vessel Administration ,International Registries  Inc.,11495 Commerce Park Drive ,Virginia ,Reston,USA,20191-1506,true,True
+318,318,Maritime Administrator for the Republic of the Marshall Islands,Attn: Vessel Administration ,International Registries  Inc.,11495 Commerce Park Drive ,Virginia ,Reston,USA,20191-1506,true,True
+317,317,Maritime Administrator for the Republic of the Marshall Islands,Attn: Vessel Administration ,International Registries  Inc.,11495 Commerce Park Drive ,Virginia ,Reston,USA,20191-1506,true,True
+316,316,Registrar General of Shipping and Seamen,Merchant Shipping Directorate,Transport Malta,Malta Transport Centre,,Triq Pantar Hal Lija 2021,MALTA,,true,True
+315,315,Registrar General of Shipping and Seamen,Merchant Shipping Directorate,Transport Malta,Malta Transport Centre,,Triq Pantar Hal Lija 2021,MALTA,,true,True
+314,314,Registrar General of Shipping and Seamen,Merchant Shipping Directorate,Transport Malta,Malta Transport Centre,,Triq Pantar Hal Lija 2021,MALTA,,true,True
+313,313,Registrar General of Shipping and Seamen,Merchant Shipping Directorate,Transport Malta,Malta Transport Centre,,Triq Pantar Hal Lija 2021,MALTA,,true,True
+312,312,Registrar General of Shipping and Seamen,Merchant Shipping Directorate,Transport Malta,Malta Transport Centre,,Triq Pantar Hal Lija 2021,MALTA,,true,True
+311,311,Marine Environment Protection Unit  Safety of Navigation Division
+Marine Department of Malaysia ,P.O. Box 12  Foreshore Road,null,null,Selangor ,Port Kelang ,MALAYSIA ,42007,true,True
+310,310,Marine Environment Protection Unit  Safety of Navigation Division
+Marine Department of Malaysia ,P.O. Box 12  Foreshore Road,null,null,Selangor ,Port Kelang ,MALAYSIA ,42007,true,True
+309,309,Director General ,Marine Department Malaysia,P.O. Box 12  ,,Selangor ,Port Kelang ,MALAYSIA,42007,true,True
+308,308,Director General  ,Marine Department Malaysia,P.O Box 12,,Selangor ,Port Kelang ,MALAYSIA,42007,true,True
+307,307,Director General ,Marine Department Malaysia,P.O. Box 12,,Selangor ,Port Kelang ,MALAYSIA,42007,true,True
+306,306,International Shipping Register of Madeira – MAR,Rua do Bom Jesus no9 – 1B,null,null,Madeira,Funchal,PORTUGAL,9050-028 ,true,True
+305,305,International Shipping Register of Madeira – MAR,Rua do Bom Jesus no9 – 1B,null,null,Madeira,Funchal,PORTUGAL,9050-028 ,true,True
+304,304,International Shipping Register of Madeira – MAR,Rua do Bom Jesus no9 – 1B,null,null,Madeira,Funchal,PORTUGAL,9050-028 ,true,True
+304,802,International Shipping Register of Madeira - MAR,Rua Do Bom Jesus NO9 - 1B,,,,Fuchal,MADEIRA,9050-028,false,False
+304,803,International Shipping Register of Madeira - MAR,Av. Zarco,Edifício do Governo Regional  1.º  ,P.O. Box 494 ,,Funchal,MADEIRA,9004-527 ,false,False
+303,804,International Shipping Register of Madeira - MAR,Av. Zarco,Edifício do Governo Regional  1.º  ,P.O. Box 494 ,,Funchal,MADEIRA,9004-527 ,false,False
+303,303,International Shipping Register of Madeira – MAR,Rua do Bom Jesus no9 – 1B,null,null,Madeira,Funchal,PORTUGAL,9050-028 ,true,True
+302,302,Commissariat aux Affaires Maritimes,19-21  Boulevard Royal ,null,null,null,null,LUXEMBOURG,L-2449 ,true,True
+301,301,Commissariat aux Affaires Maritimes,19-21  Boulevard Royal ,null,null,null,null,LUXEMBOURG,L-2449 ,true,True
+300,300,Commissariat aux Affaires Maritimes,19-21  Boulevard Royal ,null,null,null,null,LUXEMBOURG,L-2449 ,true,True
+299,299,Commissariat aux Affaires Maritimes,19-21  Boulevard Royal ,null,null,null,null,LUXEMBOURG,L-2449 ,true,True
+298,298,Lithuanian Transport Safety Administration,Svitrigailos str. 42,LT-03209 ,,,Vilnius,LITHUANIA  REPUBLIC OF,,true,True
+297,297,Lithuanian Transport Safety Administration,Svitrigailos str. 42,LT-03209 ,,,Vilnius,LITHUANIA  REPUBLIC OF,,true,True
+296,296,Lithuanian Transport Safety Administration,Svitrigailos str. 42,LT-03209 ,,,Vilnius,LITHUANIA  REPUBLIC OF,,true,True
+295,295,Lithuanian Transport Safety Administration,Svitrigailos str. 42,LT-03209 ,,,Vilnius,LITHUANIA  REPUBLIC OF,,true,True
+292,292,Liberian International Ship & Corporate Registry,Attn: Bunker CLC/CLC Applications,22980 Indian Creek Drive ,Suite 200,Virginia ,Dulles,UNITED STATES OF AMERICA,VA 20166,true,True
+291,291,Attn: Bunker CLC/CLC Applications,Liberian International Ship & Corporate Registry,8619 Westwood Center Drive,Suite 300,Virginia ,Vienna,USA,22182,true,True
+291,294,Attn: WRC Applications,Liberian International Ship & Corporate Registry,8619 Westwood Center Drive,Suite 300,Virginia ,Vienna,USA,22182,true,True
+290,290,Attn: Bunker CLC/CLC Applications,Liberian International Ship & Corporate Registry,8619 Westwood Center Drive,Suite 300,Virginia ,Vienna,USA,22182,true,True
+290,293,Attn: WRC Applications,Liberian International Ship & Corporate Registry,8619 Westwood Center Drive,Suite 300,Virginia ,Vienna,USA,22182,true,True
+289,289,Liberian International Ship & Corporate Registry,Attn: Bunker CLC/CLC Applications,22980 Indian Creek Drive,Suite 200,Virginia ,Dulles ,UNITED STATES OF AMERICA,VA 20166,true,True
+288,288,Liberian International Ship Corporate Registry,Attn: Bunker CLC/CLC Applications,2290 Indian Creek Drive ,Suite 200,Virginia ,Dulles,UNITED STATES OF AMERICA,VA 20166,true,True
+287,287,Maritime Administration of Latvia,Latvian Ship register ,5  Trijadibas Str.,null,null,Riga,LATVIA,LV-1048,true,True
+286,286,Maritime Administration of Latvia,Latvian Ship register ,5  Trijadibas Str.,null,null,Riga,LATVIA,LV-1048,true,True
+285,285,Maritime Administration of Latvia,Latvian Ship register ,5  Trijadibas Str.,null,null,Riga,LATVIA,LV-1048,true,True
+284,284,Maritime Administration of Latvia,Latvian Ship register ,5  Trijadibas Str.,null,null,Riga,LATVIA,LV-1048,true,True
+283,283,General Administration for Transport Affairs,Marine Affairs Department
+Ministry of Communications,P.O. Box 16,null,null,Safat,KUWAIT,null,true,True
+282,282,General Administration for Transport Affairs,Marine Affairs Department
+Ministry of Communications,P.O. Box 16,null,null,Safat,KUWAIT,null,true,True
+281,281,General Administration for Transport Affairs,Marine Affairs Department
+Ministry of Communications,P.O. Box 16,null,null,Safat,KUWAIT,null,true,True
+280,280,Kiribati Ship Registry ,10 Anson Road ,,,,#25-14 International Plaza,SINGAPORE  REPUBLIC OF,079903,true,True
+279,279,Kiribati Ship Registry ,10 Anson Road ,,,,#25-14 International Plaza,SINGAPORE  REPUBLIC OF,079903,true,True
+278,278,Kiribati Ship Registry ,10 Anson Road ,,,,#25-14 International Plaza,SINGAPORE  REPUBLIC OF,079903,true,True
+277,277,Kiribati Ship Registry ,10 Anson Road ,,,,#25-14 International Plaza,SINGAPORE  REPUBLIC OF,079903,true,True
+276,276,Jordan Maritime Authority ,P.O. Box: 171,null,null,null,Aqaba,JORDAN,77110,true,True
+275,275,Jordan Maritime Authority ,P.O. Box: 171,null,null,null,Aqaba,JORDAN,77110,true,True
+274,274,Jordan Maritime Commission,P.O. Box: 171,,,,Aqaba,JORDAN,77110,true,True
+273,273,Jordan Maritime Commission,P.O. Box: 171,,,,Aqaba,JORDAN,77110,true,True
+272,272,Ministry of Land  Infrastructure  Transport and Tourism  Maritime Bureau,2-1-3  Kasumigaseki,Chiyoda-ku,null,null,Tokyo ,JAPAN,null,true,True
+271,271,Ministry of Land  Infrastructure  Transport and Tourism  Maritime Bureau,2-1-3  Kasumigaseki,Chiyoda-ku,null,null,Tokyo ,JAPAN,null,true,True
+270,270,Ministry of Land  Infrastructure  Transport and Tourism  Maritime Bureau,2-1-3  Kasumigaseki,Chiyoda-ku,null,null,Tokyo ,JAPAN,null,true,True
+269,269,Maritime Authority of Jamaica
+Head Office,2nd Floor  The Office Centre Building ,12 Ocean Boulevard,null,null,Kingston,JAMAICA W.I. ,null,true,True
+268,268,Maritime Authority of Jamaica
+Head Office,2nd Floor  The Office Centre Building ,12 Ocean Boulevard,null,null,Kingston,JAMAICA W.I. ,null,true,True
+267,267,Maritime Authority of Jamaica
+Head Office,2nd Floor  The Office Centre Building ,12 Ocean Boulevard,null,null,Kingston,JAMAICA W.I. ,null,true,True
+266,266,Maritime Authority of Jamaica
+Head Office,2nd Floor  The Office Centre Building ,12 Ocean Boulevard,null,null,Kingston,JAMAICA W.I. ,null,true,True
+265,265,CONSAP S.p.a,VIA YSER 14,null,null,null,Roma,ITALY,00198,true,True
+264,264,CONSAP S.p.a,VIA YSER 14,null,null,null,Roma,ITALY,00198,true,True
+263,263,CONSAP S.p.a,VIA YSER 14,null,null,null,Roma,ITALY,00198,true,True
+262,262,CONSAP S.p.a,VIA YSER 14,null,null,null,Roma,ITALY,00198,true,True
+261,261,Department of Economic Development Isle of Man Ship Registry,Upper Church Street,null,null,null,Douglas,ISLE OF MAN,IM1 1EX,true,True
+260,260,Department of Economic Development Isle of Man Ship Registry,Upper Church Street,null,null,null,Douglas,ISLE OF MAN,IM1 1EX,true,True
+259,259,Department of Economic Development Isle of Man Ship Registry,Upper Church Street,null,null,null,Douglas,ISLE OF MAN,IM1 1EX,true,True
+258,258,Department of Economic Development Isle of Man Ship Registry,Upper Church Street,null,null,null,Douglas,ISLE OF MAN,IM1 1EX,true,True
+257,257,Marine Survey Office Dept of Transport  Tourism & Sport ,Leeson Lane ,null,null,Eire,Dublin 2,IRELAND,null,true,True
+256,256,Marine Survey Office Dept of Transport  Tourism & Sport ,Leeson Lane ,null,null,Eire,Dublin 2,IRELAND,null,true,True
+255,255,Marine Survey Office Dept of Transport  Tourism & Sport ,Leeson Lane ,,,,Dublin 2,IRELAND REPUBLIC OF,D02 TR60,true,True
+254,254,Marine Survey Office Dept of Transport  Tourism & Sport ,Leeson Lane ,,,,Dublin 2,IRELAND REPUBLIC OF,D02 TR60,true,True
+253,253,Directorate General of Sea Communications ,JL. Merdeka Barat No.8 ,,,,Jakarta Pusat,INDONESIA,10110,true,True
+252,252,Directorate General of Sea Communications ,JL. Merdeka Barat No.8 ,,,,Jakarta Pusat,INDONESIA,10110,true,True
+251,251,Ministry of Transportation,Directorate of Marine and Shipping Sub,Directorates of Pollution and Safety Management of Ships,12th Floor  Karya Buildings  JL. Merdeka Barat No. 8,,Jakarta ,INDONESIA,10110,true,True
+250,250,Directorate General of Sea Communications ,JL. Merdeka Barat No.8,,,,Jakarta Pusat,INDONESIA,10110,true,True
+225,245,Registrar of Indian Ships ,Mercantile Marine Department  Anchor Gate Building,2nd Floor  P. B. No. 5004,Rajaji Salai,null,Chennai,INDIA,600 001,false,False
+225,249,Registrar of Indian Ships,Mercantile Marine Department  Willingdon Island,North End PO 3701,null,null,Kochi,INDIA,682 009,false,False
+225,229,Mercantile Marine Dept  Pratishtha Bhavan,null,101 Maharshi Karve Road,null,null,Mumbai,INDIA,400 020,true,True
+225,233,Registrar of Indian Ships ,The Priniple Officer  Mercantile Marine Dept,Old C.G.O Building,101  Maharishi Karve Road,null,Mumbai,INDIA, 400-020,false,False
+225,237,The Registrar of Indian Ships ,Mercantile Marine Department  #7-8-26/A,Harbour Park Down,null,Andhra Pradesh,Visakhapatnam,INDIA,530003,false,False
+225,241,Registrar of Indian Ships,Mercantile Marine Department  Marine House,Hastings,null,null,Kolkata,INDIA,700 022,false,False
+225,225,The Principle Officer Mercantile Marine Dept. Government of India,Old C.G.O Building,101 Maharshi Karve Road,null,null,Mumbai,INDIA,400 020,false,False
+224,236,The Registrar of Indian Ships ,Mercantile Marine Department  #7-8-26/A,Harbour Park Down,null,Andhra Pradesh,Visakhapatnam,INDIA,530003,false,False
+224,232,Registrar of Indian Ships ,The Priniple Officer  Mercantile Marine Dept,Old C.G.O Building,101  Maharishi Karve Road,null,Mumbai,INDIA, 400-020,false,False
+224,228,Mercantile Marine Dept  Pratishtha Bhavan,null,101 Maharshi Karve Road,null,null,Mumbai,INDIA,400 020,true,True
+224,224,The Principle Officer Mercantile Marine Dept. Government of India,Old C.G.O Building,101 Maharshi Karve Road,null,null,Mumbai,INDIA,400 020,false,False
+224,248,Registrar of Indian Ships,Mercantile Marine Department  Willingdon Island,North End PO 3701,null,null,Kochi,INDIA,682 009,false,False
+224,244,Registrar of Indian Ships ,Mercantile Marine Department  Anchor Gate Building,2nd Floor  P. B. No. 5004,Rajaji Salai,null,Chennai,INDIA,600 001,false,False
+224,240,Registrar of Indian Ships,Mercantile Marine Department  Marine House,Hastings,null,null,Kolkata,INDIA,700 022,false,False
+223,243,Registrar of Indian Ships ,Mercantile Marine Department  Anchor Gate Building,2nd Floor  P. B. No. 5004,Rajaji Salai,null,Chennai,INDIA,600 001,false,False
+223,247,Registrar of Indian Ships,Mercantile Marine Department  Willingdon Island,North End PO 3701,null,null,Kochi,INDIA,682 009,false,False
+223,227,Registrar of Indian Ships,Mercantile Marine Department ,Pratishtha Bhavan,101  Maharshi Karve Road,,Mumbai,INDIA,400 020,true,True
+223,231,Registrar of Indian Ships ,The Priniple Officer  Mercantile Marine Dept,Old C.G.O Building,101  Maharishi Karve Road,null,Mumbai,INDIA, 400-020,false,False
+223,235,Mercantile Marine Department,New Port Area,Harbour Approach Road,,,Visakhapatnam,INDIA,530 035,false,False
+223,239,Registrar of Indian Ships,Mercantile Marine Department  Marine House,Hastings,null,null,Kolkata,INDIA,700 022,false,False
+223,223,The Principle Officer Mercantile Marine Dept. Government of India,Old C.G.O Building,101 Maharshi Karve Road,null,null,Mumbai,INDIA,400 020,false,False
+223,770,Registrar of Indian Ships,Mercantile Marine Department,# 7-8-26/A  Harbour Park Down ,,,Visakhapatnam-530 003,INDIA,,false,False
+223,728,Registrar of Indian Ships,Mercantile Marine Department,Headland Sada,Vasco Da Gama,,Goa,INDIA,403803,false,False
+222,222,The Principle Officer Mercantile Marine Dept. Government of India,Old C.G.O Building,101 Maharshi Karve Road,null,null,Mumbai,INDIA,400 020,false,False
+222,226,Mercantile Marine Dept  Pratishtha Bhavan,null,101 Maharshi Karve Road,null,null,Mumbai,INDIA,400 020,true,True
+222,242,Registrar of Indian Ships ,Mercantile Marine Department  Anchor Gate Building,2nd Floor  P. B. No. 5004,Rajaji Salai,null,Chennai,INDIA,600 001,false,False
+222,238,Registrar of Indian Ships,Mercantile Marine Department  Marine House,Hastings,null,null,Kolkata,INDIA,700 022,false,False
+222,234,The Registrar of Indian Ships ,Mercantile Marine Department  #7-8-26/A,Harbour Park Down,null,Andhra Pradesh,Visakhapatnam,INDIA,530003,false,False
+222,230,Registrar of Indian Ships ,The Priniple Officer  Mercantile Marine Dept,Old C.G.O Building,101  Maharishi Karve Road,null,Mumbai,INDIA, 400-020,false,False
+222,246,Registrar of Indian Ships,Mercantile Marine Department  Willingdon Island,North End PO 3701,null,null,Kochi,INDIA,682 009,false,False
+221,221,National Transport Authority
+Directorate of High Priority Affairs,1066 Budapest,Terez krt. 62. Postacim:,null,null,null,HUNGARY,null,true,True
+220,220,National Transport Authority
+Directorate of High Priority Affairs,1066 Budapest,Terez krt. 62. Postacim:,null,null,null,HUNGARY,null,true,True
+219,219,National Transport Authority
+Directorate of High Priority Affairs,1066 Budapest,Terez krt. 62. Postacim:,null,null,null,HUNGARY,null,true,True
+218,218,National Transport Authority
+Directorate of High Priority Affairs,1066 Budapest,Terez krt. 62. Postacim:,null,null,null,HUNGARY,null,true,True
+217,217,Director of Marine  Marine Department ,24/F  Harbour Building ,38 Pier Road,,,Central ,HONG KONG,,true,True
+216,216,Director of Marine  Marine Department ,24/F  Harbour Building ,38 Pier Road,,,Central ,HONG KONG,,true,True
+215,215,Director of Marine  Marine Department ,24/F  Harbour Building ,38 Pier Road,,,Central ,HONG KONG,,true,True
+214,214,Director of Marine  Marine Department ,24/F  Harbour Building ,38 Pier Road,,,Central ,HONG KONG,,true,True
+213,213,Ministry of Maritime Affairs and Insular Policy,Hellenic Coast Guard Headquarters Marine Environment Protection Directorate,Akti Vassiliadi  Gate E1,null,null,Piraeus ,GREECE,18510,true,True
+212,212,Ministry of Maritime Affairs and Insular Policy,Hellenic Coast Guard Headquarters Marine Environment Protection Directorate,Akti Vassiliadi  Gate E1,null,null,Piraeus ,GREECE,18510,true,True
+211,211,Ministry of Maritime Affairs and Insular Policy,Hellenic Coast Guard Headquarters Marine Environment Protection Directorate,Akti Vassiliadi  Gate E1,null,null,Piraeus ,GREECE,18510,true,True
+211,838,PALAU INTERNATIONAL SHIP REGISTRY (PISR),5  SACHTOURI STREET  18536,6TH FLOOR,,,PIRAEUS,GREECE,,false,False
+210,210,Marine Environment Protection Directorate,Hellenic Coast Guard Headquarters Marine Environment Protection Directorate,Ministry of Maritime Affairs and Insular Policy,Akti Vassiliadi  Gate E1- E2,,Piraeus ,GREECE,18510,true,True
+209,209,HM Government of Gibraltar
+Gibraltar Maritime Administration,2/8 Watergate House ,Casemates Square,null,null,null,GIBRALTAR,GX11 1AA,true,True
+208,208,HM Government of Gibraltar
+Gibraltar Maritime Administration,2/8 Watergate House ,Casemates Square,null,null,null,GIBRALTAR,GX11 1AA,true,True
+207,207,HM Government of Gibraltar
+Gibraltar Maritime Administration,2/8 Watergate House ,Casemates Square,null,null,null,GIBRALTAR,GX11 1AA,true,True
+206,206,HM Government of Gibraltar
+Gibraltar Maritime Administration,2/8 Watergate House ,Casemates Square,null,null,null,GIBRALTAR,GX11 1AA,true,True
+205,205,Grit Tungler  Bundesamt Füer Seeschifffahrt
+Und Hydrographie (BSH),Federal Maritime and Hydrographic Agency,S43
+Bernhard – Nocht – Str. 78,null,null,Hamburg,GERMANY,20359,true,True
+204,204,Grit Tungler  Bundesamt Füer Seeschifffahrt
+Und Hydrographie (BSH),Federal Maritime and Hydrographic Agency,S43
+Bernhard – Nocht – Str. 78,null,null,Hamburg,GERMANY,20359,true,True
+203,203,Grit Tungler  Bundesamt Füer Seeschifffahrt
+Und Hydrographie (BSH),Federal Maritime and Hydrographic Agency,S43
+Bernhard – Nocht – Str. 78,null,null,Hamburg,GERMANY,20359,true,True
+202,202,Grit Tungler  Bundesamt Füer Seeschifffahrt
+Und Hydrographie (BSH),Federal Maritime and Hydrographic Agency,S43
+Bernhard – Nocht – Str. 78,null,null,Hamburg,GERMANY,20359,true,True
+201,201,Grit Tungler  Bundesamt Füer Seeschifffahrt
+Und Hydrographie (BSH),Federal Maritime and Hydrographic Agency,S43
+Bernhard – Nocht – Str. 78,null,null,Hamburg,GERMANY,20359,true,True
+170,200,Direction de la mer de la Guadeloupe,20  rue Henri Becquerel ,BP 2466,CEDEX ,null,JARRY ,FRANCE,97085,false,False
+170,194,Direction de la mer de la Guyane,2 Bis  rue Mentel ,BP 6008,CEDEX ,null,CAYENNE ,FRANCE,97306,false,False
+170,197,
+ Direction de la mer de la Réunion et des iles éparses,11  rue de la Compagnie  ,B.P. 313,null,null,null,FRANCE,null,false,False
+170,170,Le Directeur interrégional des affaires maritimes Manche Est-mer du Nord  
+ DIRM MEMN,4 rue du Colonel Fabien BP 34,null,null,null,le Havre,FRANCE,76083,false,False
+170,173,Le Directeur interrégional des affaires maritimes Nord Atlantique-Manche Ouest  
+DIRM NAMO,2 Boulevard Allard B.P. 78749,null,CEDEX 4,null,NANTES  ,FRANCE,44187,false,False
+170,176,Le Directeur interrégional des affaires maritimes Sud-Atlantique  
+DIRM SA,1-3  rue Fondaudège,CS 21227,CEDEX,null,BORDEAUX ,FRANCE,33074,false,False
+170,179,Le Directeur interrégional des affaires maritimes Méditerranée  
+DIRM MED,23 rue des Phocéens,null,CEDEX 2,null,MARSEILLE ,FRANCE,13236,false,False
+170,182,Service des affaires maritimes de Saint-Pierre-et-Miquelon,1  Rue Gloanec ,BP 4206,null,SAINT-PIERRE ET MIQUELON,null,FRANCE,97500,false,False
+170,185,Service des affaires maritimes de Mayotte,B.P. 37,null,null,PAMANDZI,null,FRANCE,97615,false,False
+170,188,Service des affaires maritimes de de Polynésie française,Motu-Uta,BP 9096,null,MOTU-UTA,null,PAPEETE,98715,false,False
+170,191,
+Service des Affaires maritimes de Nouvelle Calédonie ,BP 36,CEDEX ,null,null,NOUMEA ,FRANCE,98845,false,False
+169,190,
+Service des Affaires maritimes de Nouvelle Calédonie ,BP 36,CEDEX ,null,null,NOUMEA ,FRANCE,98845,false,False
+169,193,Direction de la mer de la Guyane,2 Bis  rue Mentel ,BP 6008,CEDEX ,null,CAYENNE ,FRANCE,97306,false,False
+169,184,Service des affaires maritimes de Mayotte,B.P. 37,null,null,PAMANDZI,null,FRANCE,97615,false,False
+169,187,Service des affaires maritimes de de Polynésie française,Motu-Uta,BP 9096,null,MOTU-UTA,null,PAPEETE,98715,false,False
+169,178,Le Directeur interrégional des affaires maritimes Méditerranée  
+DIRM MED,23 rue des Phocéens,null,CEDEX 2,null,MARSEILLE ,FRANCE,13236,false,False
+169,181,Service des affaires maritimes de Saint-Pierre-et-Miquelon,1  Rue Gloanec ,BP 4206,null,SAINT-PIERRE ET MIQUELON,null,FRANCE,97500,false,False
+169,172,Le Directeur interrégional des affaires maritimes Nord Atlantique-Manche Ouest  
+DIRM NAMO,2 Boulevard Allard B.P. 78749,null,CEDEX 4,null,NANTES  ,FRANCE,44187,false,False
+169,175,Le Directeur interrégional des affaires maritimes Sud-Atlantique  
+DIRM SA,1-3  rue Fondaudège,CS 21227,CEDEX,null,BORDEAUX ,FRANCE,33074,false,False
+169,169,Le Directeur interrégional des affaires maritimes Manche Est-mer du Nord  
+ DIRM MEMN,4 rue du Colonel Fabien BP 34,null,null,null,le Havre,FRANCE,76083,false,False
+169,196,
+ Direction de la mer de la Réunion et des iles éparses,11  rue de la Compagnie  ,B.P. 313,null,null,null,FRANCE,null,false,False
+169,199,Direction de la mer de la Guadeloupe,20  rue Henri Becquerel ,BP 2466,CEDEX ,null,JARRY ,FRANCE,97085,false,False
+168,198,Direction de la mer de la Guadeloupe,20  rue Henri Becquerel ,BP 2466,CEDEX ,null,JARRY ,FRANCE,97085,false,False
+168,195,
+ Direction de la mer de la Réunion et des iles éparses,11  rue de la Compagnie  ,B.P. 313,null,null,null,FRANCE,null,false,False
+168,168,Le Directeur interrégional des affaires maritimes Manche Est-mer du Nord  
+ DIRM MEMN,4 rue du Colonel Fabien BP 34,null,null,null,le Havre,FRANCE,76083,false,False
+168,177,Le Directeur interrégional des affaires maritimes Méditerranée  
+DIRM MED,23 rue des Phocéens,null,CEDEX 2,null,MARSEILLE ,FRANCE,13236,false,False
+168,174,Le Directeur interrégional des affaires maritimes Sud-Atlantique  
+DIRM SA,1-3  rue Fondaudège,CS 21227,CEDEX,null,BORDEAUX ,FRANCE,33074,false,False
+168,171,Le Directeur interrégional des affaires maritimes Nord Atlantique-Manche Ouest  
+DIRM NAMO,2 Boulevard Allard B.P. 78749,null,CEDEX 4,null,NANTES  ,FRANCE,44187,false,False
+168,180,Service des affaires maritimes de Saint-Pierre-et-Miquelon,1  Rue Gloanec ,BP 4206,null,SAINT-PIERRE ET MIQUELON,null,FRANCE,97500,false,False
+168,186,Service des affaires maritimes de de Polynésie française,Motu-Uta,BP 9096,null,MOTU-UTA,null,PAPEETE,98715,false,False
+168,183,Service des affaires maritimes de Mayotte,B.P. 37,null,null,PAMANDZI,null,FRANCE,97615,false,False
+168,189,
+Service des Affaires maritimes de Nouvelle Calédonie ,BP 36,CEDEX ,null,null,NOUMEA ,FRANCE,98845,false,False
+168,192,Direction de la mer de la Guyane,2 Bis  rue Mentel ,BP 6008,CEDEX ,null,CAYENNE ,FRANCE,97306,false,False
+125,167,AFFAIRES MARITIMES,Quai de General Lawton Collins,BP 721,Cedex,null,Cherbourg,FRANCE,50107,false,False
+125,164,Le Directeur de la mer de la Guadeloupe 
+ Direction de la mer de la Guadeloupe,20  rue Henri Becquerel ,BP 2466,CEDEX ,null,JARRY ,FRANCE,97085,false,False
+125,131,Le Directeur interrégional des affaires maritimes Sud-Atlantique  
+DIRM SA,1-3  rue Fondaudège,CS 21227,CEDEX,null,BORDEAUX ,FRANCE,33074,false,False
+125,134,Le Directeur interrégional des affaires maritimes Méditerranée  
+DIRM MED,23 rue des Phocéens,null,CEDEX 2,null,MARSEILLE ,FRANCE,13236,false,False
+125,137,Le chef du Guichet unique du Registre International Français
+Service du Registre International Français (RIF) ,21  rue de la République,null,null,null,Marseille,FRANCE,13002,false,False
+125,140,Guichet unique du Registre International Français (RIF),21  rue de la République,null,null,null,Marseille,FRANCE,13002,true,True
+125,143,Le chef du service des affaires maritimes de Saint-Pierre-et-Miquelon
+ Service des affaires maritimes de Saint-Pierre-et-Miquelon,1  Rue Gloanec ,BP 4206,null,SAINT-PIERRE ET MIQUELON,null,FRANCE,97500,false,False
+125,146,le chef du service des affaires maritimes de Mayotte 
+ Service des affaires maritimes de Mayotte,B.P. 37,null,null,PAMANDZI,null,FRANCE,97615,false,False
+125,149,Le chef du service des affaires maritimes de Polynésie française 
+ Service des affaires maritimes de de Polynésie française,Motu-Uta,BP 9096,null,MOTU-UTA,null,PAPEETE,98715,false,False
+125,152,Le chef du service des affaires maritimes de Nouvelle Calédonie
+Service des Affaires maritimes de Nouvelle Calédonie ,BP 36,CEDEX ,null,null,NOUMEA ,FRANCE,98845,false,False
+125,155,Le Directeur de la mer de la Guyane
+ Direction de la mer de la Guyane,2 Bis  rue Mentel ,BP 6008,CEDEX ,null,CAYENNE ,FRANCE,97306,false,False
+125,158,Le Directeur de la mer de la Réunion et des iles éparses 
+ Direction de la mer de la Réunion et des iles éparses,11  rue de la Compagnie  ,B.P. 313,null,null,null,FRANCE,null,false,False
+125,161,Le Directeur de la mer de la Martinique 
+ Direction de la mer de la Martinique,Boulevard Chevalier de Sainte Marthe ,BP 620,null,null,FORT DE FRANCE ,FRANCE,97261,false,False
+125,125,Le Directeur interrégional des affaires maritimes Manche Est-mer du Nord  
+ DIRM MEMN,4 rue du Colonel Fabien BP 34,null,null,null,le Havre,FRANCE,76083,true,True
+125,128,Le Directeur interrégional des affaires maritimes Nord Atlantique-Manche Ouest  
+DIRM NAMO,2 Boulevard Allard B.P. 78749,null,CEDEX 4,null,NANTES  ,FRANCE,44187,false,False
+124,124,Le Directeur interrégional des affaires maritimes Manche Est-mer du Nord  
+ DIRM MEMN,4 rue du Colonel Fabien BP 34,null,null,null,le Havre,FRANCE,76083,true,True
+124,127,Le Directeur interrégional des affaires maritimes Nord Atlantique-Manche Ouest  
+DIRM NAMO,2 Boulevard Allard B.P. 78749,null,CEDEX 4,null,NANTES  ,FRANCE,44187,false,False
+124,154,Le Directeur de la mer de la Guyane
+ Direction de la mer de la Guyane,2 Bis  rue Mentel ,BP 6008,CEDEX ,null,CAYENNE ,FRANCE,97306,false,False
+124,157,Le Directeur de la mer de la Réunion et des iles éparses 
+ Direction de la mer de la Réunion et des iles éparses,11  rue de la Compagnie  ,B.P. 313,null,null,null,FRANCE,null,false,False
+124,148,Le chef du service des affaires maritimes de Polynésie française 
+ Service des affaires maritimes de de Polynésie française,Motu-Uta,BP 9096,null,MOTU-UTA,null,PAPEETE,98715,false,False
+124,151,Le chef du service des affaires maritimes de Nouvelle Calédonie
+Service des Affaires maritimes de Nouvelle Calédonie ,BP 36,CEDEX ,null,null,NOUMEA ,FRANCE,98845,false,False
+124,142,Le chef du service des affaires maritimes de Saint-Pierre-et-Miquelon
+ Service des affaires maritimes de Saint-Pierre-et-Miquelon,1  Rue Gloanec ,BP 4206,null,SAINT-PIERRE ET MIQUELON,null,FRANCE,97500,false,False
+124,145,le chef du service des affaires maritimes de Mayotte 
+ Service des affaires maritimes de Mayotte,B.P. 37,null,null,PAMANDZI,null,FRANCE,97615,false,False
+124,136,Le chef du Guichet unique du Registre International Français
+Service du Registre International Français (RIF) ,21  rue de la République,null,null,null,Marseille,FRANCE,13002,false,False
+124,139,Guichet unique du Registre International Français (RIF),21  rue de la République,null,null,null,Marseille,FRANCE,13002,true,True
+124,130,Le Directeur interrégional des affaires maritimes Sud-Atlantique  
+DIRM SA,1-3  rue Fondaudège,CS 21227,CEDEX,null,BORDEAUX ,FRANCE,33074,false,False
+124,133,Le Directeur interrégional des affaires maritimes Méditerranée  
+DIRM MED,23 rue des Phocéens,null,CEDEX 2,null,MARSEILLE ,FRANCE,13236,false,False
+124,160,Le Directeur de la mer de la Martinique 
+ Direction de la mer de la Martinique,Boulevard Chevalier de Sainte Marthe ,BP 620,null,null,FORT DE FRANCE ,FRANCE,97261,false,False
+124,163,Le Directeur de la mer de la Guadeloupe 
+ Direction de la mer de la Guadeloupe,20  rue Henri Becquerel ,BP 2466,CEDEX ,null,JARRY ,FRANCE,97085,false,False
+124,166,AFFAIRES MARITIMES,Quai de General Lawton Collins,BP 721,Cedex,null,Cherbourg,FRANCE,50107,false,False
+123,123,Le Directeur interrégional des affaires maritimes Manche Est-mer du Nord  
+ DIRM MEMN,4 rue du Colonel Fabien BP 34,null,null,null,le Havre,FRANCE,76083,true,True
+123,723,Bureau Veritas,67/71 Bd du Château,,,Cedex,Neuilly-Sur-Seine,FRANCE,92571,false,False
+123,797,Lloyd’s Register group services Limited,71 Fenchurch Street,,,,London,UNITED KINGDOM,EC3M 4BS,false,False
+123,808,Lloyd’s Register EMEA ,10 Place de la Joliette ,,,,Marseille ,FRANCE,13002,false,False
+123,809,Bureau Veritas ,Le Triangle de l’Arche,8  cours du Triangle – CS 50101,92937 ,CEDEX,PARIS LA DEFENSE ,FRANCE,,false,False
+123,546,2 Bis ,Rue Felix RUSSEIL BP 36-98845,,,,Noumea Cedex,FRANCE,,false,False
+122,810,Bureau Veritas ,Le Triangle de l’Arche,8  cours du Triangle – CS 50101,92937 ,CEDEX,PARIS LA DEFENSE ,FRANCE,,false,False
+122,811,Lloyd’s Register EMEA ,10 Place de la Joliette ,,,,Marseille ,FRANCE,13002,false,False
+122,798,Lloyd’s Register group services Limited,71 Fenchurch Street,,,,London,UNITED KINGDOM,EC3M 4BS,false,False
+122,122,Le Directeur interrégional des affaires maritimes Manche Est-mer du Nord  
+ DIRM MEMN,4 rue du Colonel Fabien BP 34,null,null,null,le Havre,FRANCE,76083,true,True
+122,126,Le Directeur interrégional des affaires maritimes Nord Atlantique-Manche Ouest  
+DIRM NAMO,2 Boulevard Allard B.P. 78749,null,CEDEX 4,null,NANTES  ,FRANCE,44187,false,False
+122,129,Le Directeur interrégional des affaires maritimes Sud-Atlantique  
+DIRM SA,1-3  rue Fondaudège,CS 21227,CEDEX,null,BORDEAUX ,FRANCE,33074,false,False
+122,165,AFFAIRES MARITIMES,Quai de General Lawton Collins,BP 721,Cedex,null,Cherbourg,FRANCE,50107,false,False
+122,132,Le Directeur interrégional des affaires maritimes Méditerranée  
+DIRM MED,23 rue des Phocéens,null,CEDEX 2,null,MARSEILLE ,FRANCE,13236,false,False
+122,138,Guichet unique du Registre International Français (RIF),21  rue de la République,null,null,null,Marseille,FRANCE,13002,true,True
+122,135,Le chef du Guichet unique du Registre International Français
+Service du Registre International Français (RIF) ,21  rue de la République,null,null,null,Marseille,FRANCE,13002,false,False
+122,141,Le chef du service des affaires maritimes de Saint-Pierre-et-Miquelon
+ Service des affaires maritimes de Saint-Pierre-et-Miquelon,1  Rue Gloanec ,BP 4206,null,SAINT-PIERRE ET MIQUELON,null,FRANCE,97500,false,False
+122,144,le chef du service des affaires maritimes de Mayotte 
+ Service des affaires maritimes de Mayotte,B.P. 37,null,null,PAMANDZI,null,FRANCE,97615,false,False
+122,153,Le Directeur de la mer de la Guyane
+ Direction de la mer de la Guyane,2 Bis  rue Mentel ,BP 6008,CEDEX ,null,CAYENNE ,FRANCE,97306,false,False
+122,150,Le chef du service des affaires maritimes de Nouvelle Calédonie
+Service des Affaires maritimes de Nouvelle Calédonie ,BP 36,CEDEX ,null,null,NOUMEA ,FRANCE,98845,false,False
+122,147,Le chef du service des affaires maritimes de Polynésie française 
+ Service des affaires maritimes de de Polynésie française,Motu-Uta,BP 9096,null,MOTU-UTA,null,PAPEETE,98715,false,False
+122,156,Le Directeur de la mer de la Réunion et des iles éparses 
+ Direction de la mer de la Réunion et des iles éparses,11  rue de la Compagnie  ,B.P. 313,null,null,null,FRANCE,null,false,False
+122,162,Le Directeur de la mer de la Guadeloupe 
+ Direction de la mer de la Guadeloupe,20  rue Henri Becquerel ,BP 2466,CEDEX ,null,JARRY ,FRANCE,97085,false,False
+122,159,Le Directeur de la mer de la Martinique 
+ Direction de la mer de la Martinique,Boulevard Chevalier de Sainte Marthe ,BP 620,null,null,FORT DE FRANCE ,FRANCE,97261,false,False
+121,121,Finnish Transport Safety Agency Trafi,Marine Environment and Security,PO Box 320,null,null,Helsinki,FINLAND,FI-00101 ,true,True
+120,120,Finnish Transport Safety Agency Trafi,Marine Environment and Security,PO Box 320,null,null,Helsinki,FINLAND,FI-00101 ,true,True
+119,119,Finnish Transport Safety Agency Trafi,Marine Environment and Security,PO Box 320,null,null,Helsinki,FINLAND,FI-00101 ,true,True
+118,118,Finnish Transport Safety Agency Trafi,Marine Environment and Security,PO Box 320,null,null,Helsinki,FINLAND,FI-00101 ,true,True
+117,117,Maritime Safety Division,Lume 9 ,1014,null,null,Tallinn,ESTONIA,10416,true,True
+116,116,Maritime Safety Division,Lume 9 ,1014,null,null,Tallinn,ESTONIA,10416,true,True
+115,115,Maritime Safety Division,Lume 9 ,1014,null,null,Tallinn,ESTONIA,10416,true,True
+114,114,Maritime Safety Division,Lume 9 ,1014,null,null,Tallinn,ESTONIA,10416,true,True
+113,113,CHAIRMAN OF EGYPTIAN AUTHORITY FOR MARITIME SAFETY (EAMS),El Gomrouk ,Gat No. 1 ,null,Alexandria,Ras El Teen,EGYPT,null,false,False
+112,112,CHAIRMAN OF EGYPTIAN AUTHORITY FOR MARITIME SAFETY (EAMS),El Gomrouk ,Gat No. 1 ,null,Alexandria,Ras El Teen,EGYPT,null,false,False
+111,111,CHAIRMAN OF EGYPTIAN AUTHORITY FOR MARITIME SAFETY (EAMS),El Gomrouk ,Gat No. 1 ,null,Alexandria,Ras El Teen,EGYPT,null,false,False
+110,110,CHAIRMAN OF EGYPTIAN AUTHORITY FOR MARITIME SAFETY (EAMS),El Gomrouk ,Gat No. 1 ,null,Alexandria,Ras El Teen,EGYPT,null,false,False
+109,109,Subsecretaria de Puertos y Transporte MarÍtimo y ,Fluvial Guayaquil ,null,null,null,null,ECUADOR,null,false,False
+108,108,Subsecretaria de Puertos y Transporte MarÍtimo y ,Fluvial Guayaquil ,null,null,null,null,ECUADOR,null,false,False
+107,107,Subsecretaria de Puertos y Transporte MarÍtimo y ,Fluvial Guayaquil ,null,null,null,null,ECUADOR,null,false,False
+106,106,The Commonwealth of Dominica Maritime Registry Inc,(DMRI),Office of Maritime Affairs and Marine Personnel ,32 Washington Street,Massachusetts,Fairhaven,DOMINICA,null,true,True
+105,105,The Commonwealth of Dominica Maritime Registry Inc,(DMRI),Office of Maritime Affairs and Marine Personnel ,32 Washington Street,Massachusetts,Fairhaven,DOMINICA,null,true,True
+104,104,Danish Maritime Authority,Fjordvænget 30,,,,DK-4220 Korsør,DENMARK,,true,True
+103,103,Danish Maritime Authority,Fjordvænget 30,,,,DK-4220 Korsør,DENMARK,,true,True
+102,102,Danish Maritime Authority,Fjordvænget 30,,,,DK-4220 Korsør,DENMARK,,true,True
+101,101,Danish Maritime Authority,Fjordvænget 30,,,,DK-4220 Korsør,DENMARK,,true,True
+100,100,Danish Maritime Authority,Fjordvænget 30,,,,DK-4220 Korsør,DENMARK,,true,True
+99,99,PERMANENT SECRETARY OF THE DEPUTY MINISTRY OF SHIPPING,LIMASSOL CYPRUS  REGISTRAR OF CYPRUS SHIPS,KYLLINIS STREET,MESA GEITONIA,,LIMASSOL,CYPRUS,CY-4007 ,true,True
+98,98,PERMANENT SECRETARY OF THE DEPUTY MINISTRY OF SHIPPING,LIMASSOL CYPRUS  REGISTRAR OF CYPRUS SHIPS,KYLLINIS STREET,MESA GEITONIA,,LIMASSOL,CYPRUS,CY-4007 ,true,True
+97,97,PERMANENT SECRETARY OF THE DEPUTY MINISTRY OF SHIPPING,LIMASSOL CYPRUS  REGISTRAR OF CYPRUS SHIPS,KYLLINIS STREET,MESA GEITONIA,,LIMASSOL,CYPRUS,CY-4007 ,true,True
+96,96,PERMANENT SECRETARY OF THE DEPUTY MINISTRY OF SHIPPING,LIMASSOL CYPRUS  REGISTRAR OF CYPRUS SHIPS,KYLLINIS STREET,MESA GEITONIA,,LIMASSOL,CYPRUS,CY-4007 ,true,True
+95,95,PERMANENT SECRETARY OF THE DEPUTY MINISTRY OF SHIPPING,LIMASSOL CYPRUS  REGISTRAR OF CYPRUS SHIPS,KYLLINIS STREET,MESA GEITONIA,,LIMASSOL,CYPRUS,CY-4007 ,true,True
+94,94,Ministry of Maritime Affairs  Transport and Infrastructure Safety of Navigation  ,Maritime Environment and Inland Waters Protection Directorate,Prisavlje 14,null,null,Zagreb,CROATIA,null,true,True
+93,93,Ministry of Maritime Affairs  Transport and Infrastructure Safety of Navigation  ,Maritime Environment and Inland Waters Protection Directorate,Prisavlje 14,null,null,Zagreb,CROATIA,null,true,True
+92,92,Ministry of Maritime Affairs  Transport and Infrastructure Safety of Navigation  ,Maritime Environment and Inland Waters Protection Directorate,Prisavlje 14,null,null,Zagreb,CROATIA,null,true,True
+91,91,Ministry of Maritime Affairs  Transport and Infrastructure Safety of Navigation  ,Maritime Environment and Inland Waters Protection Directorate,Prisavlje 14,null,null,Zagreb,CROATIA,null,true,True
+90,90,Direccion General Maritima,Calle 41,No 46-29 CAN,null,null,Bogota,COLOMBIA,null,true,True
+89,89,Direccion General Maritima,Calle 41,No 46-29 CAN,null,null,Bogota,COLOMBIA,null,true,True
+88,88,Cook Islands Ships Registry,Admistrative Officer  Maritime Cook Islands,P.O Box 882  Avarua,null,null,Rarotonga,COOK ISLANDS,null,true,True
+87,87,Cook Islands Ships Registry,Admistrative Officer  Maritime Cook Islands,P.O Box 882  Avarua,null,null,Rarotonga,COOK ISLANDS,null,true,True
+86,86,Cook Islands Ships Registry,Administrative Officer  ,Maritime Cook Islands,P.O. Box 882  Avarua,,Rarotonga,COOK ISLANDS,,true,True
+85,85,Cook Islands Ships Registry,Administrative Officer,Maritime Cook Islands,P.O Box 882  Avarua ,,Rarotonga,COOK ISLANDS,,true,True
+84,84,Cook Islands Ships Registry,Administrative Officer ,Maritime Cook Islands,P.O Box 882  Avarua,,Rarotonga,COOK ISLANDS,,false,False
+83,83,Directorate General of the Maritime Territory and Merchant Marine,Errázuriz 537 ,null,null,V. Región,Valparaíso,CHILE,null,true,True
+82,82,Directorate General of the Maritime Territory and Merchant Marine,Errázuriz 537 ,null,null,V. Región,Valparaíso,CHILE,null,true,True
+81,81,Directorate General of the Maritime Territory and Merchant Marine,Errázuriz 537 ,null,null,V. Región,Valparaíso,CHILE,null,true,True
+79,79,The Maritime Authority of the Cayman Islands,133 Elgin Avenue,P.O. Box 2256 ,null,null,Grand Cayman,CAYMAN ISLANDS,KY1-1107,true,True
+78,78,The Maritime Authority of the Cayman Islands,133 Elgin Avenue,P.O. Box 2256 ,null,null,Grand Cayman,CAYMAN ISLANDS,KY1-1107,true,True
+77,80,The Maritime Authority of the Cayman Islands,2nd Floor  Strathvale House,90 North Church Street,null,null,George Town,CAYMAN ISLANDS,null,false,False
+77,77,The Maritime Authority of the Cayman Islands,133 Elgin Avenue,P.O. Box 2256 ,null,null,Grand Cayman,CAYMAN ISLANDS,KY1-1107,true,True
+76,76,The Maritime Authority of the Cayman Islands,133 Elgin Avenue,P.O. Box 2256 ,null,null,Grand Cayman,CAYMAN ISLANDS,KY1-1107,true,True
+75,75,TRANSPORT CANADA Attention: MARINE INSURANCE UNIT MARINE SAFETY & SECURITY,11th Floor  AMSE 330 Sparks Street,null,null,Ontario,Ottawa,CANADA ,K1A 0N8,true,True
+74,74,TRANSPORT CANADA Attention: MARINE INSURANCE UNIT MARINE SAFETY & SECURITY,11th Floor  AMSE 330 Sparks Street,null,null,Ontario,Ottawa,CANADA ,K1A 0N8,true,True
+73,73,TRANSPORT CANADA Attention: MARINE INSURANCE UNIT MARINE SAFETY & SECURITY,10th Floor  AMSE 330 Sparks Street,,,Ontario,Ottawa,null,K1A 0N8,true,True
+72,72,TRANSPORT CANADA Attention: MARINE INSURANCE UNIT MARINE SAFETY & SECURITY,10th Floor  AMSE 330 Sparks Street,,,Ontario,Ottawa,null,K1A 0N8,true,True
+71,71,Direction De La Marine Marchande,P.O. Box 416,null,null,null,Douala,CAMEROON,null,true,True
+70,70,Direction De La Marine Marchande,P.O. Box 416,null,null,null,Douala,CAMEROON,null,true,True
+69,69,Direction De La Marine Marchande,P.O. Box 416,null,null,null,Douala,CAMEROON,null,true,True
+68,68,Ministry of Public Works and Transport,Vaniuwa Street  20,1070 Phnom Penh,null,null,null,THE KINGDOM OF CAMBODIA,null,true,True
+67,67,Ministry of Public Works and Transport,Vaniuwa Street  20,1070 Phnom Penh,null,null,null,THE KINGDOM OF CAMBODIA,null,true,True
+66,66,Ministry of Public Works and Transport,Vaniuwa Street  20,1070 Phnom Penh,null,null,null,THE KINGDOM OF CAMBODIA,null,true,True
+65,65,Virgin Islands Shipping Registry ,P.O. Box 4751 ,Tortola ,null,null,Road Town ,BRITISH VIRGIN ISLANDS,VG1110,true,True
+64,64,Virgin Islands Shipping Registry ,P.O. Box 4751 ,Tortola ,null,null,Road Town ,BRITISH VIRGIN ISLANDS,VG1110,true,True
+63,63,Virgin Islands Shipping Registry ,P.O. Box 4751 ,Tortola ,null,null,Road Town ,BRITISH VIRGIN ISLANDS,VG1110,true,True
+62,62,Virgin Islands Shipping Registry ,P.O. Box 4751 ,Tortola ,null,null,Road Town ,BRITISH VIRGIN ISLANDS,VG1110,true,True
+61,61,Bulgarian Maritime Administration,9 Dyakon Ignatii Street,null,null,null,Sofia ,BULGARIA,1000,true,True
+60,60,Bulgarian Maritime Administration,9 Dyakon Ignatii Street,null,null,null,Sofia ,BULGARIA,1000,true,True
+59,59,Bulgarian Maritime Administration,9 Dyakon Ignatii Street,null,null,null,Sofia ,BULGARIA,1000,true,True
+58,58,Bulgarian Maritime Administration,9 Dyakon Ignatii Street,null,null,null,Sofia ,BULGARIA,1000,true,True
+57,57,Bulgarian Maritime Administration,9 Dyakon Ignatii Street,null,null,null,Sofia ,BULGARIA,1000,true,True
+56,56,Marinho do Brazil  Diretoria de Portos e Costas  ,Departmento de Inspetoria Naval  Rua Teofilo Otoni,No. 4 Centro,null,null,Rio de Janiero,BRAZIL,20090-080,true,True
+55,55,Marinho do Brazil  Diretoria de Portos e Costas  ,Departmento de Inspetoria Naval  Rua Teofilo Otoni,No. 4 Centro,null,null,Rio de Janiero,BRAZIL,20090-080,true,True
+54,54,Marinha do Brazil  Diretoria de Portos e Costas  ,Departmento do Trafego Aquaviario,Rua Teofilo Otoni No. 4 Centro,,,Rio de Janiero,BRAZIL,20090-070,true,True
+53,53,Bermuda Government
+Department of Maritime Administration ,3rd Floor  Global House,43 Church Street,null,null,Hamilton,BERMUDA,HM 12,true,True
+52,52,Bermuda Government
+Department of Maritime Administration ,3rd Floor  Global House,43 Church Street,null,null,Hamilton,BERMUDA,HM 12,true,True
+51,51,Bermuda Government,Bermuda Shipping and Maritime Authority, 3rd Floor  Global House,43 Church Street,,Hamilton,BERMUDA,HM 12,true,True
+50,50,Bermuda Government,Bermuda Shipping and Maritime Authority,3rd Floor  Global House,43 Church Street,,Hamilton,BERMUDA,HM 12,true,True
+49,49,Federal Public Service Mobility and Transport,Directorate General Shipping,City Atrium,Vooruitgangstraat 56 / Rue du Progres 56,,Brussels,BELGIUM,B-1210 ,true,True
+48,48,Federal Public Service Mobility and Transport,Directorate General Shipping,City Atrium,Vooruitgangstraat 56 / Rue du Progres 56,,Brussels,BELGIUM,B-1210 ,true,True
+47,47,Federal Public Service Mobility and Transport,Directorate General Shipping,Vooruitgangstraat 56 / Rue du Progres 56,,,Brussels,BELGIUM,B-1210 ,true,True
+46,46,Federal Public Service Mobility and Transport,Directorate General Shipping,City Atrium,Vooruitgangstraat 56 / Rue du Progres 56,,Brussels,BELGIUM,B-1210 ,true,True
+45,45,International Merchant Marine ,Registry of Belize (IMMARBE),Marina Towers  Suite 204,Newtown Barracks,null,Belize City,BELIZE C.A.,null,true,True
+44,44,International Merchant Marine ,Registry of Belize (IMMARBE),Marina Towers  Suite 204,Newtown Barracks,null,Belize City,BELIZE C.A.,null,true,True
+43,43,International Merchant Marine Registry of Belize,Keystone Building  Suite 502,304 Newtown Barracks ,,,Belize City,BELIZE,,true,True
+42,42,International Merchant Marine Registry of Belize,Keystone Building  Suite 502,304 Newtown Barracks ,,,Belize City,BELIZE,,true,True
+41,41,Barbados Maritime Ships’ Registry,c/o Barbados High Commission,1 Great Russell Street,null,null,London ,BARBADOS,WC1B 3ND ,true,True
+40,40,Barbados Maritime Ships’ Registry,c/o Barbados High Commission,1 Great Russell Street,null,null,London ,BARBADOS,WC1B 3ND ,true,True
+39,39,Barbados Maritime Ships’ Registry,c/o Barbados High Commission,1 Great Russell Street,null,null,London ,BARBADOS,WC1B 3ND ,true,True
+38,38,Barbados Maritime Ships’ Registry,c/o Barbados High Commission,1 Great Russell Street,null,null,London ,BARBADOS,WC1B 3ND ,true,True
+29,37,The Bahamas  Maritime Authority,Bahamas House,231 East 46th Street,null,null,New York ,USA,10017,false,False
+29,29,The Bahamas  Maritime Authority,120 Old Broad Street,null,null,null,London,UNITED KINGDOM,EC2N 1AR,true,True
+29,33,The Bahamas  Maritime Authority,Shirlaw House,226 Shirley Street,PO Box N-4679,null,Nassau,BAHAMAS,null,false,False
+28,28,The Bahamas  Maritime Authority,120 Old Broad Street,null,null,null,London,UNITED KINGDOM,EC2N 1AR,true,True
+28,36,The Bahamas  Maritime Authority,Bahamas House,231 East 46th Street,null,null,New York ,USA,10017,false,False
+28,32,The Bahamas  Maritime Authority,Shirlaw House,226 Shirley Street,PO Box N-4679,null,Nassau,BAHAMAS,null,false,False
+27,35,The Bahamas  Maritime Authority,Bahamas House,231 East 46th Street,null,null,New York ,USA,10017,false,False
+27,31,The Bahamas  Maritime Authority,Shirlaw House,226 Shirley Street,PO Box N-4679,null,Nassau,BAHAMAS,null,false,False
+27,27,The Bahamas  Maritime Authority,120 Old Broad Street,null,null,null,London,UNITED KINGDOM,EC2N 1AR,true,True
+26,26,The Bahamas  Maritime Authority,120 Old Broad Street,null,null,null,London,UNITED KINGDOM,EC2N 1AR,true,True
+26,732,The Bahamas Maritime Authority,Shirlaw House,226 Shirley Street,PO Box N-4679,,Nassau,BAHAMAS,,false,False
+25,30,The Bahamas  Maritime Authority,Shirlaw House,226 Shirley Street,PO Box N-4679,null,Nassau,BAHAMAS,null,false,False
+25,34,The Bahamas  Maritime Authority,Bahamas House,231 East 46th Street,null,null,New York ,USA,10017,false,False
+25,25,The Bahamas  Maritime Authority,120 Old Broad Street,null,null,null,London,UNITED KINGDOM,EC2N 1AR,true,True
+24,24,The State Maritime Agency of the Ministry of Transport,Communications and High Technologies,2B Khanlar St,,,Baku City,AZERBAIJAN  REPUBLIC OF,AZ1003,true,True
+23,23,The State Maritime Agency of the Ministry of Transport,Communications and High Technologies,2B Khanlar St,,,Baku City,AZERBAIJAN  REPUBLIC OF,AZ1003,true,True
+22,22,The State Maritime Agency of the Ministry of Transport,Communications and High Technologies,2B Khanlar St,,,Baku City,AZERBAIJAN  REPUBLIC OF,AZ1003,true,True
+19,19,Manager Marine Environment Standards ,Australian Maritime Safety Authority ,82 Northbourne Avenue,null,Braddon,null,AUSTRALIA,ACT 2612,true,True
+18,18,Manager Marine Environment Standards ,Australian Maritime Safety Authority ,82 Northbourne Avenue,null,Braddon,null,AUSTRALIA,ACT 2612,true,True
+17,21,THE MARINE MANAGER,Dilmun Navigation Company Limited,PO Box N364,Grosvenor Place,null,null,AUSTRALIA,NSW 2000,true,True
+17,17,Manager Ship Inspection and Registration ,Australian Maritime Safety Authority ,82 Northbourne Avenue,,,Braddon,AUSTRALIA,ACT 2612,true,True
+16,16,Manager Ship Inspection and Registration ,Australian Maritime Safety Authority ,82 Northbourne Avenue,,,Braddon,AUSTRALIA,ACT 2612,true,True
+16,20,THE MARINE MANAGER,Dilmun Navigation Company Limited,PO Box N364,Grosvenor Place,null,null,AUSTRALIA,NSW 2000,true,True
+15,15,Subsecretaría de Puertos y Vías Navegables,Dirección Nacional de Transporte Fluvial y Marítimo,Av. España,2.221 Quinto Piso,null,Buenos Aires,ARGENTINA,null,true,True
+14,14,Subsecretaría de Puertos y Vías Navegables,Dirección Nacional de Transporte Fluvial y Marítimo,Av. España,2.221 Quinto Piso,null,Buenos Aires,ARGENTINA,null,true,True
+13,13,Subsecretaría de Puertos y Vías Navegables,Dirección Nacional de Transporte Fluvial y Marítimo,Av. España,2.221 Quinto Piso,null,Buenos Aires,ARGENTINA,null,true,True
+8,12,P.O Box 1394,null,null,null,null,null,ANTIGUA & BARBUDA,null,false,False
+8,8,Department of Marine Services and Merchant Shipping,Antigua and Barbuda W.I
+Office Oldenburg,Am Patentbusch,4
+D-26125,null,Oldenburg,GERMANY,null,true,True
+7,7,Department of Marine Services and Merchant Shipping,Antigua and Barbuda W.I
+Office Oldenburg,Am Patentbusch,4
+D-26125,null,Oldenburg,GERMANY,null,true,True
+7,11,P.O Box 1394,null,null,null,null,null,ANTIGUA & BARBUDA,null,false,False
+6,6,Department of Marine Services and Merchant Shipping,Antigua and Barbuda W.I
+Office Oldenburg,Am Patentbusch,4
+D-26125,null,Oldenburg,GERMANY,null,true,True
+6,743,Department of Marine Services and Merchant Shipping,P.O. Box 1394,Corner Popeshead and Dickenson Bay Streets,,,St. John's  West Indies,ANTIGUA & BARBUDA,,false,False
+5,744,Department of Marine Services and Merchant Shipping,P.O. Box 1394,Corner Popeshead and Dickenson Bay Streets,,West Indies,St John's,ANTIGUA & BARBUDA,,false,False
+5,5,Department of Marine Services and Merchant Shipping,Antigua and Barbuda W.I
+Office Oldenburg,Am Patentbusch,4
+D-26125,null,Oldenburg,GERMANY,null,true,True
+4,9,P.O Box 1394,null,null,null,null,null,ANTIGUA & BARBUDA,null,false,False
+4,4,Department of Marine Services and Merchant Shipping,Antigua and Barbuda W.I
+Office Oldenburg,Am Patentbusch,4
+D-26125,null,Oldenburg,GERMANY,null,true,True
+3,3,Ministére des Transports,1 Chemin lbn Badis El Mouiz,El Biar,null,null,null,ALGERIA,16000 Alger,true,True
+2,2,Ministére des Transports,1 Chemin lbn Badis El Mouiz,El Biar,null,null,null,ALGERIA,16000 Alger,true,True
+1,1,Ministére des Transports,1 Chemin lbn Badis El Mouiz,El Biar,null,null,null,ALGERIA,16000 Alger,true,True

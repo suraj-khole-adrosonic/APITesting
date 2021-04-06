@@ -1,0 +1,151 @@
+SQL_ApplicationId,SQL_ApplicationReference,SQL_BrokerId,SQL_MemberId,SQL_MemberReference,SQL_MemberName,SQL_Discriminator,SQL_EmailAddress,SQL_PolicyStartDate,SQL_PolicyEndDate,SQL_IsRenewalApplication
+76183,1044653,882,44864,73288,AMP Test Broker,Quote,Janie.Welsh@shipownersclub.com,2021-03-18 12:00:00 +00:00,2022-03-18 12:00:00 +00:00,false
+76182,1044652,780,31227,50700,Eleven Yachting Limited,Quote,Nicola.Kingman@shipownersclub.com,2021-03-16 12:00:00 +00:00,2022-03-16 12:00:00 +00:00,false
+76181,1044651,639,26622,12362,Manuel De Olim Cc,Policy,Mark.Greenland@shipownersclub.com,2021-02-20 12:00:00 +00:00,2022-02-20 12:00:00 +00:00,false
+76179,1044650,882,44905,73329,Rohit Singh,Quote,Janie.Welsh@shipownersclub.com,2021-02-22 12:00:00 +00:00,2030-02-28 12:00:00 +00:00,false
+76178,1044649,780,31227,50700,Eleven Yachting Limited,Quote,Nicola.Kingman@shipownersclub.com,2021-02-18 12:00:00 +00:00,2022-02-18 12:00:00 +00:00,false
+76177,1044648,780,44904,73328,Test3Member Variation1,Policy,Janie.Welsh@shipownersclub.com,2021-04-01 12:00:00 +00:00,2022-04-01 12:00:00 +00:00,false
+76175,1044647,780,44904,73328,Test3Member Variation1,Quote,Janie.Welsh@shipownersclub.com,2021-01-01 12:00:00 +00:00,2022-01-01 12:00:00 +00:00,false
+76174,1044646,780,44904,73328,Test3Member Variation1,Policy,Janie.Welsh@shipownersclub.com,2020-11-08 12:00:00 +00:00,2021-04-01 12:00:00 +00:00,false
+76173,1044646,780,44904,73328,Test3Member Variation1,Quote,Janie.Welsh@shipownersclub.com,2020-11-08 12:00:00 +00:00,2021-04-01 12:00:00 +00:00,false
+76172,1044645,780,44903,73327,Test2Member Altered,Policy,Janie.Welsh@shipownersclub.com,2022-02-01 12:00:00 +00:00,2023-02-01 12:00:00 +00:00,false
+76169,1044644,780,44903,73327,Test2Member Altered,Quote,Janie.Welsh@shipownersclub.com,2021-03-01 12:00:00 +00:00,2022-03-01 12:00:00 +00:00,false
+76168,1044643,780,44903,73327,Test2Member Altered,Policy,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76167,1044643,780,44903,73327,Test2Member Altered,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76166,1044642,780,44902,73326,Test1Member Updated,Policy,Janie.Welsh@shipownersclub.com,2021-12-01 12:00:00 +00:00,2022-12-01 12:00:00 +00:00,false
+76164,1044641,780,44902,73326,Test1Member Updated,Quote,Janie.Welsh@shipownersclub.com,2021-01-01 12:00:00 +00:00,2022-01-01 12:00:00 +00:00,false
+76163,1044640,780,44902,73326,Test1Member Updated,Policy,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76162,1044640,780,44902,73326,Test1Member Updated,Quote,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76161,1044636,780,44900,73324,Member For1044636,Policy,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76160,1044635,780,44899,73323,Member For1044635,Policy,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76159,1044634,780,44898,73322,Member For1044634,Policy,Janie.Welsh@shipownersclub.com,2021-01-01 12:00:00 +00:00,2022-01-01 12:00:00 +00:00,false
+76158,1044633,780,44897,73321,Member For1044633,Policy,Janie.Welsh@shipownersclub.com,2021-01-01 12:00:00 +00:00,2022-01-01 12:00:00 +00:00,false
+76157,1044639,780,44901,73325,Member for PartyCheck,Policy,Janie.Welsh@shipownersclub.com,2021-01-19 12:00:00 +00:00,2022-01-19 12:00:00 +00:00,false
+76155,1044638,780,44901,73325,Member for PartyCheck,Policy,Janie.Welsh@shipownersclub.com,2020-10-21 12:00:00 +00:00,2021-01-19 12:00:00 +00:00,false
+76154,1044638,780,44901,73325,Member for PartyCheck,Quote,Janie.Welsh@shipownersclub.com,2020-10-21 12:00:00 +00:00,2021-01-19 12:00:00 +00:00,false
+76150,1044606,780,44888,73312,Member For155071,Policy,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76149,1044636,780,44900,73324,Member For1044636,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76148,1044635,780,44899,73323,Member For1044635,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76147,1044634,780,44898,73322,Member For1044634,Quote,Janie.Welsh@shipownersclub.com,2021-01-01 12:00:00 +00:00,2022-01-01 12:00:00 +00:00,false
+76146,1044633,780,44897,73321,Member For1044633,Quote,Janie.Welsh@shipownersclub.com,2021-01-01 12:00:00 +00:00,2022-01-01 12:00:00 +00:00,false
+76145,1044632,780,44896,73320,NewMember For1044632,Policy,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76144,1044632,780,44896,73320,NewMember For1044632,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76143,1044631,780,44889,73313,Member For1044613,Policy,Janie.Welsh@shipownersclub.com,2021-11-01 12:00:00 +00:00,2022-11-01 12:00:00 +00:00,false
+76141,1044630,780,44895,73319,RevisedMember Name1044630,Policy,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76140,1044630,780,44895,73319,RevisedMember Name1044630,Quote,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76139,1044629,780,44891,73315,Member For1044615,Policy,Janie.Welsh@shipownersclub.com,2021-11-01 12:00:00 +00:00,2022-11-01 12:00:00 +00:00,false
+76137,1044628,780,44894,73318,Updated Member Name,Policy,Janie.Welsh@shipownersclub.com,2020-10-10 12:00:00 +00:00,2021-01-01 12:00:00 +00:00,false
+76136,1044628,780,44894,73318,Updated Member Name,Quote,Janie.Welsh@shipownersclub.com,2020-10-10 12:00:00 +00:00,2021-01-01 12:00:00 +00:00,false
+76135,1044627,780,44893,73317,MemberFor RenewalOne,Policy,Janie.Welsh@shipownersclub.com,2021-11-01 12:00:00 +00:00,2022-11-01 12:00:00 +00:00,false
+76134,1044626,780,44893,73317,MemberFor RenewalOne,Policy,Janie.Welsh@shipownersclub.com,2021-11-01 12:00:00 +00:00,2022-11-01 12:00:00 +00:00,false
+76127,1044623,780,44893,73317,MemberFor RenewalOne,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76126,1044623,780,44893,73317,MemberFor RenewalOne,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76125,1044622,780,44893,73317,MemberFor RenewalOne,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76124,1044622,780,44893,73317,MemberFor RenewalOne,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76123,1044621,780,44893,73317,MemberFor RenewalOne,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76122,1044621,780,44893,73317,MemberFor RenewalOne,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76121,1044620,780,44893,73317,MemberFor RenewalOne,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76120,1044620,780,44893,73317,MemberFor RenewalOne,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76119,1044619,780,44892,73316,Member For1044616 ,Policy,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76118,1044619,780,44892,73316,Member For1044616 ,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76117,1044618,780,44892,73316,Member For1044616 ,Policy,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76116,1044618,780,44892,73316,Member For1044616 ,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76115,1044617,780,44892,73316,Member For1044616 ,Policy,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76114,1044617,780,44892,73316,Member For1044616 ,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76113,1044616,780,44892,73316,Member For1044616 ,Policy,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76112,1044616,780,44892,73316,Member For1044616 ,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76111,1044615,780,44891,73315,Member For1044615,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76110,1044615,780,44891,73315,Member For1044615,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76109,1044614,780,44890,73314,Member For1044614,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76108,1044614,780,44890,73314,Member For1044614,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76107,1044613,780,44889,73313,Member For1044613,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76106,1044613,780,44889,73313,Member For1044613,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76105,1044612,780,44888,73312,Member For155071,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76104,1044612,780,44888,73312,Member For155071,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76103,1044611,780,44888,73312,Member For155071,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76102,1044610,780,44888,73312,Member For155071,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76101,1044609,780,44888,73312,Member For155071,Quote,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76100,1044608,780,44888,73312,Member For155071,Quote,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76099,1044607,780,44888,73312,Member For155071,Quote,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76098,1044606,780,44888,73312,Member For155071,Quote,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76097,1044605,780,44887,73311,PaulsNewMember,Quote,Janie.Welsh@shipownersclub.com,2020-12-17 12:00:00 +00:00,2021-12-17 12:00:00 +00:00,false
+76096,1044604,780,44887,73311,PaulsNewMember,Quote,Janie.Welsh@shipownersclub.com,2020-12-17 12:00:00 +00:00,2021-12-17 12:00:00 +00:00,false
+76095,1044603,780,44887,73311,PaulsNewMember,Quote,Janie.Welsh@shipownersclub.com,2020-12-17 12:00:00 +00:00,2021-12-17 12:00:00 +00:00,false
+76095,1044603,780,32609,54000,Andrew Scott,Quote,Janie.Welsh@shipownersclub.com,2020-12-17 12:00:00 +00:00,2021-12-17 12:00:00 +00:00,false
+76094,1044602,780,44886,73310,Paul Productions,Policy,Janie.Welsh@shipownersclub.com,2020-12-14 12:00:00 +00:00,2021-12-14 12:00:00 +00:00,false
+76093,1044602,780,44886,73310,Paul Productions,Quote,Janie.Welsh@shipownersclub.com,2020-12-14 12:00:00 +00:00,2021-12-14 12:00:00 +00:00,false
+76092,1044601,462,44885,73309,bob,Quote,Janie.Welsh@shipownersclub.com,2020-12-14 12:00:00 +00:00,2021-12-14 12:00:00 +00:00,false
+76091,1044600,780,44884,73308,FirstUpdate Member,Policy,Janie.Welsh@shipownersclub.com,2021-10-01 12:00:00 +00:00,2022-10-01 12:00:00 +00:00,false
+76089,1044599,780,44884,73308,FirstUpdate Member,Policy,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76088,1044599,780,44884,73308,FirstUpdate Member,Quote,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76087,1044598,780,44884,73308,FirstUpdate Member,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76086,1044598,780,44884,73308,FirstUpdate Member,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76085,1044597,780,44884,73308,FirstUpdate Member,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76084,1044597,780,44884,73308,FirstUpdate Member,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76083,1044596,780,44883,73307,NewMember For155070,Policy,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76082,1044596,780,44883,73307,NewMember For155070,Quote,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76081,1044595,780,44883,73307,NewMember For155070,Policy,Janie.Welsh@shipownersclub.com,2021-10-01 12:00:00 +00:00,2022-10-01 12:00:00 +00:00,false
+76078,1044594,780,44883,73307,NewMember For155070,Policy,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76077,1044594,780,44883,73307,NewMember For155070,Quote,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76077,1044594,780,44882,73306,NewMember ForAPI,Quote,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76076,1044593,780,44882,73306,NewMember ForAPI,Policy,Janie.Welsh@shipownersclub.com,2021-01-01 12:00:00 +00:00,2022-01-01 12:00:00 +00:00,false
+76075,1044593,780,44882,73306,NewMember ForAPI,Quote,Janie.Welsh@shipownersclub.com,2021-01-01 12:00:00 +00:00,2022-01-01 12:00:00 +00:00,false
+76074,1044592,780,44882,73306,NewMember ForAPI,Policy,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76073,1044592,780,44882,73306,NewMember ForAPI,Quote,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76072,1044591,780,44882,73306,NewMember ForAPI,Policy,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76071,1044591,780,44882,73306,NewMember ForAPI,Quote,Janie.Welsh@shipownersclub.com,2021-02-01 12:00:00 +00:00,2022-02-01 12:00:00 +00:00,false
+76070,1044590,780,44881,73305,New MemberFINAL,Quote,Janie.Welsh@shipownersclub.com,2021-01-01 12:00:00 +00:00,2022-01-01 12:00:00 +00:00,false
+76069,1044589,780,44881,73305,New MemberFINAL,Quote,Janie.Welsh@shipownersclub.com,2020-12-07 12:00:00 +00:00,2021-12-07 12:00:00 +00:00,false
+76068,1044588,780,44881,73305,New MemberFINAL,Quote,Janie.Welsh@shipownersclub.com,2020-09-14 12:00:00 +00:00,2020-12-04 12:00:00 +00:00,false
+76067,1044587,780,44881,73305,New MemberFINAL,Policy,Janie.Welsh@shipownersclub.com,2020-12-03 12:00:00 +00:00,2021-12-03 12:00:00 +00:00,false
+76066,1044587,780,44881,73305,New MemberFINAL,Quote,Janie.Welsh@shipownersclub.com,2020-12-03 12:00:00 +00:00,2021-12-03 12:00:00 +00:00,false
+76065,1044586,780,44881,73305,New MemberFINAL,Policy,Janie.Welsh@shipownersclub.com,2020-12-03 12:00:00 +00:00,2021-12-03 12:00:00 +00:00,false
+76064,1044586,780,44881,73305,New MemberFINAL,Quote,Janie.Welsh@shipownersclub.com,2020-12-03 12:00:00 +00:00,2021-12-03 12:00:00 +00:00,false
+76062,1044584,981,44881,73305,New MemberFINAL,Policy,Janie.Welsh@shipownersclub.com,2020-09-04 12:00:00 +00:00,2020-11-30 12:00:00 +00:00,false
+76061,1044584,981,44881,73305,New MemberFINAL,Quote,Janie.Welsh@shipownersclub.com,2020-09-04 12:00:00 +00:00,2020-11-30 12:00:00 +00:00,false
+76060,1044583,981,44881,73305,New MemberFINAL,Policy,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76059,1044583,981,44881,73305,New MemberFINAL,Quote,Janie.Welsh@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76057,1044581,780,44881,73305,New MemberFINAL,Policy,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76056,1044581,780,44881,73305,New MemberFINAL,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76055,1044580,780,44880,73304,New4 Safety,Quote,Janie.Welsh@shipownersclub.com,2020-11-01 12:00:00 +00:00,2021-11-01 12:00:00 +00:00,false
+76054,1044579,780,31227,50700,Eleven Yachting Limited,Quote,Nicola.Kingman@shipownersclub.com,2020-11-10 12:00:00 +00:00,2021-11-10 12:00:00 +00:00,false
+76053,1044578,780,31227,50700,Eleven Yachting Limited,Quote,Nicola.Kingman@shipownersclub.com,2020-11-10 12:00:00 +00:00,2021-11-10 12:00:00 +00:00,false
+76053,1044578,780,32609,54000,Andrew Scott,Quote,Nicola.Kingman@shipownersclub.com,2020-11-10 12:00:00 +00:00,2021-11-10 12:00:00 +00:00,false
+76051,1044576,882,44879,73303,Day0_MemberByRef,Policy,Janie.Welsh@shipownersclub.com,2020-09-28 12:00:00 +00:00,2021-09-28 12:00:00 +00:00,false
+76050,1044576,882,44879,73303,Day0_MemberByRef,Quote,Janie.Welsh@shipownersclub.com,2020-09-28 12:00:00 +00:00,2021-09-28 12:00:00 +00:00,false
+76049,1044575,882,44878,73302,Day3_Member,Policy,Janie.Welsh@shipownersclub.com,2020-09-21 12:00:00 +00:00,2021-09-21 12:00:00 +00:00,false
+76048,1044575,882,44878,73302,Day3_Member,Quote,Janie.Welsh@shipownersclub.com,2020-09-21 12:00:00 +00:00,2021-09-21 12:00:00 +00:00,false
+76047,1044574,882,44877,73301,NoRiskMember,Quote,Janie.Welsh@shipownersclub.com,2020-09-18 12:00:00 +00:00,2021-09-18 12:00:00 +00:00,false
+76046,1044573,882,44865,73289,Day3_MemberForRiskName,Policy,Janie.Welsh@shipownersclub.com,2020-09-17 12:00:00 +00:00,2021-09-17 12:00:00 +00:00,false
+76045,1044573,882,44865,73289,Day3_MemberForRiskName,Quote,Janie.Welsh@shipownersclub.com,2020-09-17 12:00:00 +00:00,2021-09-17 12:00:00 +00:00,false
+76043,1044571,780,31227,50700,Eleven Yachting Limited,Policy,Nicola.Kingman@shipownersclub.com,2020-09-16 12:00:00 +00:00,2021-09-16 12:00:00 +00:00,false
+76042,1044571,780,31227,50700,Eleven Yachting Limited,Quote,Nicola.Kingman@shipownersclub.com,2020-09-16 12:00:00 +00:00,2021-09-16 12:00:00 +00:00,false
+76041,1044570,780,31227,50700,Eleven Yachting Limited,Quote,Nicola.Kingman@shipownersclub.com,2020-12-01 12:00:00 +00:00,2021-12-01 12:00:00 +00:00,false
+76040,1044567,780,31227,50700,Eleven Yachting Limited,Policy,Nicola.Kingman@shipownersclub.com,2020-09-16 12:00:00 +00:00,2021-09-16 12:00:00 +00:00,false
+76039,1044569,780,31227,50700,Eleven Yachting Limited,Quote,Nicola.Kingman@shipownersclub.com,2020-09-16 12:00:00 +00:00,2021-09-16 12:00:00 +00:00,false
+76038,1044568,780,35694,58014,Maria Paola Merloni,Quote,Nicola.Kingman@shipownersclub.com,2020-09-16 12:00:00 +00:00,2021-09-16 12:00:00 +00:00,false
+76037,1044567,780,31227,50700,Eleven Yachting Limited,Quote,Nicola.Kingman@shipownersclub.com,2020-09-16 12:00:00 +00:00,2021-09-16 12:00:00 +00:00,false
+76035,1044565,882,44866,73290,Suraj Member,Policy,Janie.Welsh@shipownersclub.com,2020-09-11 12:00:00 +00:00,2021-09-11 12:00:00 +00:00,false
+76034,1044565,882,44866,73290,Suraj Member,Quote,Janie.Welsh@shipownersclub.com,2020-09-11 12:00:00 +00:00,2021-09-11 12:00:00 +00:00,false
+76032,1044563,780,31227,50700,Eleven Yachting Limited,Quote,Nicola.Kingman@shipownersclub.com,2020-09-08 12:00:00 +00:00,2021-09-08 12:00:00 +00:00,false
+76031,1044562,882,44876,73300,Day3APIMember,Policy,Janie.Welsh@shipownersclub.com,2020-09-07 12:00:00 +00:00,2021-09-07 12:00:00 +00:00,false
+76030,1044562,882,44876,73300,Day3APIMember,Quote,Janie.Welsh@shipownersclub.com,2020-09-07 12:00:00 +00:00,2021-09-07 12:00:00 +00:00,false
+76029,1044561,780,44875,73299,Member 07Sept1150,Policy,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76028,1044561,780,44875,73299,Member 07Sept1150,Quote,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76027,1044560,882,44874,73298,Day3TestMember,Policy,Janie.Welsh@shipownersclub.com,2020-09-07 12:00:00 +00:00,2021-09-07 12:00:00 +00:00,false
+76026,1044560,882,44874,73298,Day3TestMember,Quote,Janie.Welsh@shipownersclub.com,2020-09-07 12:00:00 +00:00,2021-09-07 12:00:00 +00:00,false
+76025,1044559,882,44866,73290,Suraj Member,Quote,Janie.Welsh@shipownersclub.com,2020-09-07 12:00:00 +00:00,2021-09-07 12:00:00 +00:00,false
+76024,1044558,882,44866,73290,Suraj Member,Policy,Janie.Welsh@shipownersclub.com,2020-09-07 12:00:00 +00:00,2021-09-07 12:00:00 +00:00,false
+76023,1044558,882,44866,73290,Suraj Member,Quote,Janie.Welsh@shipownersclub.com,2020-09-07 12:00:00 +00:00,2021-09-07 12:00:00 +00:00,false
+76022,1044557,882,44866,73290,Suraj Member,Quote,Janie.Welsh@shipownersclub.com,2020-09-07 12:00:00 +00:00,2021-09-07 12:00:00 +00:00,false
+76020,1044555,849,44873,73297,Member 02Sep1450,Quote,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76019,1044554,780,44873,73297,Member 02Sep1450,Quote,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76018,1044553,780,44872,73296,Member 01Sep1033,Quote,Janie.Welsh@shipownersclub.com,2020-10-01 12:00:00 +00:00,2021-10-01 12:00:00 +00:00,false
+76017,1044552,882,44871,73295,MyMember,Policy,Janie.Welsh@shipownersclub.com,2020-08-28 12:00:00 +00:00,2021-08-28 12:00:00 +00:00,false
+76016,1044552,882,44871,73295,MyMember,Quote,Janie.Welsh@shipownersclub.com,2020-08-28 12:00:00 +00:00,2021-08-28 12:00:00 +00:00,false
+76015,1044551,882,44866,73290,Suraj Member,Policy,Janie.Welsh@shipownersclub.com,2020-08-26 12:00:00 +00:00,2021-08-26 12:00:00 +00:00,false
+76014,1044551,882,44866,73290,Suraj Member,Quote,Janie.Welsh@shipownersclub.com,2020-08-26 12:00:00 +00:00,2021-08-26 12:00:00 +00:00,false
+76013,1044550,882,44871,73295,MyMember,Quote,Janie.Welsh@shipownersclub.com,2020-08-28 12:00:00 +00:00,2021-08-28 12:00:00 +00:00,false
+76012,1044549,882,44866,73290,Suraj Member,Quote,Janie.Welsh@shipownersclub.com,2020-08-27 12:00:00 +00:00,2021-08-27 12:00:00 +00:00,false
+76011,1044548,882,44866,73290,Suraj Member,Quote,Janie.Welsh@shipownersclub.com,2020-08-27 12:00:00 +00:00,2021-08-27 12:00:00 +00:00,false
+76010,1044547,882,44866,73290,Suraj Member,Quote,Janie.Welsh@shipownersclub.com,2020-08-27 12:00:00 +00:00,2021-08-27 12:00:00 +00:00,false

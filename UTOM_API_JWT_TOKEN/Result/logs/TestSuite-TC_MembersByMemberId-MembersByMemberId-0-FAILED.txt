@@ -1,0 +1,113 @@
+Status: FAILED
+Time Taken: 257
+Size: 0
+Timestamp: Wed Feb 24 16:09:52 IST 2021
+TestStep: MembersByMemberId
+Error:org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 14: unexpected char: '\' @ line 14, column 51.
+   ITesting\\UTOM_API_JWT_TOKEN\\\Config\\c
+                                 ^
+org.codehaus.groovy.syntax.SyntaxException: unexpected char: '\' @ line 14, column 51.
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:138)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:111)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:237)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:167)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:931)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:593)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:694)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:706)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:742)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:733)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.compile(SoapUIGroovyScriptEngine.java:136)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:87)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Script1.groovy:14:51: unexpected char: '\'
+	at org.codehaus.groovy.antlr.parser.GroovyLexer.mESC(GroovyLexer.java:2192)
+	at org.codehaus.groovy.antlr.parser.GroovyLexer.mSTRING_LITERAL(GroovyLexer.java:1960)
+	at org.codehaus.groovy.antlr.parser.GroovyLexer.nextToken(GroovyLexer.java:478)
+	at org.codehaus.groovy.antlr.parser.GroovyLexer$1.nextToken(GroovyLexer.java:262)
+	at groovyjarjarantlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at groovyjarjarantlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at groovyjarjarantlr.LLkParser.LA(LLkParser.java:52)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.nls(GroovyRecognizer.java:796)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.varInitializer(GroovyRecognizer.java:2771)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.variableDeclarator(GroovyRecognizer.java:8023)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.listOfVariables(GroovyRecognizer.java:7977)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.variableDefinitions(GroovyRecognizer.java:2367)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.declaration(GroovyRecognizer.java:2254)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.statement(GroovyRecognizer.java:1212)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compilationUnit(GroovyRecognizer.java:760)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:134)
+	... 26 more
+
+1 error
+
+
+----------------- Messages ------------------------------
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 14: unexpected char: '\' @ line 14, column 51.
+   ITesting\\UTOM_API_JWT_TOKEN\\\Config\\c
+                                 ^
+org.codehaus.groovy.syntax.SyntaxException: unexpected char: '\' @ line 14, column 51.
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:138)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:111)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:237)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:167)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:931)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:593)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:694)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:706)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:742)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:733)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.compile(SoapUIGroovyScriptEngine.java:136)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:87)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Script1.groovy:14:51: unexpected char: '\'
+	at org.codehaus.groovy.antlr.parser.GroovyLexer.mESC(GroovyLexer.java:2192)
+	at org.codehaus.groovy.antlr.parser.GroovyLexer.mSTRING_LITERAL(GroovyLexer.java:1960)
+	at org.codehaus.groovy.antlr.parser.GroovyLexer.nextToken(GroovyLexer.java:478)
+	at org.codehaus.groovy.antlr.parser.GroovyLexer$1.nextToken(GroovyLexer.java:262)
+	at groovyjarjarantlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at groovyjarjarantlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at groovyjarjarantlr.LLkParser.LA(LLkParser.java:52)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.nls(GroovyRecognizer.java:796)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.varInitializer(GroovyRecognizer.java:2771)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.variableDeclarator(GroovyRecognizer.java:8023)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.listOfVariables(GroovyRecognizer.java:7977)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.variableDefinitions(GroovyRecognizer.java:2367)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.declaration(GroovyRecognizer.java:2254)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.statement(GroovyRecognizer.java:1212)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compilationUnit(GroovyRecognizer.java:760)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:134)
+	... 26 more
+
+1 error
+

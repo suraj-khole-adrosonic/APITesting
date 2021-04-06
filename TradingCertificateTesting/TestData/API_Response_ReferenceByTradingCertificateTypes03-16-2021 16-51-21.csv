@@ -1,0 +1,27 @@
+API_TradingCertificateTypeId,API_TradingCertificateGroupId,API_TradingCertificateGroupName,API_TypeCode,API_TradingCertificateTypeName
+1,1,Trading Certificates,BBC,BBC
+2,1,Trading Certificates,CLC,CLC
+14,3,Confirmation of Entry,COE500M,COE- USD 500 Million English
+15,3,Confirmation of Entry,COE500MSPANISH,COE- USD 500 Million Spanish
+12,3,Confirmation of Entry,COEAPRENGLISH,COE-As per Rules English
+13,3,Confirmation of Entry,COEAPRSPANISH,COE-As per Rules Spanish
+20,3,Confirmation of Entry,COEBALAERICENGLISH,COE BalaericIslands - English
+21,3,Confirmation of Entry,COEBALAERICSPANISH,COE BalaericIslands - Spanish
+17,3,Confirmation of Entry,COEGRC,COE Greek - Greek
+16,3,Confirmation of Entry,COEGRCENGLISH,COE Greek - English
+18,3,Confirmation of Entry,COEITAENGLISH,COE Italian - English
+19,3,Confirmation of Entry,COEITAITALIAN,COE Italian - Italian
+22,3,Confirmation of Entry,COEYACHTESPENGLISH,COE Spanish Yacht - English
+23,3,Confirmation of Entry,COEYACHTESPSPANISH,COE Spanish Yacht - Spanish
+8,2,COFR,COFRGAIC,COFR - Great American Insurance Company
+9,2,COFR,COFRS,COFR - Shoreline
+11,2,COFR,COFRSA,COFR - SeaAssurance
+10,2,COFR,COFRSIGCO,COFR - SIGCO
+6,1,Trading Certificates,ITOPF,ITOPF
+7,1,Trading Certificates,ITOPFMTA,ITOPFMTA
+24,4,Letter of Undertaking,LETUND,Letter of Undertaking
+25,1,Trading Certificates,MLCA252,MLCA252
+26,1,Trading Certificates,MLCA421,MLCA421
+5,1,Trading Certificates,NWRC,NWRC
+4,1,Trading Certificates,PLREx,PLR Excl War
+3,1,Trading Certificates,PLRIn,PLR Incl War

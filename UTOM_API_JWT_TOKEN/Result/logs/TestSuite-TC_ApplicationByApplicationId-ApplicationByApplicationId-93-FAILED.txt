@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 41324
+Size: 0
+Timestamp: Mon Mar 22 15:11:44 IST 2021
+TestStep: ApplicationByApplicationId
+Error:com.microsoft.sqlserver.jdbc.SQLServerException: Connection reset
+
+----------------- Messages ------------------------------
+com.microsoft.sqlserver.jdbc.SQLServerException: Connection reset
+error at line: 96
