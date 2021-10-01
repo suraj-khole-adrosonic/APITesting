@@ -102,11 +102,21 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 			<artifactId>poi-contrib</artifactId>
 			<version>3.6</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.1</version>
+		</dependency>
+
+
+		
+		<!-- <dependency>
 			<groupId>org.codehaus.groovy.modules.scriptom</groupId>
 			<artifactId>scriptom</artifactId>
 			<version>1.6.0</version>
-		</dependency>
+			</dependency>
+		-->
 	</dependencies>
 <executions>
                     <execution>

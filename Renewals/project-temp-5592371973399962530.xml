@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="058a7e32-011c-4f1b-96d0-132ae1b7425a" activeEnvironment="Default" name="Renewals" resourceRoot="" soapui-version="5.5.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="c33a8d6e-9e58-4324-9847-11f008a859b3" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://spltomservices:44380" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://spltomservices:44380</con:endpoint></con:endpoints><con:resource name="RenewalQuoteBindSuccess" path="/api/UtomApi/renewals/bind/${#TestCase#contactPartyId}" id="83de7a56-fc6b-4cc2-93cb-7a656fa78177"><con:settings/><con:parameters/><con:method name="RenewalQuoteBindSuccess" id="f5faac9c-96db-4691-907b-42cc1eb22492" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:c4c="http://spltomservices/api/UtomApi/renewals/bind/60C4C8B5-0CA2-DE11-8D9C-001F29E68CCC">c4c:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:c4c="http://spltomservices/api/UtomApi/renewals/bind/60C4C8B5-0CA2-DE11-8D9C-001F29E68CCC">c4c:Fault</con:element></con:representation><con:request name="RenewalQuoteBindSuccess" id="29f6ed46-361b-446c-9591-52367b3d57dd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://spltomservices:44380</con:endpoint><con:request>[
+	92384
+]</con:request><con:originalUri>http://spltomservices/api/UtomApi/renewals/bind/60C4C8B5-0CA2-DE11-8D9C-001F29E68CCC</con:originalUri><con:credentials><con:selectedAuthProfile>BearerToken</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="0ea3bde9-ffcd-49e2-a342-9be2e6b3bc96" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://spltomservices:44380" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://spltomservices:44380</con:endpoint></con:endpoints><con:resource name="ReferralHandle_QuoteIdByCRMIdByMessage" path="/api/UtomApi/renewals/createNote/${#TestCase#quoteId}/${#TestCase#crmIdentifier}/" id="74263078-10bf-40fa-bf5a-10665a249eca"><con:settings/><con:parameters><con:parameter><con:name>message</con:name><con:style>QUERY</con:style></con:parameter></con:parameters><con:method name="ReferralHandle_QuoteIdByCRMIdByMessage" id="3611dcbc-5d56-43c8-b661-e2982bf6bdf4" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>404</con:status><con:params/></con:representation><con:request name="ReferralHandle_QuoteIdByCRMIdByMessage" id="8c9bdb1d-24bd-46e7-b80c-a7fab21b3f6b" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://spltomservices:44380</con:endpoint><con:request/><con:originalUri>http://spltomservices/api/UtomApi/renewals/createNote//</con:originalUri><con:credentials><con:selectedAuthProfile>BearerToken</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="message" value="${#TestCase#note}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry/></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite id="ef763913-7d66-4bf1-93a8-19aca505026a" name="TS"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="49dc9f81-8873-4873-921c-a5f8819d4e0f" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Driver_Script" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Driver" id="b260585a-2007-4953-96c9-b480bbbebb13"><con:settings/><con:config><script><![CDATA[import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.hssf.usermodel.*;
+import org.apache.poi.xssf.usermodel.*;
+import org.apache.poi.ss.util.*;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import groovy.sql.Sql
+import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.poi.ss.usermodel.IndexedColors;  
+  
+import org.apache.poi.common.usermodel.*;
+import org.apache.poi.common.usermodel.Hyperlink;
+//import org.apache.poi.common.usermodel.HyperlinkType
+import java.io.*;
+
+public class Driver_Script
+{
+	XSSFCellStyle rowStyle;	
+	/*	
+	public printR(log)
+	{
+		log.info 'Method accessed'
+	}
+	*/
+	//public static writeDetailsinRowwithLink(XSSFWorkbook wb,XSSFSheet ws,XSSFSheet source,def arrDetail,XSSFCellStyle rowStyle,boolean isHeader=false,String tcid,String summary_File)
+	public static writeDetailsinRowwithLink(XSSFWorkbook wb, XSSFSheet ws, def arrDetail, XSSFCellStyle rowStyle, boolean isHeader=false, String tcid, String summary_File)
+	{	
+		int rowNum;
+		if(isHeader)
+		{
+			rowNum=0
+		}
+		else
+		{
+			rowNum = ws.getLastRowNum()+1;		
+		}
+		XSSFRow headerRow=ws.createRow(rowNum);
+		for(int i=0;i<arrDetail.size;i++)
+		{
+			headerRow.createCell(i);
+			headerRow.getCell(i).setCellStyle(rowStyle);
+			headerRow.getCell(i).setCellValue(arrDetail[i]);
+			if(i==0)
+			{
+				CreationHelper createHelper = wb.getCreationHelper();
+				//DOCUMENT
+				// XSSFHyperlink link = (XSSFHyperlink)createHelper.createHyperlink(Hyperlink.LINK_FILE);
+				XSSFCellStyle hlinkstyle = wb.createCellStyle();
+				XSSFFont hlinkfont = wb.createFont();
+				hlinkfont.setUnderline(XSSFFont.U_SINGLE);
+		
+				hlinkfont.setColor(IndexedColors.BLUE.index);
+				hlinkstyle.setFont(hlinkfont);
+				XSSFHyperlink link = (XSSFHyperlink)createHelper.createHyperlink(Hyperlink.LINK_DOCUMENT);
+				link.setAddress(tcid+'!A1' );
+				  
+				hlinkstyle.setBorderBottom(CellStyle.BORDER_THIN);
+				hlinkstyle.setBorderLeft(CellStyle.BORDER_THIN);
+				hlinkstyle.setBorderRight(CellStyle.BORDER_THIN);
+				hlinkstyle.setBorderTop(CellStyle.BORDER_THIN);
+				headerRow.getCell(i).setCellStyle(hlinkstyle);
+				headerRow.getCell(i).setHyperlink((XSSFHyperlink) link)
+			}
+		}
+	}
+	//public process_Data(XSSFWorkbook O_Summary,XSSFSheet source,int api_startCol,int db_startCol,int row_start,int api_endCol,int db_endCol,int total_size,int db_size,XSSFSheet summary,String summary_File,String uri,String broker,String tcid,String dsc="")
+	public process_Data(XSSFWorkbook O_Summary,XSSFSheet source,int api_startCol,int db_startCol,int row_start,int api_endCol,int db_endCol,int total_size,int db_size,XSSFSheet summary,String summary_File,String uri,String tcid,String dsc="")
+	{
+		XSSFCellStyle rowStyle,rowTrue,rowFalse;
+		int api_cnt=0,db_cnt=0
+		rowTrue=getCellStyle(O_Summary,'Cell',true);
+		rowFalse=getCellStyle(O_Summary,'Cell',false);
+		api_cnt=compareData(O_Summary,source,db_startCol,api_startCol,row_start,db_endCol,api_endCol,db_size,total_size)
+		
+		db_cnt=compareData(O_Summary,source,api_startCol,db_startCol,row_start,api_endCol,db_endCol,total_size,db_size)
+		String exe_Status
+		def arrOutputHeader
+		if(api_cnt==0 && db_cnt==0)
+		{
+			exe_Status='PASS'
+			rowStyle=rowFalse
+		}
+		else
+		{
+			exe_Status='FAIL'
+			rowStyle=rowTrue
+		}
+		//arrOutputHeader=[tcid,dsc,db_size,api_cnt,total_size,db_cnt,broker,exe_Status]
+		arrOutputHeader=[tcid,dsc,db_size,api_cnt,total_size,db_cnt,exe_Status]
+		//writeDetailsinRow(summary,arrOutputHeader,rowStyle)
+		//writeDetailsinRowwithLink(O_Summary, summary, arrOutputHeader, source, rowStyle, tcid, summary_File)
+		writeDetailsinRowwithLink(O_Summary, summary, arrOutputHeader, rowStyle, tcid, summary_File)
+		//XSSFWorkbook wb, XSSFSheet ws, def arrDetail,XSSFCellStyle rowStyle,boolean isHeader=false,String tcid,String summary_File
+		//writeDetailsinRow(summary,arrOutputHeader,rowStyle)
+		
+		for(int i=0;i<=api_endCol;i++)
+		{
+			autoSize(source,String.valueOf(i))	
+		}		
+		autoSize(summary,'0,1,2,3,4,5')
+		try
+		{
+			saveExcelFile(summary_File,O_Summary)
+		}
+		catch(Exception e){}			
+	}
+	//RT.process_Data(O_Summary,source,api_startCol,db_startCol,row_start,api_endCol,db_endCol,total_size,db_size,summary,summary_File,uri,broker,tcid,dsc)
+
+	public int compareData(XSSFWorkbook wb,XSSFSheet source,int source_start,int dest_start,int row_start,int source_end,int dest_end,int src_size,int dest_size)
+	{
+		println source_start
+		XSSFCellStyle rowTrue,rowFalse;
+		XSSFRow currentrow,currentrow1
+		rowTrue=getCellStyle(wb,'Cell',true);
+		rowFalse=getCellStyle(wb,'Cell',false);
+		int src_counter=row_start;
+		int dest_counter=row_start;	
+		int colCnt=source_end-source_start
+		boolean flag
+		int src_cnt=0;
+		String apiRef,dbRef,dbData,apiData
+		for(int iter=0;iter<src_size;iter++)
+		{
+			flag=false
+			
+			currentrow = source.getRow(src_counter);
+			//log.info source_start
+			apiRef=currentrow.getCell(source_start,Row.RETURN_BLANK_AS_NULL)
+			//println apiRef
+			dest_counter=row_start;
+			for(int j=0;j<dest_size;j++)
+			{
+				currentrow1 = source.getRow(dest_counter)
+				dbRef=currentrow1.getCell(dest_start,Row.RETURN_BLANK_AS_NULL)
+				dest_counter++	
+				if(apiRef==dbRef)
+				{
+					flag=true
+					for(int k=0;k<colCnt;k++)
+					{
+						dbData=currentrow.getCell(source_start+k)
+						apiData=currentrow1.getCell(dest_start+k)
+						if(dbData!=apiData)
+						{
+							flag=false
+							println source_start+k
+							println dest_start+k
+							println 'Failed for -->'+dbData+'<=value=>'+apiData
+							break;
+						}
+					}
+				break;
+				}
+			}
+			if(!flag)
+			{
+				writeDetails(source,src_counter,source_end,rowTrue,['Not Matched'])
+				src_cnt++
+			}
+			else
+			{
+				writeDetails(source,src_counter,source_end,rowFalse,['Matched'])	
+			}
+			src_counter++;
+		}
+		return src_cnt;
+	}
+
+	public writeSummarySheet(XSSFWorkbook O_workbook,XSSFSheet ws,String env)
+	{	
+		def arrOutputHeader;
+		XSSFSheet data_s=O_workbook.getSheet('API_Result');
+		int row_cnt=data_s.getLastRowNum()
+		int cnt=0;
+		XSSFCellStyle headerStyle;
+		ws.setDisplayGridlines(false);
+
+		XSSFFont hlinkfont = O_workbook.createFont();
+		headerStyle=getCellStyle(O_workbook,'Header',false);
+		
+		XSSFRow headerRow=ws.createRow(cnt++);
+		headerRow.createCell(0);
+		headerRow.getCell(0).setCellStyle(headerStyle);
+		headerRow.getCell(0).setCellValue("API Execution Summary ");
+
+		Date date1 = new Date();
+		String newDate = date1.format('dd-MMM-yyyy');
+
+		headerRow=ws.createRow(cnt++);
+		headerRow.createCell(0);
+		headerRow.getCell(0).setCellStyle(headerStyle);
+		headerRow.getCell(0).setCellValue("Environment");
+		headerRow.createCell(1);
+		headerRow.getCell(1).setCellStyle(headerStyle);
+		headerRow.getCell(1).setCellValue(env)
+		
+		headerRow=ws.createRow(cnt++);
+		headerRow.createCell(0);
+		headerRow.getCell(0).setCellStyle(headerStyle);
+		headerRow.getCell(0).setCellValue("Execution Date");
+		headerRow.createCell(1);
+		headerRow.getCell(1).setCellStyle(headerStyle);
+		headerRow.getCell(1).setCellValue(newDate)
+		
+
+		headerRow=ws.createRow(cnt++);
+		headerRow.createCell(0);
+		headerRow.getCell(0).setCellStyle(headerStyle);
+		headerRow.getCell(0).setCellValue("Total API Records");
+		headerRow.createCell(1);
+		headerRow.getCell(1).setCellStyle(headerStyle);
+		headerRow.getCell(1).setCellFormula("SUM(API_Result!C:C)")
+
+		headerRow=ws.createRow(cnt++);
+		headerRow.createCell(0);
+		headerRow.createCell(1);
+		headerStyle=getCellStyle(O_workbook,'Header',true);
+     	
+		headerRow.getCell(0).setCellStyle(headerStyle);
+		headerRow.getCell(1).setCellStyle(headerStyle);
+		headerRow.getCell(0).setCellValue("Total FAIL Records");
+		
+		
+		headerRow.getCell(1).setCellStyle(headerStyle);
+		headerRow.getCell(1).setCellFormula("SUM(API_Result!D:D)")
+
+		headerRow=ws.createRow(cnt++);
+		headerRow.createCell(0);
+		headerRow.createCell(1);
+		headerStyle=getCellStyle(O_workbook,'Header',false);
+		headerRow.getCell(0).setCellStyle(headerStyle);
+		headerRow.getCell(1).setCellStyle(headerStyle);
+		headerRow.getCell(0).setCellValue("Total PASS Records");
+		headerRow.getCell(1).setCellStyle(headerStyle);
+		headerRow.getCell(1).setCellFormula("B4-B5")
+
+		headerRow=ws.createRow(cnt++);
+		headerRow.createCell(0);
+		headerRow.createCell(1);
+		headerStyle=getCellStyle(O_workbook,'Header',false);
+		
+		headerRow.getCell(0).setCellStyle(headerStyle);
+		headerRow.getCell(1).setCellStyle(headerStyle);
+		headerRow.getCell(0).setCellValue("Pass Percentage");
+		headerRow.getCell(1).setCellFormula("(B6/B4)*100")
+
+		headerRow=ws.createRow(cnt++);
+		headerRow.createCell(0);
+		headerRow.createCell(1);
+		headerStyle=getCellStyle(O_workbook,'Header',true);
+		headerStyle.setFillBackgroundColor(IndexedColors.GREEN.getIndex());  
+
+		headerRow.getCell(0).setCellStyle(headerStyle);
+		headerRow.getCell(1).setCellStyle(headerStyle);
+		headerRow.getCell(0).setCellValue("FAIL Percentage");
+		
+		headerRow.getCell(1).setCellFormula("(B5/B4)*100");
+
+
+		/*CellStyle style1 = O_workbook.createCellStyle();
+        style1.setBorderLeft(CellStyle.BORDER_NONE);
+        style1.setBorderRight(CellStyle.BORDER_NONE);
+        style1.setBorderBottom(CellStyle.BORDER_NONE);
+        style1.setBorderTop(CellStyle.BORDER_NONE);
+
+        for(int i=9; i< 100 ; i++)
+		{
+            for(int j=0; j< 100; j++)
+			{
+            	headerRow=ws.createRow(i);
+            	headerRow.createCell(j);
+            	headerRow.getCell(j).setCellStyle(style1);
+            }
+        }
+
+		/*	
+		for(int i=0; i< 8 ; i++)
+		{
+			for(int j=4; j< 100; j++)
+			{
+            	headerRow=ws.createRow(i);
+            	headerRow.createCell(j);
+            	headerRow.getCell(j).setCellStyle(style1);
+            }
+        }
+		*/
+	}
+	
+	public def getConnection(String fName)
+	{
+		File config=new File(fName)
+		Properties prop=new Properties()
+
+		config.withInputStream
+		{
+			line->
+			prop.load(line)
+		}
+		String dbURL=prop['DB_URL'];
+		String dbPwd=prop['DB_Pwd'];
+		String dbDriver='com.microsoft.sqlserver.jdbc.SQLServerDriver';
+		String dbUser=prop['DB_User'];
+		def con=Sql.newInstance(dbURL,dbUser,dbPwd,dbDriver);
+		//con.setNetworkTimeout(null, 10000)
+		/*Properties props = new Properties();
+		props.setProperty("user", prop['DB_URL']);
+		props.setProperty("password", prop['DB_Pwd']);
+		props.setProperty(OracleConnection.CONNECTION_PROPERTY_THIN_NET_CONNECT_TIMEOUT, "20000");
+
+		Connection con = DriverManager.getConnection("com.microsoft.sqlserver.jdbc.SQLServerDriver", props);*/
+
+		return con;	
+	}
+	public void saveExcelFile(String strFilePathwithName, XSSFWorkbook outputWorkbook) throws FileNotFoundException
+	{	
+		try 
+		{	
+			FileOutputStream out = new FileOutputStream(strFilePathwithName);
+			outputWorkbook.write(out);
+			out.close();
+		} 
+		catch (IOException e)
+		{
+			//TODO Auto-generated catch block
+			//e.printStackTrace();
+		}	
+	}
+
+	public XSSFWorkbook getSummaryWorkbook(String strFilePathwithName)
+	{
+		File file1 = new File(strFilePathwithName);
+		XSSFWorkbook O_workbook;
+		XSSFSheet result,result1;
+		if(!file1.exists())
+		{
+			O_workbook = new XSSFWorkbook();
+			
+			result1 = O_workbook.createSheet("API_Summary");
+			result = O_workbook.createSheet("API_Result");
+					
+			def arrOutputHeader = ["TC ID","Description" ,"Database Record Count","DataBase Mistamatch","API data Count","API Mistmatch","Status"];
+			XSSFCellStyle headerStyle = getCellStyle(O_workbook,'Header');
+			
+			writeDetailsinRow(result,arrOutputHeader,headerStyle,true);	
+			try
+			{
+				saveExcelFile(strFilePathwithName,O_workbook)
+			}
+			catch(Exception e)
+			{}	
+		}
+		else
+		{
+			O_workbook = new XSSFWorkbook(new FileInputStream(new File(strFilePathwithName)));
+		}
+		return O_workbook;
+	}
+
+
+	public autoSize(XSSFSheet ws,String sColumn)
+	{
+		def sArr=sColumn.split(',')
+		for(String values:sArr)
+		{
+			ws.autoSizeColumn(Integer.parseInt(values))
+		}	
+	}
+	public writeDetails(XSSFSheet ws, int rowNum, int colStart, XSSFCellStyle rowStyle, def arrDetail)
+	{
+		XSSFRow headerRow=ws.getRow(rowNum);
+							
+		if(headerRow==null)
+			headerRow=ws.createRow(rowNum);		
+		//log.info 'Itt'+colStart+arrDetail.size
+		for(int i=0;i<arrDetail.size;i++)
+		{
+			headerRow.createCell(colStart);
+			headerRow.getCell(colStart).setCellStyle(rowStyle);
+			headerRow.getCell(colStart).setCellValue(arrDetail[i]);
+			colStart++;
+		}
+	}
+	public static writeDetailsinRow(XSSFSheet ws,def arrDetail,XSSFCellStyle rowStyle,boolean isHeader=false)
+	{
+		int rowNum;
+		if(isHeader)
+		{
+			rowNum=0
+		}
+		else
+		{
+			rowNum = ws.getLastRowNum()+1;		
+		}
+		XSSFRow headerRow=ws.createRow(rowNum);
+		for(int i=0;i<arrDetail.size;i++)
+		{
+			headerRow.createCell(i);
+			headerRow.getCell(i).setCellStyle(rowStyle);
+			headerRow.getCell(i).setCellValue(arrDetail[i]);			
+		}
+	}
+	
+	public static XSSFCellStyle getCellStyle(XSSFWorkbook wb,String rowType,boolean errorFlag=false)
+	{
+		XSSFCellStyle dataStyle = wb.createCellStyle();
+		//dataStyle.setWrapText(true);
+		if(rowType.equalsIgnoreCase('header'))
+		{
+			dataStyle.setAlignment(CellStyle.ALIGN_CENTER);
+			//headerStyle.setFillForegroundColor(IndexedColors.GREY_50_PERCENT.index);
+			//setFillBackgroundColor
+			dataStyle.setFillBackgroundColor(IndexedColors.GREEN.getIndex());
+			dataStyle.setBorderBottom(CellStyle.BORDER_THICK);
+			dataStyle.setBorderLeft(CellStyle.BORDER_THICK);
+			dataStyle.setBorderRight(CellStyle.BORDER_THICK);
+			dataStyle.setBorderTop(CellStyle.BORDER_THICK);
+			if(errorFlag)
+			{
+				Font font = wb.createFont();
+				font.setColor(IndexedColors.RED.getIndex());
+				dataStyle.setFont(font);
+			}	
+		}
+		else
+		{
+			dataStyle.setAlignment(CellStyle.ALIGN_CENTER);
+			dataStyle.setFillForegroundColor(IndexedColors.GREY_25_PERCENT.index);
+			dataStyle.setBorderBottom(CellStyle.BORDER_THIN);
+			dataStyle.setBorderLeft(CellStyle.BORDER_THIN);
+			dataStyle.setBorderRight(CellStyle.BORDER_THIN);
+			dataStyle.setBorderTop(CellStyle.BORDER_THIN);
+			if(errorFlag)
+			{
+				Font font = wb.createFont();
+				font.setColor(IndexedColors.RED.getIndex());
+				dataStyle.setFont(font);
+			}	
+		}
+		return dataStyle;
+	}
+		
+	public XSSFWorkbook getOutputWorkbook(strFilePathwithName)
+	{
+		File file1 = new File(strFilePathwithName);
+		XSSFWorkbook O_workbook;
+		XSSFSheet result,source,target;
+		if(!file1.exists())
+		{
+			O_workbook = new XSSFWorkbook();
+			
+			//source = O_workbook.createSheet("API_Data");
+			//target = O_workbook.createSheet("DB_Data");
+			//result = O_workbook.createSheet("Summary");			
+			try
+			{
+				saveExcelFile(strFilePathwithName,O_workbook)
+			}
+			catch(Exception e)
+			{}
+		}
+		else
+		{
+			O_workbook = new XSSFWorkbook(new FileInputStream(new File(strFilePathwithName)));
+		}
+	
+		return O_workbook;
+	}
+}
+context.setProperty("Rt", new Driver_Script())]]></script></con:config></con:testStep><con:testStep type="groovy" name="SetParam" id="4fee108e-b806-4ac4-b699-05e6a73a10e6"><con:settings/><con:config><script>import java.io.*;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.hssf.usermodel.*;
+import org.apache.poi.xssf.usermodel.*;
+import org.apache.poi.ss.util.*;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+
+String fName=testRunner.testCase.getPropertyValue('Config')
+File config=new File(fName)
+Properties prop=new Properties()
+
+def lib = testRunner.testCase.testSuite.project.testSuites["TS"].testCases["Driver_Script"].testSteps["Driver"]
+	lib.run(testRunner, context)
+	def RT = context.Rt
+
+config.withInputStream
+{
+	line->
+	prop.load(line)
+}
+//log.info prop['DB_URL']
+String resultLocation=prop['ResultLocation']
+
+testRunner.testCase.testSuite.setPropertyValue('EndPoint', prop['EndPoint']);
+Date date1 = new Date();
+String newDate = date1.format('yyyy/MM/dd');
+String newTime = date1.format('hh:mm:ss');
+String finalDate=newDate.replace('/','_');
+String finalTime= newTime.replace(':','_');
+String ResultFolder='Result_'+finalDate+'_'+finalTime
+String resLoc=resultLocation+'\\'+ResultFolder
+XSSFWorkbook O_Summary,O_td;
+XSSFSheet data_s;
+String  summary_File=resLoc+'\\Summary.xlsx';
+String data_F='C:\\APITesting\\Renewals\\TestData\\TestData.xlsx'
+File filePath = new File(resLoc);
+boolean b=false
+XSSFCell cell
+XSSFRow currentrow
+if(!filePath.exists())
+{
+	b=filePath.mkdirs()
+}
+if(b)
+{
+	DataFormatter formatter = new DataFormatter();
+	String currentcell,cellvalue,token,tcid,eFlag;
+	testRunner.testCase.testSuite.setPropertyValue('ResultPath', resLoc);
+	testRunner.testCase.testSuite.setPropertyValue('SummaryFile', summary_File);
+
+	O_Summary=RT.getSummaryWorkbook(summary_File);
+	File t_data=new File(data_F);
+	O_td = new XSSFWorkbook(t_data);
+	data_s=O_td.getSheet('TestData');
+	int row_cnt=data_s.getLastRowNum()
+
+	testRunner.testCase.testSuite.setPropertyValue('Env', prop['Environment']);
+	log.info "Working On Environment ="+prop['Environment']
+	log.info "EndPoint For Testing = "+prop['EndPoint']
+	log.info "Database URL = "+prop['DB_URL']
+	log.info "Result Location = "+prop['ResultLocation']
+	
+	String tName='C:\\APITesting\\Renewals\\Config\\tc_Token.csv'
+	config=new File(tName)
+	config.withInputStream
+	{
+		line->
+		prop.load(line)
+	}
+	token=prop['API_TOKEN']
+	testRunner.testCase.testSuite.setPropertyValue('token', prop['API_TOKEN']);
+	log.info "Token for Test execution = "+prop['API_TOKEN']
+}
+else
+{
+	System.exit();
+}</script></con:config></con:testStep><con:testStep type="groovy" name="SummaryCreate" id="cb9d1d06-eb43-48a9-a4aa-c2e5292b4559"><con:settings/><con:config><script>import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.hssf.usermodel.*;
+import org.apache.poi.xssf.usermodel.*;
+import org.apache.poi.ss.util.*;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+
+def lib = testRunner.testCase.testSuite.project.testSuites["TS"].testCases["Driver_Script"].testSteps["Driver"]
+lib.run(testRunner, context)
+def RT = context.Rt
+String summary_File= testRunner.testCase.testSuite.getPropertyValue('SummaryFile');
+XSSFWorkbook O_Summary=RT.getSummaryWorkbook(summary_File)
+XSSFSheet source=O_Summary.getSheet("API_Summary");
+String env=testRunner.testCase.testSuite.getPropertyValue('Env')
+switch(env)
+{
+	case "dev-tactical":
+			env="DEV"
+		break;
+	case "int":
+			env="INT"
+		break;
+	case "uat":
+			env="UAT"
+		break;
+	case "P&amp;I DEV":
+		env="P&amp;I DEV"
+		break;	
+}
+RT.writeSummarySheet(O_Summary,source,env)
+RT.autoSize(source,'0,1')
+RT.saveExcelFile(summary_File,O_Summary)</script></con:config></con:testStep><con:properties><con:property><con:name>Config</con:name><con:value>C:\\APITesting\\Renewals\\Config\\config.Properties</con:value></con:property></con:properties></con:testCase><con:testCase id="62b1d76d-6fbf-43d6-bf05-80d040ab1964" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="RenewalQuoteBindSuccess" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="RenewalQuoteBindSuccess" id="9eb5dfa1-2280-4c60-b5bd-bf1751274b83" disabled="true"><con:settings/><con:config service="http://spltomservices:44380" resourcePath="/api/UtomApi/renewals/bind/${#TestCase#contactPartyId}" methodName="RenewalQuoteBindSuccess" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="RenewalQuoteBindSuccess" id="29f6ed46-361b-446c-9591-52367b3d57dd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="Bearer ${TestSuite#token}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>${#TestSuite#EndPoint}</con:endpoint><con:request>[
+	91987
+]</con:request><con:originalUri>http://spltomservices/api/UtomApi/renewals/bind/60C4C8B5-0CA2-DE11-8D9C-001F29E68CCC</con:originalUri><con:credentials><con:selectedAuthProfile>BearerToken</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="REST Request" id="f6cb957d-8916-4971-8fad-2bbe5c281fcf"><con:settings/><con:config service="http://spltomservices:44380" resourcePath="/api/UtomApi/renewals/bind/${#TestCase#contactPartyId}" methodName="RenewalQuoteBindSuccess" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request" id="29f6ed46-361b-446c-9591-52367b3d57dd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://spltomservices:44380</con:endpoint><con:request>[
+	92384
+]</con:request><con:originalUri>http://spltomservices/api/UtomApi/renewals/bind/60C4C8B5-0CA2-DE11-8D9C-001F29E68CCC</con:originalUri><con:credentials><con:selectedAuthProfile>BearerToken</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="RenewalQuoteBindSuccess_GroovyScript" id="bb8a6860-1cf5-45ab-ac77-ba197f6e8ea4"><con:settings/><con:config><script><![CDATA[import java.io.*;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.hssf.usermodel.*;
+import org.apache.poi.xssf.usermodel.*;
+import org.apache.poi.ss.util.*;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import groovy.json.JsonSlurper  
+import groovy.sql.Sql
+import java.util.HashMap
+
+String uri=context.getProperty("requestUri").toString()
+String data_F='C:\\APITesting\\Renewals\\TestData\\TestData.xlsx'
+String currentcell,cellvalue,token,tcModuleId,eFlag,dsc,newtcModuleId;
+
+String tName='C:\\APITesting\\Renewals\\Config\\tc_Token.csv'
+File config=new File(tName)
+Properties prop=new Properties()
+config.withInputStream
+{
+	line->
+	prop.load(line)
+}
+token=prop['API_TOKEN']
+
+XSSFWorkbook O_Summary,O_td;
+XSSFSheet data_s;
+File t_data=new File(data_F);
+O_td = new XSSFWorkbook(t_data);
+data_s=O_td.getSheet('TestData');
+int row_cnt=data_s.getLastRowNum()
+def lib = testRunner.testCase.testSuite.project.testSuites["TS"].testCases["Driver_Script"].testSteps["Driver"]
+lib.run(testRunner, context)
+def RT = context.Rt
+
+String summary_File= testRunner.testCase.testSuite.getPropertyValue('SummaryFile');
+XSSFSheet source,target,summary,result
+O_Summary=RT.getSummaryWorkbook(summary_File)
+summary=O_Summary.getSheet('API_Result')
+
+XSSFCellStyle rowStyle,headerStyle,rowTrue,rowFalse;
+def arrOutputHeader;
+String res_Path= testRunner.testCase.testSuite.getPropertyValue('ResultPath');
+
+XSSFCell cell
+XSSFRow currentrow,currentrow1
+XSSFRow headerRow
+
+ArrayList<String> quoteIdList = new ArrayList<>();
+ArrayList<String> dataList = new ArrayList<>();
+ArrayList<String> crmIdentifiedList = new ArrayList<>();
+ArrayList<String> txnList = new ArrayList<>();
+
+for(int rowi=1;rowi<=row_cnt;rowi++)
+{
+	currentrow = data_s.getRow(rowi);
+	tcModuleid=currentrow.getCell(0, Row.RETURN_BLANK_AS_NULL)
+	tcModuleName=currentrow.getCell(1, Row.RETURN_BLANK_AS_NULL)
+	noOfRecords=currentrow.getCell(2, Row.RETURN_BLANK_AS_NULL)
+	eFlag=currentrow.getCell(3, Row.RETURN_BLANK_AS_NULL)
+	dsc=currentrow.getCell(4, Row.RETURN_BLANK_AS_NULL)
+//	if(tcModuleName.toString().equals("TC_PatchApplicationByApplicationIdByDocumentByDocumentId"))
+//		tcModuleName="PATCHAppByAppIdByDocuments"
+	
+	if(tcModuleName.toString().equals("RenewalQuoteBindSuccess"))
+	{
+		log.info "Test Execution started for Renewal Quote Bind"
+		
+		testRunner.testCase.setPropertyValue('token',token)
+		testRunner.testCase.setPropertyValue('ExecutionFlag',eFlag)
+		
+		if(eFlag.equalsIgnoreCase('Y'))
+		{
+			rowStyle=RT.getCellStyle(O_Summary,'Cell',false)
+			headerStyle = RT.getCellStyle(O_Summary,'Header');
+			
+			apiArrOutputHeader = ["QuoteId", "ActualHasError", "ActualWorkflowId", "ActualTransactionId", "ActualGroupId", "ActualIsGroupCreated", "ActualSuccess", "ActualMessage","Status"];
+			
+			source=O_Summary.createSheet(tcModuleName.toString());
+
+			int total_size=0	
+			int api_cnt=0
+			int db_cnt=0
+			int row_start=2
+			int counter=2
+			def rows
+			int db_size=0
+			int totalColumns =0
+			int db_endCol=0
+			int api_startCol=0
+			def arrCellVal;
+			def tcIdForGetDetails;
+			//SQL connection and query
+
+			String sql_expectedIsGroupCreated="false"
+			String sql_expectedSuccess="false"
+			String sql_expectedHasError="true"
+			String sql_expectedMessage=""
+			String WorkflowId='000000000000'
+			String TransactionId=00
+			String GroupId=00
+			String IsGroupCreated="false"
+			int oldQuoteId=00
+					
+			def con=RT.getConnection(testRunner.testCase.testSuite.getPropertyValue('config'));
+
+			arrCellVal=['API data']
+			RT.writeDetails(source,0,0,headerStyle,arrCellVal)
+			headerStyle = RT.getCellStyle(O_Summary,'Header');
+			RT.writeDetails(source,1,0,headerStyle,apiArrOutputHeader)
+
+			String sqlstmt=
+			"""
+			use tom
+			select
+			Distinct
+			--top 2
+			ab.id, ab.Reference, ab.Discriminator, AB.Status_Id, AMA.Id as AMAId, MA.ID as MAID, ma.Reference, p2.SearchName as MemberName, P.Id as BrokerPartyId, p3.SearchName as BrokerName, P3.CrmIdentifier, U.FullName
+			from
+			MemberAssured ma
+			inner join ApplicationMemberAssured ama on ma.Id = ama.MemberAssured_Id and ama.VersionedLinkBase_PhysicalDeletionAttemptPrevented = 0 and ma.MemberAssured_PhysicalDeletionAttemptPrevented = 0
+			inner join ApplicationBase ab on ama.Application_Id = ab.Id and ab.ApplicationBase_PhysicalDeletionAttemptPrevented = 0
+			--and ab.Reference = 1054384
+			inner join ApplicationBroker abr on ab.Id = abr.Application_Id and abr.VersionedLinkBase_PhysicalDeletionAttemptPrevented = 0
+			inner join [Broker] br on abr.Broker_Id = br.Id and br.Broker_PhysicalDeletionAttemptPrevented = 0
+			inner join Party p on br.Party_Id = p.Id and p.PartyBase_PhysicalDeletionAttemptPrevented = 0
+			inner join Party p2 on ma.Party_Id = p2.id and p2.PartyBase_PhysicalDeletionAttemptPrevented = 0
+			inner join Party p3 on p3.Account_Id = p.id and p3.PartyBase_PhysicalDeletionAttemptPrevented = 0
+			inner join (Select p.account_id,  max(p.id) as  maxid from party p where p.Account_Id is not null and p.PartyBase_PhysicalDeletionAttemptPrevented = 0 group by p.Account_Id) as part
+			on p3.Account_Id = part.account_id and p3.id = part.maxid
+			inner join RenewalGroupApplication RGA on RGA.RenewalQuoteBase_Id = AB.Id and rga.VersionedLinkBase_PhysicalDeletionAttemptPrevented = 0
+			inner join RenewalGroup rg on rga.RenewalGroup_Id = rg.id
+			inner join [Transaction] T on T.RenewalGroup_Id = rg.Id
+			inner join [User] U on rg.User_Id = u.id
+			inner join workflow.dbo.instance INS on T.WorkflowId = INS.Id and U.ObjectGUID =INS.CurrentUser
+			where ab.PolicyEnd > GETDATE()
+			and ab.Discriminator = 'RenewalQuote'
+			and ab.Status_Id = 16
+			and AB.Id =90653
+			order by ma.id desc, ab.id
+			"""
+			
+//			"""
+//			use tom
+//			select
+//			top 10
+//			ab.id, ab.Reference, ab.Discriminator, AB.Status_Id, AMA.Id as AMAId, MA.ID as MAID, ma.Reference, p2.SearchName as MemberName,
+//			P.Id as BrokerPartyId, p3.SearchName as BrokerName, P3.CrmIdentifier, T.Id as TransactionId, T.WorkflowId, RGA.RenewalGroup_Id--,--U.FullName
+//			from
+//			MemberAssured ma
+//			inner join ApplicationMemberAssured ama on ma.Id = ama.MemberAssured_Id and ama.VersionedLinkBase_PhysicalDeletionAttemptPrevented = 0 and ma.MemberAssured_PhysicalDeletionAttemptPrevented = 0
+//			inner join ApplicationBase ab on ama.Application_Id = ab.Id and ab.ApplicationBase_PhysicalDeletionAttemptPrevented = 0
+//			inner join ApplicationBroker abr on ab.Id = abr.Application_Id and abr.VersionedLinkBase_PhysicalDeletionAttemptPrevented = 0
+//			inner join [Broker] br on abr.Broker_Id = br.Id and br.Broker_PhysicalDeletionAttemptPrevented = 0
+//			inner join Party p on br.Party_Id = p.Id and p.PartyBase_PhysicalDeletionAttemptPrevented = 0
+//			inner join Party p2 on ma.Party_Id = p2.id and p2.PartyBase_PhysicalDeletionAttemptPrevented = 0
+//			inner join Party p3 on p3.Account_Id = p.id and p3.PartyBase_PhysicalDeletionAttemptPrevented = 0
+//			--inner join RenewalGroupApplication RGA on RGA.RenewalQuoteBase_Id = AB.Id and rga.VersionedLinkBase_PhysicalDeletionAttemptPrevented = 0
+//			inner join (Select p.RenewalQuoteBase_Id,  max(p.RenewalGroup_Id) as  RenewalGroup_Id from RenewalGroupApplication p where p.RenewalGroupApplication_PhysicalDeletionAttemptPrevented = 0 group by p.RenewalQuoteBase_Id) as RGA
+//			on RGA.RenewalQuoteBase_Id = AB.Id 
+//			inner join (Select p.account_id,  max(p.id) as  maxid from party p where p.Account_Id is not null and p.PartyBase_PhysicalDeletionAttemptPrevented = 0 group by p.Account_Id) as part
+//			on p3.Account_Id = part.account_id and p3.id = part.maxid
+//			inner join [Transaction] T on T.RenewalGroup_Id = RGA.RenewalGroup_Id
+//			--inner join workflow.dbo.instance INS on INS.Id = T.WorkflowId
+//			--inner join [User] U on U.ObjectGUID =INS.CurrentUser
+//			where ab.PolicyEnd > GETDATE()
+//			and ab.Discriminator = 'RenewalQuote' and T.WorkflowId is not null
+//			and ab.Status_Id = 16 --and ab.Reference = 1054378  
+//			and AB.Id=90649 --and ab.Reference = 1054358
+//			order by ma.id desc, br.id
+//			"""
+			
+			def arrData;
+			con.eachRow(sqlstmt)
+			{
+				row -> 
+				quoteId=row.id
+				if(oldQuoteId.toString()==quoteId.toString())
+				{
+					oldQuoteId=quoteId
+				}
+				else
+				{
+					quoteIdList.add(quoteId)
+					crmIdentifier=row.CrmIdentifier
+					log.info "DB Quote Id from DB is->"+quoteId
+					log.info "DB CRM Identifier from DB is->"+crmIdentifier
+					
+					def newRequest = 
+					"""
+					[
+						$quoteId
+					]
+					"""
+					testRunner.testCase.testSteps["REST Request"].setPropertyValue( "Request", newRequest)
+					
+					testRunner.testCase.testSteps["REST Request"].setPropertyValue("contactPartyId", crmIdentifier.toString())
+					
+					testRunner.testCase.testSteps["REST Request"].setPropertyValue("quote", quoteId.toString())
+					
+					log.info "CRM Identified from request ->"+testRunner.testCase.testSteps["REST Request"].getPropertyValue("contactPartyId")
+					log.info "Request body is ->"+testRunner.testCase.testSteps["REST Request"].getPropertyValue( "Request")
+					
+					testRunner.runTestStepByName('REST Request')
+					String req='${REST Request#Response}'
+					response=context.expand(req)
+					log.info "Original API response for POST method is =>"+response
+					jsonSlurper=new JsonSlurper() 
+					jsonRes=jsonSlurper.parseText(response)
+					
+					//Check the Status code of API response
+					def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+					def httpResponseHeaders = context.testCase.testSteps["REST Request"].testRequest.response.responseHeaders
+					def httpStatus = httpResponseHeaders["#status#"]
+					def httpStatusCode = (httpStatus =~ "[1-5]\\d\\d")[0]
+					log.info "HTTP Status code is =>"+httpStatusCode
+	
+					if(httpStatusCode.toString().equals("200"))
+					{
+						api_HasError = jsonRes.hasError.toString().toUpperCase()
+						api_data = jsonRes.data
+						String[] dataDetails;
+						if(api_data!="" || api_data!="null")
+						{
+							dataList.add(api_data)
+							
+							String data=api_data
+							data=data.replace('"',"")
+							data=data.replace("{","")
+							data=data.replace("}","")
+							data=data.replace(","," ")
+							data=data.replace(":"," ")
+							dataDetails = data.split(' ')
+						}
+						log.info "Data details are ->"+dataDetails
+						api_success = jsonRes.success
+						api_message = jsonRes.message	
+						
+						WorkflowId=dataDetails[1].toString().toUpperCase()
+						TransactionId=dataDetails[3].toString()
+						txnList.add(TransactionId)
+						GroupId=dataDetails[5].toString()
+						IsGroupCreated=dataDetails[7].toString().toUpperCase()
+	
+						log.info "API TransactionId ="+TransactionId
+						log.info "API WorkflowId ="+WorkflowId
+						log.info "API GroupId ="+GroupId
+						log.info "API IsGroupCreated ="+IsGroupCreated
+						
+						log.info "API response is received as=>"+quoteId+","+api_HasError+","+WorkflowId+","+TransactionId+","+GroupId+","+IsGroupCreated+","+api_success+","+api_message
+						arrCellVal=[quoteId, api_HasError, WorkflowId, TransactionId, GroupId, IsGroupCreated, api_success, api_message];
+						RT.writeDetails(source,counter,0,rowStyle,arrCellVal)
+						db_size++
+						counter++
+					}//if statement closed
+					else if(httpStatusCode.toString().equals("401"))
+					{
+						log.info "Failed API response is received"
+						log.info "In API Response, HTTP Status code is received as ==>"+httpStatusCode+" with status message as =>"+httpStatus
+						arrCellVal=[" "," ", httpStatusCode+"=>"+httpStatus]
+						RT.writeDetails(source,counter,0,rowStyle,arrCellVal)
+						db_size++
+						counter++
+					}
+					else
+					{
+						log.info "Failed API response is received"
+						log.info "In API Response, HTTP Status code is received as ==>"+httpStatusCode+" with status message as =>"+httpStatus
+						arrCellVal=[" "," ", httpStatusCode+"=>"+httpStatus]
+						RT.writeDetails(source,counter,0,rowStyle,arrCellVal)
+						db_size++
+						counter++
+					}
+					try
+					{
+						RT.saveExcelFile(summary_File,O_Summary)
+					}
+					catch(Exception e) 
+					{
+						log.info e.toString();
+					}
+					oldQuoteId=quoteId
+				}
+			}//inner sql end
+			
+			totalColumns = source.getRow(1).getLastCellNum()
+			db_endCol=totalColumns-1
+			api_startCol=totalColumns+2
+			
+			//API
+			arrCellVal=['DB DATA']
+			total_size=0
+			RT.writeDetails(source,0,api_startCol,headerStyle,arrCellVal)
+			dbArrOutputHeader = ["QuoteId", "ExpectedHasError", "ExpectedWorkflowId", "ExpectedTransactionId", "ExpectedGroupId", "ExpectedIsGroupCreated", "ExpectedSuccess", "ExpectedMessage","Status"];
+			RT.writeDetails(source,1,api_startCol,headerStyle,dbArrOutputHeader)
+			counter=row_start
+			oldQuoteId=00
+			for (int j=0;j<quoteIdList.size();j++)
+			{
+				log.info "Quote Id for processing is ->"+quoteIdList.get(j);
+			}
+			for (int i=0;i<quoteIdList.size();i++)
+			{
+				int quoteId=quoteIdList.get(i);
+				int transactionId= txnList.get(i).toInteger()
+				
+				if(oldQuoteId.toString()==quoteId.toString())
+				{
+					oldQuoteId=quoteId
+					break;
+				}
+				else
+				{
+					String newSql=
+					"""
+					declare 
+					@transactionId  as int = """+transactionId+"""
+					select 
+					T.Id as TransactionId, T.WorkFlowId, T.RenewalGroup_Id as GroupId, RG.Id as RenewalGroupId, RGA.Id
+					from [Transaction] T
+					inner join RenewalGroup RG on RG.Id=T.RenewalGroup_Id
+					inner join RenewalGroupApplication RGA on RGA.Id=T.RenewalGroup_Id
+					where T.Id= @transactionId 
+					"""
+					con.eachRow(newSql)
+					{
+						getRow -> 
+						sql_quoteId=quoteId
+						sql_workFlowId=getRow.WorkFlowId
+						sql_TransactionId=getRow.TransactionId.toString()
+						sql_GroupId=getRow.GroupId.toString()
+						sql_RenewalGroupId=getRow.RenewalGroupId
+						
+						log.info "Inside SQL"
+						sql_expectedIsGroupCreated="TRUE"
+						sql_expectedSuccess="TRUE"
+						sql_expectedHasError="FALSE"
+
+						//log.info "SQL response is ->"+quoteId+","+sql_expectedHasError+","+sql_workFlowId+","+sql_TransactionId+","+sql_GroupId+","+sql_expectedIsGroupCreated+","+sql_expectedSuccess+","+sql_expectedMessage
+						
+						if(!sql_TransactionId.toString().equals("0") && !sql_GroupId.toString().equals("0"))
+						{
+							
+							log.info "SQL response is ->"+quoteId+","+sql_expectedHasError+","+sql_workFlowId+","+sql_TransactionId+","+sql_GroupId+","+sql_expectedIsGroupCreated+","+sql_expectedSuccess+","+sql_expectedMessage
+							arrCellVal=[quoteId, sql_expectedHasError, sql_workFlowId, sql_TransactionId, sql_GroupId, sql_expectedIsGroupCreated, sql_expectedSuccess, sql_expectedMessage];		
+							RT.writeDetails(source,counter,api_startCol,rowStyle,arrCellVal)
+							total_size++
+							counter++
+							try
+							{
+								RT.saveExcelFile(summary_File,O_Summary)
+							}
+							catch(Exception e) 
+							{
+								log.info e.toString();
+							}
+						}
+						else
+						{
+							log.info "SQL response is ->"+quoteId+","+" "+","+""+","+" "+","+" "+","+" "+","+" "+","+" "
+							arrCellVal=[quoteId, " ", " ", " ", " ", " ", " ", " "];		
+							RT.writeDetails(source,counter,api_startCol,rowStyle,arrCellVal)
+							total_size++
+							counter++
+							try
+							{
+								RT.saveExcelFile(summary_File,O_Summary)
+							}
+							catch(Exception e) 
+							{
+								log.info e.toString();
+							}
+						}
+					}
+				}
+				
+				/*
+				else
+						{
+							log.info "SQL response is ->"+quoteId+","+" "+","+""+","+" "+","+" "+","+" "+","+" "+","+" "
+							arrCellVal=[quoteId, " ", " ", " ", " ", " ", " ", " "];		
+							RT.writeDetails(source,counter,api_startCol,rowStyle,arrCellVal)
+							total_size++
+							counter++
+							try
+							{
+								RT.saveExcelFile(summary_File,O_Summary)
+							}
+							catch(Exception e) 
+							{
+								log.info e.toString();
+							}
+						}	
+						*/	
+				/*
+				 else
+				{
+					String getDetails = 
+					"""
+					declare 
+					@quote as int = """+quoteId+"""
+					
+					select 
+					AB.Id, AB.Status_Id, AB.Discriminator, QS.Name, AB.Reference, AB.Status_Id
+					from ApplicationBase AB
+					inner join ref_QuoteStatus QS on QS.Id=AB.Status_Id
+					where AB.Id=@quote
+					"""	
+					con.eachRow(getDetails)
+					{
+						getRow->
+							sql_QuoteId=getRow.Id
+							sql_Reference=getRow.Reference
+							sql_Status=getRow.Name
+							sql_Discriminator=getRow.Discriminator
+							sql_StatusId=getRow.Status_Id
+
+							log.info "After Binding Quote Id ->'"+sql_QuoteId+"' and Reference no ->'"+sql_Reference+"' the status is changed to ->'"+sql_Status+"' and Status Id->"+sql_StatusId
+
+							//if(sql_Status.toString()=="Issued (Quotation)")
+							if(sql_StatusId.toString()=="17")
+							{
+								String getPolicyId = 
+								"""
+								declare 
+								@Ref as int = """+sql_Reference+"""
+								select
+								TOP 1
+								Id, Reference, Discriminator, Status_Id
+								from ApplicationBase 
+								where Reference=@Ref
+								"""
+
+								con.eachRow(getPolicyId)
+								{
+									get->
+									sql_policyId=get.Id
+									sql_Reference = get.Reference
+									sql_Discriminator = get.Discriminator
+									sql_Reference = get.Reference
+
+									log.info "After Binding Quote new policy Id is generated ->'"+sql_policyId+"' and its discriminator is '"+sql_Discriminator+"'"
+								}//end of inner sql
+							}//end of if
+					}//end of outer SQL
+				}//end of else
+				*/
+			}//end og for loop
+			con.close()
+
+			int db_startCol=0
+			counter=row_start;
+			totalColumns = source.getRow(1).getLastCellNum();
+			int api_endCol=totalColumns-1
+			dsc='Compares API data for Renewal Quote Bind data UTOM Database data'
+			tcid=tcModuleName.toString()
+			RT.process_Data(O_Summary, source, api_startCol, db_startCol, row_start, api_endCol, db_endCol, total_size, db_size, summary, summary_File, uri, tcid,dsc)
+		}//inner if end
+	}//outer if end
+}//outer for end]]></script></con:config></con:testStep><con:properties><con:property><con:name>contactPartyId</con:name><con:value>60C4C8B5-0CA2-DE11-8D9C-001F29E68CCC</con:value></con:property><con:property><con:name>quote</con:name><con:value>91987</con:value></con:property></con:properties></con:testCase><con:testCase id="4acc1c96-56fb-4ea2-ba8d-6ef15c1a8389" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="HandleReferral_QuoteIdByBrokerContactCRMIdByMessage" searchProperties="true" disabled="true"><con:settings/><con:testStep type="restrequest" name="HandleReferral" id="efac0096-69a3-4927-b568-cf1433a3169c"><con:settings/><con:config service="http://spltomservices:44380" resourcePath="/api/UtomApi/renewals/createNote/${#TestCase#quoteId}/${#TestCase#crmIdentifier}/" methodName="ReferralHandle_QuoteIdByCRMIdByMessage" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="HandleReferral" id="8c9bdb1d-24bd-46e7-b80c-a7fab21b3f6b" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="Bearer ${#TestSuite#token}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>http://spltomservices:44380</con:endpoint><con:request/><con:originalUri>http://spltomservices/api/UtomApi/renewals/createNote//</con:originalUri><con:credentials><con:selectedAuthProfile>BearerToken</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="message" value="${#TestCase#note}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="b4e81547-98d4-4ed8-811d-335d5225a402"><con:settings/><con:config><script><![CDATA[import java.io.*;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.hssf.usermodel.*;
+import org.apache.poi.xssf.usermodel.*;
+import org.apache.poi.ss.util.*;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFCellStyle;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import groovy.json.JsonSlurper  
+import groovy.sql.Sql
+import java.util.HashMap
+
+String uri=context.getProperty("requestUri").toString()
+String data_F='C:\\APITesting\\Renewals\\TestData\\TestData.xlsx'
+String currentcell,cellvalue,token,tcModuleId,eFlag,dsc,newtcModuleId;
+
+String tName='C:\\APITesting\\Renewals\\Config\\tc_Token.csv'
+File config=new File(tName)
+Properties prop=new Properties()
+config.withInputStream
+{
+	line->
+	prop.load(line)
+}
+token=prop['API_TOKEN']
+
+XSSFWorkbook O_Summary,O_td;
+XSSFSheet data_s;
+File t_data=new File(data_F);
+O_td = new XSSFWorkbook(t_data);
+data_s=O_td.getSheet('TestData');
+int row_cnt=data_s.getLastRowNum()
+def lib = testRunner.testCase.testSuite.project.testSuites["TS"].testCases["Driver_Script"].testSteps["Driver"]
+lib.run(testRunner, context)
+def RT = context.Rt
+
+String summary_File= testRunner.testCase.testSuite.getPropertyValue('SummaryFile');
+XSSFSheet source,target,summary,result
+O_Summary=RT.getSummaryWorkbook(summary_File)
+summary=O_Summary.getSheet('API_Result')
+
+XSSFCellStyle rowStyle,headerStyle,rowTrue,rowFalse;
+def arrOutputHeader;
+String res_Path= testRunner.testCase.testSuite.getPropertyValue('ResultPath');
+
+XSSFCell cell
+XSSFRow currentrow,currentrow1
+XSSFRow headerRow
+
+String note = "ThisisAutomatedtest"
+
+for(int rowi=1;rowi<=row_cnt;rowi++)
+{
+	currentrow = data_s.getRow(rowi);
+	tcModuleid=currentrow.getCell(0, Row.RETURN_BLANK_AS_NULL)
+	tcModuleName=currentrow.getCell(1, Row.RETURN_BLANK_AS_NULL)
+	noOfRecords=currentrow.getCell(2, Row.RETURN_BLANK_AS_NULL)
+	eFlag=currentrow.getCell(3, Row.RETURN_BLANK_AS_NULL)
+	dsc=currentrow.getCell(4, Row.RETURN_BLANK_AS_NULL)
+	if(tcModuleName.toString().equals("HandleReferral_QuoteIdByBrokerContactCRMIdByMessage"))
+		tcModuleName="HandleReferral"
+	
+	if(tcModuleName.toString().equals("HandleReferral"))
+	{
+		log.info "Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id"
+		
+		testRunner.testCase.setPropertyValue('token',token)
+		testRunner.testCase.setPropertyValue('ExecutionFlag',eFlag)
+		
+		if(eFlag.equalsIgnoreCase('Y'))
+		{
+			rowStyle=RT.getCellStyle(O_Summary,'Cell',false)
+			headerStyle = RT.getCellStyle(O_Summary,'Header');
+			
+			apiArrOutputHeader = ["QuoteId","ExpectedMessage","ExpectedBrokeContactId","ExpectedStatus","Status"];
+			
+			source=O_Summary.createSheet(tcModuleName.toString());
+
+			int total_size=0	
+			int api_cnt=0
+			int db_cnt=0
+			int row_start=2
+			int counter=2
+			def rows
+			int db_size=0
+			int totalColumns =0
+			int db_endCol=0
+			int api_startCol=0
+			def arrCellVal;
+			def tcIdForGetDetails;
+			//SQL connection and query
+
+			def con=RT.getConnection(testRunner.testCase.testSuite.getPropertyValue('config'));
+
+			arrCellVal=['API data']
+			RT.writeDetails(source,0,0,headerStyle,arrCellVal)
+			headerStyle = RT.getCellStyle(O_Summary,'Header');
+			RT.writeDetails(source,1,0,headerStyle,apiArrOutputHeader)
+			
+			ArrayList<String> quoteIdList = new ArrayList<>();
+			ArrayList<String> crmIdList = new ArrayList<>();
+			ArrayList<String> brokerContactIdList = new ArrayList<>();
+
+			String sqlstmt=
+			"""
+			use TOM
+			select 
+			top 1
+			ab.Id, p.CrmIdentifier, P.Id as BrokerContactId
+			from applicationbase as ab
+			inner join ApplicationBroker as abroker on abroker.Application_Id = ab.Id
+			inner join ApplicationBrokerContact as abc on abc.ApplicationBroker_Id = abroker.Broker_Id
+			inner join Party as p on p.Id = abc.Contact_Id
+			where Status_Id = 16 
+			and ab.Discriminator='RenewalQuote'
+			order by ab.Reference desc
+			"""
+			String expectedStatus="Pending (Quotation)"
+			
+			def arrData;
+			con.eachRow(sqlstmt)
+			{
+				row -> 
+				sql_QuoteId=row.id
+				quoteIdList.add(sql_QuoteId)
+				sql_CrmIdentifier=row.CrmIdentifier
+				crmIdList.add(sql_CrmIdentifier)
+				sql_BrokerContactId=row.BrokerContactId
+				brokerContactIdList.add(sql_BrokerContactId)
+
+				testRunner.testCase.setPropertyValue( "quoteId", sql_QuoteId.toString())
+				testRunner.testCase.setPropertyValue("crmIdentifier", sql_CrmIdentifier.toString())
+				testRunner.testCase.setPropertyValue("note", note)
+				
+				testRunner.runTestStepByName("HandleReferral")
+				String req='${HandleReferral#Response}'
+				response=context.expand(req)
+				log.info "Original API response for POST method is =>"+response
+				jsonSlurper=new JsonSlurper() 
+				jsonRes=jsonSlurper.parseText(response)
+				
+				//Check the Status code of API response
+				def groovyUtils = new com.eviware.soapui.support.GroovyUtils( context )
+				def httpResponseHeaders = context.testCase.testSteps["HandleReferral"].testRequest.response.responseHeaders
+				def httpStatus = httpResponseHeaders["#status#"]
+				def httpStatusCode = (httpStatus =~ "[1-5]\\d\\d")[0]
+				log.info "HTTP Status code is =>"+httpStatusCode
+	
+				if(httpStatusCode.toString().equals("200"))
+				{
+					api_HasError = jsonRes.hasError
+					api_Data= jsonRes.data
+					api_Success = jsonRes.success
+					api_Message = jsonRes.message
+						
+					log.info "API Response is received as =>"+api_HasError+","+api_Data+","+api_Success+","+api_Message
+					if(api_HasError.toString().equals("false"))
+					{
+						arrCellVal=[sql_QuoteId, note, sql_BrokerContactId, expectedStatus];	
+					}
+					else
+						arrCellVal=[sql_QuoteId, note, sql_BrokerContactId, expectedStatus];	
+					
+					RT.writeDetails(source,counter,0,rowStyle,arrCellVal)
+					db_size++
+					counter++
+				}//if statement closed
+				else if(httpStatusCode.toString().equals("401"))
+				{
+					log.info "Failed API response is received"
+					log.info "In API Response, HTTP Status code is received as ==>"+httpStatusCode+" with status message as =>"+httpStatus
+					arrCellVal=[" ", httpStatusCode+"=>"+httpStatus, jsonRes.message]
+					RT.writeDetails(source,counter,0,rowStyle,arrCellVal)
+					db_size++
+					counter++
+				}
+				else if(httpStatusCode.toString().equals("400"))
+				{
+					log.info "Failed API response is received"
+					log.info "In API Response, HTTP Status code is received as ==>"+httpStatusCode+" with status message as =>"+httpStatus
+					arrCellVal=[" ", httpStatusCode+"=>"+httpStatus, jsonRes.message]
+					RT.writeDetails(source,counter,0,rowStyle,arrCellVal)
+					db_size++
+					counter++
+				}
+				else
+				{
+					log.info "Failed API response is received"
+					log.info "In API Response, HTTP Status code is received as ==>"+httpStatusCode+" with status message as =>"+httpStatus
+					arrCellVal=[" ", httpStatusCode+"=>"+httpStatus, jsonRes.message]
+					RT.writeDetails(source,counter,0,rowStyle,arrCellVal)
+					db_size++
+					counter++
+				}
+				try
+				{
+					RT.saveExcelFile(summary_File,O_Summary)
+				}
+				catch(Exception e) 
+				{
+					log.info e.toString();
+				}	
+			}//inner sql end
+			
+			totalColumns = source.getRow(1).getLastCellNum()
+			db_endCol=totalColumns-1
+			api_startCol=totalColumns+2
+			
+			//API
+			arrCellVal=['DB DATA']
+			total_size=0
+			RT.writeDetails(source,0,api_startCol,headerStyle,arrCellVal)
+			dbArrOutputHeader = ["QuoteId","ActualMessage","ActualBrokeContactId","ActualStatus","Status"];
+			RT.writeDetails(source,1,api_startCol,headerStyle,dbArrOutputHeader)
+			counter=row_start
+			
+			for (int i = 0; i < quoteIdList.size(); i++)
+			 {
+			 	int quote=quoteIdList.get(i).toInteger()
+			 	brokerContactId= brokerContactIdList.get(i)
+			 	
+			 	log.info "Getting details for quote Id=>"+quote
+			 	
+			 	String getNoteDetails =
+				"""
+				declare
+				@appId as int = """+quote+"""
+				select 
+				top 1
+				ApplicationBase_Id, Id as NoteId, BrokerContact_Id, Text 
+				from Note 
+				where ApplicationBase_Id=@appId
+				order by 2 desc
+				"""
+				
+				con.eachRow(getNoteDetails)
+				{
+					getDetails->
+						sql_AppId=getDetails.ApplicationBase_Id
+						sql_NoteId=getDetails.NoteId
+						sql_BrokerContactId=getDetails.BrokerContact_Id
+						sql_Message=getDetails.Text
+						
+						if(quote.toString().equals(sql_AppId.toString()) && sql_BrokerContactId.toString().equals(brokerContactId.toString()))
+						{
+							String sqlStmt = 
+							"""
+							declare
+							@id as int ="""+quote+"""
+							SELECT
+							AB.Reference, AB.Id, AB.Status_Id, RQS.Name
+							from ApplicationBase AB
+							inner join ref_QuoteStatus RQS on RQS.Id = AB.Status_Id
+							where AB.Id=@id
+							"""
+							con.eachRow(sqlStmt)
+							{
+								getRow ->
+								sql_statusId=getRow.Status_Id
+								sql_Status=getRow.Name
+ 
+								if(sql_statusId.toString().equals("3") && sql_Status.toString().equals("Pending (Quotation)"))
+								{
+									log.info "SQL response received as =>"+sql_AppId+","+sql_NoteId+","+sql_BrokerContactId+","+sql_Message+","+sql_Status
+									arrCellVal=[sql_AppId, sql_Message, sql_BrokerContactId, sql_Status]
+									RT.writeDetails(source, counter, api_startCol, rowStyle, arrCellVal)
+									total_size++
+									counter++
+									try
+									{
+										RT.saveExcelFile(summary_File,O_Summary)
+									}
+									catch(Exception e)
+									{
+									  log.info e.getMessage();	
+									}
+								}
+								else
+								{
+									log.info "SQL response received as =>"+sql_AppId+","+sql_NoteId+","+sql_BrokerContactId+","+sql_Message+","+sql_Status
+									arrCellVal=[sql_AppId, sql_Message, sql_BrokerContactId, sql_Status]
+									RT.writeDetails(source, counter, api_startCol, rowStyle, arrCellVal)
+									total_size++
+									counter++
+									try
+									{
+										RT.saveExcelFile(summary_File,O_Summary)
+									}
+									catch(Exception e)
+									{
+									  log.info e.getMessage();	
+									}
+								}
+							}			
+						}				
+					}//end of sql
+			}//end of for loop
+			con.close()
+
+			int db_startCol=0
+			counter=row_start;
+			totalColumns = source.getRow(1).getLastCellNum();
+			int api_endCol=totalColumns-1
+			dsc='Compares API data for Handle Referral wih message created for qupte and crm identifiers with UTOM Database data'
+			tcid=tcModuleName.toString()
+			RT.process_Data(O_Summary, source, api_startCol, db_startCol, row_start, api_endCol, db_endCol, total_size, db_size, summary, summary_File, uri, tcid,dsc)
+		}//inner if end
+	}//outer if end
+}//outer for end]]></script></con:config></con:testStep><con:properties><con:property><con:name>quoteId</con:name><con:value>93422</con:value></con:property><con:property><con:name>crmIdentifier</con:name><con:value>027B5237-B233-DD11-B86D-001A4BF0119A</con:value></con:property><con:property><con:name>note</con:name><con:value>Welcome</con:value></con:property></con:properties></con:testCase><con:properties><con:property><con:name>config</con:name><con:value>C:\APITesting\Renewals\Config\config.Properties</con:value></con:property><con:property><con:name>EndPoint</con:name><con:value>http://spltomservices:44380/</con:value></con:property><con:property><con:name>ResultPath</con:name><con:value>C:\APITesting\Renewals\Results\</con:value></con:property><con:property><con:name>SummaryFile</con:name><con:value>C:\APITesting\Renewals\Results\Result_2021_07_27_01_13_23\Summary.xlsx</con:value></con:property><con:property><con:name>token</con:name><con:value>eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzAwODEwNDUsIm5iZiI6MTYzMDA3NzQ0NSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDA3NzQ0NX0.g_lfngarUyYQhTCjAzJf0i2k7cyO06phiQ5HV9njbYxSaj_2UQLeQMTOGddjFxPVm0bMQGofMAG2TPevWm51ER1RK-lhFqRO8opoobEjoWlT5hHc1kYG2N8pk4SVo4UmfyZQrE4Id5admKPlU1gMaxS9agRbxGyYDqf0_d4-mUMtNabxwgm79W1sTkur_16UciXew9bIESCMhFJlrF2nVT-cpDHDpNOF7wmfCTw-JJAem_huCXSx0idoIw-cXjzYQ_Z3Tq2Qqt0-Qkq2EHrA0F8C3F3KMMKbF5jRNtNrxPp2wMZb4YGMwYtxz9-aH32TwPrWBi3GioJlze-vvPA80g </con:value></con:property></con:properties></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer><con:oAuth2Profile><con:name>BearerToken</con:name><con:accessToken>eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw</con:accessToken><con:accessTokenPosition>HEADER</con:accessTokenPosition><con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow><con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod><con:accessTokenStatus>UNKNOWN</con:accessTokenStatus><con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus><con:manualAccessTokenExpirationTimeUnit>SECONDS</con:manualAccessTokenExpirationTimeUnit></con:oAuth2Profile></con:oAuth2ProfileContainer><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

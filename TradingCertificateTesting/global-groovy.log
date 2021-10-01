@@ -1,0 +1,24 @@
+2021-10-01 11:54:20,045 INFO  [log] Working On Environment =P&IDev
+2021-10-01 11:54:20,047 INFO  [log] EndPoint For Testing = https://pandionlinedev.shipownersclub.com/tradingcertificates
+2021-10-01 11:54:20,059 INFO  [log] Database URL = jdbc:sqlserver://tradingcertificate-db-server.database.windows.net;databaseName=tradingcertificate
+2021-10-01 11:54:20,063 INFO  [log] Result Location = C:\APITesting\TradingCertificateTesting\Results
+2021-10-01 11:54:20,078 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzMwNzMwMzEsIm5iZiI6MTYzMzA2OTQzMSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMzA2OTQzMX0.RuOf1c1uVMYtRqOg8bNm8wDAGHzDRdfNydeIBl2U4o6tdRrfzaRyXhRv8i_Jfevt5JItOskazJ4VyP5taNvxAUCi5o5iLCVxH8Q4i7SVFJFAHzAlE5yjRywanKG_VfAqnZWxyYmb5pzQLrddXfC3yd7N2VOLSxFlmHiwWj5qh0KZtYtMrJ_EZP_yonm9w7UbqimcjZAhbtrf4dcJ_7IB46InZ0WCvXWbZOwHIG3Zu_WHG7JQhBTNTPl4VXyvEtJjE_Y1KxkxZijsDGlUGzWwUA3Cl6Au9G8IpL7NFtZMYkuqf4SyVKz7Bn4e7b42BtK7iYWUq7YBSfUrEKWXNZnCUQ
+2021-10-01 11:54:24,063 INFO  [log] Test Execution started for getting Trading Certificate Groups from API and database
+2021-10-01 11:54:30,966 INFO  [log] Test Execution started for getting Trading Certificate Types from API and database
+2021-10-01 11:54:35,315 INFO  [log] Test Execution started for getting Trading Certificate types by Trading Certificate Groups from API and database
+2021-10-01 11:54:43,678 INFO  [log] Test Execution started for getting Trading Certificate details as per risk selection from API and database
+2021-10-01 11:54:46,976 INFO  [log] Test Execution started for getting Signatory States By Signatory States Id By Addresses from API and database
+2021-10-01 11:54:50,668 INFO  [log] Test Execution started for getting Signatory States By Trading Certificate Type Id By States from API and database
+2021-10-01 11:54:59,957 INFO  [log] Test Execution started for getting Trading Certificate Pack details by Pack Id from API and database
+2021-10-01 11:55:07,831 INFO  [log] Test Execution started for getting Trading Certificate By Trading Certificate Id from API and database
+2021-10-01 11:55:16,882 INFO  [log] Test Execution started for Validating Trading Certificate By Trading Certificate Id from API and database
+2021-10-01 11:55:28,964 INFO  [log] Test Execution started for Updating Trading Certificates
+2021-10-01 11:55:31,878 INFO  [log] Test Execution started for adding trading certificate to trading certficate packs with API and database
+2021-10-01 11:55:34,168 INFO  [log] Test Execution started for Removing trading certificate Pack Id from trading certficate with API and database
+2021-10-01 11:55:39,910 INFO  [log] Test Execution started for getting Trading Certificate by Trading Certificated ID by Generate Draft Document
+2021-10-01 11:55:47,699 INFO  [log] Test Execution started for getting Trading Certificate by Trading Certificated ID by Issued Drafr Document
+2021-10-01 11:55:54,619 INFO  [log] Test Execution started for getting Generate Draft Document with Trading Certificate Packs from API and database
+2021-10-01 11:55:56,882 INFO  [log] Test Execution started for Creating new Trading Certificates Packs
+2021-10-01 11:56:06,049 INFO  [log] Test Execution started for Validating Trading Certificate Packs By Trading Certificate Pack Id from API and database
+2021-10-01 11:56:14,031 INFO  [log] Test Execution started for Creating and Saving Trading Certificates
+2021-10-01 11:56:17,481 INFO  [log] Test Execution started for getting Trading Certificate Types by Invalid Certificate

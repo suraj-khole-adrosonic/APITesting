@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 5924
+Size: 0
+Timestamp: Tue Sep 21 18:37:15 IST 2021
+TestStep: RenewalQuoteBindSuccess_GroovyScript
+Error:com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'Distinct'.
+
+----------------- Messages ------------------------------
+com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'Distinct'.
+error at line: 147

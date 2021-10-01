@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 183170
+Size: 0
+Timestamp: Tue Aug 31 16:48:48 IST 2021
+TestStep: PATCH_TradingCertificate_AllTCTypes
+Error:com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Read timed out ClientConnectionId:fd1a142a-e155-4cca-b85d-46c2e3e171be".
+
+----------------- Messages ------------------------------
+com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Read timed out ClientConnectionId:fd1a142a-e155-4cca-b85d-46c2e3e171be".
+error at line: 94

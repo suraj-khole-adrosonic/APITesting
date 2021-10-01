@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Thu Sep 09 18:34:06 IST 2021
+TestStep: PATCH_TradingCertificatePacksByTradingCertificatePackIdByAdd
+
+----------------- Messages ------------------------------
+java.net.SocketException: Connection reset
+
+- missing response / garbage collected -

@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Thu Sep 30 18:20:08 IST 2021
+TestStep: RiskSelectionTradCertsByRiskRef
+
+----------------- Messages ------------------------------
+java.net.SocketTimeoutException: Read timed out
+
+- missing response / garbage collected -

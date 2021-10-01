@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 7321
+Size: 0
+Timestamp: Fri Oct 01 11:55:01 IST 2021
+TestStep: TradingCertificateByTradingCertificateId
+Error:com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:e26388a6-9e5e-4f5f-b474-b461ca11e2c0
+
+----------------- Messages ------------------------------
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:e26388a6-9e5e-4f5f-b474-b461ca11e2c0
+error at line: 101

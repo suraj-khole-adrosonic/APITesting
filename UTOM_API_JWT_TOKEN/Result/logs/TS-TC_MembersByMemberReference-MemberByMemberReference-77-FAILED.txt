@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 53604
+Size: 0
+Timestamp: Thu Sep 30 18:34:23 IST 2021
+TestStep: MemberByMemberReference
+Error:java.lang.NullPointerException: Cannot get property 'responseHeaders' on null object
+
+----------------- Messages ------------------------------
+java.lang.NullPointerException: Cannot get property 'responseHeaders' on null object
+error at line: 224

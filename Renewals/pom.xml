@@ -1,0 +1,134 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<groupId>com.smartbear.samples</groupId>
+<artifactId>soapui-maven-plugin</artifactId>
+<packaging>jar</packaging>
+<version>1.0-SNAPSHOT</version>
+<name>Maven 2 SoapUI Sample</name>
+<url>http://maven.apache.org</url>
+<pluginRepositories>
+<pluginRepository>
+<id>SmartBearPluginRepository</id>
+<url>http://www.soapui.org/repository/maven2/</url>
+</pluginRepository>
+</pluginRepositories>
+<build>
+<plugins>
+<plugin>
+<groupId>com.smartbear.soapui</groupId>
+<artifactId>soapui-maven-plugin</artifactId>
+<version>5.5.0</version>
+<configuration>
+<outputFolder>Result\logs</outputFolder>
+<printReport>true</printReport>
+<junitReport>true</junitReport>
+<projectFile>Waste-Expert-Admin-Service-API-soapui-project.xml</projectFile>
+</configuration>
+	<dependencies>
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>6.1.0.jre8</version>
+		</dependency>
+			<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.14</version>
+		</dependency>
+		<dependency>
+		    <groupId>javax.mail</groupId>
+		    <artifactId>mail</artifactId>
+		    <version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant-launcher</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>2.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-examples</artifactId>
+			<version>3.14</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-excelant</artifactId>
+			<version>3.14</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.14</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>ooxml-schemas</artifactId>
+			<version>1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.14</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>3.14</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xlson.groovycsv</groupId>
+			<artifactId>groovycsv</artifactId>
+			<version>1.3</version>
+		</dependency>
+		
+		<dependency>
+		  <groupId>org.apache.ivy</groupId>
+		  <artifactId>ivy</artifactId>
+		  <version>2.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-contrib</artifactId>
+			<version>3.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.1</version>
+		</dependency>
+		
+		<!-- <dependency>
+			<groupId>org.codehaus.groovy.modules.scriptom</groupId>
+			<artifactId>scriptom</artifactId>
+			<version>1.6.0</version>
+			</dependency>
+		-->
+	</dependencies>
+<executions>
+                    <execution>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                        <configuration>
+                            <projectFile>C:\APITesting\Renewals\Renewals-soapui-project.xml</projectFile>
+                        </configuration>
+                    </execution>
+                </executions>
+
+</plugin>
+</plugins>
+</build>
+</project>

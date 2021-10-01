@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Thu Aug 26 20:27:16 IST 2021
+TestStep: RenewalQuoteBindSuccess
+
+----------------- Messages ------------------------------
+org.apache.http.conn.HttpHostConnectException: Connection to http://spltomservices:44380 refused
+
+- missing response / garbage collected -

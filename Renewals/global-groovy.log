@@ -1,0 +1,1351 @@
+2021-09-01 15:24:12,610 INFO  [log] Working On Environment =P&IDev
+2021-09-01 15:24:12,611 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-01 15:24:12,616 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-01 15:24:12,622 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-01 15:24:12,625 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA0ODk5NTIsIm5iZiI6MTYzMDQ4NjM1MiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDQ4NjM1Mn0.h5IzHmUPCFndJ5BpiatXi40eVDsfj-TrLUp6TPCjrIIiOYhUUEpYioXg5La_N0iJzbQncZpAa4gzW_HB5Dhgyxg2IZAyGeY19zO658t4dhdd7ozNMPOcuK1x4Qz1756UCaea6b55GbX5Eo9kKoOInYErzUDPnLpZfq9_Yvj1SMrucLHZA5yEZbhmFL562B0Q5OGAOonhrW4Iyn3R3WIvsnPwB5-ZHUHImlVxwltmR1m-QcvwDtQ7N1qA1bbf1EpP_B6oRqIhYFMCDJCB9lJrnqWNhZSFzkJFWus7FewXILwa8D-iYMV9bzfH9HMAOLRGG9TvW6nb4O5n1qxWF0JQLQ
+2021-09-01 15:24:18,920 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-01 15:24:23,024 INFO  [log] DB Quote Id from DB is->92384
+2021-09-01 15:24:23,024 INFO  [log] DB CRM Identifier from DB is->A21A2659-4EC6-E411-BFC4-005056B03908
+2021-09-01 15:24:23,086 INFO  [log] CRM Identified from request ->null
+2021-09-01 15:24:23,087 INFO  [log] Request body is ->
+					[
+						92384
+					]
+					
+2021-09-01 15:24:23,491 INFO  [log] Original API response for POST method is =>{"hasError":true,"data":"{\"WorkflowId\":\"91c6d887-7e61-45a7-90ff-da5681bc1669\",\"TransactionId\":0,\"GroupId\":0,\"IsGroupCreated\":false}","success":true,"message":"Please note following quote 1053705 was not updated because the owner of the quote has changed<br />"}
+2021-09-01 15:24:23,551 INFO  [log] HTTP Status code is =>200
+2021-09-01 15:24:23,565 INFO  [log] Data details are ->[WorkflowId, 91c6d887-7e61-45a7-90ff-da5681bc1669, TransactionId, 0, GroupId, 0, IsGroupCreated, false]
+2021-09-01 15:24:23,568 INFO  [log] API TransactionId =0
+2021-09-01 15:24:23,568 INFO  [log] API WorkflowId =91C6D887-7E61-45A7-90FF-DA5681BC1669
+2021-09-01 15:24:23,569 INFO  [log] API GroupId =0
+2021-09-01 15:24:23,570 INFO  [log] API IsGroupCreated =FALSE
+2021-09-01 15:24:23,571 INFO  [log] API response is received as=>92384,TRUE,91C6D887-7E61-45A7-90FF-DA5681BC1669,0,0,FALSE,true,Please note following quote 1053705 was not updated because the owner of the quote has changed<br />
+2021-09-01 15:24:23,605 INFO  [log] DB Quote Id from DB is->91892
+2021-09-01 15:24:23,606 INFO  [log] DB CRM Identifier from DB is->A21A2659-4EC6-E411-BFC4-005056B03908
+2021-09-01 15:24:23,607 INFO  [log] CRM Identified from request ->null
+2021-09-01 15:24:23,608 INFO  [log] Request body is ->
+					[
+						91892
+					]
+					
+2021-09-01 15:24:28,434 INFO  [log] Original API response for POST method is =>{"hasError":true,"data":"{\"WorkflowId\":\"1a6568cb-1baa-4537-86b0-92fbade57c96\",\"TransactionId\":348695,\"GroupId\":41647,\"IsGroupCreated\":true}","success":true,"message":"Please note the following quotes were not updated because the quote status has changed: 1053325"}
+2021-09-01 15:24:28,437 INFO  [log] HTTP Status code is =>200
+2021-09-01 15:24:28,442 INFO  [log] Data details are ->[WorkflowId, 1a6568cb-1baa-4537-86b0-92fbade57c96, TransactionId, 348695, GroupId, 41647, IsGroupCreated, true]
+2021-09-01 15:24:28,444 INFO  [log] API TransactionId =348695
+2021-09-01 15:24:28,444 INFO  [log] API WorkflowId =1A6568CB-1BAA-4537-86B0-92FBADE57C96
+2021-09-01 15:24:28,453 INFO  [log] API GroupId =41647
+2021-09-01 15:24:28,455 INFO  [log] API IsGroupCreated =TRUE
+2021-09-01 15:24:28,456 INFO  [log] API response is received as=>91892,TRUE,1A6568CB-1BAA-4537-86B0-92FBADE57C96,348695,41647,TRUE,true,Please note the following quotes were not updated because the quote status has changed: 1053325
+2021-09-01 15:24:28,533 INFO  [log] Quote Id for processing is ->92384
+2021-09-01 15:24:28,534 INFO  [log] Quote Id for processing is ->91892
+2021-09-01 15:24:28,855 INFO  [log] Inside SQL
+2021-09-01 15:24:28,855 INFO  [log] SQL response is ->91892,FALSE,1A6568CB-1BAA-4537-86B0-92FBADE57C96,348695,41647,TRUE,TRUE,
+2021-09-01 15:24:55,542 INFO  [log] Working On Environment =P&IDev
+2021-09-01 15:24:55,544 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-01 15:24:55,550 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-01 15:24:55,558 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-01 15:24:55,565 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA0ODk5NTIsIm5iZiI6MTYzMDQ4NjM1MiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDQ4NjM1Mn0.h5IzHmUPCFndJ5BpiatXi40eVDsfj-TrLUp6TPCjrIIiOYhUUEpYioXg5La_N0iJzbQncZpAa4gzW_HB5Dhgyxg2IZAyGeY19zO658t4dhdd7ozNMPOcuK1x4Qz1756UCaea6b55GbX5Eo9kKoOInYErzUDPnLpZfq9_Yvj1SMrucLHZA5yEZbhmFL562B0Q5OGAOonhrW4Iyn3R3WIvsnPwB5-ZHUHImlVxwltmR1m-QcvwDtQ7N1qA1bbf1EpP_B6oRqIhYFMCDJCB9lJrnqWNhZSFzkJFWus7FewXILwa8D-iYMV9bzfH9HMAOLRGG9TvW6nb4O5n1qxWF0JQLQ
+2021-09-01 15:25:00,502 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-01 15:25:04,364 INFO  [log] DB Quote Id from DB is->90651
+2021-09-01 15:25:04,364 INFO  [log] DB CRM Identifier from DB is->475E0325-E952-EA11-A813-000D3A86A8CF
+2021-09-01 15:25:04,424 INFO  [log] CRM Identified from request ->null
+2021-09-01 15:25:04,424 INFO  [log] Request body is ->
+					[
+						90651
+					]
+					
+2021-09-01 15:25:06,478 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"WorkflowId\":\"adbc1715-436a-455e-a4e3-1705801d1a62\",\"TransactionId\":348696,\"GroupId\":41648,\"IsGroupCreated\":true}","success":true,"message":""}
+2021-09-01 15:25:06,525 INFO  [log] HTTP Status code is =>200
+2021-09-01 15:25:06,530 INFO  [log] Data details are ->[WorkflowId, adbc1715-436a-455e-a4e3-1705801d1a62, TransactionId, 348696, GroupId, 41648, IsGroupCreated, true]
+2021-09-01 15:25:06,533 INFO  [log] API TransactionId =348696
+2021-09-01 15:25:06,533 INFO  [log] API WorkflowId =ADBC1715-436A-455E-A4E3-1705801D1A62
+2021-09-01 15:25:06,535 INFO  [log] API GroupId =41648
+2021-09-01 15:25:06,536 INFO  [log] API IsGroupCreated =TRUE
+2021-09-01 15:25:06,537 INFO  [log] API response is received as=>90651,FALSE,ADBC1715-436A-455E-A4E3-1705801D1A62,348696,41648,TRUE,true,
+2021-09-01 15:25:06,566 INFO  [log] Quote Id for processing is ->90651
+2021-09-01 15:25:06,708 INFO  [log] Inside SQL
+2021-09-01 15:25:06,709 INFO  [log] SQL response is ->90651,FALSE,ADBC1715-436A-455E-A4E3-1705801D1A62,348696,41648,TRUE,TRUE,
+2021-09-01 18:38:04,528 INFO  [log] Working On Environment =P&IDev
+2021-09-01 18:38:04,529 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-01 18:38:04,530 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-01 18:38:04,530 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-01 18:38:04,535 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA1MDUyNjQsIm5iZiI6MTYzMDUwMTY2NCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDUwMTY2NH0.jGHrug-vYUxE96L1hvvYcFUfBBArBD6bMVuy4EbeHYo7gv4Mbtu1gtRptnTdKnE4gtDLIhZH_EVbblde6x0hXBHPgny7xvdGmamcCf9ca41wTejfWhyb-hr8fxpo7VLdf0t0WifnK4tqdufPNy7x-phA0exenUVpXc4XO6RjooJ610rUHikcHQEcjpAqGtKCEUZ2xoTJSXlOLXcoxCsd4kqvvB_PE7jguDFFqV6HfZqlX9RKSBNjyKb_PwHTZG2SXSacxd6F8PneWOIBntLGswex8f7zdPt4ACvu4_x8ngN6PkwLSpiTHxKyhpnq6OXbTs7cPtQahgP4NRfTLSyNQA
+2021-09-01 18:38:10,396 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-01 18:38:14,317 INFO  [log] DB Quote Id from DB is->90649
+2021-09-01 18:38:14,317 INFO  [log] DB CRM Identifier from DB is->475E0325-E952-EA11-A813-000D3A86A8CF
+2021-09-01 18:38:14,369 INFO  [log] CRM Identified from request ->null
+2021-09-01 18:38:14,370 INFO  [log] Request body is ->
+					[
+						90649
+					]
+					
+2021-09-01 18:38:16,022 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"WorkflowId\":\"5261ee8a-a39a-4ffd-b524-d857bf4e26d9\",\"TransactionId\":348719,\"GroupId\":41650,\"IsGroupCreated\":true}","success":true,"message":""}
+2021-09-01 18:38:16,070 INFO  [log] HTTP Status code is =>200
+2021-09-01 18:38:16,078 INFO  [log] Data details are ->[WorkflowId, 5261ee8a-a39a-4ffd-b524-d857bf4e26d9, TransactionId, 348719, GroupId, 41650, IsGroupCreated, true]
+2021-09-01 18:38:16,083 INFO  [log] API TransactionId =348719
+2021-09-01 18:38:16,083 INFO  [log] API WorkflowId =5261EE8A-A39A-4FFD-B524-D857BF4E26D9
+2021-09-01 18:38:16,084 INFO  [log] API GroupId =41650
+2021-09-01 18:38:16,085 INFO  [log] API IsGroupCreated =TRUE
+2021-09-01 18:38:16,085 INFO  [log] API response is received as=>90649,FALSE,5261EE8A-A39A-4FFD-B524-D857BF4E26D9,348719,41650,TRUE,true,
+2021-09-01 18:38:16,131 INFO  [log] DB Quote Id from DB is->90653
+2021-09-01 18:38:16,131 INFO  [log] DB CRM Identifier from DB is->475E0325-E952-EA11-A813-000D3A86A8CF
+2021-09-01 18:38:16,134 INFO  [log] CRM Identified from request ->null
+2021-09-01 18:38:16,141 INFO  [log] Request body is ->
+					[
+						90653
+					]
+					
+2021-09-01 18:38:17,484 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"WorkflowId\":\"9a07dc57-219e-4158-bc1d-f7f92b539ae2\",\"TransactionId\":348721,\"GroupId\":41652,\"IsGroupCreated\":true}","success":true,"message":""}
+2021-09-01 18:38:17,485 INFO  [log] HTTP Status code is =>200
+2021-09-01 18:38:17,486 INFO  [log] Data details are ->[WorkflowId, 9a07dc57-219e-4158-bc1d-f7f92b539ae2, TransactionId, 348721, GroupId, 41652, IsGroupCreated, true]
+2021-09-01 18:38:17,487 INFO  [log] API TransactionId =348721
+2021-09-01 18:38:17,487 INFO  [log] API WorkflowId =9A07DC57-219E-4158-BC1D-F7F92B539AE2
+2021-09-01 18:38:17,488 INFO  [log] API GroupId =41652
+2021-09-01 18:38:17,489 INFO  [log] API IsGroupCreated =TRUE
+2021-09-01 18:38:17,490 INFO  [log] API response is received as=>90653,FALSE,9A07DC57-219E-4158-BC1D-F7F92B539AE2,348721,41652,TRUE,true,
+2021-09-01 18:38:17,524 INFO  [log] Quote Id for processing is ->90649
+2021-09-01 18:38:17,524 INFO  [log] Quote Id for processing is ->90653
+2021-09-01 18:38:17,666 INFO  [log] Inside SQL
+2021-09-01 18:38:17,667 INFO  [log] SQL response is ->90649,FALSE,5261EE8A-A39A-4FFD-B524-D857BF4E26D9,348719,41650,TRUE,TRUE,
+2021-09-01 18:38:17,827 INFO  [log] Inside SQL
+2021-09-01 18:38:17,827 INFO  [log] SQL response is ->90653,FALSE,9A07DC57-219E-4158-BC1D-F7F92B539AE2,348721,41652,TRUE,TRUE,
+2021-09-01 18:49:30,937 INFO  [log] Working On Environment =P&IDev
+2021-09-01 18:49:30,937 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-01 18:49:30,949 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-01 18:49:30,950 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-01 18:49:30,953 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA1MDUyNjQsIm5iZiI6MTYzMDUwMTY2NCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDUwMTY2NH0.jGHrug-vYUxE96L1hvvYcFUfBBArBD6bMVuy4EbeHYo7gv4Mbtu1gtRptnTdKnE4gtDLIhZH_EVbblde6x0hXBHPgny7xvdGmamcCf9ca41wTejfWhyb-hr8fxpo7VLdf0t0WifnK4tqdufPNy7x-phA0exenUVpXc4XO6RjooJ610rUHikcHQEcjpAqGtKCEUZ2xoTJSXlOLXcoxCsd4kqvvB_PE7jguDFFqV6HfZqlX9RKSBNjyKb_PwHTZG2SXSacxd6F8PneWOIBntLGswex8f7zdPt4ACvu4_x8ngN6PkwLSpiTHxKyhpnq6OXbTs7cPtQahgP4NRfTLSyNQA
+2021-09-01 18:49:35,488 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-01 18:49:39,345 INFO  [log] DB Quote Id from DB is->90649
+2021-09-01 18:49:39,345 INFO  [log] DB CRM Identifier from DB is->475E0325-E952-EA11-A813-000D3A86A8CF
+2021-09-01 18:49:39,407 INFO  [log] CRM Identified from request ->null
+2021-09-01 18:49:39,407 INFO  [log] Request body is ->
+					[
+						90649
+					]
+					
+2021-09-01 18:49:40,325 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"WorkflowId\":\"1a42d2ad-b48e-496f-8dcc-e3967c7ad0e7\",\"TransactionId\":348730,\"GroupId\":41660,\"IsGroupCreated\":true}","success":true,"message":""}
+2021-09-01 18:49:40,355 INFO  [log] HTTP Status code is =>200
+2021-09-01 18:49:40,363 INFO  [log] Data details are ->[WorkflowId, 1a42d2ad-b48e-496f-8dcc-e3967c7ad0e7, TransactionId, 348730, GroupId, 41660, IsGroupCreated, true]
+2021-09-01 18:49:40,378 INFO  [log] API TransactionId =348730
+2021-09-01 18:49:40,378 INFO  [log] API WorkflowId =1A42D2AD-B48E-496F-8DCC-E3967C7AD0E7
+2021-09-01 18:49:40,380 INFO  [log] API GroupId =41660
+2021-09-01 18:49:40,380 INFO  [log] API IsGroupCreated =TRUE
+2021-09-01 18:49:40,381 INFO  [log] API response is received as=>90649,FALSE,1A42D2AD-B48E-496F-8DCC-E3967C7AD0E7,348730,41660,TRUE,true,
+2021-09-01 18:49:40,436 INFO  [log] Quote Id for processing is ->90649
+2021-09-01 18:49:40,575 INFO  [log] Inside SQL
+2021-09-01 18:49:40,575 INFO  [log] SQL response is ->90649,FALSE,1A42D2AD-B48E-496F-8DCC-E3967C7AD0E7,348730,41660,TRUE,TRUE,
+2021-09-01 18:54:29,773 INFO  [log] Working On Environment =P&IDev
+2021-09-01 18:54:29,774 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-01 18:54:29,777 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-01 18:54:29,786 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-01 18:54:29,788 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA1MDUyNjQsIm5iZiI6MTYzMDUwMTY2NCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDUwMTY2NH0.jGHrug-vYUxE96L1hvvYcFUfBBArBD6bMVuy4EbeHYo7gv4Mbtu1gtRptnTdKnE4gtDLIhZH_EVbblde6x0hXBHPgny7xvdGmamcCf9ca41wTejfWhyb-hr8fxpo7VLdf0t0WifnK4tqdufPNy7x-phA0exenUVpXc4XO6RjooJ610rUHikcHQEcjpAqGtKCEUZ2xoTJSXlOLXcoxCsd4kqvvB_PE7jguDFFqV6HfZqlX9RKSBNjyKb_PwHTZG2SXSacxd6F8PneWOIBntLGswex8f7zdPt4ACvu4_x8ngN6PkwLSpiTHxKyhpnq6OXbTs7cPtQahgP4NRfTLSyNQA
+2021-09-01 18:54:34,258 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-01 18:54:38,109 INFO  [log] DB Quote Id from DB is->90653
+2021-09-01 18:54:38,110 INFO  [log] DB CRM Identifier from DB is->475E0325-E952-EA11-A813-000D3A86A8CF
+2021-09-01 18:54:38,168 INFO  [log] CRM Identified from request ->null
+2021-09-01 18:54:38,168 INFO  [log] Request body is ->
+					[
+						90653
+					]
+					
+2021-09-01 18:54:38,891 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"WorkflowId\":\"4d0623b6-774f-4c3f-b8eb-e4b4e22ed8d3\",\"TransactionId\":348734,\"GroupId\":41662,\"IsGroupCreated\":true}","success":true,"message":""}
+2021-09-01 18:54:38,936 INFO  [log] HTTP Status code is =>200
+2021-09-01 18:54:38,947 INFO  [log] Data details are ->[WorkflowId, 4d0623b6-774f-4c3f-b8eb-e4b4e22ed8d3, TransactionId, 348734, GroupId, 41662, IsGroupCreated, true]
+2021-09-01 18:54:38,951 INFO  [log] API TransactionId =348734
+2021-09-01 18:54:38,951 INFO  [log] API WorkflowId =4D0623B6-774F-4C3F-B8EB-E4B4E22ED8D3
+2021-09-01 18:54:38,953 INFO  [log] API GroupId =41662
+2021-09-01 18:54:38,953 INFO  [log] API IsGroupCreated =TRUE
+2021-09-01 18:54:38,954 INFO  [log] API response is received as=>90653,FALSE,4D0623B6-774F-4C3F-B8EB-E4B4E22ED8D3,348734,41662,TRUE,true,
+2021-09-01 18:54:38,994 INFO  [log] Quote Id for processing is ->90653
+2021-09-01 18:54:39,137 INFO  [log] Inside SQL
+2021-09-01 18:54:39,138 INFO  [log] SQL response is ->90653,FALSE,4D0623B6-774F-4C3F-B8EB-E4B4E22ED8D3,348734,41662,TRUE,TRUE,
+2021-09-03 12:51:02,156 INFO  [log] Working On Environment =P&IDev
+2021-09-03 12:51:02,158 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 12:51:02,159 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 12:51:02,159 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 12:51:02,172 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NTcyMjgsIm5iZiI6MTYzMDY1MzYyOCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY1MzYyOH0.EI9jJ_SHPpZKNaGorNNsQAQKmBe7M6TdJM3_fWd0j2QJcwsOiTNtTLeOMyXPv3bGbcRj1HQrtYQzl1hcMEgBu2hOwZ3LJO54v2Zxpa5_TIxmBInXjy3Q9zMiDqJdASwYJDjQnTC3fRTN6pjdlL370XwQYf6wbemjMgMx2yUvaIm0DfnnppZXyE4CtPaavgXEEap0l1VAGP8aDpE6_IkNvsdMavArj336Gn284Li1iJfUkuQo9h8pPFNOXNIFS0_w4uz3tE68e0vZQvUL1a3Fb1vfEPRHIL25Stoji5UmfLuHyx06eMwqk2s6GtC6h7ESiO3PEBQIWzmWPARUOlfaAA
+2021-09-03 12:52:15,513 INFO  [log] Working On Environment =P&IDev
+2021-09-03 12:52:15,515 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 12:52:15,524 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 12:52:15,524 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 12:52:15,527 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NTcyMjgsIm5iZiI6MTYzMDY1MzYyOCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY1MzYyOH0.EI9jJ_SHPpZKNaGorNNsQAQKmBe7M6TdJM3_fWd0j2QJcwsOiTNtTLeOMyXPv3bGbcRj1HQrtYQzl1hcMEgBu2hOwZ3LJO54v2Zxpa5_TIxmBInXjy3Q9zMiDqJdASwYJDjQnTC3fRTN6pjdlL370XwQYf6wbemjMgMx2yUvaIm0DfnnppZXyE4CtPaavgXEEap0l1VAGP8aDpE6_IkNvsdMavArj336Gn284Li1iJfUkuQo9h8pPFNOXNIFS0_w4uz3tE68e0vZQvUL1a3Fb1vfEPRHIL25Stoji5UmfLuHyx06eMwqk2s6GtC6h7ESiO3PEBQIWzmWPARUOlfaAA
+2021-09-03 12:52:20,253 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 12:52:22,764 INFO  [log] Original API response is =>
+2021-09-03 13:17:58,163 INFO  [log] Working On Environment =P&IDev
+2021-09-03 13:17:58,165 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 13:17:58,168 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 13:17:58,176 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 13:17:58,190 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NTg4MjMsIm5iZiI6MTYzMDY1NTIyMywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY1NTIyM30.snSCiGww-Vxx4YBKPvkYeksZuraIHECB_ocEOdgVF_PeyDPJaKWX0dR2-pfXhXj7Pb1-w3919tunGSITRsKFqiLe_mLN8aHl6GylHbAY0eZFvbICisM-x6VImPrc8yNBSs0biA-7yC83sXGfZW4JlbXQwvoPH1L2ufUfjJeKj7C3k3IVwW25SqFAvZHGT7XECKF3JsTSNwOtwgZzmLL01jkJoiOYIZ4FiTU8Qiy8SWIZevXK8ZxHPNMVKGIZVq78M9t3TyHqL6YZBRhgRbjkptkDz_0DtKtyzPeVHtwXEV2DPDMc3ic2TbDeEkG_nFqT73LMbVPHq5NZt33lKapsXg
+2021-09-03 13:18:02,825 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 13:18:07,498 INFO  [log] Original API response is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 13:18:07,559 INFO  [log] HTTP Status code is =>200
+2021-09-03 13:18:07,569 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 13:18:07,618 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 13:18:07,739 INFO  [log] SQL response received as =>93422,26491,3002,Test Note
+2021-09-03 13:18:07,788 INFO  [log] SQL response received as =>93422,26492,3002,Test Note
+2021-09-03 13:18:07,810 INFO  [log] SQL response received as =>93422,26494,3002,TEST1
+2021-09-03 13:19:26,770 INFO  [log] Working On Environment =P&IDev
+2021-09-03 13:19:26,783 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 13:19:26,788 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 13:19:26,797 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 13:19:26,800 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NTg4MjMsIm5iZiI6MTYzMDY1NTIyMywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY1NTIyM30.snSCiGww-Vxx4YBKPvkYeksZuraIHECB_ocEOdgVF_PeyDPJaKWX0dR2-pfXhXj7Pb1-w3919tunGSITRsKFqiLe_mLN8aHl6GylHbAY0eZFvbICisM-x6VImPrc8yNBSs0biA-7yC83sXGfZW4JlbXQwvoPH1L2ufUfjJeKj7C3k3IVwW25SqFAvZHGT7XECKF3JsTSNwOtwgZzmLL01jkJoiOYIZ4FiTU8Qiy8SWIZevXK8ZxHPNMVKGIZVq78M9t3TyHqL6YZBRhgRbjkptkDz_0DtKtyzPeVHtwXEV2DPDMc3ic2TbDeEkG_nFqT73LMbVPHq5NZt33lKapsXg
+2021-09-03 13:19:32,800 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 13:19:34,641 INFO  [log] Original API response is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 13:19:34,722 INFO  [log] HTTP Status code is =>200
+2021-09-03 13:19:34,734 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 13:19:34,801 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 13:19:34,947 INFO  [log] SQL response received as =>93422,26491,3002,Test Note
+2021-09-03 13:19:34,993 INFO  [log] SQL response received as =>93422,26492,3002,Test Note
+2021-09-03 13:19:35,029 INFO  [log] SQL response received as =>93422,26494,3002,TEST1
+2021-09-03 13:19:35,067 INFO  [log] SQL response received as =>93422,26495,3002,TEST1
+2021-09-03 13:25:05,511 INFO  [log] Working On Environment =P&IDev
+2021-09-03 13:25:05,513 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 13:25:05,518 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 13:25:05,526 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 13:25:05,533 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NTg4MjMsIm5iZiI6MTYzMDY1NTIyMywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY1NTIyM30.snSCiGww-Vxx4YBKPvkYeksZuraIHECB_ocEOdgVF_PeyDPJaKWX0dR2-pfXhXj7Pb1-w3919tunGSITRsKFqiLe_mLN8aHl6GylHbAY0eZFvbICisM-x6VImPrc8yNBSs0biA-7yC83sXGfZW4JlbXQwvoPH1L2ufUfjJeKj7C3k3IVwW25SqFAvZHGT7XECKF3JsTSNwOtwgZzmLL01jkJoiOYIZ4FiTU8Qiy8SWIZevXK8ZxHPNMVKGIZVq78M9t3TyHqL6YZBRhgRbjkptkDz_0DtKtyzPeVHtwXEV2DPDMc3ic2TbDeEkG_nFqT73LMbVPHq5NZt33lKapsXg
+2021-09-03 13:25:10,603 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 13:25:12,461 INFO  [log] Original API response is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 13:25:12,546 INFO  [log] HTTP Status code is =>200
+2021-09-03 13:25:12,567 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 13:25:39,246 INFO  [log] Working On Environment =P&IDev
+2021-09-03 13:25:39,247 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 13:25:39,258 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 13:25:39,259 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 13:25:39,262 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NTg4MjMsIm5iZiI6MTYzMDY1NTIyMywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY1NTIyM30.snSCiGww-Vxx4YBKPvkYeksZuraIHECB_ocEOdgVF_PeyDPJaKWX0dR2-pfXhXj7Pb1-w3919tunGSITRsKFqiLe_mLN8aHl6GylHbAY0eZFvbICisM-x6VImPrc8yNBSs0biA-7yC83sXGfZW4JlbXQwvoPH1L2ufUfjJeKj7C3k3IVwW25SqFAvZHGT7XECKF3JsTSNwOtwgZzmLL01jkJoiOYIZ4FiTU8Qiy8SWIZevXK8ZxHPNMVKGIZVq78M9t3TyHqL6YZBRhgRbjkptkDz_0DtKtyzPeVHtwXEV2DPDMc3ic2TbDeEkG_nFqT73LMbVPHq5NZt33lKapsXg
+2021-09-03 13:25:44,226 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 13:25:45,976 INFO  [log] Original API response is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 13:25:46,047 INFO  [log] HTTP Status code is =>200
+2021-09-03 13:25:46,055 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 13:25:46,117 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 13:25:46,247 INFO  [log] SQL response received as =>93422,26497,3002,TEST1
+2021-09-03 13:30:08,910 INFO  [log] Working On Environment =P&IDev
+2021-09-03 13:30:08,911 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 13:30:08,916 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 13:30:08,917 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 13:30:08,930 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NTg4MjMsIm5iZiI6MTYzMDY1NTIyMywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY1NTIyM30.snSCiGww-Vxx4YBKPvkYeksZuraIHECB_ocEOdgVF_PeyDPJaKWX0dR2-pfXhXj7Pb1-w3919tunGSITRsKFqiLe_mLN8aHl6GylHbAY0eZFvbICisM-x6VImPrc8yNBSs0biA-7yC83sXGfZW4JlbXQwvoPH1L2ufUfjJeKj7C3k3IVwW25SqFAvZHGT7XECKF3JsTSNwOtwgZzmLL01jkJoiOYIZ4FiTU8Qiy8SWIZevXK8ZxHPNMVKGIZVq78M9t3TyHqL6YZBRhgRbjkptkDz_0DtKtyzPeVHtwXEV2DPDMc3ic2TbDeEkG_nFqT73LMbVPHq5NZt33lKapsXg
+2021-09-03 13:30:14,074 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 13:30:15,601 INFO  [log] Original API response is =>
+2021-09-03 13:31:49,876 INFO  [log] Working On Environment =P&IDev
+2021-09-03 13:31:49,877 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 13:31:49,880 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 13:31:49,881 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 13:31:49,892 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NTg4MjMsIm5iZiI6MTYzMDY1NTIyMywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY1NTIyM30.snSCiGww-Vxx4YBKPvkYeksZuraIHECB_ocEOdgVF_PeyDPJaKWX0dR2-pfXhXj7Pb1-w3919tunGSITRsKFqiLe_mLN8aHl6GylHbAY0eZFvbICisM-x6VImPrc8yNBSs0biA-7yC83sXGfZW4JlbXQwvoPH1L2ufUfjJeKj7C3k3IVwW25SqFAvZHGT7XECKF3JsTSNwOtwgZzmLL01jkJoiOYIZ4FiTU8Qiy8SWIZevXK8ZxHPNMVKGIZVq78M9t3TyHqL6YZBRhgRbjkptkDz_0DtKtyzPeVHtwXEV2DPDMc3ic2TbDeEkG_nFqT73LMbVPHq5NZt33lKapsXg
+2021-09-03 13:31:51,134 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 13:31:56,003 INFO  [log] Original API response is =>
+2021-09-03 15:56:14,010 INFO  [log] Working On Environment =P&IDev
+2021-09-03 15:56:14,013 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 15:56:14,014 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 15:56:14,015 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 15:56:14,031 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NjgzNTgsIm5iZiI6MTYzMDY2NDc1OCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NDc1OH0.tljcliInZT70xCHsEBTJwUj1G6RLoJMEa2L0WL_c7I-8gSfFnEY0NkROD_qikQIeczrARc1DqsWykxCZMgg3ph_LfRXsKDanaxrsZBz4EOfxHnPbog-Srzyc9A6o60XMmt-3cXVqc4kELWjcSAV8M-gENN5zNlrGp8upZTkpH1RBnMysIl7-mCpirZUQn5NmCtWd4Xr5dAJeBKyNIEWH37ijLbrK2nysgPhlSvS852wK0XK18GzKArreb8PxynpWN1eVj2gG2x4_QSMHPGVLhVkZnjrBdmsyN3CqvJWjch3bdi1HwhmohNmAZe1zDR8JUR7OpMZXHpzWNoLaoGuo-A
+2021-09-03 15:56:52,548 INFO  [log] Working On Environment =P&IDev
+2021-09-03 15:56:52,551 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 15:56:52,553 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 15:56:52,561 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 15:56:52,565 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NjgzNTgsIm5iZiI6MTYzMDY2NDc1OCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NDc1OH0.tljcliInZT70xCHsEBTJwUj1G6RLoJMEa2L0WL_c7I-8gSfFnEY0NkROD_qikQIeczrARc1DqsWykxCZMgg3ph_LfRXsKDanaxrsZBz4EOfxHnPbog-Srzyc9A6o60XMmt-3cXVqc4kELWjcSAV8M-gENN5zNlrGp8upZTkpH1RBnMysIl7-mCpirZUQn5NmCtWd4Xr5dAJeBKyNIEWH37ijLbrK2nysgPhlSvS852wK0XK18GzKArreb8PxynpWN1eVj2gG2x4_QSMHPGVLhVkZnjrBdmsyN3CqvJWjch3bdi1HwhmohNmAZe1zDR8JUR7OpMZXHpzWNoLaoGuo-A
+2021-09-03 16:01:43,481 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:01:43,483 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:01:43,484 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:01:43,485 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:01:43,488 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NjgzNTgsIm5iZiI6MTYzMDY2NDc1OCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NDc1OH0.tljcliInZT70xCHsEBTJwUj1G6RLoJMEa2L0WL_c7I-8gSfFnEY0NkROD_qikQIeczrARc1DqsWykxCZMgg3ph_LfRXsKDanaxrsZBz4EOfxHnPbog-Srzyc9A6o60XMmt-3cXVqc4kELWjcSAV8M-gENN5zNlrGp8upZTkpH1RBnMysIl7-mCpirZUQn5NmCtWd4Xr5dAJeBKyNIEWH37ijLbrK2nysgPhlSvS852wK0XK18GzKArreb8PxynpWN1eVj2gG2x4_QSMHPGVLhVkZnjrBdmsyN3CqvJWjch3bdi1HwhmohNmAZe1zDR8JUR7OpMZXHpzWNoLaoGuo-A
+2021-09-03 16:01:50,840 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:01:52,432 INFO  [log] Original API response for POST method is =>
+2021-09-03 16:07:10,534 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:07:10,536 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:07:10,536 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:07:10,537 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:07:10,540 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NjgzNTgsIm5iZiI6MTYzMDY2NDc1OCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NDc1OH0.tljcliInZT70xCHsEBTJwUj1G6RLoJMEa2L0WL_c7I-8gSfFnEY0NkROD_qikQIeczrARc1DqsWykxCZMgg3ph_LfRXsKDanaxrsZBz4EOfxHnPbog-Srzyc9A6o60XMmt-3cXVqc4kELWjcSAV8M-gENN5zNlrGp8upZTkpH1RBnMysIl7-mCpirZUQn5NmCtWd4Xr5dAJeBKyNIEWH37ijLbrK2nysgPhlSvS852wK0XK18GzKArreb8PxynpWN1eVj2gG2x4_QSMHPGVLhVkZnjrBdmsyN3CqvJWjch3bdi1HwhmohNmAZe1zDR8JUR7OpMZXHpzWNoLaoGuo-A
+2021-09-03 16:07:11,676 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:07:17,390 INFO  [log] Original API response for POST method is =>
+2021-09-03 16:21:44,091 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:21:44,091 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:21:44,091 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:21:44,099 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:21:44,099 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NjgzNTgsIm5iZiI6MTYzMDY2NDc1OCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NDc1OH0.tljcliInZT70xCHsEBTJwUj1G6RLoJMEa2L0WL_c7I-8gSfFnEY0NkROD_qikQIeczrARc1DqsWykxCZMgg3ph_LfRXsKDanaxrsZBz4EOfxHnPbog-Srzyc9A6o60XMmt-3cXVqc4kELWjcSAV8M-gENN5zNlrGp8upZTkpH1RBnMysIl7-mCpirZUQn5NmCtWd4Xr5dAJeBKyNIEWH37ijLbrK2nysgPhlSvS852wK0XK18GzKArreb8PxynpWN1eVj2gG2x4_QSMHPGVLhVkZnjrBdmsyN3CqvJWjch3bdi1HwhmohNmAZe1zDR8JUR7OpMZXHpzWNoLaoGuo-A
+2021-09-03 16:21:44,733 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:21:49,080 INFO  [log] Original API response for POST method is =>
+2021-09-03 16:37:14,882 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:37:14,882 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:37:14,882 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:37:14,882 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:37:14,882 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NjgzNTgsIm5iZiI6MTYzMDY2NDc1OCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NDc1OH0.tljcliInZT70xCHsEBTJwUj1G6RLoJMEa2L0WL_c7I-8gSfFnEY0NkROD_qikQIeczrARc1DqsWykxCZMgg3ph_LfRXsKDanaxrsZBz4EOfxHnPbog-Srzyc9A6o60XMmt-3cXVqc4kELWjcSAV8M-gENN5zNlrGp8upZTkpH1RBnMysIl7-mCpirZUQn5NmCtWd4Xr5dAJeBKyNIEWH37ijLbrK2nysgPhlSvS852wK0XK18GzKArreb8PxynpWN1eVj2gG2x4_QSMHPGVLhVkZnjrBdmsyN3CqvJWjch3bdi1HwhmohNmAZe1zDR8JUR7OpMZXHpzWNoLaoGuo-A
+2021-09-03 16:37:15,537 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:38:20,439 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:38:20,441 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:38:20,441 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:38:20,441 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:38:20,451 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NjgzNTgsIm5iZiI6MTYzMDY2NDc1OCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NDc1OH0.tljcliInZT70xCHsEBTJwUj1G6RLoJMEa2L0WL_c7I-8gSfFnEY0NkROD_qikQIeczrARc1DqsWykxCZMgg3ph_LfRXsKDanaxrsZBz4EOfxHnPbog-Srzyc9A6o60XMmt-3cXVqc4kELWjcSAV8M-gENN5zNlrGp8upZTkpH1RBnMysIl7-mCpirZUQn5NmCtWd4Xr5dAJeBKyNIEWH37ijLbrK2nysgPhlSvS852wK0XK18GzKArreb8PxynpWN1eVj2gG2x4_QSMHPGVLhVkZnjrBdmsyN3CqvJWjch3bdi1HwhmohNmAZe1zDR8JUR7OpMZXHpzWNoLaoGuo-A
+2021-09-03 16:38:21,104 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:38:25,372 INFO  [log] Original API response for POST method is =>
+2021-09-03 16:40:19,482 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:40:19,482 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:40:19,490 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:40:19,490 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:40:19,501 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 16:40:20,123 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:40:24,910 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:40:24,964 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:40:24,964 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:40:24,995 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 16:42:20,811 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:42:20,811 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:42:20,811 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:42:20,821 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:42:20,821 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 16:42:25,401 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:44:52,750 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:44:52,750 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:44:52,750 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:44:52,750 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:44:52,750 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 16:44:57,093 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:50:53,244 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:50:53,245 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:50:53,245 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:50:53,246 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:50:53,247 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 16:51:03,888 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:52:42,425 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:52:42,425 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:52:42,427 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:52:42,435 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:52:42,437 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 16:52:47,575 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:52:49,298 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:52:49,334 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:52:49,338 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:52:49,369 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 16:53:24,114 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:53:24,115 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:53:24,125 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:53:24,125 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:53:24,128 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 16:53:28,365 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:53:30,084 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:53:30,123 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:53:30,129 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:53:30,164 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 16:53:30,293 INFO  [log] SQL response received as =>93422,26509,3002,ThisisAutomatedtest
+2021-09-03 16:54:01,371 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:54:01,372 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:54:01,384 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:54:01,386 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:54:01,396 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 16:54:05,850 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:54:09,040 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:54:09,090 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:54:09,100 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:54:10,488 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:54:10,488 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:54:10,488 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:54:11,090 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:54:11,090 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:54:11,106 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:54:13,099 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:54:13,099 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:54:13,099 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:54:15,104 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:54:15,113 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:54:15,113 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:54:15,137 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 16:54:15,270 INFO  [log] SQL response received as =>93422,26511,3002,ThisisAutomatedtest
+2021-09-03 16:54:15,287 INFO  [log] Getting details for quote Id=>92685
+2021-09-03 16:54:15,424 INFO  [log] SQL response received as =>92685,26512,1281,ThisisAutomatedtest
+2021-09-03 16:54:15,438 INFO  [log] Getting details for quote Id=>92518
+2021-09-03 16:54:15,571 INFO  [log] SQL response received as =>92518,26513,83379,ThisisAutomatedtest
+2021-09-03 16:54:15,593 INFO  [log] Getting details for quote Id=>92517
+2021-09-03 16:54:15,727 INFO  [log] SQL response received as =>92517,26514,83379,ThisisAutomatedtest
+2021-09-03 16:54:15,740 INFO  [log] Getting details for quote Id=>92516
+2021-09-03 16:54:15,872 INFO  [log] SQL response received as =>92516,26515,83379,ThisisAutomatedtest
+2021-09-03 16:56:29,379 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:56:29,379 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:56:29,379 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:56:29,379 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:56:29,381 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 16:56:33,784 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:56:35,496 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:56:35,559 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:56:35,559 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:56:36,398 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:56:36,398 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:56:36,398 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:56:37,132 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:56:37,132 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:56:37,132 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:56:38,446 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:56:38,446 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:56:38,446 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:56:39,229 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:56:39,229 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:56:39,229 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 16:56:39,259 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 16:59:54,229 INFO  [log] Working On Environment =P&IDev
+2021-09-03 16:59:54,229 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 16:59:54,229 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 16:59:54,229 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 16:59:54,229 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 16:59:58,475 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 16:59:59,953 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 16:59:59,987 INFO  [log] HTTP Status code is =>200
+2021-09-03 16:59:59,991 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:00:00,533 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:00:00,534 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:00:00,534 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:00:00,943 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:00:00,943 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:00:00,944 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:00:01,317 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:00:01,317 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:00:01,317 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:00:01,689 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:00:01,689 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:00:01,689 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:00:01,701 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 17:00:01,831 INFO  [log] Getting details for quote Id=>92685
+2021-09-03 17:00:01,956 INFO  [log] Getting details for quote Id=>92518
+2021-09-03 17:00:02,083 INFO  [log] Getting details for quote Id=>92517
+2021-09-03 17:00:02,209 INFO  [log] Getting details for quote Id=>92516
+2021-09-03 17:02:02,132 INFO  [log] Working On Environment =P&IDev
+2021-09-03 17:02:02,132 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 17:02:02,132 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 17:02:02,142 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 17:02:02,142 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 17:02:07,135 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 17:02:09,280 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:02:09,319 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:02:09,325 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:02:10,131 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:02:10,131 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:02:10,131 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:02:10,718 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:02:10,718 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:02:10,718 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:02:11,383 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:02:11,390 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:02:11,390 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:02:11,969 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:02:11,985 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:02:11,991 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:02:12,007 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 17:02:12,138 INFO  [log] Got details for quote Id93422
+2021-09-03 17:02:12,138 INFO  [log] Getting details for quote Id=>92685
+2021-09-03 17:02:12,265 INFO  [log] Got details for quote Id92685
+2021-09-03 17:02:12,265 INFO  [log] Getting details for quote Id=>92518
+2021-09-03 17:02:12,388 INFO  [log] Got details for quote Id92518
+2021-09-03 17:02:12,388 INFO  [log] Getting details for quote Id=>92517
+2021-09-03 17:02:12,520 INFO  [log] Got details for quote Id92517
+2021-09-03 17:02:12,520 INFO  [log] Getting details for quote Id=>92516
+2021-09-03 17:02:12,642 INFO  [log] Got details for quote Id92516
+2021-09-03 17:04:20,170 INFO  [log] Working On Environment =P&IDev
+2021-09-03 17:04:20,170 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 17:04:20,170 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 17:04:20,186 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 17:04:20,186 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 17:04:24,513 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 17:04:26,313 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:04:26,345 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:04:26,360 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:04:27,034 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:04:27,034 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:04:27,034 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:04:27,674 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:04:27,674 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:04:27,689 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:04:28,392 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:04:28,407 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:04:28,407 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:04:29,350 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:04:29,364 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:04:29,364 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:04:29,364 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 17:04:29,504 INFO  [log] Getting details for brokerContactId Id=>true
+2021-09-03 17:04:29,504 INFO  [log] Got details for BrokerContactId Id->3002
+2021-09-03 17:04:29,507 INFO  [log] Getting details for quote Id=>92685
+2021-09-03 17:04:29,642 INFO  [log] Getting details for brokerContactId Id=>true
+2021-09-03 17:04:29,642 INFO  [log] Got details for BrokerContactId Id->1281
+2021-09-03 17:04:29,645 INFO  [log] Getting details for quote Id=>92518
+2021-09-03 17:04:29,772 INFO  [log] Getting details for brokerContactId Id=>true
+2021-09-03 17:04:29,773 INFO  [log] Got details for BrokerContactId Id->83379
+2021-09-03 17:04:29,777 INFO  [log] Getting details for quote Id=>92517
+2021-09-03 17:04:29,904 INFO  [log] Getting details for brokerContactId Id=>true
+2021-09-03 17:04:29,905 INFO  [log] Got details for BrokerContactId Id->83379
+2021-09-03 17:04:29,912 INFO  [log] Getting details for quote Id=>92516
+2021-09-03 17:04:30,044 INFO  [log] Getting details for brokerContactId Id=>true
+2021-09-03 17:04:30,045 INFO  [log] Got details for BrokerContactId Id->83379
+2021-09-03 17:10:05,145 INFO  [log] Working On Environment =P&IDev
+2021-09-03 17:10:05,145 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 17:10:05,145 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 17:10:05,153 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 17:10:05,153 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 17:10:09,446 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 17:10:11,557 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:10:11,588 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:10:11,588 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:10:12,266 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:10:12,266 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:10:12,266 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:10:13,001 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:10:13,007 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:10:13,007 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:10:13,687 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:10:13,687 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:10:13,687 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:10:14,429 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:10:14,429 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:10:14,429 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:10:14,482 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 17:10:14,608 INFO  [log] Getting details for brokerContactId Id=>3002
+2021-09-03 17:10:14,608 INFO  [log] Got details for BrokerContactId Id->3002
+2021-09-03 17:10:14,614 INFO  [log] SQL response received as =>93422,26541,3002,ThisisAutomatedtest
+2021-09-03 17:10:14,626 INFO  [log] Getting details for quote Id=>92685
+2021-09-03 17:10:14,750 INFO  [log] Getting details for brokerContactId Id=>1281
+2021-09-03 17:10:14,750 INFO  [log] Got details for BrokerContactId Id->1281
+2021-09-03 17:10:14,750 INFO  [log] SQL response received as =>92685,26542,1281,ThisisAutomatedtest
+2021-09-03 17:10:14,769 INFO  [log] Getting details for quote Id=>92518
+2021-09-03 17:10:14,890 INFO  [log] Getting details for brokerContactId Id=>83379
+2021-09-03 17:10:14,890 INFO  [log] Got details for BrokerContactId Id->83379
+2021-09-03 17:10:14,890 INFO  [log] SQL response received as =>92518,26543,83379,ThisisAutomatedtest
+2021-09-03 17:10:14,921 INFO  [log] Getting details for quote Id=>92517
+2021-09-03 17:10:15,038 INFO  [log] Getting details for brokerContactId Id=>83379
+2021-09-03 17:10:15,038 INFO  [log] Got details for BrokerContactId Id->83379
+2021-09-03 17:10:15,038 INFO  [log] SQL response received as =>92517,26544,83379,ThisisAutomatedtest
+2021-09-03 17:10:15,069 INFO  [log] Getting details for quote Id=>92516
+2021-09-03 17:10:15,192 INFO  [log] Getting details for brokerContactId Id=>83379
+2021-09-03 17:10:15,192 INFO  [log] Got details for BrokerContactId Id->83379
+2021-09-03 17:10:15,192 INFO  [log] SQL response received as =>92516,26545,83379,ThisisAutomatedtest
+2021-09-03 17:10:41,042 INFO  [log] Working On Environment =P&IDev
+2021-09-03 17:10:41,042 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 17:10:41,042 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 17:10:41,042 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 17:10:41,057 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 17:10:45,708 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 17:10:47,453 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:10:47,483 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:10:47,493 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:10:48,203 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:10:48,213 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:10:48,213 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:10:49,092 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:10:49,092 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:10:49,102 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:10:49,849 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:10:49,853 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:10:49,853 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:10:50,640 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-03 17:10:50,649 INFO  [log] HTTP Status code is =>200
+2021-09-03 17:10:50,654 INFO  [log] API Response is received as =>false,null,true,
+2021-09-03 17:10:50,700 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 17:10:50,829 INFO  [log] SQL response received as =>93422,26547,3002,ThisisAutomatedtest
+2021-09-03 17:10:50,841 INFO  [log] Getting details for quote Id=>92685
+2021-09-03 17:10:50,965 INFO  [log] SQL response received as =>92685,26548,1281,ThisisAutomatedtest
+2021-09-03 17:10:50,981 INFO  [log] Getting details for quote Id=>92518
+2021-09-03 17:10:51,104 INFO  [log] SQL response received as =>92518,26549,83379,ThisisAutomatedtest
+2021-09-03 17:10:51,119 INFO  [log] Getting details for quote Id=>92517
+2021-09-03 17:10:51,243 INFO  [log] SQL response received as =>92517,26550,83379,ThisisAutomatedtest
+2021-09-03 17:10:51,259 INFO  [log] Getting details for quote Id=>92516
+2021-09-03 17:10:51,390 INFO  [log] SQL response received as =>92516,26551,83379,ThisisAutomatedtest
+2021-09-03 17:13:19,210 INFO  [log] Working On Environment =P&IDev
+2021-09-03 17:13:19,210 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 17:13:19,221 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 17:13:19,229 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 17:13:19,231 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 17:13:23,762 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 17:13:25,357 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:13:25,405 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:13:25,405 INFO  [log] Failed API response is received
+2021-09-03 17:13:25,405 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:13:25,976 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:13:25,976 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:13:25,976 INFO  [log] Failed API response is received
+2021-09-03 17:13:25,992 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:13:26,626 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:13:26,642 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:13:26,642 INFO  [log] Failed API response is received
+2021-09-03 17:13:26,642 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:13:27,196 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:13:27,196 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:13:27,196 INFO  [log] Failed API response is received
+2021-09-03 17:13:27,212 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:13:27,813 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:13:27,813 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:13:27,813 INFO  [log] Failed API response is received
+2021-09-03 17:13:27,813 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:13:27,844 INFO  [log] Getting details for quote Id=>93422_
+2021-09-03 17:13:44,883 INFO  [log] Working On Environment =P&IDev
+2021-09-03 17:13:44,883 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 17:13:44,883 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 17:13:44,899 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 17:13:44,899 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 17:13:49,257 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 17:13:50,764 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:13:50,811 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:13:50,811 INFO  [log] Failed API response is received
+2021-09-03 17:13:50,811 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:13:51,462 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:13:51,462 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:13:51,462 INFO  [log] Failed API response is received
+2021-09-03 17:13:51,462 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:13:52,050 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:13:52,050 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:13:52,050 INFO  [log] Failed API response is received
+2021-09-03 17:13:52,050 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:13:52,620 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:13:52,620 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:13:52,620 INFO  [log] Failed API response is received
+2021-09-03 17:13:52,620 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:13:53,322 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:13:53,322 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:13:53,338 INFO  [log] Failed API response is received
+2021-09-03 17:13:53,338 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:13:53,369 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 17:13:53,504 INFO  [log] SQL response received as =>93422,26554,3002,Welcome
+2021-09-03 17:13:53,522 INFO  [log] Getting details for quote Id=>92685
+2021-09-03 17:13:53,646 INFO  [log] SQL response received as =>92685,26548,1281,ThisisAutomatedtest
+2021-09-03 17:13:53,658 INFO  [log] Getting details for quote Id=>92518
+2021-09-03 17:13:53,776 INFO  [log] SQL response received as =>92518,26552,83379,
+2021-09-03 17:13:53,791 INFO  [log] Getting details for quote Id=>92517
+2021-09-03 17:13:53,924 INFO  [log] SQL response received as =>92517,26550,83379,ThisisAutomatedtest
+2021-09-03 17:13:53,945 INFO  [log] Getting details for quote Id=>92516
+2021-09-03 17:13:54,063 INFO  [log] SQL response received as =>92516,26551,83379,ThisisAutomatedtest
+2021-09-03 17:14:51,959 INFO  [log] Working On Environment =P&IDev
+2021-09-03 17:14:51,959 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-03 17:14:51,959 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-03 17:14:51,959 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-03 17:14:51,975 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA2NzA5NjYsIm5iZiI6MTYzMDY2NzM2NiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDY2NzM2Nn0.fv3wCCiOgT6JS6qKP27jasN03Nz0Axx-CXDA2FaCZ97XedkGK62bFzeWz5IWsEisMmVG_V9tAXux5ViWTA0qnpWTUoSoivZqoMDaTe-8ZCIw0BY7JJTfa7N9zakH96Gl7zQv7M2GPElO-VdiyQYTvUYNS9R5T1BTbUkCAom60bGOXnB1JXvxCHqNxllBBta7yVpR5iashRCO6n-54M0BBhU4Gw64e3lepgISSwe1Tk4EtqwM7scJI9F9f8ouCQQlgZsZiSMUEV-ZeUhbzM9o9c1ZyUkCP5719wkwE4g1_wS102bircistOgts98OCyZEdIuhCLsxObEYHFDYxWJmhw
+2021-09-03 17:14:56,157 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-03 17:14:57,485 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:14:57,500 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:14:57,500 INFO  [log] Failed API response is received
+2021-09-03 17:14:57,500 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:14:57,916 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:14:57,916 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:14:57,916 INFO  [log] Failed API response is received
+2021-09-03 17:14:57,916 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:14:58,149 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:14:58,149 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:14:58,149 INFO  [log] Failed API response is received
+2021-09-03 17:14:58,149 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:14:58,397 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:14:58,397 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:14:58,397 INFO  [log] Failed API response is received
+2021-09-03 17:14:58,397 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:14:58,636 INFO  [log] Original API response for POST method is =>{"message":"The request is invalid."}
+2021-09-03 17:14:58,636 INFO  [log] HTTP Status code is =>400
+2021-09-03 17:14:58,636 INFO  [log] Failed API response is received
+2021-09-03 17:14:58,636 INFO  [log] In API Response, HTTP Status code is received as ==>400 with status message as =>[HTTP/1.1 400 Bad Request]
+2021-09-03 17:14:58,663 INFO  [log] Getting details for quote Id=>93422
+2021-09-03 17:14:58,782 INFO  [log] SQL response received as =>93422,26555,3002,Welcome
+2021-09-03 17:14:58,806 INFO  [log] Getting details for quote Id=>92685
+2021-09-03 17:14:58,929 INFO  [log] SQL response received as =>92685,26548,1281,ThisisAutomatedtest
+2021-09-03 17:14:58,940 INFO  [log] Getting details for quote Id=>92518
+2021-09-03 17:14:59,073 INFO  [log] SQL response received as =>92518,26552,83379,
+2021-09-03 17:14:59,083 INFO  [log] Getting details for quote Id=>92517
+2021-09-03 17:14:59,215 INFO  [log] SQL response received as =>92517,26550,83379,ThisisAutomatedtest
+2021-09-03 17:14:59,215 INFO  [log] Getting details for quote Id=>92516
+2021-09-03 17:14:59,347 INFO  [log] SQL response received as =>92516,26551,83379,ThisisAutomatedtest
+2021-09-06 11:57:30,568 INFO  [log] Working On Environment =P&IDev
+2021-09-06 11:57:30,570 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-06 11:57:30,572 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-06 11:57:30,573 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-06 11:57:30,576 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA5MTA0NzcsIm5iZiI6MTYzMDkwNjg3NywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDkwNjg3N30.iZS7hvO8YSH7HKoQXOMEPLeV5KkkoMAAc_8f1Z19g5vT-h8C7amED12HpzhwMkLRLI0DHmsvhsVeZnQl9f9UdkCgNsTeGho0VTQIs9cYeb5UUIJ57nSi0gq3v-Y7nWdTvOeo_7PrdxX2Xw_SLePsqUv_WQoiGlds_7qBN-NRLr_xxKMNf1jDunTI1bvew8ONWO-QPBGrBEj3xt_J0IfLHwx_xZ2fCrfYpPtpEmpfpAltcS-qGQh_Sw14c9UEvtlSD9tDTILxKflHa4PTzL7dSKRMT6v2MFbr6qy0sUXm0yxsFw4e4AoiAC5QKqQOw_Rff5pjxlQxpmFU_Zf2A9loWw
+2021-09-06 11:57:39,108 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-06 11:57:41,140 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:57:41,172 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:57:41,172 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:57:43,307 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:57:43,307 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:57:43,313 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:57:46,925 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:57:46,931 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:57:46,931 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:57:48,959 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:57:48,959 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:57:48,959 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:57:50,873 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:57:50,873 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:57:50,873 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:57:50,911 INFO  [log] Getting details for quote Id=>93422
+2021-09-06 11:58:54,155 INFO  [log] Working On Environment =P&IDev
+2021-09-06 11:58:54,155 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-06 11:58:54,156 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-06 11:58:54,156 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-06 11:58:54,157 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA5MTA0NzcsIm5iZiI6MTYzMDkwNjg3NywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDkwNjg3N30.iZS7hvO8YSH7HKoQXOMEPLeV5KkkoMAAc_8f1Z19g5vT-h8C7amED12HpzhwMkLRLI0DHmsvhsVeZnQl9f9UdkCgNsTeGho0VTQIs9cYeb5UUIJ57nSi0gq3v-Y7nWdTvOeo_7PrdxX2Xw_SLePsqUv_WQoiGlds_7qBN-NRLr_xxKMNf1jDunTI1bvew8ONWO-QPBGrBEj3xt_J0IfLHwx_xZ2fCrfYpPtpEmpfpAltcS-qGQh_Sw14c9UEvtlSD9tDTILxKflHa4PTzL7dSKRMT6v2MFbr6qy0sUXm0yxsFw4e4AoiAC5QKqQOw_Rff5pjxlQxpmFU_Zf2A9loWw
+2021-09-06 11:58:58,791 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-06 11:59:00,875 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:59:00,928 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:59:00,936 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:59:01,786 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:59:01,792 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:59:01,793 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:59:02,551 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:59:02,558 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:59:02,559 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:59:03,372 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:59:03,373 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:59:03,384 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:59:04,057 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:59:04,067 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:59:04,067 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:59:04,087 INFO  [log] Getting details for quote Id=>93422
+2021-09-06 11:59:42,494 INFO  [log] Working On Environment =P&IDev
+2021-09-06 11:59:42,495 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-06 11:59:42,496 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-06 11:59:42,496 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-06 11:59:42,497 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA5MTA0NzcsIm5iZiI6MTYzMDkwNjg3NywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDkwNjg3N30.iZS7hvO8YSH7HKoQXOMEPLeV5KkkoMAAc_8f1Z19g5vT-h8C7amED12HpzhwMkLRLI0DHmsvhsVeZnQl9f9UdkCgNsTeGho0VTQIs9cYeb5UUIJ57nSi0gq3v-Y7nWdTvOeo_7PrdxX2Xw_SLePsqUv_WQoiGlds_7qBN-NRLr_xxKMNf1jDunTI1bvew8ONWO-QPBGrBEj3xt_J0IfLHwx_xZ2fCrfYpPtpEmpfpAltcS-qGQh_Sw14c9UEvtlSD9tDTILxKflHa4PTzL7dSKRMT6v2MFbr6qy0sUXm0yxsFw4e4AoiAC5QKqQOw_Rff5pjxlQxpmFU_Zf2A9loWw
+2021-09-06 11:59:47,181 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-06 11:59:48,993 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:59:49,025 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:59:49,033 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:59:49,715 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:59:49,715 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:59:49,715 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:59:50,382 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:59:50,382 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:59:50,382 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:59:51,077 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:59:51,084 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:59:51,086 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:59:51,893 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 11:59:51,896 INFO  [log] HTTP Status code is =>200
+2021-09-06 11:59:51,904 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 11:59:51,927 INFO  [log] Getting details for quote Id=>93422
+2021-09-06 12:01:19,182 INFO  [log] Working On Environment =P&IDev
+2021-09-06 12:01:19,182 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-06 12:01:19,182 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-06 12:01:19,182 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-06 12:01:19,183 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA5MTA0NzcsIm5iZiI6MTYzMDkwNjg3NywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDkwNjg3N30.iZS7hvO8YSH7HKoQXOMEPLeV5KkkoMAAc_8f1Z19g5vT-h8C7amED12HpzhwMkLRLI0DHmsvhsVeZnQl9f9UdkCgNsTeGho0VTQIs9cYeb5UUIJ57nSi0gq3v-Y7nWdTvOeo_7PrdxX2Xw_SLePsqUv_WQoiGlds_7qBN-NRLr_xxKMNf1jDunTI1bvew8ONWO-QPBGrBEj3xt_J0IfLHwx_xZ2fCrfYpPtpEmpfpAltcS-qGQh_Sw14c9UEvtlSD9tDTILxKflHa4PTzL7dSKRMT6v2MFbr6qy0sUXm0yxsFw4e4AoiAC5QKqQOw_Rff5pjxlQxpmFU_Zf2A9loWw
+2021-09-06 12:01:23,855 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-06 12:01:25,807 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:01:25,840 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:01:25,845 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:01:26,659 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:01:26,668 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:01:26,668 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:01:27,544 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:01:27,551 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:01:27,556 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:01:28,336 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:01:28,336 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:01:28,346 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:01:29,271 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:01:29,271 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:01:29,282 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:01:29,303 INFO  [log] Getting details for quote Id=>93422
+2021-09-06 12:02:16,929 INFO  [log] Working On Environment =P&IDev
+2021-09-06 12:02:16,930 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-06 12:02:16,931 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-06 12:02:16,932 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-06 12:02:16,943 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA5MTA0NzcsIm5iZiI6MTYzMDkwNjg3NywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDkwNjg3N30.iZS7hvO8YSH7HKoQXOMEPLeV5KkkoMAAc_8f1Z19g5vT-h8C7amED12HpzhwMkLRLI0DHmsvhsVeZnQl9f9UdkCgNsTeGho0VTQIs9cYeb5UUIJ57nSi0gq3v-Y7nWdTvOeo_7PrdxX2Xw_SLePsqUv_WQoiGlds_7qBN-NRLr_xxKMNf1jDunTI1bvew8ONWO-QPBGrBEj3xt_J0IfLHwx_xZ2fCrfYpPtpEmpfpAltcS-qGQh_Sw14c9UEvtlSD9tDTILxKflHa4PTzL7dSKRMT6v2MFbr6qy0sUXm0yxsFw4e4AoiAC5QKqQOw_Rff5pjxlQxpmFU_Zf2A9loWw
+2021-09-06 12:02:21,700 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-06 12:02:23,585 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:02:23,617 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:02:23,627 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:02:24,606 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:02:24,606 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:02:24,614 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:02:25,378 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:02:25,380 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:02:25,380 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:02:26,151 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:02:26,152 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:02:26,161 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:02:26,894 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:02:26,894 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:02:26,895 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:02:26,917 INFO  [log] Getting details for quote Id=>93422
+2021-09-06 12:02:37,948 INFO  [log] Working On Environment =P&IDev
+2021-09-06 12:02:37,949 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-06 12:02:37,951 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-06 12:02:37,952 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-06 12:02:37,963 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA5MTA0NzcsIm5iZiI6MTYzMDkwNjg3NywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDkwNjg3N30.iZS7hvO8YSH7HKoQXOMEPLeV5KkkoMAAc_8f1Z19g5vT-h8C7amED12HpzhwMkLRLI0DHmsvhsVeZnQl9f9UdkCgNsTeGho0VTQIs9cYeb5UUIJ57nSi0gq3v-Y7nWdTvOeo_7PrdxX2Xw_SLePsqUv_WQoiGlds_7qBN-NRLr_xxKMNf1jDunTI1bvew8ONWO-QPBGrBEj3xt_J0IfLHwx_xZ2fCrfYpPtpEmpfpAltcS-qGQh_Sw14c9UEvtlSD9tDTILxKflHa4PTzL7dSKRMT6v2MFbr6qy0sUXm0yxsFw4e4AoiAC5QKqQOw_Rff5pjxlQxpmFU_Zf2A9loWw
+2021-09-06 12:03:02,977 INFO  [log] Working On Environment =P&IDev
+2021-09-06 12:03:02,978 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-06 12:03:02,978 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-06 12:03:02,978 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-06 12:03:02,983 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA5MTM1NzAsIm5iZiI6MTYzMDkwOTk3MCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDkwOTk3MH0.FDmEabTdDman-1NGyDPkQWruudYIKZ3rqE3W2OY5Me8pYpTI1c67eOVuTg48kPyZL-m9UO0BhchBNUkyyOBPewE-H1ifwxRYYQVTykOrsEw_sZtySqh3P3o_uCiskydc-vIrbBnP6El3tOkNmm91EjjkwAhPjFI7XPUpGndRk-pE-YStvTpcGndBwzZAiHbDg1PbyaFpN61wZiUDstPgl5edVzhDvKi2525Cvyt0C7bQOA6wJl7ZzemwnABEJGkDRlIIQ-7LeTPQROwVFaosmTQwgDJvT2q83vAqlkG6UFBPreF8n6_1P6eo6KvwYccnbIKQ9NWoo_FA0ES2ie_nbA
+2021-09-06 12:03:07,746 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-06 12:03:09,730 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:03:09,766 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:03:09,774 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:03:09,797 INFO  [log] Getting details for quote Id=>93422
+2021-09-06 12:03:53,103 INFO  [log] Working On Environment =P&IDev
+2021-09-06 12:03:53,103 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-06 12:03:53,106 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-06 12:03:53,115 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-06 12:03:53,120 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA5MTM1NzAsIm5iZiI6MTYzMDkwOTk3MCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDkwOTk3MH0.FDmEabTdDman-1NGyDPkQWruudYIKZ3rqE3W2OY5Me8pYpTI1c67eOVuTg48kPyZL-m9UO0BhchBNUkyyOBPewE-H1ifwxRYYQVTykOrsEw_sZtySqh3P3o_uCiskydc-vIrbBnP6El3tOkNmm91EjjkwAhPjFI7XPUpGndRk-pE-YStvTpcGndBwzZAiHbDg1PbyaFpN61wZiUDstPgl5edVzhDvKi2525Cvyt0C7bQOA6wJl7ZzemwnABEJGkDRlIIQ-7LeTPQROwVFaosmTQwgDJvT2q83vAqlkG6UFBPreF8n6_1P6eo6KvwYccnbIKQ9NWoo_FA0ES2ie_nbA
+2021-09-06 12:03:57,874 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-06 12:03:59,828 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:03:59,863 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:03:59,866 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:03:59,899 INFO  [log] Getting details for quote Id=>93422
+2021-09-06 12:04:58,442 INFO  [log] Working On Environment =P&IDev
+2021-09-06 12:04:58,442 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-06 12:04:58,445 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-06 12:04:58,452 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-06 12:04:58,454 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzA5MTM1NzAsIm5iZiI6MTYzMDkwOTk3MCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMDkwOTk3MH0.FDmEabTdDman-1NGyDPkQWruudYIKZ3rqE3W2OY5Me8pYpTI1c67eOVuTg48kPyZL-m9UO0BhchBNUkyyOBPewE-H1ifwxRYYQVTykOrsEw_sZtySqh3P3o_uCiskydc-vIrbBnP6El3tOkNmm91EjjkwAhPjFI7XPUpGndRk-pE-YStvTpcGndBwzZAiHbDg1PbyaFpN61wZiUDstPgl5edVzhDvKi2525Cvyt0C7bQOA6wJl7ZzemwnABEJGkDRlIIQ-7LeTPQROwVFaosmTQwgDJvT2q83vAqlkG6UFBPreF8n6_1P6eo6KvwYccnbIKQ9NWoo_FA0ES2ie_nbA
+2021-09-06 12:05:03,010 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-06 12:05:05,353 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-06 12:05:05,387 INFO  [log] HTTP Status code is =>200
+2021-09-06 12:05:05,391 INFO  [log] API Response is received as =>false,null,true,
+2021-09-06 12:05:05,423 INFO  [log] Getting details for quote Id=>93422
+2021-09-06 12:05:06,011 INFO  [log] SQL response received as =>93422,26597,3002,ThisisAutomatedtest,Issued (Quotation)
+2021-09-07 13:04:25,661 INFO  [log] Working On Environment =P&IDev
+2021-09-07 13:04:25,661 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-07 13:04:25,661 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-07 13:04:25,661 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-07 13:04:25,661 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzEwMDM2NDIsIm5iZiI6MTYzMTAwMDA0MiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTAwMDA0Mn0.nA3ESx0ihE8DyGZ1tScN6NMVuDsZrs3nHDmd-UZO27rU0bN7TZv6GY0uDs7OO1-rZHvErYYXXJyM1yBDdznkEUrpMyXaN-t1e9UES1RP7tPV1nCtiyzQnL3FcDnlZF0cHVeWfEtA_iIgD1QiCTNGPWmsj0anpjIO3SFUJq-83UXH2cA_TovpY4HlpK2WYz801L2RC7Hl-qeksD_j2YmWCVmBFkgU8dFDheY4monqdDwa7catBWITXFUvh4yR9HIyXIY7u80mIc50HZCxww51cwCTZfwmJyc1_vohitRKNaMp0qKmdwQ3ynFLZOkv1hpYkVbQKlvcAuIsVQ0IN6QU7A
+2021-09-07 13:04:36,046 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-07 13:04:37,684 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-07 13:04:37,730 INFO  [log] HTTP Status code is =>200
+2021-09-07 13:04:37,730 INFO  [log] API Response is received as =>false,null,true,
+2021-09-07 13:04:37,762 INFO  [log] Getting details for quote Id=>93422
+2021-09-07 13:04:38,037 INFO  [log] SQL response received as =>93422,26600,3002,ThisisAutomatedtest,Issued (Quotation)
+2021-09-07 13:05:10,674 INFO  [log] Working On Environment =P&IDev
+2021-09-07 13:05:10,675 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-07 13:05:10,678 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-07 13:05:10,686 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-07 13:05:10,688 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzEwMDM2NDIsIm5iZiI6MTYzMTAwMDA0MiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTAwMDA0Mn0.nA3ESx0ihE8DyGZ1tScN6NMVuDsZrs3nHDmd-UZO27rU0bN7TZv6GY0uDs7OO1-rZHvErYYXXJyM1yBDdznkEUrpMyXaN-t1e9UES1RP7tPV1nCtiyzQnL3FcDnlZF0cHVeWfEtA_iIgD1QiCTNGPWmsj0anpjIO3SFUJq-83UXH2cA_TovpY4HlpK2WYz801L2RC7Hl-qeksD_j2YmWCVmBFkgU8dFDheY4monqdDwa7catBWITXFUvh4yR9HIyXIY7u80mIc50HZCxww51cwCTZfwmJyc1_vohitRKNaMp0qKmdwQ3ynFLZOkv1hpYkVbQKlvcAuIsVQ0IN6QU7A
+2021-09-07 13:05:52,388 INFO  [log] Working On Environment =P&IDev
+2021-09-07 13:05:52,389 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-07 13:05:52,392 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-07 13:05:52,392 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-07 13:05:52,402 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzEwMDM2NDIsIm5iZiI6MTYzMTAwMDA0MiwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTAwMDA0Mn0.nA3ESx0ihE8DyGZ1tScN6NMVuDsZrs3nHDmd-UZO27rU0bN7TZv6GY0uDs7OO1-rZHvErYYXXJyM1yBDdznkEUrpMyXaN-t1e9UES1RP7tPV1nCtiyzQnL3FcDnlZF0cHVeWfEtA_iIgD1QiCTNGPWmsj0anpjIO3SFUJq-83UXH2cA_TovpY4HlpK2WYz801L2RC7Hl-qeksD_j2YmWCVmBFkgU8dFDheY4monqdDwa7catBWITXFUvh4yR9HIyXIY7u80mIc50HZCxww51cwCTZfwmJyc1_vohitRKNaMp0qKmdwQ3ynFLZOkv1hpYkVbQKlvcAuIsVQ0IN6QU7A
+2021-09-07 13:05:58,578 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-07 13:06:02,542 INFO  [log] DB Quote Id from DB is->90653
+2021-09-07 13:06:02,543 INFO  [log] DB CRM Identifier from DB is->475E0325-E952-EA11-A813-000D3A86A8CF
+2021-09-07 13:06:02,591 INFO  [log] CRM Identified from request ->null
+2021-09-07 13:06:02,592 INFO  [log] Request body is ->
+					[
+						90653
+					]
+					
+2021-09-07 13:06:06,424 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"WorkflowId\":\"811f1193-03ee-459c-baa3-05817a758e09\",\"TransactionId\":348865,\"GroupId\":41680,\"IsGroupCreated\":true}","success":true,"message":""}
+2021-09-07 13:06:06,447 INFO  [log] HTTP Status code is =>200
+2021-09-07 13:06:06,450 INFO  [log] Data details are ->[WorkflowId, 811f1193-03ee-459c-baa3-05817a758e09, TransactionId, 348865, GroupId, 41680, IsGroupCreated, true]
+2021-09-07 13:06:06,452 INFO  [log] API TransactionId =348865
+2021-09-07 13:06:06,452 INFO  [log] API WorkflowId =811F1193-03EE-459C-BAA3-05817A758E09
+2021-09-07 13:06:06,453 INFO  [log] API GroupId =41680
+2021-09-07 13:06:06,453 INFO  [log] API IsGroupCreated =TRUE
+2021-09-07 13:06:06,453 INFO  [log] API response is received as=>90653,FALSE,811F1193-03EE-459C-BAA3-05817A758E09,348865,41680,TRUE,true,
+2021-09-07 13:06:06,487 INFO  [log] Quote Id for processing is ->90653
+2021-09-07 13:06:06,668 INFO  [log] Inside SQL
+2021-09-07 13:06:06,670 INFO  [log] SQL response is ->90653,FALSE,811F1193-03EE-459C-BAA3-05817A758E09,348865,41680,TRUE,TRUE,
+2021-09-08 18:05:47,180 INFO  [log] Working On Environment =P&IDev
+2021-09-08 18:05:47,181 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-08 18:05:47,181 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-08 18:05:47,182 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-08 18:05:47,186 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzEwODU1MjcsIm5iZiI6MTYzMTA4MTkyNywiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTA4MTkyN30.JkVjye7i2TwmfQ-AjJATQPFPy-7ucL3CeWd--jnX3vbW9R-K_qwYGolUM8xJUCT87Ng-S3JPxWQ296nQJMfxCRtcjpjO22xbF_vLLVWiSvXma2Io7NlFiP6IiZEDzhqDKLbm48dWQVCAKXgGMgvVw0tjOmIteZ94FM0ydePudI0kkPT2ycydco6DkfkHCGr1KPPOy4QOFM1HfBxWwttFR_OKAQ9xkDPBEtwsWT1k75d5XCkU5ngcr9ljsRP71RAtOdj-ji_DIXLYqSsiWtNMjURLXQwiCVn7x7H06GTGxmmerI8ugrFkCviMk3xFlpT-bYmE-zayPECs5TLV_oCcrw
+2021-09-08 18:05:53,424 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-08 18:05:55,257 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-08 18:05:58,685 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":null,"success":true,"message":""}
+2021-09-08 18:05:58,716 INFO  [log] HTTP Status code is =>200
+2021-09-08 18:05:58,716 INFO  [log] API Response is received as =>false,null,true,
+2021-09-08 18:05:58,747 INFO  [log] Getting details for quote Id=>93473
+2021-09-08 18:05:59,007 INFO  [log] SQL response received as =>93473,26616,3002,ThisisAutomatedtest,Issued (Quotation)
+2021-09-14 17:29:20,820 INFO  [log] Working On Environment =P&IDev
+2021-09-14 17:29:20,821 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 17:29:20,822 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 17:29:20,822 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 17:29:20,837 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 17:29:25,874 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 17:29:33,724 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-14 17:29:36,725 INFO  [log] Original API response for POST method is =>{"hasError":true,"data":null,"success":true,"message":"Some error occured. WorkflowId: 5a458143-c1d1-4705-8409-e15981ae90c5"}
+2021-09-14 17:29:36,805 INFO  [log] HTTP Status code is =>200
+2021-09-14 17:29:36,816 INFO  [log] API Response is received as =>true,null,true,Some error occured. WorkflowId: 5a458143-c1d1-4705-8409-e15981ae90c5
+2021-09-14 17:29:36,872 INFO  [log] Getting details for quote Id=>93473
+2021-09-14 17:29:37,145 INFO  [log] SQL response received as =>93473,26623,3002,ThisisAutomatedtest,Pending (Quotation)
+2021-09-14 18:00:40,954 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:00:40,958 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:00:40,961 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:00:40,966 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:00:40,972 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:00:48,342 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:00:53,304 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-14 18:00:56,975 INFO  [log] Original API response for POST method is =>{"hasError":true,"data":null,"success":true,"message":"Some error occured. WorkflowId: 5feef059-538f-446a-a43a-21fe0be133ec"}
+2021-09-14 18:00:57,051 INFO  [log] HTTP Status code is =>200
+2021-09-14 18:00:57,077 INFO  [log] API Response is received as =>true,null,true,Some error occured. WorkflowId: 5feef059-538f-446a-a43a-21fe0be133ec
+2021-09-14 18:00:57,142 INFO  [log] Getting details for quote Id=>92685
+2021-09-14 18:00:57,546 INFO  [log] SQL response received as =>92685,26625,1281,ThisisAutomatedtest,Pending (Quotation)
+2021-09-14 18:02:31,199 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:02:31,201 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:02:31,205 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:02:31,206 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:02:31,216 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:02:40,853 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:02:43,517 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-14 18:02:50,221 INFO  [log] Original API response for POST method is =>{"hasError":true,"data":null,"success":true,"message":"Some error occured. WorkflowId: 9b06ad2a-fa8d-4b31-ae6d-b28a58bc88dc"}
+2021-09-14 18:02:50,344 INFO  [log] HTTP Status code is =>200
+2021-09-14 18:02:50,363 INFO  [log] API Response is received as =>true,null,true,Some error occured. WorkflowId: 9b06ad2a-fa8d-4b31-ae6d-b28a58bc88dc
+2021-09-14 18:02:50,437 INFO  [log] Getting details for quote Id=>92518
+2021-09-14 18:02:51,103 INFO  [log] SQL response received as =>92518,26627,83379,ThisisAutomatedtest,Pending (Quotation)
+2021-09-14 18:03:56,257 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:03:56,258 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:03:56,270 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:03:56,273 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:03:56,280 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:04:07,967 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:04:18,179 INFO  [log] Test Execution started for Create Note in the Note table with Broker Referral message, Broker Contact/Party Id
+2021-09-14 18:07:54,287 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:07:54,290 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:07:54,294 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:07:54,302 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:07:54,307 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:08:04,032 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:08:52,381 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:08:52,383 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:08:52,386 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:08:52,387 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:08:52,397 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:09:00,857 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:11:04,620 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:11:04,622 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:11:04,623 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:11:04,623 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:11:04,624 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:11:17,033 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:12:09,703 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:12:09,706 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:12:09,712 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:12:09,721 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:12:09,736 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:12:19,999 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:12:27,453 INFO  [log] DB Quote Id from DB is->90651
+2021-09-14 18:12:27,454 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-14 18:12:27,555 INFO  [log] CRM Identified from request ->null
+2021-09-14 18:12:27,556 INFO  [log] Request body is ->
+						{
+							"quotes": 
+							[
+								{
+									"id": 90651,
+									"reference": "1053115"
+								}
+							],
+							"brokerReference": "459"
+						}
+					
+2021-09-14 18:12:28,762 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"e00d407c-4905-4715-ba2e-b1912f78214d\",\"TransactionId\":349000,\"GroupId\":41730,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-14 18:12:28,866 INFO  [log] HTTP Status code is =>200
+2021-09-14 18:12:28,874 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, e00d407c-4905-4715-ba2e-b1912f78214d, TransactionId, 349000, GroupId, 41730, IsGroupCreated, true, failedQuotes, []]
+2021-09-14 18:12:28,881 INFO  [log] API TransactionId =TransactionId
+2021-09-14 18:12:28,882 INFO  [log] API WorkflowId =WORKFLOWID
+2021-09-14 18:12:28,884 INFO  [log] API GroupId =GroupId
+2021-09-14 18:12:28,894 INFO  [log] API IsGroupCreated =ISGROUPCREATED
+2021-09-14 18:12:28,896 INFO  [log] API response is received as=>90651,FALSE,WORKFLOWID,TransactionId,GroupId,ISGROUPCREATED,true,
+2021-09-14 18:12:28,946 INFO  [log] Quote Id for processing is ->90651
+2021-09-14 18:15:09,384 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:15:09,384 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:15:09,389 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:15:09,389 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:15:09,403 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:15:19,552 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:15:27,595 INFO  [log] DB Quote Id from DB is->90651
+2021-09-14 18:15:27,595 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-14 18:15:27,682 INFO  [log] CRM Identified from request ->null
+2021-09-14 18:15:27,684 INFO  [log] Request body is ->
+						{
+							"quotes": 
+							[
+								{
+									"id": 90651,
+									"reference": "1053115"
+								}
+							],
+							"brokerReference": "459"
+						}
+					
+2021-09-14 18:15:28,799 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"5d3b0ec1-8c9c-43c5-b1fd-7587a4a24f5d\",\"TransactionId\":349004,\"GroupId\":41734,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-14 18:15:28,898 INFO  [log] HTTP Status code is =>200
+2021-09-14 18:15:28,925 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, 5d3b0ec1-8c9c-43c5-b1fd-7587a4a24f5d, TransactionId, 349004, GroupId, 41734, IsGroupCreated, true, failedQuotes, []]
+2021-09-14 18:15:28,928 INFO  [log] API TransactionId =349004
+2021-09-14 18:15:28,928 INFO  [log] API WorkflowId =5D3B0EC1-8C9C-43C5-B1FD-7587A4A24F5D
+2021-09-14 18:15:28,938 INFO  [log] API GroupId =41734
+2021-09-14 18:15:28,951 INFO  [log] API IsGroupCreated =TRUE
+2021-09-14 18:15:28,952 INFO  [log] API response is received as=>90651,FALSE,5D3B0EC1-8C9C-43C5-B1FD-7587A4A24F5D,349004,41734,TRUE,true,
+2021-09-14 18:15:29,068 INFO  [log] Quote Id for processing is ->90651
+2021-09-14 18:15:29,318 INFO  [log] Inside SQL
+2021-09-14 18:16:17,557 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:16:17,559 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:16:17,569 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:16:17,569 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:16:17,572 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:16:29,580 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:16:37,792 INFO  [log] DB Quote Id from DB is->90651
+2021-09-14 18:16:37,792 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-14 18:16:37,889 INFO  [log] CRM Identified from request ->null
+2021-09-14 18:16:37,890 INFO  [log] Request body is ->
+						{
+							"quotes": 
+							[
+								{
+									"id": 90651,
+									"reference": "1053115"
+								}
+							],
+							"brokerReference": "459"
+						}
+					
+2021-09-14 18:16:38,997 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"967711ae-bb38-4a6b-bf5e-e87fbf84e31d\",\"TransactionId\":349008,\"GroupId\":41738,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-14 18:16:39,123 INFO  [log] HTTP Status code is =>200
+2021-09-14 18:16:39,140 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, 967711ae-bb38-4a6b-bf5e-e87fbf84e31d, TransactionId, 349008, GroupId, 41738, IsGroupCreated, true, failedQuotes, []]
+2021-09-14 18:16:39,146 INFO  [log] API TransactionId =349008
+2021-09-14 18:16:39,146 INFO  [log] API WorkflowId =967711AE-BB38-4A6B-BF5E-E87FBF84E31D
+2021-09-14 18:16:39,154 INFO  [log] API GroupId =41738
+2021-09-14 18:16:39,156 INFO  [log] API IsGroupCreated =TRUE
+2021-09-14 18:16:39,165 INFO  [log] API response is received as=>90651,FALSE,967711AE-BB38-4A6B-BF5E-E87FBF84E31D,349008,41738,TRUE,true,
+2021-09-14 18:16:39,264 INFO  [log] Quote Id for processing is ->90651
+2021-09-14 18:16:39,578 INFO  [log] Inside SQL
+2021-09-14 18:16:39,884 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,887 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,893 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,899 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,901 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,908 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,914 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,927 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,937 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,943 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,947 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,956 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,963 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,974 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,977 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,983 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,991 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:39,999 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,000 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,009 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,012 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,020 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,034 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,048 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,050 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,066 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,072 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,081 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,082 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:16:40,101 INFO  [log] SQL response is ->90651,FALSE,967711AE-BB38-4A6B-BF5E-E87FBF84E31D,349008,41738,TRUE,TRUE,,Janie Welsh
+2021-09-14 18:21:32,817 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:21:32,817 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:21:32,826 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:21:32,827 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:21:32,836 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:21:43,783 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:21:53,094 INFO  [log] DB Quote Id from DB is->90651
+2021-09-14 18:21:53,110 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-14 18:21:53,211 INFO  [log] CRM Identified from request ->null
+2021-09-14 18:21:53,227 INFO  [log] Request body is ->
+						{
+							"quotes": 
+							[
+								{
+									"id": 90651,
+									"reference": "1053115"
+								}
+							],
+							"brokerReference": "459"
+						}
+					
+2021-09-14 18:21:54,312 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"25ad0b8f-d0bd-46e7-a43b-2c14b344108a\",\"TransactionId\":349012,\"GroupId\":41742,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-14 18:21:54,432 INFO  [log] HTTP Status code is =>200
+2021-09-14 18:21:54,441 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, 25ad0b8f-d0bd-46e7-a43b-2c14b344108a, TransactionId, 349012, GroupId, 41742, IsGroupCreated, true, failedQuotes, []]
+2021-09-14 18:21:54,452 INFO  [log] API TransactionId =349012
+2021-09-14 18:21:54,452 INFO  [log] API WorkflowId =25AD0B8F-D0BD-46E7-A43B-2C14B344108A
+2021-09-14 18:21:54,461 INFO  [log] API GroupId =41742
+2021-09-14 18:21:54,463 INFO  [log] API IsGroupCreated =TRUE
+2021-09-14 18:21:54,471 INFO  [log] API response is received as=>90651,FALSE,25AD0B8F-D0BD-46E7-A43B-2C14B344108A,349012,41742,TRUE,true,
+2021-09-14 18:21:54,553 INFO  [log] Quote Id for processing is ->90651
+2021-09-14 18:21:55,165 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,166 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,173 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,174 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,174 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,185 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,186 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,190 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,190 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,202 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,205 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,208 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,211 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,212 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,214 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,217 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,218 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,220 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,221 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,235 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,243 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,245 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,246 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,249 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,251 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,252 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,265 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,265 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,268 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,271 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,271 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,278 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,278 INFO  [log] User is ->Janie Welsh
+2021-09-14 18:21:55,289 INFO  [log] SQL response is ->90651,FALSE,25AD0B8F-D0BD-46E7-A43B-2C14B344108A,349012,41742,TRUE,TRUE,,Janie Welsh
+2021-09-14 18:56:50,759 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:56:50,765 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:56:50,769 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:56:50,771 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:56:50,777 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:58:23,322 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:58:23,322 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:58:23,322 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:58:23,338 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:58:23,339 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:58:32,363 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 18:59:47,752 INFO  [log] Working On Environment =P&IDev
+2021-09-14 18:59:47,762 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 18:59:47,763 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 18:59:47,764 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 18:59:47,765 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 18:59:56,076 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 19:00:00,114 INFO  [log] DB Quote Id from DB is->90651
+2021-09-14 19:00:00,114 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-14 19:00:00,177 INFO  [log] CRM Identified from request ->null
+2021-09-14 19:00:00,177 INFO  [log] Request body is ->
+						{
+							"quotes": 
+							[
+								{
+									"id": 90651,
+									"reference": "1053115"
+								}
+							],
+							"brokerReference": "459"
+						}
+					
+2021-09-14 19:00:00,943 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"b399c52f-453c-4457-98dc-40eeaab4af68\",\"TransactionId\":349022,\"GroupId\":41752,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-14 19:00:01,038 INFO  [log] HTTP Status code is =>200
+2021-09-14 19:00:01,049 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, b399c52f-453c-4457-98dc-40eeaab4af68, TransactionId, 349022, GroupId, 41752, IsGroupCreated, true, failedQuotes, []]
+2021-09-14 19:00:01,054 INFO  [log] API TransactionId =349022
+2021-09-14 19:00:01,055 INFO  [log] API WorkflowId =B399C52F-453C-4457-98DC-40EEAAB4AF68
+2021-09-14 19:00:01,056 INFO  [log] API GroupId =41752
+2021-09-14 19:00:01,058 INFO  [log] API IsGroupCreated =TRUE
+2021-09-14 19:00:01,061 INFO  [log] API response is received as=>90651,FALSE,B399C52F-453C-4457-98DC-40EEAAB4AF68,349022,41752,TRUE,true,
+2021-09-14 19:00:01,112 INFO  [log] Quote Id for processing is ->90651
+2021-09-14 19:00:01,939 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,942 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,943 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,944 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,946 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,947 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,948 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,950 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,951 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,953 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,954 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,954 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,958 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,960 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,961 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,963 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,964 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,968 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,971 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,973 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,976 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,990 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,992 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:01,997 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,009 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,018 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,030 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,035 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,044 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,048 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,055 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,063 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,070 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,077 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,081 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,083 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,084 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,086 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,102 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,104 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,107 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,113 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,120 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:02,123 INFO  [log] SQL response is ->90651,FALSE,B399C52F-453C-4457-98DC-40EEAAB4AF68,349022,41752,TRUE,TRUE,,Janie Welsh
+2021-09-14 19:00:34,594 INFO  [log] Working On Environment =P&IDev
+2021-09-14 19:00:34,596 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-14 19:00:34,601 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-14 19:00:34,608 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-14 19:00:34,615 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzE2MjMzNjksIm5iZiI6MTYzMTYxOTc2OSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMTYxOTc2OX0.lLlJcy7sBEMAGc5M0S2zymklCGo11bpNfOgtAkz3B-1tKAQo50h-PD7-5TmdJSdCqIGHV1PxLYFVFmRxpDcIOmMjWPMhK_KgWls39FGmyGUh73rvqxlFPUGl7orUzePosPvJxSTgFzGKpCajHMPHMfq3TpArtvkoAZ9LrjXPcKYxyuC_Ff2EYW4XpTjTi_MtEkjYZnCNZTwZlvWTq56sxrENhuzpuzzOEQMT-Otj1ms6k3HjQ0I_64zCUWxcEwerV7vskb_xqC24HWA38UO4eX3-X0ntm36Eyi-9bsVbOHnfS4B5ks5MhTBswY5qD7e1UkzMXVgKzK0UJW9Ahv06XA
+2021-09-14 19:00:41,112 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-14 19:00:45,585 INFO  [log] DB Quote Id from DB is->90651
+2021-09-14 19:00:45,585 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-14 19:00:45,698 INFO  [log] CRM Identified from request ->null
+2021-09-14 19:00:45,699 INFO  [log] Request body is ->
+						{
+							"quotes": 
+							[
+								{
+									"id": 90651,
+									"reference": "1053115"
+								}
+							],
+							"brokerReference": "459"
+						}
+					
+2021-09-14 19:00:46,558 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"9a84a3fc-8331-47a3-8a3c-585e50505b2a\",\"TransactionId\":349026,\"GroupId\":41756,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-14 19:00:46,634 INFO  [log] HTTP Status code is =>200
+2021-09-14 19:00:46,645 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, 9a84a3fc-8331-47a3-8a3c-585e50505b2a, TransactionId, 349026, GroupId, 41756, IsGroupCreated, true, failedQuotes, []]
+2021-09-14 19:00:46,654 INFO  [log] API TransactionId =349026
+2021-09-14 19:00:46,655 INFO  [log] API WorkflowId =9A84A3FC-8331-47A3-8A3C-585E50505B2A
+2021-09-14 19:00:46,666 INFO  [log] API GroupId =41756
+2021-09-14 19:00:46,667 INFO  [log] API IsGroupCreated =TRUE
+2021-09-14 19:00:46,669 INFO  [log] API response is received as=>90651,FALSE,9A84A3FC-8331-47A3-8A3C-585E50505B2A,349026,41756,TRUE,true,
+2021-09-14 19:00:46,726 INFO  [log] Quote Id for processing is ->90651
+2021-09-14 19:00:47,227 INFO  [log] User is ->Janie Welsh
+2021-09-14 19:00:47,235 INFO  [log] SQL response is ->90651,FALSE,9A84A3FC-8331-47A3-8A3C-585E50505B2A,349026,41756,TRUE,TRUE,,Janie Welsh
+2021-09-21 18:19:48,153 INFO  [log] Working On Environment =P&IDev
+2021-09-21 18:19:48,155 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-21 18:19:48,155 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-21 18:19:48,156 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-21 18:19:48,167 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzIyMzIxMDQsIm5iZiI6MTYzMjIyODUwNCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMjIyODUwNH0.IzXVKmpPMscngbh0pkbuDqBohYXwm7aWuaf6_FHjkXhQzVqkeeB30Z-Ku2ynVAFHFj9bxRvuGGm4KlUnWIeF_EZwKcsyGXk6jYFuUsadmZr8IgG-39mlsXBjNL1qBysygalirqZFjZD63AoCQLMzn7A8_utEXFZsIr6RyneKvb3c-hNBkVjCEv3YxhAznSMwlXuyX_1fSPBGSgd-oLKymZA-sBrQsAJc6ZrJ8ovPECJbVTz13lpszBUoGeDK1kMR_zWmdl5bdQESKSPkePVGamgac6Dfl7GGtvdmflHYmyl0htFfm8YrkHHZCQIZdhjya0ffo-QBR2w6qiBdQyv04A
+2021-09-21 18:19:54,941 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-21 18:31:35,767 INFO  [log] Working On Environment =P&IDev
+2021-09-21 18:31:35,768 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-21 18:31:35,771 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-21 18:31:35,778 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-21 18:31:35,783 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzIyMzIxMDQsIm5iZiI6MTYzMjIyODUwNCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMjIyODUwNH0.IzXVKmpPMscngbh0pkbuDqBohYXwm7aWuaf6_FHjkXhQzVqkeeB30Z-Ku2ynVAFHFj9bxRvuGGm4KlUnWIeF_EZwKcsyGXk6jYFuUsadmZr8IgG-39mlsXBjNL1qBysygalirqZFjZD63AoCQLMzn7A8_utEXFZsIr6RyneKvb3c-hNBkVjCEv3YxhAznSMwlXuyX_1fSPBGSgd-oLKymZA-sBrQsAJc6ZrJ8ovPECJbVTz13lpszBUoGeDK1kMR_zWmdl5bdQESKSPkePVGamgac6Dfl7GGtvdmflHYmyl0htFfm8YrkHHZCQIZdhjya0ffo-QBR2w6qiBdQyv04A
+2021-09-21 18:31:40,881 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-21 18:36:17,714 INFO  [log] Working On Environment =P&IDev
+2021-09-21 18:36:17,714 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-21 18:36:17,717 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-21 18:36:17,720 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-21 18:36:17,729 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzIyMzIxMDQsIm5iZiI6MTYzMjIyODUwNCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMjIyODUwNH0.IzXVKmpPMscngbh0pkbuDqBohYXwm7aWuaf6_FHjkXhQzVqkeeB30Z-Ku2ynVAFHFj9bxRvuGGm4KlUnWIeF_EZwKcsyGXk6jYFuUsadmZr8IgG-39mlsXBjNL1qBysygalirqZFjZD63AoCQLMzn7A8_utEXFZsIr6RyneKvb3c-hNBkVjCEv3YxhAznSMwlXuyX_1fSPBGSgd-oLKymZA-sBrQsAJc6ZrJ8ovPECJbVTz13lpszBUoGeDK1kMR_zWmdl5bdQESKSPkePVGamgac6Dfl7GGtvdmflHYmyl0htFfm8YrkHHZCQIZdhjya0ffo-QBR2w6qiBdQyv04A
+2021-09-21 18:36:27,661 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-21 18:37:10,203 INFO  [log] Working On Environment =P&IDev
+2021-09-21 18:37:10,205 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-21 18:37:10,207 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-21 18:37:10,208 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-21 18:37:10,218 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzIyMzIxMDQsIm5iZiI6MTYzMjIyODUwNCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMjIyODUwNH0.IzXVKmpPMscngbh0pkbuDqBohYXwm7aWuaf6_FHjkXhQzVqkeeB30Z-Ku2ynVAFHFj9bxRvuGGm4KlUnWIeF_EZwKcsyGXk6jYFuUsadmZr8IgG-39mlsXBjNL1qBysygalirqZFjZD63AoCQLMzn7A8_utEXFZsIr6RyneKvb3c-hNBkVjCEv3YxhAznSMwlXuyX_1fSPBGSgd-oLKymZA-sBrQsAJc6ZrJ8ovPECJbVTz13lpszBUoGeDK1kMR_zWmdl5bdQESKSPkePVGamgac6Dfl7GGtvdmflHYmyl0htFfm8YrkHHZCQIZdhjya0ffo-QBR2w6qiBdQyv04A
+2021-09-21 18:37:15,964 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-21 18:38:08,519 INFO  [log] Working On Environment =P&IDev
+2021-09-21 18:38:08,520 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-21 18:38:08,523 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-21 18:38:08,530 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-21 18:38:08,536 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzIyMzIxMDQsIm5iZiI6MTYzMjIyODUwNCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMjIyODUwNH0.IzXVKmpPMscngbh0pkbuDqBohYXwm7aWuaf6_FHjkXhQzVqkeeB30Z-Ku2ynVAFHFj9bxRvuGGm4KlUnWIeF_EZwKcsyGXk6jYFuUsadmZr8IgG-39mlsXBjNL1qBysygalirqZFjZD63AoCQLMzn7A8_utEXFZsIr6RyneKvb3c-hNBkVjCEv3YxhAznSMwlXuyX_1fSPBGSgd-oLKymZA-sBrQsAJc6ZrJ8ovPECJbVTz13lpszBUoGeDK1kMR_zWmdl5bdQESKSPkePVGamgac6Dfl7GGtvdmflHYmyl0htFfm8YrkHHZCQIZdhjya0ffo-QBR2w6qiBdQyv04A
+2021-09-21 18:38:14,082 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-21 18:38:18,635 INFO  [log] DB Quote Id from DB is->90648
+2021-09-21 18:38:18,636 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-21 18:38:18,723 INFO  [log] CRM Identified from request ->null
+2021-09-21 18:38:18,725 INFO  [log] Request body is ->
+					{
+							"Quotes":
+								[
+									{ 
+										"Id": 90648,
+										"Reference": "1053112"
+									}
+								],
+								"BrokerReference": "459",
+								"brokerContactId":"458EB07B-EBE1-E611-8C3F-005056B03908"
+					}
+					
+2021-09-21 18:38:21,574 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"c85d56fd-f3f2-4cc0-86ce-7e91afad8d7c\",\"TransactionId\":349128,\"GroupId\":41812,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-21 18:38:21,744 INFO  [log] HTTP Status code is =>200
+2021-09-21 18:38:21,767 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, c85d56fd-f3f2-4cc0-86ce-7e91afad8d7c, TransactionId, 349128, GroupId, 41812, IsGroupCreated, true, failedQuotes, []]
+2021-09-21 18:38:21,782 INFO  [log] API TransactionId =349128
+2021-09-21 18:38:21,784 INFO  [log] API WorkflowId =C85D56FD-F3F2-4CC0-86CE-7E91AFAD8D7C
+2021-09-21 18:38:21,788 INFO  [log] API GroupId =41812
+2021-09-21 18:38:21,793 INFO  [log] API IsGroupCreated =TRUE
+2021-09-21 18:38:21,797 INFO  [log] API response is received as=>90648,FALSE,C85D56FD-F3F2-4CC0-86CE-7E91AFAD8D7C,349128,41812,TRUE,true,
+2021-09-21 18:38:21,864 INFO  [log] DB Quote Id from DB is->90650
+2021-09-21 18:38:21,865 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-21 18:38:21,870 INFO  [log] CRM Identified from request ->null
+2021-09-21 18:38:21,876 INFO  [log] Request body is ->
+					{
+							"Quotes":
+								[
+									{ 
+										"Id": 90650,
+										"Reference": "1053114"
+									}
+								],
+								"BrokerReference": "459",
+								"brokerContactId":"458EB07B-EBE1-E611-8C3F-005056B03908"
+					}
+					
+2021-09-21 18:38:24,560 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"7d608ec3-99ba-42a3-813e-87ba329f5b24\",\"TransactionId\":349130,\"GroupId\":41814,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-21 18:38:24,564 INFO  [log] HTTP Status code is =>200
+2021-09-21 18:38:24,566 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, 7d608ec3-99ba-42a3-813e-87ba329f5b24, TransactionId, 349130, GroupId, 41814, IsGroupCreated, true, failedQuotes, []]
+2021-09-21 18:38:24,568 INFO  [log] API TransactionId =349130
+2021-09-21 18:38:24,571 INFO  [log] API WorkflowId =7D608EC3-99BA-42A3-813E-87BA329F5B24
+2021-09-21 18:38:24,573 INFO  [log] API GroupId =41814
+2021-09-21 18:38:24,585 INFO  [log] API IsGroupCreated =TRUE
+2021-09-21 18:38:24,586 INFO  [log] API response is received as=>90650,FALSE,7D608EC3-99BA-42A3-813E-87BA329F5B24,349130,41814,TRUE,true,
+2021-09-21 18:38:24,653 INFO  [log] Quote Id for processing is ->90648
+2021-09-21 18:38:24,654 INFO  [log] Quote Id for processing is ->90650
+2021-09-21 18:38:25,078 INFO  [log] User is ->UTOM API USER
+2021-09-21 18:38:25,081 INFO  [log] SQL response is ->90648,FALSE,C85D56FD-F3F2-4CC0-86CE-7E91AFAD8D7C,349128,41812,TRUE,TRUE,,UTOM API USER
+2021-09-21 18:38:25,424 INFO  [log] User is ->UTOM API USER
+2021-09-21 18:38:25,426 INFO  [log] SQL response is ->90650,FALSE,7D608EC3-99BA-42A3-813E-87BA329F5B24,349130,41814,TRUE,TRUE,,UTOM API USER
+2021-09-21 18:39:13,422 INFO  [log] Working On Environment =P&IDev
+2021-09-21 18:39:13,426 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-21 18:39:13,430 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-21 18:39:13,433 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-21 18:39:13,441 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzIyMzIxMDQsIm5iZiI6MTYzMjIyODUwNCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMjIyODUwNH0.IzXVKmpPMscngbh0pkbuDqBohYXwm7aWuaf6_FHjkXhQzVqkeeB30Z-Ku2ynVAFHFj9bxRvuGGm4KlUnWIeF_EZwKcsyGXk6jYFuUsadmZr8IgG-39mlsXBjNL1qBysygalirqZFjZD63AoCQLMzn7A8_utEXFZsIr6RyneKvb3c-hNBkVjCEv3YxhAznSMwlXuyX_1fSPBGSgd-oLKymZA-sBrQsAJc6ZrJ8ovPECJbVTz13lpszBUoGeDK1kMR_zWmdl5bdQESKSPkePVGamgac6Dfl7GGtvdmflHYmyl0htFfm8YrkHHZCQIZdhjya0ffo-QBR2w6qiBdQyv04A
+2021-09-21 18:39:19,025 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-21 18:39:23,068 INFO  [log] DB Quote Id from DB is->90648
+2021-09-21 18:39:23,070 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-21 18:39:23,209 INFO  [log] CRM Identified from request ->null
+2021-09-21 18:39:23,215 INFO  [log] Request body is ->
+					{
+							"Quotes":
+								[
+									{ 
+										"Id": 90648,
+										"Reference": "1053112"
+									}
+								],
+								"BrokerReference": "459",
+								"brokerContactId":"458EB07B-EBE1-E611-8C3F-005056B03908"
+					}
+					
+2021-09-21 18:39:24,082 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"aa9f7000-1cc4-4d78-b8b1-6d79360693b4\",\"TransactionId\":349133,\"GroupId\":41817,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-21 18:39:24,189 INFO  [log] HTTP Status code is =>200
+2021-09-21 18:39:24,213 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, aa9f7000-1cc4-4d78-b8b1-6d79360693b4, TransactionId, 349133, GroupId, 41817, IsGroupCreated, true, failedQuotes, []]
+2021-09-21 18:39:24,219 INFO  [log] API TransactionId =349133
+2021-09-21 18:39:24,225 INFO  [log] API WorkflowId =AA9F7000-1CC4-4D78-B8B1-6D79360693B4
+2021-09-21 18:39:24,227 INFO  [log] API GroupId =41817
+2021-09-21 18:39:24,236 INFO  [log] API IsGroupCreated =TRUE
+2021-09-21 18:39:24,245 INFO  [log] API response is received as=>90648,FALSE,AA9F7000-1CC4-4D78-B8B1-6D79360693B4,349133,41817,TRUE,true,
+2021-09-21 18:39:24,329 INFO  [log] DB Quote Id from DB is->90650
+2021-09-21 18:39:24,336 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-21 18:39:24,343 INFO  [log] CRM Identified from request ->null
+2021-09-21 18:39:24,348 INFO  [log] Request body is ->
+					{
+							"Quotes":
+								[
+									{ 
+										"Id": 90650,
+										"Reference": "1053114"
+									}
+								],
+								"BrokerReference": "459",
+								"brokerContactId":"458EB07B-EBE1-E611-8C3F-005056B03908"
+					}
+					
+2021-09-21 18:39:25,187 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"ca993be7-456d-43fc-a047-24d36e56892c\",\"TransactionId\":349135,\"GroupId\":41819,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-21 18:39:25,192 INFO  [log] HTTP Status code is =>200
+2021-09-21 18:39:25,194 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, ca993be7-456d-43fc-a047-24d36e56892c, TransactionId, 349135, GroupId, 41819, IsGroupCreated, true, failedQuotes, []]
+2021-09-21 18:39:25,197 INFO  [log] API TransactionId =349135
+2021-09-21 18:39:25,199 INFO  [log] API WorkflowId =CA993BE7-456D-43FC-A047-24D36E56892C
+2021-09-21 18:39:25,203 INFO  [log] API GroupId =41819
+2021-09-21 18:39:25,215 INFO  [log] API IsGroupCreated =TRUE
+2021-09-21 18:39:25,219 INFO  [log] API response is received as=>90650,FALSE,CA993BE7-456D-43FC-A047-24D36E56892C,349135,41819,TRUE,true,
+2021-09-21 18:39:25,299 INFO  [log] Quote Id for processing is ->90648
+2021-09-21 18:39:25,300 INFO  [log] Quote Id for processing is ->90650
+2021-09-21 18:39:25,577 INFO  [log] User is ->UTOM API USER
+2021-09-21 18:39:25,589 INFO  [log] SQL response is ->90648,FALSE,AA9F7000-1CC4-4D78-B8B1-6D79360693B4,349133,41817,TRUE,TRUE,,UTOM API USER
+2021-09-21 18:39:25,913 INFO  [log] User is ->UTOM API USER
+2021-09-21 18:39:25,924 INFO  [log] SQL response is ->90650,FALSE,CA993BE7-456D-43FC-A047-24D36E56892C,349135,41819,TRUE,TRUE,,UTOM API USER

@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 3167
+Size: 0
+Timestamp: Mon Sep 06 12:03:57 IST 2021
+TestStep: Groovy Script
+Error:groovy.lang.MissingPropertyException: No such property: Status_Id for class: Script1
+
+----------------- Messages ------------------------------
+groovy.lang.MissingPropertyException: No such property: Status_Id for class: Script1
+error at line: 237

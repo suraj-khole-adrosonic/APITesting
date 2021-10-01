@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 6022
+Size: 0
+Timestamp: Fri Sep 03 13:31:50 IST 2021
+TestStep: HandleReferral_GroovyScript
+Error:java.lang.IllegalArgumentException: Text must not be null
+
+----------------- Messages ------------------------------
+java.lang.IllegalArgumentException: Text must not be null
+error at line: 118

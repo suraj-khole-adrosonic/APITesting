@@ -1,9 +1,0 @@
-Status: FAILED
-Time Taken: 348
-Size: 0
-Timestamp: Wed Feb 24 11:57:02 IST 2021
-TestStep: ReferenceByTradingCertificateTypes
-Error:java.lang.NoSuchMethodError: org.codehaus.groovy.ast.ModuleNode.getStarImports()Ljava/util/List;
-
------------------ Messages ------------------------------
-java.lang.NoSuchMethodError: org.codehaus.groovy.ast.ModuleNode.getStarImports()Ljava/util/List;

@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 262073
+Size: 0
+Timestamp: Thu Sep 09 17:56:01 IST 2021
+TestStep: TradingCertificatePacksByTradingCertificatePackIdByValidate
+Error:java.lang.IllegalArgumentException: Text must not be null
+
+----------------- Messages ------------------------------
+java.lang.IllegalArgumentException: Text must not be null
+error at line: 114

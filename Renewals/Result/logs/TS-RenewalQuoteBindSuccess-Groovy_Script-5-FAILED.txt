@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 7606
+Size: 0
+Timestamp: Fri Aug 27 12:36:18 IST 2021
+TestStep: Groovy Script
+Error:com.microsoft.sqlserver.jdbc.SQLServerException: The column name AB is not valid.
+
+----------------- Messages ------------------------------
+com.microsoft.sqlserver.jdbc.SQLServerException: The column name AB is not valid.
+error at line: 254

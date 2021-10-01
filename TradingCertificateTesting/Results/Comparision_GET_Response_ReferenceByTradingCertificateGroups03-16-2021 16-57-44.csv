@@ -1,5 +1,0 @@
-SQL_TradingCertificateGroupId,API_TradingCertificateGroupId,SQL_TradingCertificateGroupName,API_TradingCertificateGroupName,Status
-1,1,Trading Certificates,Trading Certificates,Test Case Passed
-2,2,COFR,COFR,Test Case Passed
-3,3,Confirmation of Entry,Confirmation of Entry,Test Case Passed
-4,4,Letter of Undertaking,Letter of Undertaking,Test Case Passed

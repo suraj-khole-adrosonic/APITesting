@@ -1,0 +1,79 @@
+2021-09-21 18:39:07,414 WARN  [SoapUI] Missing folder [C:\APITesting\Renewals\ext] for external libraries
+2021-09-21 18:39:07,769 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Suraj khole\soapui-settings.xml]
+2021-09-21 18:39:09,261 INFO  [PluginManager] 0 plugins loaded in 0 ms
+2021-09-21 18:39:09,261 INFO  [DefaultSoapUICore] All plugins loaded
+2021-09-21 18:39:11,472 INFO  [WsdlProject] Loaded project from [file:/C:/APITesting/Renewals/Renewals-soapui-project.xml]
+2021-09-21 18:39:11,507 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Renewals]
+2021-09-21 18:39:11,510 INFO  [SoapUITestCaseRunner] Running Project [Renewals], runType = SEQUENTIAL
+2021-09-21 18:39:11,587 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Driver_Script]
+2021-09-21 18:39:11,593 INFO  [SoapUITestCaseRunner] running step [Driver]
+2021-09-21 18:39:12,506 INFO  [SoapUITestCaseRunner] running step [SetParam]
+2021-09-21 18:39:13,422 INFO  [log] Working On Environment =P&IDev
+2021-09-21 18:39:13,426 INFO  [log] EndPoint For Testing = http://spltomservices:44380/
+2021-09-21 18:39:13,430 INFO  [log] Database URL = jdbc:sqlserver://10.0.105.147;databaseName=TOM
+2021-09-21 18:39:13,433 INFO  [log] Result Location = C:\APITesting\Renewals\Results
+2021-09-21 18:39:13,441 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzIyMzIxMDQsIm5iZiI6MTYzMjIyODUwNCwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMjIyODUwNH0.IzXVKmpPMscngbh0pkbuDqBohYXwm7aWuaf6_FHjkXhQzVqkeeB30Z-Ku2ynVAFHFj9bxRvuGGm4KlUnWIeF_EZwKcsyGXk6jYFuUsadmZr8IgG-39mlsXBjNL1qBysygalirqZFjZD63AoCQLMzn7A8_utEXFZsIr6RyneKvb3c-hNBkVjCEv3YxhAznSMwlXuyX_1fSPBGSgd-oLKymZA-sBrQsAJc6ZrJ8ovPECJbVTz13lpszBUoGeDK1kMR_zWmdl5bdQESKSPkePVGamgac6Dfl7GGtvdmflHYmyl0htFfm8YrkHHZCQIZdhjya0ffo-QBR2w6qiBdQyv04A
+2021-09-21 18:39:13,464 INFO  [SoapUITestCaseRunner] running step [SummaryCreate]
+2021-09-21 18:39:13,985 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Driver_Script], time taken: 2356ms, status: FINISHED
+2021-09-21 18:39:13,987 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [RenewalQuoteBindSuccess]
+2021-09-21 18:39:13,989 INFO  [SoapUITestCaseRunner] running step [REST Request]
+2021-09-21 18:39:18,093 INFO  [SoapUITestCaseRunner] running step [RenewalQuoteBindSuccess_GroovyScript]
+2021-09-21 18:39:19,025 INFO  [log] Test Execution started for Renewal Quote Bind
+2021-09-21 18:39:23,068 INFO  [log] DB Quote Id from DB is->90648
+2021-09-21 18:39:23,070 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-21 18:39:23,209 INFO  [log] CRM Identified from request ->null
+2021-09-21 18:39:23,215 INFO  [log] Request body is ->
+					{
+							"Quotes":
+								[
+									{ 
+										"Id": 90648,
+										"Reference": "1053112"
+									}
+								],
+								"BrokerReference": "459",
+								"brokerContactId":"458EB07B-EBE1-E611-8C3F-005056B03908"
+					}
+					
+2021-09-21 18:39:23,260 INFO  [SoapUITestCaseRunner] running step [REST Request]
+2021-09-21 18:39:24,082 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"aa9f7000-1cc4-4d78-b8b1-6d79360693b4\",\"TransactionId\":349133,\"GroupId\":41817,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-21 18:39:24,189 INFO  [log] HTTP Status code is =>200
+2021-09-21 18:39:24,213 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, aa9f7000-1cc4-4d78-b8b1-6d79360693b4, TransactionId, 349133, GroupId, 41817, IsGroupCreated, true, failedQuotes, []]
+2021-09-21 18:39:24,219 INFO  [log] API TransactionId =349133
+2021-09-21 18:39:24,225 INFO  [log] API WorkflowId =AA9F7000-1CC4-4D78-B8B1-6D79360693B4
+2021-09-21 18:39:24,227 INFO  [log] API GroupId =41817
+2021-09-21 18:39:24,236 INFO  [log] API IsGroupCreated =TRUE
+2021-09-21 18:39:24,245 INFO  [log] API response is received as=>90648,FALSE,AA9F7000-1CC4-4D78-B8B1-6D79360693B4,349133,41817,TRUE,true,
+2021-09-21 18:39:24,329 INFO  [log] DB Quote Id from DB is->90650
+2021-09-21 18:39:24,336 INFO  [log] DB CRM Identifier from DB is->458EB07B-EBE1-E611-8C3F-005056B03908
+2021-09-21 18:39:24,343 INFO  [log] CRM Identified from request ->null
+2021-09-21 18:39:24,348 INFO  [log] Request body is ->
+					{
+							"Quotes":
+								[
+									{ 
+										"Id": 90650,
+										"Reference": "1053114"
+									}
+								],
+								"BrokerReference": "459",
+								"brokerContactId":"458EB07B-EBE1-E611-8C3F-005056B03908"
+					}
+					
+2021-09-21 18:39:24,376 INFO  [SoapUITestCaseRunner] running step [REST Request]
+2021-09-21 18:39:25,187 INFO  [log] Original API response for POST method is =>{"hasError":false,"data":"{\"groupUpdateResponse\":{\"WorkflowId\":\"ca993be7-456d-43fc-a047-24d36e56892c\",\"TransactionId\":349135,\"GroupId\":41819,\"IsGroupCreated\":true},\"failedQuotes\":[]}","success":true,"message":""}
+2021-09-21 18:39:25,192 INFO  [log] HTTP Status code is =>200
+2021-09-21 18:39:25,194 INFO  [log] Data details are ->[groupUpdateResponse, WorkflowId, ca993be7-456d-43fc-a047-24d36e56892c, TransactionId, 349135, GroupId, 41819, IsGroupCreated, true, failedQuotes, []]
+2021-09-21 18:39:25,197 INFO  [log] API TransactionId =349135
+2021-09-21 18:39:25,199 INFO  [log] API WorkflowId =CA993BE7-456D-43FC-A047-24D36E56892C
+2021-09-21 18:39:25,203 INFO  [log] API GroupId =41819
+2021-09-21 18:39:25,215 INFO  [log] API IsGroupCreated =TRUE
+2021-09-21 18:39:25,219 INFO  [log] API response is received as=>90650,FALSE,CA993BE7-456D-43FC-A047-24D36E56892C,349135,41819,TRUE,true,
+2021-09-21 18:39:25,299 INFO  [log] Quote Id for processing is ->90648
+2021-09-21 18:39:25,300 INFO  [log] Quote Id for processing is ->90650
+2021-09-21 18:39:25,577 INFO  [log] User is ->UTOM API USER
+2021-09-21 18:39:25,589 INFO  [log] SQL response is ->90648,FALSE,AA9F7000-1CC4-4D78-B8B1-6D79360693B4,349133,41817,TRUE,TRUE,,UTOM API USER
+2021-09-21 18:39:25,913 INFO  [log] User is ->UTOM API USER
+2021-09-21 18:39:25,924 INFO  [log] SQL response is ->90650,FALSE,CA993BE7-456D-43FC-A047-24D36E56892C,349135,41819,TRUE,TRUE,,UTOM API USER
+2021-09-21 18:39:26,259 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [RenewalQuoteBindSuccess], time taken: 13555ms, status: FINISHED
+2021-09-21 18:39:26,259 INFO  [SoapUITestCaseRunner] Project [Renewals] finished with status [FINISHED] in 14742ms

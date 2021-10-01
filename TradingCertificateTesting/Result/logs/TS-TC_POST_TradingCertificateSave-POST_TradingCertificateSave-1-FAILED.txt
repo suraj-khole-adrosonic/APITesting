@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 7561
+Size: 0
+Timestamp: Thu Sep 09 18:39:14 IST 2021
+TestStep: POST_TradingCertificateSave
+Error:java.lang.IllegalArgumentException: Text must not be null
+
+----------------- Messages ------------------------------
+java.lang.IllegalArgumentException: Text must not be null
+error at line: 112

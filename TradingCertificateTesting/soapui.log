@@ -1,45 +1,56 @@
-2021-04-01 18:31:40,641 WARN  [SoapUI] Missing folder [C:\APITesting\TradingCertificateTesting\ext] for external libraries
-2021-04-01 18:31:41,069 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Suraj khole\soapui-settings.xml]
-2021-04-01 18:31:41,493 INFO  [PluginManager] 0 plugins loaded in 3 ms
-2021-04-01 18:31:41,494 INFO  [DefaultSoapUICore] All plugins loaded
-2021-04-01 18:31:46,634 INFO  [WsdlProject] Loaded project from [file:/C:/APITesting/TradingCertificateTesting/TC-API-soapui-project.xml]
-2021-04-01 18:31:46,658 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [TC_API]
-2021-04-01 18:31:46,660 INFO  [SoapUITestCaseRunner] Running Project [TC_API], runType = SEQUENTIAL
-2021-04-01 18:31:46,700 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_POST_TradingCertificateByTradingCertificateIDByGenerateDraftDocument]
-2021-04-01 18:31:46,710 INFO  [SoapUITestCaseRunner] running step [TradCertByTradCertIDByGenDraftDoc]
-2021-04-01 18:31:49,985 WARN  [HttpClientSupport$SoapUIHttpClient] Authentication error: Unable to respond to any of these challenges: {bearer=WWW-Authenticate: Bearer error="invalid_token", error_description="The token expired at '03/30/2021 12:09:46'"}
-2021-04-01 18:31:50,025 INFO  [SoapUITestCaseRunner] running step [TradingCertificateByTradingCertificateIDByGenerateDraftDocument]
-2021-04-01 18:31:52,424 ERROR [SoapUI] An error occurred [No match found], see error log for details
-2021-04-01 18:31:52,426 ERROR [errorlog] cannot get error line number!
-2021-04-01 18:31:52,429 ERROR [errorlog] java.lang.IllegalStateException: No match found
-java.lang.IllegalStateException: No match found
-	at java.util.regex.Matcher.group(Matcher.java:536)
-	at com.eviware.soapui.support.GroovyUtils.extractErrorLineNumber(GroovyUtils.java:128)
-	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:163)
-	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
-	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
-	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
-	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
-	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-2021-04-01 18:31:52,553 ERROR [SoapUI] An error occurred [org.codehaus.groovy.ast.ModuleNode.getStarImports()Ljava/util/List;], see error log for details
-2021-04-01 18:31:52,555 ERROR [errorlog] java.lang.NoSuchMethodError: org.codehaus.groovy.ast.ModuleNode.getStarImports()Ljava/util/List;
-java.lang.NoSuchMethodError: org.codehaus.groovy.ast.ModuleNode.getStarImports()Ljava/util/List;
-	at org.codehaus.groovy.ast.builder.AstBuilderTransformation.visit(AstBuilderTransformation.java:57)
-	at org.codehaus.groovy.transform.ASTTransformationVisitor$3.call(ASTTransformationVisitor.java:268)
-	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:801)
-	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:466)
-	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:281)
-	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:590)
-	at groovy.lang.GroovyShell.parse(GroovyShell.java:602)
-	at groovy.lang.GroovyShell.parse(GroovyShell.java:582)
-	at groovy.lang.GroovyShell.parse(GroovyShell.java:621)
-	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.compile(SoapUIGroovyScriptEngine.java:136)
-	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:87)
+2021-10-01 11:54:12,617 WARN  [SoapUI] Missing folder [C:\APITesting\TradingCertificateTesting\ext] for external libraries
+2021-10-01 11:54:12,981 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Suraj khole\soapui-settings.xml]
+2021-10-01 11:54:13,977 INFO  [PluginManager] 0 plugins loaded in 0 ms
+2021-10-01 11:54:13,977 INFO  [DefaultSoapUICore] All plugins loaded
+2021-10-01 11:54:17,211 INFO  [WsdlProject] Loaded project from [file:/C:/APITesting/TradingCertificateTesting/TC-API-soapui-project.xml]
+2021-10-01 11:54:17,259 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [TC_API_Final]
+2021-10-01 11:54:17,265 INFO  [SoapUITestCaseRunner] Running Project [TC_API_Final], runType = SEQUENTIAL
+2021-10-01 11:54:17,320 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Driver_Script]
+2021-10-01 11:54:17,329 INFO  [SoapUITestCaseRunner] running step [Driver]
+2021-10-01 11:54:18,727 INFO  [SoapUITestCaseRunner] running step [SetParam]
+2021-10-01 11:54:20,045 INFO  [log] Working On Environment =P&IDev
+2021-10-01 11:54:20,047 INFO  [log] EndPoint For Testing = https://pandionlinedev.shipownersclub.com/tradingcertificates
+2021-10-01 11:54:20,059 INFO  [log] Database URL = jdbc:sqlserver://tradingcertificate-db-server.database.windows.net;databaseName=tradingcertificate
+2021-10-01 11:54:20,063 INFO  [log] Result Location = C:\APITesting\TradingCertificateTesting\Results
+2021-10-01 11:54:20,078 INFO  [log] Token for Test execution = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImNuNnRXOElubmRJVzJKVGtqU2tkTlFQakR1UXo3cmMwQ0pEbkpyRlhKVjgifQ.eyJpc3MiOiJodHRwczovL3NoaXBvd25lcnNjb3VrZGV2YjJjLmIyY2xvZ2luLmNvbS81YzJlY2M4OC1kNmNlLTRkNDEtYThhMi05ZTAzMTc0N2M3ZTYvdjIuMC8iLCJleHAiOjE2MzMwNzMwMzEsIm5iZiI6MTYzMzA2OTQzMSwiYXVkIjoiZTQ4NTNjODItNjhjYS00OTk5LTk3NjAtZmZjODkxODk4NGJhIiwic3ViIjoiNzdmM2YyOGEtZjQ3MS00MTU4LWI4ZTAtNjYwNTY2OTExNGYyIiwidXNlclByaW5jaXBhbEVtYWlsIjoiaW50ZXJuYWx1bmRlcndyaXRlckBzaGlwb3duZXJzY291a2RldmIyYy5vbm1pY3Jvc29mdC5jb20iLCJncm91cHMiOlsiVW5kZXJ3cml0aW5nIiwiVW5kZXJ3cml0aW5nVGVzdCIsIlRyYWRpbmdDZXJ0aWZpY2F0ZXMiXSwic2NwIjoidHJhZGluZy1jZXJ0cy53cml0ZSBkb2N1bWVudC5yZWFkIHRyYWRpbmctY2VydHMucmVhZCIsImF6cCI6ImZlZTUzNDUwLWQ4MzQtNGU0MC1hM2FjLTljMmMyNDJkYmIzMCIsInZlciI6IjEuMCIsImlhdCI6MTYzMzA2OTQzMX0.RuOf1c1uVMYtRqOg8bNm8wDAGHzDRdfNydeIBl2U4o6tdRrfzaRyXhRv8i_Jfevt5JItOskazJ4VyP5taNvxAUCi5o5iLCVxH8Q4i7SVFJFAHzAlE5yjRywanKG_VfAqnZWxyYmb5pzQLrddXfC3yd7N2VOLSxFlmHiwWj5qh0KZtYtMrJ_EZP_yonm9w7UbqimcjZAhbtrf4dcJ_7IB46InZ0WCvXWbZOwHIG3Zu_WHG7JQhBTNTPl4VXyvEtJjE_Y1KxkxZijsDGlUGzWwUA3Cl6Au9G8IpL7NFtZMYkuqf4SyVKz7Bn4e7b42BtK7iYWUq7YBSfUrEKWXNZnCUQ
+2021-10-01 11:54:20,096 INFO  [SoapUITestCaseRunner] running step [SummaryCreate]
+2021-10-01 11:54:20,593 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Driver_Script], time taken: 3246ms, status: FINISHED
+2021-10-01 11:54:20,599 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_GET_ReferenceByTCGroup]
+2021-10-01 11:54:20,607 INFO  [SoapUITestCaseRunner] running step [RefByTradingcertificateGroups]
+2021-10-01 11:54:23,309 INFO  [SoapUITestCaseRunner] running step [ReferenceByTradingCertificateGroups]
+2021-10-01 11:54:24,063 INFO  [log] Test Execution started for getting Trading Certificate Groups from API and database
+2021-10-01 11:54:25,558 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:0e8c1c68-26c3-4fc6-ad09-90a06473a6df], see error log for details
+2021-10-01 11:54:25,566 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:0e8c1c68-26c3-4fc6-ad09-90a06473a6df
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:0e8c1c68-26c3-4fc6-ad09-90a06473a6df
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:86)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
 	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
 	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
 	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
@@ -51,6 +62,838 @@ java.lang.NoSuchMethodError: org.codehaus.groovy.ast.ModuleNode.getStarImports()
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2021-04-01 18:31:52,859 ERROR [SoapUITestCaseRunner] TradingCertificateByTradingCertificateIDByGenerateDraftDocument failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TestSuite-TC_POST_TradingCertificateByTradingCertificateIDByGenerateDraftDocument-TradingCertificateByTradingCertificateIDByGenerateDraftDocument-0-FAILED.txt]
-2021-04-01 18:31:52,899 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_POST_TradingCertificateByTradingCertificateIDByGenerateDraftDocument], time taken: 5981ms, status: FAILED
-2021-04-01 18:31:52,905 INFO  [SoapUITestCaseRunner] Project [TC_API] finished with status [FAILED] in 6240ms
+2021-10-01 11:54:26,126 ERROR [SoapUITestCaseRunner] ReferenceByTradingCertificateGroups failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_GET_ReferenceByTCGroup-ReferenceByTradingCertificateGroups-0-FAILED.txt]
+2021-10-01 11:54:26,153 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_GET_ReferenceByTCGroup], time taken: 5190ms, status: FAILED
+2021-10-01 11:54:26,157 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_GET_ReferenceByTradingCertificateTypes]
+2021-10-01 11:54:26,158 INFO  [SoapUITestCaseRunner] running step [RefByTradingCertificateTypes]
+2021-10-01 11:54:29,946 INFO  [SoapUITestCaseRunner] running step [ReferenceByTradingCertificateTypes]
+2021-10-01 11:54:30,966 INFO  [log] Test Execution started for getting Trading Certificate Types from API and database
+2021-10-01 11:54:31,862 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:78719c3d-fb71-4439-89d4-6bb820784450], see error log for details
+2021-10-01 11:54:31,865 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:78719c3d-fb71-4439-89d4-6bb820784450
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:78719c3d-fb71-4439-89d4-6bb820784450
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:86)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:54:32,427 ERROR [SoapUITestCaseRunner] ReferenceByTradingCertificateTypes failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_GET_ReferenceByTradingCertificateTypes-ReferenceByTradingCertificateTypes-0-FAILED.txt]
+2021-10-01 11:54:32,461 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_GET_ReferenceByTradingCertificateTypes], time taken: 6171ms, status: FAILED
+2021-10-01 11:54:32,463 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_GET_Reference?ByTradingCertificateTypes?ByTCGroupCode]
+2021-10-01 11:54:32,467 INFO  [SoapUITestCaseRunner] running step [Ref?ByTradingCertificateTypes?ByTCGroupCode]
+2021-10-01 11:54:34,180 INFO  [SoapUITestCaseRunner] running step [Reference?ByTradingCertificateTypes?ByTCGroupCode]
+2021-10-01 11:54:35,315 INFO  [log] Test Execution started for getting Trading Certificate types by Trading Certificate Groups from API and database
+2021-10-01 11:54:36,171 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:6c61a91b-acb7-4a7b-97b8-542748e532d2], see error log for details
+2021-10-01 11:54:36,186 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:6c61a91b-acb7-4a7b-97b8-542748e532d2
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:6c61a91b-acb7-4a7b-97b8-542748e532d2
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:90)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:54:36,723 ERROR [SoapUITestCaseRunner] Reference?ByTradingCertificateTypes?ByTCGroupCode failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_GET_ReferenceByTradingCertificateTypesByTCGroupCode-ReferenceByTradingCertificateTypesByTCGroupCode-0-FAILED.txt]
+2021-10-01 11:54:36,743 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_GET_Reference?ByTradingCertificateTypes?ByTCGroupCode], time taken: 4214ms, status: FAILED
+2021-10-01 11:54:36,744 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_GET_RiskSelectionTradingCertificatesByRiskReference]
+2021-10-01 11:54:36,746 INFO  [SoapUITestCaseRunner] running step [RiskSelectionTradCertsByRiskRef]
+2021-10-01 11:54:37,675 INFO  [SoapUITestCaseRunner] running step [RiskSelectionTradingCertificatesByRiskReference]
+2021-10-01 11:54:43,678 INFO  [log] Test Execution started for getting Trading Certificate details as per risk selection from API and database
+2021-10-01 11:54:44,515 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:0d0b4f9e-fd14-4fce-b50c-35e8d7a34f6b], see error log for details
+2021-10-01 11:54:44,521 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:0d0b4f9e-fd14-4fce-b50c-35e8d7a34f6b
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:0d0b4f9e-fd14-4fce-b50c-35e8d7a34f6b
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:101)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:54:45,028 ERROR [SoapUITestCaseRunner] RiskSelectionTradingCertificatesByRiskReference failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_GET_RiskSelectionTradingCertificatesByRiskReference-RiskSelectionTradingCertificatesByRiskReference-0-FAILED.txt]
+2021-10-01 11:54:45,053 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_GET_RiskSelectionTradingCertificatesByRiskReference], time taken: 8267ms, status: FAILED
+2021-10-01 11:54:45,056 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_GET_SignatoryStatesByStateIdByAddresses]
+2021-10-01 11:54:45,058 INFO  [SoapUITestCaseRunner] running step [SignStatesByStateIdByAddresses]
+2021-10-01 11:54:45,307 INFO  [SoapUITestCaseRunner] running step [SignatoryStatesByStateIdByAddresses]
+2021-10-01 11:54:46,976 INFO  [log] Test Execution started for getting Signatory States By Signatory States Id By Addresses from API and database
+2021-10-01 11:54:47,861 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:91956dcb-0305-4ad0-82d5-5e1af8ed91ca], see error log for details
+2021-10-01 11:54:47,867 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:91956dcb-0305-4ad0-82d5-5e1af8ed91ca
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:91956dcb-0305-4ad0-82d5-5e1af8ed91ca
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:93)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:54:48,409 ERROR [SoapUITestCaseRunner] SignatoryStatesByStateIdByAddresses failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_GET_SignatoryStatesByStateIdByAddresses-SignatoryStatesByStateIdByAddresses-0-FAILED.txt]
+2021-10-01 11:54:48,430 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_GET_SignatoryStatesByStateIdByAddresses], time taken: 3334ms, status: FAILED
+2021-10-01 11:54:48,432 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_GET_SignatoryStatesByCertificateTypeIdByStates]
+2021-10-01 11:54:48,434 INFO  [SoapUITestCaseRunner] running step [SigStatesByCertTypeIdByStates]
+2021-10-01 11:54:49,660 INFO  [SoapUITestCaseRunner] running step [SignatoryStatesByCertificateTypeIdByStates]
+2021-10-01 11:54:50,668 INFO  [log] Test Execution started for getting Signatory States By Trading Certificate Type Id By States from API and database
+2021-10-01 11:54:51,863 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:e4c8ab50-d4e0-490c-8f80-5b87135de403], see error log for details
+2021-10-01 11:54:51,869 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:e4c8ab50-d4e0-490c-8f80-5b87135de403
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:e4c8ab50-d4e0-490c-8f80-5b87135de403
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:90)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:54:52,529 ERROR [SoapUITestCaseRunner] SignatoryStatesByCertificateTypeIdByStates failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_GET_SignatoryStatesByCertificateTypeIdByStates-SignatoryStatesByCertificateTypeIdByStates-0-FAILED.txt]
+2021-10-01 11:54:52,560 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_GET_SignatoryStatesByCertificateTypeIdByStates], time taken: 4027ms, status: FAILED
+2021-10-01 11:54:52,561 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_GET_TradingCertificatePacksByPackId]
+2021-10-01 11:54:52,563 INFO  [SoapUITestCaseRunner] running step [GET_TradingCertificatePacksByPackId]
+2021-10-01 11:54:54,083 INFO  [SoapUITestCaseRunner] running step [GET_TradingCertificatePacksByPacksId]
+2021-10-01 11:54:59,957 INFO  [log] Test Execution started for getting Trading Certificate Pack details by Pack Id from API and database
+2021-10-01 11:55:01,087 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:59cbccfc-ffa6-4889-8ec8-fcbad64936ad], see error log for details
+2021-10-01 11:55:01,094 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:59cbccfc-ffa6-4889-8ec8-fcbad64936ad
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:59cbccfc-ffa6-4889-8ec8-fcbad64936ad
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:101)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:55:01,621 ERROR [SoapUITestCaseRunner] GET_TradingCertificatePacksByPacksId failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_GET_TradingCertificatePacksByPackId-GET_TradingCertificatePacksByPacksId-0-FAILED.txt]
+2021-10-01 11:55:01,638 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_GET_TradingCertificatePacksByPackId], time taken: 9041ms, status: FAILED
+2021-10-01 11:55:01,639 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_GET_TradingCertificateByTradingCertificateId]
+2021-10-01 11:55:01,640 INFO  [SoapUITestCaseRunner] running step [TradCertByTradCertId]
+2021-10-01 11:55:01,870 INFO  [SoapUITestCaseRunner] running step [TradingCertificateByTradingCertificateId]
+2021-10-01 11:55:07,831 INFO  [log] Test Execution started for getting Trading Certificate By Trading Certificate Id from API and database
+2021-10-01 11:55:08,674 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:e26388a6-9e5e-4f5f-b474-b461ca11e2c0], see error log for details
+2021-10-01 11:55:08,679 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:e26388a6-9e5e-4f5f-b474-b461ca11e2c0
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:e26388a6-9e5e-4f5f-b474-b461ca11e2c0
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:101)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:55:09,187 ERROR [SoapUITestCaseRunner] TradingCertificateByTradingCertificateId failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_GET_TradingCertificateByTradingCertificateId-TradingCertificateByTradingCertificateId-0-FAILED.txt]
+2021-10-01 11:55:09,219 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_GET_TradingCertificateByTradingCertificateId], time taken: 7543ms, status: FAILED
+2021-10-01 11:55:09,221 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_GET_TradingCertificateByTradingCertificateIdByValidate]
+2021-10-01 11:55:09,223 INFO  [SoapUITestCaseRunner] running step [TredCertByTradCertIdByValidate]
+2021-10-01 11:55:10,383 INFO  [SoapUITestCaseRunner] running step [getTradCertByTredCertId]
+2021-10-01 11:55:10,645 INFO  [SoapUITestCaseRunner] running step [TradingCertificateByTradingCertificateIdByValidate]
+2021-10-01 11:55:16,882 INFO  [log] Test Execution started for Validating Trading Certificate By Trading Certificate Id from API and database
+2021-10-01 11:55:17,654 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:18a12f96-7a92-40ce-b0b2-bf74ce4ed7b5], see error log for details
+2021-10-01 11:55:17,659 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:18a12f96-7a92-40ce-b0b2-bf74ce4ed7b5
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:18a12f96-7a92-40ce-b0b2-bf74ce4ed7b5
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:96)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:55:18,140 ERROR [SoapUITestCaseRunner] TradingCertificateByTradingCertificateIdByValidate failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_GET_TradingCertificateByTradingCertificateIdByValidate-TradingCertificateByTradingCertificateIdByValidate-0-FAILED.txt]
+2021-10-01 11:55:18,162 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_GET_TradingCertificateByTradingCertificateIdByValidate], time taken: 8880ms, status: FAILED
+2021-10-01 11:55:18,163 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_PATCH_ TradingCertificates]
+2021-10-01 11:55:18,165 INFO  [SoapUITestCaseRunner] running step [Patch_TradingCertificate]
+2021-10-01 11:55:20,119 INFO  [SoapUITestCaseRunner] running step [PATCH_TradingCertificate]
+2021-10-01 11:55:28,964 INFO  [log] Test Execution started for Updating Trading Certificates
+2021-10-01 11:55:29,941 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:826780ea-1341-449b-a828-56ed5d7da4cf], see error log for details
+2021-10-01 11:55:29,945 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:826780ea-1341-449b-a828-56ed5d7da4cf
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:826780ea-1341-449b-a828-56ed5d7da4cf
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:94)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:55:30,291 ERROR [SoapUITestCaseRunner] PATCH_TradingCertificate failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_PATCH__TradingCertificates-PATCH_TradingCertificate-0-FAILED.txt]
+2021-10-01 11:55:30,321 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_PATCH_ TradingCertificates], time taken: 12113ms, status: FAILED
+2021-10-01 11:55:30,322 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_PATCH_Add_TCPackByTCPackId]
+2021-10-01 11:55:30,323 INFO  [SoapUITestCaseRunner] running step [PATCH_TradingCertificatePacksByTradingCertificatePackIdByAdd]
+2021-10-01 11:55:31,047 INFO  [SoapUITestCaseRunner] running step [Add_TCPackByTCPackId]
+2021-10-01 11:55:31,878 INFO  [log] Test Execution started for adding trading certificate to trading certficate packs with API and database
+2021-10-01 11:55:32,710 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:14b12d41-19b3-49ac-8981-ff32df44d932], see error log for details
+2021-10-01 11:55:32,716 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:14b12d41-19b3-49ac-8981-ff32df44d932
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:14b12d41-19b3-49ac-8981-ff32df44d932
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:93)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:55:33,207 ERROR [SoapUITestCaseRunner] Add_TCPackByTCPackId failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_PATCH_Add_TCPackByTCPackId-Add_TCPackByTCPackId-0-FAILED.txt]
+2021-10-01 11:55:33,243 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_PATCH_Add_TCPackByTCPackId], time taken: 2880ms, status: FAILED
+2021-10-01 11:55:33,245 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_PATCH_Remove_TCPackByTCPackId]
+2021-10-01 11:55:33,245 INFO  [SoapUITestCaseRunner] running step [PATCH_TradingCertificatePacksByTradingCertificatePackIdByRemove]
+2021-10-01 11:55:33,502 INFO  [SoapUITestCaseRunner] running step [Remove_TCPackByTCPackId]
+2021-10-01 11:55:34,168 INFO  [log] Test Execution started for Removing trading certificate Pack Id from trading certficate with API and database
+2021-10-01 11:55:35,120 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:2d3b937e-7638-402d-88b1-30810665367e], see error log for details
+2021-10-01 11:55:35,126 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:2d3b937e-7638-402d-88b1-30810665367e
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:2d3b937e-7638-402d-88b1-30810665367e
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:93)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:55:35,656 ERROR [SoapUITestCaseRunner] Remove_TCPackByTCPackId failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_PATCH_Remove_TCPackByTCPackId-Remove_TCPackByTCPackId-0-FAILED.txt]
+2021-10-01 11:55:35,688 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_PATCH_Remove_TCPackByTCPackId], time taken: 2406ms, status: FAILED
+2021-10-01 11:55:35,690 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_POST_TradingCertificateByTradingCertificateIDByGenerateDraftDocument]
+2021-10-01 11:55:35,691 INFO  [SoapUITestCaseRunner] running step [TradCertByTradCertIDByGenDraftDoc]
+2021-10-01 11:55:35,920 INFO  [SoapUITestCaseRunner] running step [TradingCertificateByTradingCertificateIDByGenerateDraftDocument]
+2021-10-01 11:55:39,910 INFO  [log] Test Execution started for getting Trading Certificate by Trading Certificated ID by Generate Draft Document
+2021-10-01 11:55:40,918 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:8f4aa6f6-7e6d-4be6-9f82-985945b38124], see error log for details
+2021-10-01 11:55:40,923 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:8f4aa6f6-7e6d-4be6-9f82-985945b38124
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:8f4aa6f6-7e6d-4be6-9f82-985945b38124
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:101)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:55:41,398 ERROR [SoapUITestCaseRunner] TradingCertificateByTradingCertificateIDByGenerateDraftDocument failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_POST_TradingCertificateByTradingCertificateIDByGenerateDraftDocument-TradingCertificateByTradingCertificateIDByGenerateDraftDocument-0-FAILED.txt]
+2021-10-01 11:55:41,428 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_POST_TradingCertificateByTradingCertificateIDByGenerateDraftDocument], time taken: 5697ms, status: FAILED
+2021-10-01 11:55:41,429 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_POST_TradingCertificatePackByTradingCertificatePackIdByIssueDocuments]
+2021-10-01 11:55:41,430 INFO  [SoapUITestCaseRunner] running step [TradCertPackByTradCertPackIDByIssueDocs]
+2021-10-01 11:55:42,896 INFO  [SoapUITestCaseRunner] running step [Get_TradingCertificateByTradingCertificateId]
+2021-10-01 11:55:43,075 INFO  [SoapUITestCaseRunner] running step [POST_TradingCertificatePackByTradingCertificatePackIdByIssueDocuments]
+2021-10-01 11:55:47,699 INFO  [log] Test Execution started for getting Trading Certificate by Trading Certificated ID by Issued Drafr Document
+2021-10-01 11:55:48,512 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:6be83ba1-09d2-4037-bcae-c4549ecfe899], see error log for details
+2021-10-01 11:55:48,523 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:6be83ba1-09d2-4037-bcae-c4549ecfe899
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:6be83ba1-09d2-4037-bcae-c4549ecfe899
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:101)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:55:49,007 ERROR [SoapUITestCaseRunner] POST_TradingCertificatePackByTradingCertificatePackIdByIssueDocuments failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_POST_TradingCertificatePackByTradingCertificatePackIdByIssueDocuments-POST_TradingCertificatePackByTradingCertificatePackIdByIssueDocuments-0-FAILED.txt]
+2021-10-01 11:55:49,033 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_POST_TradingCertificatePackByTradingCertificatePackIdByIssueDocuments], time taken: 7536ms, status: FAILED
+2021-10-01 11:55:49,035 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_POST_TradingCertificatePackByTradingCertificatePackIdByGenerateDraftDocument]
+2021-10-01 11:55:49,036 INFO  [SoapUITestCaseRunner] running step [POST_TradingCertificatePackByTradingCertificatePackIdByGenerateDraftDocument]
+2021-10-01 11:55:49,330 INFO  [SoapUITestCaseRunner] running step [TradCertPackByTradCertPackIDByGenDraftDoc]
+2021-10-01 11:55:54,619 INFO  [log] Test Execution started for getting Generate Draft Document with Trading Certificate Packs from API and database
+2021-10-01 11:55:55,399 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:a423dd0f-3c67-4281-9f1a-bf0b78e89594], see error log for details
+2021-10-01 11:55:55,405 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:a423dd0f-3c67-4281-9f1a-bf0b78e89594
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:a423dd0f-3c67-4281-9f1a-bf0b78e89594
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:102)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:55:55,884 ERROR [SoapUITestCaseRunner] TradCertPackByTradCertPackIDByGenDraftDoc failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_POST_TradingCertificatePackByTradingCertificatePackIdByGenerateDraftDocument-TradCertPackByTradCertPackIDByGenDraftDoc-0-FAILED.txt]
+2021-10-01 11:55:55,906 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_POST_TradingCertificatePackByTradingCertificatePackIdByGenerateDraftDocument], time taken: 6828ms, status: FAILED
+2021-10-01 11:55:55,908 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_POST_TradingcertificatePacks]
+2021-10-01 11:55:55,909 INFO  [SoapUITestCaseRunner] running step [Post_TradingcertificatePacks]
+2021-10-01 11:55:56,150 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-10-01 11:55:56,882 INFO  [log] Test Execution started for Creating new Trading Certificates Packs
+2021-10-01 11:55:57,668 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:93ab7342-4243-44aa-ba33-9f85daa8a3b1], see error log for details
+2021-10-01 11:55:57,671 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:93ab7342-4243-44aa-ba33-9f85daa8a3b1
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:93ab7342-4243-44aa-ba33-9f85daa8a3b1
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:94)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:55:58,148 ERROR [SoapUITestCaseRunner] Groovy Script failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_POST_TradingcertificatePacks-Groovy_Script-0-FAILED.txt]
+2021-10-01 11:55:58,169 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_POST_TradingcertificatePacks], time taken: 2227ms, status: FAILED
+2021-10-01 11:55:58,177 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_POST_TradingCertificatePacksByTradingCertificatePacksIdByValidate]
+2021-10-01 11:55:58,180 INFO  [SoapUITestCaseRunner] running step [POST_TradingCertificatePacksByTradingCertificatePacksIdByValidate]
+2021-10-01 11:55:59,105 INFO  [SoapUITestCaseRunner] running step [GET_TradCertByTredCertId]
+2021-10-01 11:55:59,496 INFO  [SoapUITestCaseRunner] running step [TradingCertificatePacksByTradingCertificatePackIdByValidate]
+2021-10-01 11:56:06,049 INFO  [log] Test Execution started for Validating Trading Certificate Packs By Trading Certificate Pack Id from API and database
+2021-10-01 11:56:06,903 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:76b94496-649a-4a15-9dfa-b7d4ce17686b], see error log for details
+2021-10-01 11:56:06,908 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:76b94496-649a-4a15-9dfa-b7d4ce17686b
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:76b94496-649a-4a15-9dfa-b7d4ce17686b
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:98)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:56:07,426 ERROR [SoapUITestCaseRunner] TradingCertificatePacksByTradingCertificatePackIdByValidate failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_POST_TradingCertificatePacksByTradingCertificatePacksIdByValidate-TradingCertificatePacksByTradingCertificatePackIdByValidate-0-FAILED.txt]
+2021-10-01 11:56:07,454 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_POST_TradingCertificatePacksByTradingCertificatePacksIdByValidate], time taken: 9215ms, status: FAILED
+2021-10-01 11:56:07,454 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_POST_TradingCertificateSave]
+2021-10-01 11:56:07,454 INFO  [SoapUITestCaseRunner] running step [POST_TradingCertSave]
+2021-10-01 11:56:07,702 INFO  [SoapUITestCaseRunner] running step [GET_TradingCertificateByCertificateId]
+2021-10-01 11:56:07,859 INFO  [SoapUITestCaseRunner] running step [POST_TradingCertificateSave]
+2021-10-01 11:56:14,031 INFO  [log] Test Execution started for Creating and Saving Trading Certificates
+2021-10-01 11:56:15,614 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:2776c86e-ffba-4d1d-a5e0-7094324b4626], see error log for details
+2021-10-01 11:56:15,622 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:2776c86e-ffba-4d1d-a5e0-7094324b4626
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:2776c86e-ffba-4d1d-a5e0-7094324b4626
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:94)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:56:16,141 ERROR [SoapUITestCaseRunner] POST_TradingCertificateSave failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_POST_TradingCertificateSave-POST_TradingCertificateSave-0-FAILED.txt]
+2021-10-01 11:56:16,172 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_POST_TradingCertificateSave], time taken: 8671ms, status: FAILED
+2021-10-01 11:56:16,174 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_POST_ReferenceByTradingCertificateTypesByInvalidCertificate]
+2021-10-01 11:56:16,175 INFO  [SoapUITestCaseRunner] running step [POST_RefByTradCertByInvalidCert]
+2021-10-01 11:56:16,525 INFO  [SoapUITestCaseRunner] running step [POST_ReferenceByTradingCertificateByInvalidCertificates]
+2021-10-01 11:56:17,481 INFO  [log] Test Execution started for getting Trading Certificate Types by Invalid Certificate
+2021-10-01 11:56:18,273 ERROR [SoapUI] An error occurred [Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:15344160-63bd-4b3f-b6dc-f7db446b8b05], see error log for details
+2021-10-01 11:56:18,278 ERROR [errorlog] com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:15344160-63bd-4b3f-b6dc-f7db446b8b05
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open server 'tradingcertificate-db-server' requested by the login. Client with IP address '103.221.74.188' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect. ClientConnectionId:15344160-63bd-4b3f-b6dc-f7db446b8b05
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:232)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:291)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:111)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4376)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3188)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:61)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3151)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7535)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2438)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1973)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1616)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1447)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:788)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1187)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at groovy.sql.Sql.newInstance(Sql.java:402)
+	at groovy.sql.Sql.newInstance(Sql.java:446)
+	at groovy.sql.Sql$newInstance.call(Unknown Source)
+	at Driver_Script.getConnection(Script1.groovy:306)
+	at Driver_Script$getConnection$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1.run(Script1.groovy:109)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-10-01 11:56:18,799 ERROR [SoapUITestCaseRunner] POST_ReferenceByTradingCertificateByInvalidCertificates failed, exporting to [C:\APITesting\TradingCertificateTesting\Result\logs\TS-TC_POST_ReferenceByTradingCertificateTypesByInvalidCertificate-POST_ReferenceByTradingCertificateByInvalidCertificates-0-FAILED.txt]
+2021-10-01 11:56:18,832 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_POST_ReferenceByTradingCertificateTypesByInvalidCertificate], time taken: 2610ms, status: FAILED
+2021-10-01 11:56:18,832 INFO  [SoapUITestCaseRunner] Project [TC_API_Final] finished with status [FAILED] in 121553ms

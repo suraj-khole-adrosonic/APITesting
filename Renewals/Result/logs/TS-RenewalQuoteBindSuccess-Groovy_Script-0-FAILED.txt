@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 4951
+Size: 0
+Timestamp: Wed Sep 01 12:21:17 IST 2021
+TestStep: Groovy Script
+Error:com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'Distinct'.
+
+----------------- Messages ------------------------------
+com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'Distinct'.
+error at line: 175

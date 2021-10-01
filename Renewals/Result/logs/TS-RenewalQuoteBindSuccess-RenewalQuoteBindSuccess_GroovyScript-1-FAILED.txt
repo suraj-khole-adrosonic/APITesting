@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 12474
+Size: 0
+Timestamp: Tue Sep 14 18:15:18 IST 2021
+TestStep: RenewalQuoteBindSuccess_GroovyScript
+Error:groovy.lang.MissingPropertyException: No such property: getUserRenewalGroupUser for class: Script1
+
+----------------- Messages ------------------------------
+groovy.lang.MissingPropertyException: No such property: getUserRenewalGroupUser for class: Script1
+error at line: 314
